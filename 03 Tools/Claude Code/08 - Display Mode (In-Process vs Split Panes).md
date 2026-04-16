@@ -5,6 +5,7 @@ tags:
   - terminal
   - tmux
   - iterm2
+  - version-sensitive
 type: note
 status: draft
 created: "2026-04-09"

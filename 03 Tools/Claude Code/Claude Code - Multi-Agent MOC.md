@@ -60,6 +60,27 @@ Claude Code คือ **CLI tool** จาก Anthropic สำหรับ agenti
 ### Quick Reference
 - [[24 - Best Practices & Checklist]]
 
+## Version Sensitive Notes
+
+หมายเหตุ: ชุดนี้เปลี่ยนตาม release, terminal, หรือ config ได้
+
+- [[07 - การติดตั้งและเริ่มใช้งาน]]
+- [[08 - Display Mode (In-Process vs Split Panes)]]
+- [[09 - Permissions และ Settings]]
+- [[10 - Session Management และ Commands]]
+- [[11 - โครงสร้างโฟลเดอร์ .claude]]
+- [[12 - CLAUDE File|CLAUDE.md]]
+- [[13 - Custom Commands]]
+- [[14 - Built-in Subagents]]
+- [[15 - สร้าง Subagent ด้วย agents]]
+- [[17 - Agent Tool]]
+- [[18 - Git Worktree]]
+- [[19 - วิธีเริ่ม Agent Team]]
+- [[20 - Multi-Provider AI]]
+- [[22 - Error Handling]]
+- [[23 - ข้อจำกัด Agent Teams|ข้อจำกัด]]
+- [[24 - Best Practices & Checklist]]
+
 ---
 
 ## Related Hubs

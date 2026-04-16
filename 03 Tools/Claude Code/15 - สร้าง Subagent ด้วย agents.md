@@ -4,6 +4,7 @@ tags:
   - subagents
   - agents-command
   - frontmatter
+  - version-sensitive
 type: note
 status: draft
 created: "2026-04-09"

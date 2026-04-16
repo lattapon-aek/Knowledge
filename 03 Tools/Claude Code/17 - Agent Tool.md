@@ -3,6 +3,7 @@ tags:
   - claude-code
   - agent-tool
   - subagents
+  - version-sensitive
 type: note
 status: draft
 created: "2026-04-09"

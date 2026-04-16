@@ -4,6 +4,7 @@ tags:
   - memory
   - configuration
   - CLAUDE-md
+  - version-sensitive
 type: note
 status: draft
 created: "2026-04-09"

@@ -4,6 +4,7 @@ tags:
   - multi-provider
   - architecture
   - limitations
+  - version-sensitive
 type: note
 status: draft
 created: "2026-04-09"

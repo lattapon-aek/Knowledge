@@ -4,6 +4,7 @@ tags:
   - agent-teams
   - how-to
   - experimental
+  - version-sensitive
 type: note
 status: draft
 created: "2026-04-09"

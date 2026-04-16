@@ -4,6 +4,7 @@ tags:
   - git
   - worktree
   - isolation
+  - version-sensitive
 type: note
 status: draft
 created: "2026-04-09"

@@ -4,6 +4,7 @@ tags:
   - best-practices
   - checklist
   - quick-start
+  - version-sensitive
 type: note
 status: evergreen
 created: "2026-04-09"

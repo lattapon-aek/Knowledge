@@ -8,6 +8,15 @@ The goal is to keep the repo portable:
 - machine-specific Obsidian state is ignored
 - the vault can be opened on a different machine without carrying local UI state
 
+## Table of Contents
+
+- [What lives here](#what-lives-here)
+- [How to use](#how-to-use)
+- [Git and Obsidian behavior](#git-and-obsidian-behavior)
+- [Conventions](#conventions)
+- [Useful entry points](#useful-entry-points)
+- [Contributing](#contributing)
+
 ## What lives here
 
 The vault is organized into a few layers:
@@ -71,3 +80,14 @@ That means Git should track the knowledge content, not local editor state.
 
 This repository is a living knowledge base. Some notes are evergreen reference material, while others are drafts or working notes that may evolve over time.
 
+## Contributing
+
+When adding or editing notes:
+
+- keep raw sources in `00 Raw Sources/`
+- keep derived notes in the numbered folders
+- update MOCs and cross-links when a topic belongs in more than one path
+- avoid duplicating notes when a merge into an existing page is enough
+- keep machine-specific Obsidian state out of git
+
+If you are using this vault on another machine, you should be able to clone the repo and open it directly in Obsidian without carrying local workspace state.

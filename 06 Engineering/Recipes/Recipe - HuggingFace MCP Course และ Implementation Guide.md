@@ -7,7 +7,7 @@ tags:
   - course
 type: note
 status: draft
-source: "MCP/MCP_Knowledge_Base.md (sections 10–18)"
+source: "https://huggingface.co/learn · MCP/MCP_Knowledge_Base.md (sections 10–18)"
 parent_note: "[[06 Engineering/Recipes/Recipes - MOC]]"
 ---
 
@@ -16,6 +16,8 @@ parent_note: "[[06 Engineering/Recipes/Recipes - MOC]]"
 ---
 
 ## HuggingFace MCP Course — ภาพรวม
+
+> This is a derived implementation guide based on the course material, not a raw dump of the course itself.
 
 คอร์สนี้สร้างร่วมกับ Anthropic พาผู้เรียนจากระดับเริ่มต้นไปสู่การใช้งานและสร้างแอป MCP จริง
 
@@ -236,4 +238,3 @@ flowchart LR
 - [[02 - Architecture: Host, Client, Server]]
 - [[03 - Core Primitives: Tools, Resources, Prompts]]
 - [[MCP - MOC]]
-

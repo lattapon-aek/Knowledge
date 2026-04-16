@@ -6,7 +6,7 @@ tags:
   - crewai
 type: note
 status: draft
-source: ""
+source: "https://microsoft.github.io/autogen/0.4.8/reference/index.html · https://docs.crewai.com/how-to/bring-your-own-agent"
 parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 ---
 
@@ -14,7 +14,7 @@ parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 
 ## Summary
 
-ทั้งสอง framework เน้น multi-agent workflows แต่ต่างกันใน mental model, orchestration style, และ developer ergonomics
+สรุปเชิงเปรียบเทียบจาก official docs: AutoGen และ CrewAI ต่างรองรับ multi-agent workflows แต่ emphasis, runtime model, และ ergonomics ไม่เหมือนกัน
 
 ---
 
@@ -32,4 +32,3 @@ parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 
 - [[02 AI Systems/Agent Frameworks/Core/01 - Landscape|Framework landscape]]
 - [[06 Engineering/Frameworks/Frameworks - MOC|Frameworks - MOC]]
-

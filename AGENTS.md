@@ -51,11 +51,15 @@ vault นี้มี 5 ชั้นหลัก:
    - คือชั้น tool-specific knowledge ที่เปลี่ยนตาม release, config, terminal mode, หรือ behavior ได้
    - ถ้าเป็น Claude Code ให้แยก concept ที่นิ่งออกจาก notes ที่ `version-sensitive`
 
-4. `04 Synthesis/` ถึง `06 Engineering/`
-   - คือชั้น implementation และ framework-specific engineering notes
+4. `04 Synthesis/`
+   - คือชั้นสังเคราะห์ข้ามหมวด
    - agent สามารถสร้าง, แก้, สรุป, cross-link, และปรับปรุงได้
 
-5. Schema และ workflow docs
+5. `05 Use Cases/` ถึง `06 Engineering/`
+   - คือชั้นการใช้งานจริงและ implementation / framework-specific engineering notes
+   - agent สามารถสร้าง, แก้, สรุป, cross-link, และปรับปรุงได้
+
+6. Schema และ workflow docs
    - เช่น `AGENTS.md`, `Home.md`, `index.md`, `Vault Standards - *.md`
    - ใช้เป็นกติกากลางสำหรับการดูแล vault
 

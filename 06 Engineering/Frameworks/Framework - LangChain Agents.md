@@ -5,7 +5,7 @@ tags:
   - langchain
 type: note
 status: draft
-source: ""
+source: "https://docs.langchain.com/oss/javascript/langchain/overview · https://docs.langchain.com/oss/javascript/langchain/agents"
 parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 ---
 
@@ -13,7 +13,7 @@ parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 
 ## Summary
 
-LangChain agents เน้น abstraction สำหรับ tool-calling และ chain composition เหมาะกับการประกอบ workflow เร็ว แต่ต้องพิจารณา overhead และ abstraction fit
+สรุปเชิงสถาปัตย์จาก official docs: LangChain agents เป็น abstraction สำหรับ tool use และ agent application ที่ต่อยอดจาก LangGraph ได้ เหมาะกับการเริ่มสร้าง agent เร็ว แต่ต้องดู abstraction fit กับงานจริง
 
 ---
 
@@ -31,4 +31,3 @@ LangChain agents เน้น abstraction สำหรับ tool-calling แล
 
 - [[06 Engineering/Frameworks/Framework - LangGraph|Framework - LangGraph]]
 - [[06 Engineering/Frameworks/Frameworks - MOC|Frameworks - MOC]]
-

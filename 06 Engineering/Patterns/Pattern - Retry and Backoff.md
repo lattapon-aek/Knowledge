@@ -5,7 +5,7 @@ tags:
   - reliability
 type: note
 status: evergreen
-source: ""
+source: "vault-local engineering"
 parent_note: "[[06 Engineering/Patterns/Patterns - MOC]]"
 ---
 
@@ -33,4 +33,3 @@ pattern สำหรับงานที่มี transient failure, network er
 
 - pattern นี้ควรจับคู่กับ fallback policy และ observability เสมอ
 - อย่าใช้ retry เป็นวิธีแก้ทุกอย่าง
-

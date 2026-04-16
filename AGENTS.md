@@ -106,6 +106,7 @@ vault นี้มี 5 ชั้นหลัก:
 - ใช้ `source` เป็น plain string
 - ใช้ `parent_note` แทน `up`
 - ถ้าไม่มีค่า ใช้ `""`
+- ถ้าเป็น note ที่สังเคราะห์ภายใน vault ให้ใช้ provenance แบบ `vault-local ...` ได้ เพื่อแยกจาก source ภายนอกให้ชัด
 
 ### 3. Naming
 

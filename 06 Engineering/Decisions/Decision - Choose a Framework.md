@@ -6,7 +6,7 @@ tags:
   - adr
 type: note
 status: evergreen
-source: ""
+source: "vault-local engineering"
 parent_note: "[[06 Engineering/Decisions/Decisions - MOC]]"
 ---
 
@@ -36,4 +36,3 @@ decision note สำหรับบันทึกเหตุผลเลือ
 - ตัดสินจาก runtime needs ก่อนชื่อ framework
 - แยก architecture requirement ออกจาก brand preference
 - ระบุสิ่งที่ยังไม่รู้ให้ชัด
-

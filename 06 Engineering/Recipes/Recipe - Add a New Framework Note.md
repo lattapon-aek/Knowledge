@@ -5,7 +5,7 @@ tags:
   - framework
 type: note
 status: evergreen
-source: ""
+source: "vault-local engineering"
 parent_note: "[[06 Engineering/Recipes/Recipes - MOC]]"
 ---
 
@@ -30,4 +30,3 @@ recipe สั้น ๆ สำหรับสร้าง note ของ framewo
 - มี MOC parent แล้ว
 - ลิงก์กลับไป note concept ที่เกี่ยวข้อง
 - ไม่ปนกับ architecture กลางถ้าเนื้อหาเป็น vendor-specific
-

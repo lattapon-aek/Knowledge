@@ -47,6 +47,7 @@ This repo is designed to stay portable:
 ## Contributing
 
 - keep raw sources separate from derived notes
+- label internal synthesis or engineering notes with clear provenance when they are not copied from an external source
 - update MOCs and cross-links when a topic belongs in more than one path
 - prefer merging into an existing note over creating duplicates
 - keep `.obsidian/` state out of git

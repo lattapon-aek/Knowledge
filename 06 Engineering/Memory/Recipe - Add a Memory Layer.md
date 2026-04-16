@@ -5,7 +5,7 @@ tags:
   - recipe
 type: note
 status: evergreen
-source: ""
+source: "vault-local engineering"
 parent_note: "[[06 Engineering/Memory/Memory - MOC]]"
 ---
 

@@ -18,142 +18,142 @@ parent_note: "[[06 Engineering/Architecture to Code/Architecture to Code - MOC]]
 
 ## ภาพรวม
 
-Multi-agent security is mostly a trust-boundary problem. Every extra agent, tool, or handoff increases the places where untrusted input can affect behavior. The safe default is least privilege per agent, structured handoffs, approvals for side effects, and traceable boundaries between read, write, and human-review paths.
+ความปลอดภัยของ multi-agent คือปัญหาเรื่อง trust boundary เป็นหลัก ยิ่งมี agent, tool, หรือ handoff เพิ่มขึ้น ช่องทางที่ untrusted input จะกระทบพฤติกรรมของระบบก็ยิ่งมากขึ้น ค่าเริ่มต้นที่ปลอดภัยคือใช้ least privilege ต่อ agent, ทำ handoff แบบมีโครงสร้าง, มี approval สำหรับ side effect, และแยกเส้นทาง read / write / human review ให้ trace ได้ชัด
 
 ---
 
 ## โมเดลความเสี่ยง
 
-Treat all of the following as untrusted unless explicitly validated:
+ให้ถือว่าของต่อไปนี้เป็น untrusted จนกว่าจะ validate ได้ชัด:
 - user input
 - tool output
 - retrieved documents
 - downstream agent output
-- MCP / connector data
+- ข้อมูลจาก MCP / connector
 
-OpenAI’s agent safety guidance explicitly warns that prompt injection happens when untrusted text or data enters an AI system and tries to override instructions. The same guidance also calls out private data leakage as a risk when agent workflows share too much context or too many privileges.
+แนวทางด้าน safety ของ OpenAI ระบุชัดว่า prompt injection เกิดขึ้นเมื่อ untrusted text หรือ data เข้าสู่ AI system แล้วพยายาม override instruction ของระบบ แนวทางเดียวกันยังชี้ว่าการแชร์ context หรือ privilege มากเกินไปทำให้เกิดความเสี่ยงเรื่อง private data leakage ได้
 
 ---
 
 ## โมเดลสิทธิ์
 
-### 1. Read-only Agents
+### 1. Agent ที่อ่านอย่างเดียว (Read-only)
 
-Use for:
+ใช้สำหรับ:
 - retrieval
 - summarization
 - classification
 - evidence collection
 
-Rules:
-- no side effects
-- no external writes
-- no secret access
-- output must be structured
+กติกา:
+- ห้ามมี side effect
+- ห้ามเขียนข้อมูลออกไปภายนอก
+- ห้ามเข้าถึง secrets
+- output ควรเป็น structured
 
-### 2. Write-capable Agents
+### 2. Agent ที่เขียนได้ (Write-capable)
 
-Use for:
+ใช้สำหรับ:
 - state updates
-- tool calls with external impact
-- content generation that becomes an input to later actions
+- tool calls ที่มีผลภายนอก
+- การสร้าง content ที่จะกลายเป็น input ของขั้นถัดไป
 
-Rules:
-- only the minimum tool set
-- only validated inputs
-- every write must be traceable
+กติกา:
+- ใช้ tool เท่าที่จำเป็น
+- ใช้เฉพาะ input ที่ validate แล้ว
+- ทุก write ต้อง trace ได้
 
-### 3. Approval-gated Agents
+### 3. Agent ที่ต้องผ่าน approval (Approval-gated)
 
-Use for:
+ใช้สำหรับ:
 - payments
-- irreversible actions
-- production-side changes
+- actions ที่ย้อนกลับไม่ได้
+- changes ฝั่ง production
 - privileged MCP operations
 
-OpenAI’s safety guide is explicit: keep tool approvals on, and use the human approval node in Agent Builder so end users can review and confirm each operation, including reads and writes.
+แนวทางของ OpenAI ระบุชัดว่าให้เปิด tool approvals ไว้ และใช้ human approval node ใน Agent Builder เพื่อให้ผู้ใช้ตรวจและยืนยันแต่ละ operation ได้ รวมถึงทั้ง read และ write
 
 ### 4. สิทธิ์เฉพาะ Orchestrator
 
-Reserve for:
+สงวนไว้สำหรับ:
 - routing decisions
 - escalation policy
 - state ownership
 - approval routing
 - final handoff validation
 
-This keeps control logic separate from specialist work.
+วิธีนี้ช่วยแยก control logic ออกจากงานของ specialist ให้ชัด
 
 ---
 
 ## กติกาขอบเขต
 
-- Never inject untrusted variables directly into developer messages.
-- Pass untrusted inputs through user messages or validated structured fields.
-- Prefer enums or fixed schemas over freeform text between agents.
-- Do not let raw retrieved text drive tool calls without filtering.
-- Keep secrets out of shared handoff payloads.
-- Do not let a downstream agent inherit more privilege than the upstream step needed.
+- ห้ามใส่ตัวแปรที่ยังไม่ผ่านการเชื่อถือ (untrusted) ลงใน developer messages โดยตรง
+- ส่ง input ที่ยังไม่ผ่านการเชื่อถือผ่าน user message หรือ structured field ที่ validate แล้วเท่านั้น
+- ใช้ enum หรือ fixed schema แทน freeform text ระหว่าง agent
+- ห้ามปล่อยให้ raw retrieved text เป็นตัวสั่ง tool call โดยไม่กรอง
+- ห้ามใส่ secrets ลงใน shared handoff payload
+- ห้ามส่ง privilege เกินกว่าที่ step ต้นทางต้องใช้ไปยัง agent ปลายทาง
 
-OpenAI recommends using structured outputs to constrain data flow and reduce injection surface area.
+OpenAI แนะนำให้ใช้ structured outputs เพื่อควบคุม data flow และลดพื้นที่เสี่ยงของ injection
 
 ---
 
 ## ความปลอดภัยของ Handoff
 
-Every handoff should include only:
+ทุก handoff ควรมีแค่:
 - task id
 - allowed next action
 - bounded evidence
 - validated state snapshot
 - explicit completion criteria
 
-Do not hand off:
+ห้าม handoff:
 - raw secrets
 - arbitrary freeform tool output
 - unbounded conversation history
 - implementation details the next agent does not need
 
-If one agent processes untrusted text and another agent uses the transformed result, sanitize before the handoff. That is where multi-agent systems often become vulnerable even if the first agent looked safe.
+ถ้า agent หนึ่งประมวลผล untrusted text แล้ว agent ถัดไปเอาผลลัพธ์นั้นไปใช้ ต้อง sanitize ก่อน handoff จุดนี้คือจุดที่ multi-agent systems มักเริ่มเปราะ แม้ตัวแรกจะดูปลอดภัย
 
 ---
 
 ## ชั้นของ Guardrail
 
-Use the following layers together:
+ให้ใช้ชั้นเหล่านี้ร่วมกัน:
 
-1. input validation
-2. structured outputs
-3. permission scoping
-4. human approval for side effects
-5. trace logging
-6. evals on risky traces
+1. ตรวจสอบ input
+2. ใช้ structured outputs
+3. จำกัดสิทธิ์ตาม scope
+4. ขอ human approval เมื่อมี side effect
+5. เก็บ trace logging
+6. ทำ eval กับ trace ที่มีความเสี่ยง
 
-OpenAI recommends guardrails for user inputs, tool approvals for MCP operations, and trace graders / evals for catching mistakes in agent behavior.
+OpenAI แนะนำ guardrails สำหรับ user input, tool approvals สำหรับ MCP operations, และ trace graders / evals สำหรับจับความผิดพลาดของพฤติกรรม agent
 
 ---
 
 ## Checklist การลงมือทำ
 
-Before shipping a multi-agent workflow:
-1. Define which agents are read-only.
-2. Define which agents can write state.
-3. Define which agents can call side-effecting tools.
-4. Define human approval points.
-5. Define structured handoff payloads.
-6. Define what never leaves the trust boundary.
-7. Log enough trace data to reconstruct decisions.
-8. Test prompt injection and unsafe handoff paths.
+ก่อนปล่อย multi-agent workflow:
+1. ระบุให้ชัดว่า agent ตัวไหนเป็น agent ที่อ่านอย่างเดียว
+2. ระบุว่า agent ตัวไหนเขียน state ได้
+3. ระบุว่า agent ตัวไหนเรียก tool ที่มี side effect ได้
+4. ระบุจุดที่ต้องมี human approval
+5. กำหนด structured handoff payload ให้ชัด
+6. กำหนดว่าอะไรห้ามออกจาก trust boundary
+7. เก็บ trace ให้พอ reconstruct การตัดสินใจได้
+8. ทดสอบเส้นทาง prompt injection และ handoff ที่ไม่ปลอดภัย
 
 ---
 
 ## หลักออกแบบ
 
-- assume prompt injection can travel through tool output
-- isolate high-trust and low-trust paths
-- narrow permissions by role, not by convenience
-- require approval where the action cannot be safely reversed
-- make every privilege escalation explicit
+- ต้องถือว่า prompt injection สามารถเดินทางผ่าน tool output ได้
+- แยกเส้นทาง high-trust กับ low-trust ออกจากกัน
+- จำกัด permission ตามบทบาท ไม่ใช่ตามความสะดวก
+- บังคับ approval เมื่อ action นั้นย้อนกลับไม่ได้อย่างปลอดภัย
+- ทำให้ privilege escalation ทุกครั้งเป็นเรื่องที่ชัดเจน
 
 ---
 

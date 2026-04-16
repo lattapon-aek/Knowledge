@@ -19,6 +19,10 @@ parent_note: "[[Home]]"
 
 หมวดนี้ครอบนิยามของ agent, runtime loops, architecture patterns, การเลือกใช้ agent เทียบกับ workflow, ความเสี่ยง, และชั้น runtime ที่เกี่ยวกับ messages กับ tools
 
+หมายเหตุการจัดโครง:
+- หมวดนี้เป็น canonical learning path สำหรับพื้นฐานของ agent
+- โน้ตใน `04 Synthesis` ทำหน้าที่เป็น bridge / comparison / synthesis layer และไม่ควรเล่าพื้นฐานซ้ำเกินจำเป็น
+
 กติกาการอ่าน:
 - ไฟล์ที่มีเลข `01, 02, 03...` คือ core learning path ของหมวดนี้
 - ลำดับด้านล่างเรียงจาก concept พื้นฐาน -> runtime loops -> architecture decisions -> risks/tools

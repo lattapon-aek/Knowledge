@@ -12,6 +12,10 @@ parent_note: "[[Home]]"
 
 หมวดนี้รวบรวมโน้ตสังเคราะห์ที่เชื่อมหลาย domain เข้าด้วยกันเพื่อใช้เป็น reference ชั้นกลาง
 
+หมายเหตุการใช้งาน:
+- หมวดนี้เป็น bridge layer สำหรับ comparison, synthesis, และ decision support
+- ถ้าเรื่องใดมี canonical note อยู่ใน `02 AI Systems` หรือ `06 Engineering` แล้ว ให้หลีกเลี่ยงการเล่าพื้นฐานซ้ำ และลิงก์กลับไปที่โน้ตแม่แทน
+
 ---
 
 ## Notes Map

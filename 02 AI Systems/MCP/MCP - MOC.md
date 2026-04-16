@@ -76,3 +76,7 @@ Tools   = action/computation (side effects, ต้อง consent)
 Resources = read-only context (lower risk)
 Prompts = reusable template/workflow
 ```
+
+## Implementation Bridge
+
+- [[06 Engineering/README]]

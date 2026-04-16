@@ -96,4 +96,10 @@ parent_note: "[[Home]]"
 
 ---
 
+## Implementation Bridge
+
+- [[06 Engineering/README]]
+
+---
+
 ## Next Notes To Create

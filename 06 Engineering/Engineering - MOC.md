@@ -46,6 +46,7 @@ parent_note: "[[Home]]"
 - [[06 Engineering/MCP/Decision - Choose MCP Integration Boundary|Choose MCP Integration Boundary]]
 - [[06 Engineering/Memory/Recipe - Add a Memory Layer|Add a Memory Layer]]
 - [[06 Engineering/Memory/Decision - Choose a Memory Policy|Choose a Memory Policy]]
+- [[06 Engineering/Project Notes/Project Note - Example Implementation Log|Example Implementation Log]]
 
 ---
 

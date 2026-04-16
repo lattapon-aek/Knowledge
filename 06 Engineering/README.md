@@ -32,6 +32,7 @@ This section is for notes that are closer to code than to architecture:
 - [Build an Eval Harness](./Evals/Recipe%20-%20Build%20an%20Eval%20Harness.md)
 - [Add MCP Server Integration](./MCP/Recipe%20-%20Add%20MCP%20Server%20Integration.md)
 - [Add a Memory Layer](./Memory/Recipe%20-%20Add%20a%20Memory%20Layer.md)
+- [Example Implementation Log](./Project%20Notes/Project%20Note%20-%20Example%20Implementation%20Log.md)
 
 ## Use This Layer When
 

@@ -18,3 +18,4 @@ patterns ที่ reuse ได้ในงาน coding และ implementatio
 ## Notes Map
 
 - [[06 Engineering/Patterns/Pattern - Retry and Backoff|Retry and Backoff]]
+- [[06 Engineering/Patterns/Pattern - Sync vs Async Agent Communication|Sync vs Async Agent Communication]]

@@ -13,3 +13,8 @@ parent_note: "[[06 Engineering/Engineering - MOC]]"
 
 patterns ที่ reuse ได้ในงาน coding และ implementation
 
+---
+
+## Notes Map
+
+- [[06 Engineering/Patterns/Pattern - Retry and Backoff|Retry and Backoff]]

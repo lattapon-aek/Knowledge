@@ -26,6 +26,14 @@ parent_note: "[[Home]]"
 
 ---
 
+## Starter Notes
+
+- [[06 Engineering/Patterns/Pattern - Retry and Backoff|Retry and Backoff]]
+- [[06 Engineering/Recipes/Recipe - Add a New Framework Note|Add a New Framework Note]]
+- [[06 Engineering/Decisions/Decision - Choose a Framework|Choose a Framework]]
+
+---
+
 ## Scope
 
 - architecture-to-code notes สำหรับแปลง concept ให้ลง implementation ได้
@@ -33,4 +41,3 @@ parent_note: "[[Home]]"
 - patterns และ recipes สำหรับ reuse ในงาน coding
 - decisions สำหรับบันทึกเหตุผลการเลือกทาง engineering
 - project notes สำหรับ context ของระบบหรือ repo เฉพาะ
-

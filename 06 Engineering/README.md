@@ -19,6 +19,9 @@ This section is for notes that are closer to code than to architecture:
 - [Recipes - MOC](./Recipes/Recipes%20-%20MOC.md)
 - [Decisions - MOC](./Decisions/Decisions%20-%20MOC.md)
 - [Project Notes - MOC](./Project%20Notes/Project%20Notes%20-%20MOC.md)
+- [Pattern - Retry and Backoff](./Patterns/Pattern%20-%20Retry%20and%20Backoff.md)
+- [Recipe - Add a New Framework Note](./Recipes/Recipe%20-%20Add%20a%20New%20Framework%20Note.md)
+- [Decision - Choose a Framework](./Decisions/Decision%20-%20Choose%20a%20Framework.md)
 
 ## Use This Layer When
 
@@ -26,4 +29,3 @@ This section is for notes that are closer to code than to architecture:
 - the note is about turning an architecture into code
 - the note is an implementation recipe or coding pattern
 - the note is specific to one project or runtime setup
-

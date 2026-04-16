@@ -18,3 +18,4 @@ how-to แบบทีละขั้นสำหรับงาน engineering 
 ## Notes Map
 
 - [[06 Engineering/Recipes/Recipe - HuggingFace MCP Course และ Implementation Guide|HuggingFace MCP Course และ Implementation Guide]]
+- [[06 Engineering/Recipes/Recipe - Add a New Framework Note|Add a New Framework Note]]

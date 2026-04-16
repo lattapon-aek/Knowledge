@@ -14,8 +14,9 @@ parent_note: "[[Home]]"
 
 ## Summary
 
-agent systems จะเข้าใจง่ายขึ้นมากถ้าแยกเป็น “runtime layers” แทนการมองว่าเป็นก้อนเดียว  
-จาก official docs ของ OpenAI และ Google ADK เราสามารถมองระบบ agent เป็นชั้น ๆ ได้ดังนี้:
+agent systems จะเข้าใจง่ายขึ้นมากถ้าแยกเป็น “runtime layers” แทนการมองว่าเป็นก้อนเดียว
+
+จาก official docs ของ OpenAI และ Google ADK เรามองระบบ agent เป็นชั้น ๆ ได้ดังนี้:
 - interaction layer
 - reasoning and orchestration layer
 - capability layer
@@ -32,8 +33,6 @@ agent systems จะเข้าใจง่ายขึ้นมากถ้า
 - conversation turn
 - output contract
 - session continuity ระดับ interface
-
-ในหลายระบบ นี่คือจุดที่ prompt, message structure, และ response formatting มาเจอกัน
 
 ---
 

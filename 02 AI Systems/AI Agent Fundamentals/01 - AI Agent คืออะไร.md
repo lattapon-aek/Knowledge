@@ -125,6 +125,7 @@ Agent ไม่ได้มีแค่แบบเดียว — มีอย
 
 - [[02 - วิวัฒนาการ LLM สู่ Agent]]
 - [[03 - คุณสมบัติ 5 อย่างของ Agent]]
+- [[11 - Key Takeaways และ Quick Reference]]
 - [[12 - LLM พื้นฐาน]]
 
 ## ตัวอย่าง Implementation จริง

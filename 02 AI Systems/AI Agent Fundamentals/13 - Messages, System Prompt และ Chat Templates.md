@@ -41,9 +41,10 @@ system_message = {
 
 **บทบาทของ System Message ใน Agent:**
 - บอก behavior ของ agent
-- แจ้งข้อมูล **tools ที่ใช้ได้** (tool descriptions ถูก inject เข้าไปที่นี่)
-- กำหนด format สำหรับ actions ที่ agent จะ output
-- ฝัง Thought-Action-Observation cycle ไว้ใน instructions
+- ระบุ instructions สำคัญ เช่น tools ที่ใช้ได้ และรูปแบบ output
+- กำหนด guardrails และ persona ของระบบ
+
+> รายละเอียดเชิง runtime layer และ tool contract ดูที่ [[14 - Tools: การออกแบบและทำงาน]]
 
 ### 2. User Messages
 

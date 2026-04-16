@@ -1,6 +1,6 @@
 ---
 tags:
-  - use-case
+  - usecase
   - evals
   - agents
 type: usecase

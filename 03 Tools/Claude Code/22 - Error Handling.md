@@ -17,7 +17,7 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 
 ## ความจริงเรื่อง Error Handling
 
-Claude Code **ไม่มี error handling อัตโนมัติ** — agent รายงานผลกลับด้วยภาษาธรรมชาติ และ Orchestrator (Claude ตัวหลัก) เป็นคนตัดสินใจว่าจะทำอะไรต่อ
+Claude Code ใช้การสั่งงานแบบ prompt, hooks, และการตอบกลับจาก subagent/teammate เป็นหลัก ดังนั้น workflow ที่ robust ควรกำหนด fallback และ retry policy ไว้ล่วงหน้า
 
 **Flow เมื่อ agent ล้มเหลว:**
 
@@ -59,9 +59,9 @@ Orchestrator spawn
 
 ## สิ่งที่ Agent Teams จัดการได้เอง (บางส่วน)
 
-สำหรับ **Agent Teams** (ไม่ใช่ Subagents):
-- Lead สามารถรับรู้ว่า Teammate ไม่ตอบสนองและ nudge ได้
-- บอก Lead: `"nudge the teammate that's not responding"` เพื่อให้ Lead กระตุ้น Teammate ที่ค้าง
+สำหรับ **Agent Teams**:
+- docs ระบุว่า teammates ส่งข้อความหากันได้โดยตรง, มี shared task list, และมี `TeammateIdle` / `TaskCompleted` hooks สำหรับประกบ workflow
+- ถ้าทีมหลุดจังหวะ ให้ใช้สถานะ task, ข้อความโดยตรง, หรือสร้าง teammate ใหม่ตามสถานการณ์
 
 ---
 

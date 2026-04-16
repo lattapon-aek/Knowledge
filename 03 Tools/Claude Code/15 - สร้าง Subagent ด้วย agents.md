@@ -34,7 +34,9 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 name: security-agent
 description: ตรวจ security issues โดยเฉพาะ
 model: claude-haiku-4-5
-tools: Read, Grep
+tools:
+  - Read
+  - Grep
 ---
 
 คุณคือวิศวกร Security ที่เชี่ยวชาญ OWASP Top 10
@@ -46,7 +48,7 @@ Output: JSON { issue, severity, file, line, recommendation }
 
 ---
 
-## Frontmatter Fields ทั้งหมด
+## Frontmatter Fields ที่ official docs ระบุ
 
 | Field | Required | ความหมาย |
 |---|---|---|
@@ -64,11 +66,12 @@ Output: JSON { issue, severity, file, line, recommendation }
 | `hooks` | — | lifecycle hooks สำหรับ subagent นี้โดยเฉพาะ |
 | `background` | — | `true` = รันเป็น background task เสมอ |
 | `effort` | — | `low`, `medium`, `high`, `max` (Opus 4.6 เท่านั้น) |
-| `initialPrompt` | — | prompt แรกที่ถูก auto-submit เมื่อ agent รันเป็น main session |
+| `initialPrompt` | — | prompt แรกที่ถูก auto-submit เมื่อ agent รันเป็น top-level agent ผ่าน `--agent` หรือ `agent` setting |
 | `color` | — | `red`, `blue`, `green`, `yellow`, `purple`, `orange`, `pink`, `cyan` |
 
 > **Tip:** `tools` (allowlist) กับ `disallowedTools` (denylist) ใช้ร่วมกันได้ — ถ้าใช้ทั้งคู่ `disallowedTools` ถูกนำออกก่อน แล้ว `tools` กรองจากที่เหลือ
 > **Tip:** ใช้ `isolation: worktree` เพื่อให้ agent ได้ branch แยกอัตโนมัติ
+> **Tip:** ใน subagent แบบไฟล์ `prompt` คือ system prompt ของ agent และเนื้อหา markdown ด้านล่าง frontmatter คือ prompt นั้น
 
 ---
 

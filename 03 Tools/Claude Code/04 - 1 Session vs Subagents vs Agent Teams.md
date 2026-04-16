@@ -14,7 +14,7 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 # 1 Session vs Subagents vs Agent Teams
 
 **Context Window = โต๊ะทำงานของ AI** — ยิ่งข้อมูลเยอะ โต๊ะยิ่งแคบ งานยิ่งพัง
-Claude Sonnet มี context ประมาณ **200K tokens** (~150,000 คำ)
+ขนาด context window ของแต่ละ session ขึ้นกับ model และการตั้งค่าของ Claude Code
 
 ---
 
@@ -52,11 +52,11 @@ flowchart TD
     QA -->|รายงานผล| ORC
 ```
 
-**ข้อดีหลัก:** แต่ละ agent มี context window ของตัวเอง — ไม่ปะปนกัน งานไม่พันกัน ผลลัพธ์แม่นยำขึ้น และใช้ token น้อยกว่า Agent Teams มาก
+**ข้อดีหลัก:** แต่ละ subagent มี context ของตัวเอง — ไม่ปะปนกัน งานไม่พันกัน และผลลัพธ์ที่ส่งกลับ main conversation มักสั้นกว่าการทำทุกอย่างใน session เดียว
 
 **ข้อจำกัดหลัก:** Subagent **คุยกันโดยตรงไม่ได้** — ต้องรายงานกลับ main agent เท่านั้น main agent เป็นคน coordinate ทั้งหมด
 
-> ℹ️ **หมายเหตุ:** Subagents สามารถ parallelize งานได้ (main agent spawn หลายตัวพร้อมกันได้) แต่ตัว Subagents เองไม่สามารถสื่อสารกันเองได้ ต่างจาก Agent Teams ที่ Teammates คุยกันได้โดยตรง
+> ℹ️ **หมายเหตุ:** main agent สามารถ spawn subagents หลายตัวพร้อมกันได้ แต่ subagents เองไม่สื่อสารกันโดยตรง ต่างจาก Agent Teams ที่ Teammates คุยกันได้โดยตรง
 
 ### Context เมื่อ Subagent เสร็จงาน
 
@@ -68,15 +68,13 @@ flowchart TD
 
 > ⚠️ **Warning (official):** "When subagents complete, their results return to your main conversation. Running many subagents that each return **detailed results** can consume significant context." — ถ้า subagent ส่งผลละเอียดมากก็ยังกิน main context ได้
 
-> ℹ️ **Resume ได้:** สามารถ resume subagent เดิมผ่าน `SendMessage` ได้ (ต้องเปิด `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`) — subagent จำ conversation history ทั้งหมดจาก invocation ก่อนหน้า
-
 เหมาะกับ: งานมี workflow ชัดเจน A→B→C หรืองาน focused ที่ต้องการแค่ผลลัพธ์
 
 ---
 
 ## 🟢 แบบที่ 3: Agent Teams (parallel + session แยก) — Experimental
 
-Teammates แต่ละตัวรันใน **session แยกกันคนละ process** ทำงาน **พร้อมกัน** คุยกันได้ผ่าน mailbox
+Teammates แต่ละตัวรันเป็น **Claude Code instance แยก** ทำงาน **พร้อมกัน** และคุยกันได้ผ่าน mailbox
 
 ```mermaid
 flowchart TD
@@ -135,8 +133,6 @@ flowchart LR
 ```
 .claude/agents/security-reviewer.md  ← นิยาม "บทบาท" ครั้งเดียว
 ```
-
-> ℹ️ เมื่อใช้เป็น Teammate — `skills` และ `mcpServers` ใน frontmatter **จะไม่ถูกโหลด** แต่ `tools` และ `model` ยังทำงานปกติ
 
 > **สรุป:** เลือก Subagents เมื่อต้องการ **context สะอาดในราคาประหยัด** / เลือก Agent Teams เมื่อต้องการ **ความเร็ว parallel** และให้ agents คุยกันได้ — แต่ token สูงกว่ามาก
 

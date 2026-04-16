@@ -4,23 +4,21 @@ tags:
   - multi-agent
   - ai-tools
   - anthropic
-  - MOC
+  - moc
 type: moc
 status: evergreen
 created: "2026-04-09"
-source: "https://code.claude.com/docs/en/overview"
+source: "https://code.claude.com/docs/en/overview · https://code.claude.com/docs/en/agent-teams · https://code.claude.com/docs/en/sub-agents"
 parent_note: "[[Home]]"
 ---
 
-# 🗺️ Claude Code — Multi-Agent (Map of Content)
-
-> สร้าง AI Agents ที่ทำงานร่วมกันด้วย Claude Code | dohome Tech Team | ณ วันที่ 9 เมษายน 2568
+# Claude Code - Multi-Agent MOC
 
 ---
 
 ## 📌 ภาพรวม
 
-Claude Code คือ **CLI tool** จาก Anthropic สำหรับ Agentic Coding — ทำงานผ่าน Terminal โดยตรง อ่าน/เขียน/แก้ไขไฟล์จริง รันโค้ดได้ และรองรับ Multi-Agent
+Claude Code คือ **CLI tool** จาก Anthropic สำหรับ agentic coding และ multi-agent workflows ตามเอกสารทางการของ Claude Code
 
 ---
 
@@ -61,6 +59,13 @@ Claude Code คือ **CLI tool** จาก Anthropic สำหรับ Agenti
 
 ### Quick Reference
 - [[24 - Best Practices & Checklist]]
+
+---
+
+## Related Hubs
+
+- [[04 Synthesis/Synthesis - MOC|Synthesis - MOC]]
+- [[05 Use Cases/Use Cases - MOC|Use Cases - MOC]]
 
 ---
 

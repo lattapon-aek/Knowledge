@@ -1,6 +1,6 @@
 ---
 tags:
-  - use-case
+  - usecase
   - rag
   - retrieval
 type: usecase

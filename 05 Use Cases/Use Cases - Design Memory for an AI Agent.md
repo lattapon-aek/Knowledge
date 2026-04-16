@@ -1,6 +1,6 @@
 ---
 tags:
-  - use-case
+  - usecase
   - memory
   - agents
 type: usecase

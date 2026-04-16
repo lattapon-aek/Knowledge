@@ -10,23 +10,25 @@ source: "https://code.claude.com/docs/en/sub-agents"
 parent_note: "[[Claude Code - Multi-Agent MOC]]"
 ---
 
-# Built-in Subagents ที่มีมาในตัว
+# Built-in Subagents
 
-Claude Code มี subagents ในตัวที่ Claude ใช้โดยอัตโนมัติ — **ไม่ต้องสร้างเอง**
+Claude Code มี built-in subagents และ helper agents ที่ใช้โดยอัตโนมัติเมื่อเหมาะสม
 
-| Agent | Model | Tools | เหมาะกับ |
+| Agent | Model | Tools | ใช้เมื่อ |
 |---|---|---|---|
-| **Explore** | Haiku (เร็ว) | Read-only เท่านั้น | ค้นหาและวิเคราะห์ codebase โดยไม่แก้ไขอะไร |
-| **Plan** | รับจาก main session | Read-only เท่านั้น | ใช้ใน plan mode เพื่อวิจัยโค้ดก่อนวางแผน |
-| **general-purpose** | รับจาก main session | ทุก tool | งานซับซ้อนที่ต้องทั้ง explore และ implement |
-| **statusline-setup** | Sonnet | — | เรียกอัตโนมัติเมื่อรัน `/statusline` |
-| **Claude Code Guide** | Haiku | — | เรียกอัตโนมัติเมื่อถามเกี่ยวกับ feature ของ Claude Code |
+| **Explore** | Haiku | Read-only tools | ต้องการค้นหาและวิเคราะห์ codebase โดยไม่แก้ไข |
+| **Plan** | Inherits from main conversation | Read-only tools | อยู่ใน plan mode และต้องเก็บ context สำหรับวางแผน |
+| **general-purpose** | Inherits from main conversation | All tools | งานซับซ้อนที่ต้องทั้ง explore และ modify |
+| **statusline-setup** | Sonnet | - | รัน `/statusline` เพื่อ configure status line |
+| **Claude Code Guide** | Haiku | - | ถามคำถามเกี่ยวกับ features ของ Claude Code |
 
 ---
 
 ## ข้อสำคัญ
 
-> **Subagent ไม่สามารถ spawn subagent ซ้อนกันได้** — มีแค่ main agent เท่านั้นที่ spawn subagents ได้
+> **Subagent ไม่สามารถ spawn subagent ซ้อนกันได้** — ถ้าต้องการ nested delegation ให้ใช้ skills หรือ chain จาก main conversation
+
+> ℹ️ บาง helper agents เช่น `statusline-setup` และ `Claude Code Guide` ถูกใช้โดย Claude เมื่อเหมาะสม ไม่ใช่ subagent ที่ต้องเรียกเองทุกครั้ง
 
 ---
 

@@ -43,6 +43,7 @@ Use Sonnet for each teammate.
 | Shortcut | ทำอะไร |
 |---|---|
 | `Shift+Down` | สลับไปยัง Teammate ถัดไป (วนกลับมา Lead) |
+| `Enter` | เปิด session ของ teammate ที่เลือก |
 | `Ctrl+T` | toggle task list |
 | `Esc` | interrupt turn ที่กำลังรันอยู่ |
 

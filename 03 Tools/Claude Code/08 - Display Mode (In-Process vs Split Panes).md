@@ -49,8 +49,8 @@ Agent Teams รองรับ **2 display mode**
 
 | ตัวเลือก | เหมาะกับ | วิธีติดตั้ง |
 |---|---|---|
-| **tmux** | Server, SSH, Linux, macOS | `brew install tmux` |
-| **iTerm2 + `it2` CLI** | macOS เครื่องตัวเอง | ติดตั้ง `it2` CLI + เปิด Python API ใน iTerm2 Settings → General → Magic |
+| **tmux** | ใช้ได้เมื่อมี tmux ใน PATH | ติดตั้งผ่าน package manager ของระบบ |
+| **iTerm2 + `it2` CLI** | macOS | ติดตั้ง `it2` CLI + เปิด Python API ใน iTerm2 Settings → General → Magic |
 
 > ❌ **ไม่รองรับ** Split Pane: VS Code terminal, Windows Terminal, Ghostty
 
@@ -97,22 +97,19 @@ tmux ls                   # ดู sessions ทั้งหมด
 
 | | **tmux** | **iTerm2 + it2 CLI** |
 |---|---|---|
-| **OS** | macOS, Linux, WSL, Server | macOS เท่านั้น |
-| **SSH / Remote** | ✅ ทำงานได้ session ไม่หลุดแม้ connection ตัด | ❌ เป็น GUI app — ติดตั้งได้เฉพาะ Mac ตัวเอง ใช้บน remote server ไม่ได้ |
-| **ติดตั้ง** | `brew install tmux` | ติดตั้ง iTerm2 + `it2` CLI + เปิด Python API |
-| **Visual** | pane แบบ terminal ดิบ | GUI สวยงาม มีสี scroll ง่าย |
-| **Keyboard** | ต้องจำ shortcut (`Ctrl+B`) | คลิกเข้า pane ได้เลย |
-| **Stability** | สูง — battle-tested | ขึ้นกับ iTerm2 version |
-| **ข้อจำกัด official** | known limitations บาง OS | ต้องเปิด Python API ก่อนใช้ |
+| **OS** | ใช้ได้หลายระบบที่มี tmux | macOS |
+| **SSH / Remote** | ✅ เหมาะกับ server / remote shell | ❌ ต้องใช้บนเครื่อง macOS ที่รัน iTerm2 |
+| **ติดตั้ง** | ติดตั้ง tmux ผ่าน package manager | ติดตั้ง iTerm2 + `it2` CLI + เปิด Python API |
+| **Visual** | terminal-based | GUI-based |
+| **Keyboard** | ใช้ tmux shortcuts | คลิกเข้า pane ได้ |
+| **ข้อจำกัด official** | tmux มี known limitations บางระบบ | ต้องเปิด Python API ก่อนใช้ |
 
 ### คำแนะนำตามสถานการณ์
 
 ```
 ไม่อยากติดตั้งอะไรเพิ่ม      → In-Process (default) — ใช้ได้ทุก terminal
-ทำงานบน Server / SSH          → tmux — session อยู่แม้ connection หลุด
-macOS + ต้องการ GUI สวย       → iTerm2 + it2 CLI
-macOS + ต้องการ best of both  → tmux -CC ใน iTerm2 (official recommend)
-Linux / WSL                   → tmux เท่านั้น
+ทำงานบน Server / SSH          → tmux
+macOS + ต้องการ split panes    → iTerm2 + it2 CLI หรือ tmux -CC ใน iTerm2
 ```
 
-> ℹ️ Official docs แนะนำ `tmux -CC` ใน iTerm2 เป็น "suggested entrypoint" สำหรับผู้ใช้ macOS ที่ต้องการ split panes
+> ℹ️ Official docs ระบุว่า `tmux -CC` ใน iTerm2 เป็น suggested entrypoint สำหรับ macOS

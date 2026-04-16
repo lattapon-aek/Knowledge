@@ -1,9 +1,9 @@
 ---
 tags:
-  - use-case
+  - usecase
   - prompting
   - evaluation
-type: guide
+type: usecase
 status: evergreen
 created: "2026-04-12"
 source: ""
@@ -25,7 +25,7 @@ parent_note: "[[Home]]"
 3. [[01 Foundations/Prompt Engineering/03 - Prompt Patterns พื้นฐาน]]
 4. [[01 Foundations/Prompt Engineering/04 - หลักการจากหลายบริษัท]]
 5. [[01 Foundations/Prompt Engineering/05 - Evaluation และ Failure Modes]]
-6. [[06 - Template และ Common Problems]]
+6. [[01 Foundations/Prompt Engineering/06 - Template และ Common Problems]]
 7. [[01 Foundations/Context Windows/02 - การบริหารและ Context Engineering]]
 
 ---

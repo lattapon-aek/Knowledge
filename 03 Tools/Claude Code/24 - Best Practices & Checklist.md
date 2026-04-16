@@ -7,7 +7,7 @@ tags:
 type: note
 status: evergreen
 created: "2026-04-09"
-source: "https://code.claude.com/docs/en/agent-teams"
+source: "https://code.claude.com/docs/en/agent-teams · https://code.claude.com/docs/en/hooks-guide"
 parent_note: "[[Claude Code - Multi-Agent MOC]]"
 ---
 
@@ -17,14 +17,15 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 
 ## ✅ สิ่งที่ควรทำ
 
-- **ใช้ CLAUDE.md** — เขียนบริบทโปรเจกต์ กฎ naming convention และสิ่งที่ห้ามทำไว้ที่นี่ ทุก agent อ่านอัตโนมัติ
+- **ใช้ CLAUDE.md** — เขียนบริบทโปรเจกต์ กฎ naming convention และสิ่งที่ห้ามทำไว้ที่นี่ ตาม docs ไฟล์นี้ถูกโหลดเข้าสู่ context ตอนเริ่ม session
 - **กำหนด scope ชัดเจนให้แต่ละ agent** — ระบุโฟลเดอร์ที่รับผิดชอบและห้ามแตะ
 - **บอก fallback ใน prompt** — "ถ้าเจอ error ให้ข้ามและบันทึกไว้"
-- **จำกัดจำนวน Teammates** — 3–5 ตัวต่อ team เพื่อควบคุมต้นทุน
-- **ใช้ Haiku สำหรับงานง่าย** — ประหยัดกว่า Sonnet มาก
+- **เติม context ล่าสุดตอนเริ่ม session** — ใช้ `SessionStart` hook กับ `compact` matcher เพื่อ inject สิ่งที่เพิ่งเกิดขึ้น เช่น `git log --oneline -5`
+- **จำกัดจำนวน Teammates** — ใช้เท่าที่งานต้องการจริง ๆ
+- **เลือก model ให้เหมาะกับงาน** — Claude Code รองรับ `sonnet`, `opus`, และ `haiku` aliases
 - **ตรวจสอบผลลัพธ์จริงเสมอ** — อย่าเชื่อแค่คำว่า "เสร็จแล้ว"
 - **ใช้ git worktree** — เมื่อหลาย agent แก้ไฟล์ในโปรเจกต์เดียวกัน
-- **เปิด Agent Teams ผ่าน settings.json** — ต้องตั้งค่า `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1` ก่อนใช้
+- **เปิด Agent Teams ผ่าน config** — ต้องตั้งค่า `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1` ก่อนใช้
 - **ระบุ retry limit** — "ลองใหม่ได้สูงสุด 2 รอบ" เพื่อป้องกัน infinite loop
 
 ---
@@ -40,34 +41,14 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 
 ---
 
-## Quick Start: เห็นผลใน 10 นาที
+## ตัวอย่าง Quick Start
 
-```bash
-# 1. ติดตั้ง Claude Code (2 นาที)
-curl -fsSL https://claude.ai/install.sh | bash
-export ANTHROPIC_API_KEY='sk-ant-...'
+1. ตั้งค่า `CLAUDE.md` ให้มีบริบทโปรเจกต์ที่จำเป็น
+2. ถ้าจะใช้ Agent Teams ให้เปิด `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`
+3. สร้าง subagent หรือ teammate จากงานที่แยกขอบเขตได้ชัด
+4. ทดสอบกับงานเล็กก่อน แล้วค่อยขยายไปงานจริง
 
-# 2. สร้างโครงสร้างโฟลเดอร์ (1 นาที)
-mkdir -p .claude/agents .claude/commands
-
-# 3. สร้าง CLAUDE.md อัตโนมัติ (2 นาที)
-claude
-> /init
-
-# 4. เปิด Agent Teams ใน settings.json (1 นาที)
-# เพิ่มใน .claude/settings.json:
-# { "env": { "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1" } }
-
-# 5. สร้าง agent แรก (2 นาที)
-# พิมพ์ใน Claude:
-> /agents
-# เลือก "สร้าง agent ใหม่" แล้วบอก Claude ว่าต้องการ agent แบบไหน
-
-# 6. ทดลองใช้ custom command (2 นาที)
-claude /review src/
-```
-
-**ผล: เห็น agent ทำงานจริงใน 10 นาที!**
+**ผล: ได้โครงเริ่มต้นที่ใช้งานต่อได้**
 
 ---
 

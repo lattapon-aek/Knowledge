@@ -1,6 +1,6 @@
 ---
 tags:
-  - use-case
+  - usecase
   - guardrails
   - tools
 type: usecase

@@ -17,7 +17,6 @@ Second brain สำหรับความรู้ด้าน AI systems, LLM
 - [[00 Raw Sources/Articles/Source Manifests - MOC|Source Manifests]] — entry points สำหรับชุดแหล่งข้อมูลที่ใช้อยู่จริง
 - [[00 Raw Sources/Source Records/Source Records - MOC|Source Records]] — ทะเบียนแหล่งอ้างอิงที่กู้คืนจากโน้ตเดิม
 - [[index]] — catalog กลางของฝั่ง wiki
-- [[Home]] — หน้าเริ่มต้นและ reading paths
 
 ---
 
@@ -35,6 +34,8 @@ Second brain สำหรับความรู้ด้าน AI systems, LLM
 - [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails]]
 - [[01 Foundations/Tokenizer in AI/Tokenizer in AI - MOC|Tokenizer in AI]]
 - [[03 Tools/Claude Code/Claude Code - Multi-Agent MOC|Claude Code]]
+- [[04 Synthesis/Synthesis - MOC|Synthesis]]
+- [[05 Use Cases/Use Cases - MOC|Use Cases]]
 
 ---
 
@@ -89,10 +90,12 @@ Second brain สำหรับความรู้ด้าน AI systems, LLM
 
 ## Synthesis And Application
 
+- [[04 Synthesis/Synthesis - MOC|Synthesis - MOC]]
 - [[04 Synthesis/Synthesis - Agent Runtime Layers]]
 - [[04 Synthesis/Synthesis - Safety, Reliability, and Evals]]
 - [[04 Synthesis/Synthesis - Memory vs RAG vs Context]]
 - [[04 Synthesis/Synthesis - Agent vs Workflow vs RAG]]
+- [[05 Use Cases/Use Cases - MOC|Use Cases - MOC]]
 - [[05 Use Cases/Use Cases - Design a RAG System]]
 - [[05 Use Cases/Use Cases - Design Guardrails for Tool Use]]
 - [[05 Use Cases/Use Cases - Design Memory for an AI Agent]]

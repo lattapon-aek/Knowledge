@@ -19,11 +19,12 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 
 | Scope | ที่เก็บ | ใช้กับใคร | Shared? |
 |---|---|---|---|
-| **Managed** | `managed-settings.json` (system-level) หรือ MDM/registry | ทุกคนในองค์กร | ✅ Deploy โดย IT |
-| **User** | `~/.claude/settings.json` | ทุกโปรเจกต์ในเครื่อง | ❌ |
-| **Project** | `.claude/settings.json` | ทุกคนในโปรเจกต์ | ✅ commit ลง git |
+| **Managed** | `managed-settings.json` หรือ MDM / registry | ทุกคนในองค์กร | ✅ Deploy โดย IT |
 | **Local** | `.claude/settings.local.json` | เฉพาะเครื่องตัวเอง (gitignore) | ❌ |
-| **Global config** | `~/.claude.json` | ตั้งค่า global เช่น teammateMode, MCP servers | ❌ |
+| **Project** | `.claude/settings.json` | ทุกคนในโปรเจกต์ | ✅ commit ลง git |
+| **User** | `~/.claude/settings.json` | ทุกโปรเจกต์ในเครื่อง | ❌ |
+
+> ℹ️ `~/.claude.json` เก็บ global config บางตัว เช่น IDE connectivity และ editor mode
 
 ### ลำดับความสำคัญ (สูง → ต่ำ)
 
@@ -65,4 +66,4 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 ## คำเตือน Agent Teams
 
 > ⚠️ ทดสอบใน branch แยกก่อนเสมอ
-> ⚠️ Teammate ทุกตัวรับ permission เดียวกับ Team Lead — ถ้า Lead รัน `--dangerously-skip-permissions` Teammate ทุกตัวก็ด้วย
+> ⚠️ Teammate ใช้ permission rules เดียวกับ team lead ในทีมเดียวกัน

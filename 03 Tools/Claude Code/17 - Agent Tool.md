@@ -29,7 +29,7 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 
 | | Agent Tool (Subagent) | Agent Teams |
 |---|---|---|
-| ทำงานใน | session เดียวกัน | session แยกกัน |
+| ทำงานใน | session เดียวกัน | Claude Code instances แยก |
 | Teammate คุยกันได้ | ❌ (รายงานกลับ main เท่านั้น) | ✅ โดยตรง |
 | เหมาะกับ | งาน focused ต้องการแค่ผลลัพธ์ | งานซับซ้อนที่ต้อง collaborate |
 

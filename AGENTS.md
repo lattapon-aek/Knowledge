@@ -61,6 +61,8 @@ vault นี้มี 3 ชั้นหลัก:
 - [[index]] — catalog กลางของทั้ง vault
 - [[00 Raw Sources/Raw Sources - MOC|Raw Sources - MOC]] — ชั้น raw sources
 - [[00 Raw Sources/Articles/Source Manifests - MOC|Source Manifests - MOC]] — entry points สำหรับ source families ที่ active
+- [[04 Synthesis/Synthesis - MOC|Synthesis - MOC]] — ชั้นสังเคราะห์ข้ามหมวด
+- [[05 Use Cases/Use Cases - MOC|Use Cases - MOC]] — reading paths แบบใช้งานจริง
 - [[Vault Standards - Properties]] — มาตรฐาน metadata
 - [[Vault Workflow - Capture to Evergreen]] — workflow ของ note lifecycle
 

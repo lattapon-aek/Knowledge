@@ -1,8 +1,8 @@
 ---
 tags:
-  - use-case
+  - usecase
   - agents
-type: guide
+type: usecase
 status: evergreen
 created: "2026-04-12"
 source: ""

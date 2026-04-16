@@ -13,13 +13,13 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 
 # รูปแบบการใช้งาน Multi-Agent
 
-> ℹ️ Anthropic ไม่ได้ตั้งชื่อ pattern อย่างเป็นทางการ — แต่แนะนำ use cases เหล่านี้จาก official docs
+> ℹ️ เอกสาร official ยกตัวอย่าง workflow/use case หลายแบบ แม้จะไม่ได้ตั้งชื่อ pattern เป็นมาตรฐานตายตัว
 
 ---
 
 ## 1) งานที่ต้องการแค่ผลลัพธ์ (ไม่ต้องให้ agents คุยกัน) — ใช้ Subagents
 
-Subagent แต่ละตัวรายงานกลับ main agent เท่านั้น ทุก handoff ผ่าน orchestrator เสมอ ไม่มีการส่งผลตรงระหว่าง subagents
+Subagent แต่ละตัวรายงานกลับ main agent เป็นหลัก และการประสานงานยังผ่าน main/orchestrator เป็นหลัก ไม่ได้คุยกันตรงแบบ Agent Teams
 
 **Sequential (มี dependencies):**
 

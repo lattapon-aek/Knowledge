@@ -4,7 +4,7 @@ tags:
   - moc
 type: moc
 status: evergreen
-source: ""
+source: "vault-local synthesis hub"
 parent_note: "[[Home]]"
 ---
 

@@ -1,12 +1,13 @@
 ---
 tags:
   - synthesis
+  - derived
   - memory
   - rag
   - context
 type: synthesis
 status: evergreen
-source: ""
+source: "vault-local synthesis"
 parent_note: "[[Home]]"
 ---
 
@@ -192,4 +193,3 @@ flowchart LR
 - [[04 Synthesis/Synthesis - Memory in Agents]]
 - [[04 Synthesis/Synthesis - Agent vs Workflow vs RAG]]
 - [[Home]]
-

@@ -1,13 +1,14 @@
 ---
 tags:
   - synthesis
+  - derived
   - agent
   - workflow
   - rag
 type: synthesis
 status: evergreen
 created: "2026-04-12"
-source: ""
+source: "vault-local synthesis"
 parent_note: "[[Home]]"
 ---
 

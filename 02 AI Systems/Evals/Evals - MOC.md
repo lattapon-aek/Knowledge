@@ -5,7 +5,7 @@ tags:
   - evaluation
 type: moc
 status: evergreen
-source: ""
+source: "vault-local evals hub"
 parent_note: "[[Home]]"
 ---
 
@@ -76,6 +76,7 @@ parent_note: "[[Home]]"
 1. [[02 AI Systems/Evals/Application/06 - Prompt Evals]]
 2. [[02 AI Systems/Evals/Application/07 - RAG Evals]]
 3. [[02 AI Systems/Evals/Application/08 - Agent Evals]]
+4. [[02 AI Systems/Evals/Application/09 - Multi-Agent Evals]]
 
 ### 4. Operational Evals
 
@@ -88,6 +89,7 @@ parent_note: "[[Home]]"
 3. [[02 AI Systems/Guardrails/Guardrails - MOC]]
 4. [[02 AI Systems/Memory Systems/Memory Systems - MOC]]
 5. [[02 AI Systems/Agent Frameworks/Agent Frameworks - MOC]]
+6. [[02 AI Systems/Evals/Application/09 - Multi-Agent Evals]]
 
 ### 6. Use Case
 
@@ -101,6 +103,6 @@ parent_note: "[[Home]]"
 - [[06 Engineering/README]]
 - [[06 Engineering/Evals/Evals - MOC]]
 
----
-
 ## Next Notes To Create
+
+- Multi-agent eval rubrics for handoff correctness and trace quality

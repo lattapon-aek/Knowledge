@@ -26,3 +26,4 @@ parent_note: "[[06 Engineering/Engineering - MOC]]"
 
 - [[06 Engineering/Architecture to Code/Architecture - Tool Schemas and Runtime Integration|Tool Schemas and Runtime Integration]]
 - [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Infrastructure|Multi-Agent Infrastructure]]
+- [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Ownership and Handoffs|Multi-Agent Ownership and Handoffs]]

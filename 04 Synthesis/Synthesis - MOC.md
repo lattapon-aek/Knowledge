@@ -24,6 +24,7 @@ parent_note: "[[Home]]"
 - [[04 Synthesis/Synthesis - Prompting vs Fine-tuning vs RAG|Synthesis - Prompting vs Fine-tuning vs RAG]]
 - [[04 Synthesis/Synthesis - Safety, Reliability, and Evals|Synthesis - Safety, Reliability, and Evals]]
 - [[04 Synthesis/Synthesis - Single to Multi-Agent Infrastructure|Synthesis - Single to Multi-Agent Infrastructure]]
+- [[04 Synthesis/Synthesis - Multi-Agent Failure Modes|Synthesis - Multi-Agent Failure Modes]]
 
 ---
 

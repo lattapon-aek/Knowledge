@@ -17,6 +17,7 @@ This repo is designed to stay portable:
 - `Home.md` for the main reading paths
 - `index.md` for the catalog view
 - `AGENTS.md` for vault workflow and editing rules
+- `Knowledge Refactor - Task Board.md` for the current refactor queue
 
 ## Structure
 

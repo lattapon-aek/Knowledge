@@ -113,6 +113,7 @@ Second brain สำหรับความรู้ด้าน AI systems, LLM
 - [[Inbox]]
 - [[index]]
 - [[AGENTS]]
+- [[Knowledge Refactor - Task Board]]
 - [[Vault Workflow - Capture to Evergreen]]
 - [[_Templates/Standard Note Template|Standard Note Template]]
 - [[_Templates/Quick Capture Template|Quick Capture Template]]

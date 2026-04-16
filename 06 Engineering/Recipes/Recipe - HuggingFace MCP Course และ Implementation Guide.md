@@ -5,6 +5,8 @@ tags:
   - gradio
   - implementation
   - course
+  - synthesis
+  - derived
 type: note
 status: draft
 source: "https://huggingface.co/learn · MCP/MCP_Knowledge_Base.md (sections 10–18)"

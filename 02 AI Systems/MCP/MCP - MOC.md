@@ -80,3 +80,4 @@ Prompts = reusable template/workflow
 ## Implementation Bridge
 
 - [[06 Engineering/README]]
+- [[06 Engineering/MCP/MCP - MOC]]

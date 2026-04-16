@@ -26,7 +26,7 @@ This repo is designed to stay portable:
 - `03 Tools/` tool-specific notes, especially Claude Code
 - `04 Synthesis/` cross-topic comparison and higher-level synthesis
 - `05 Use Cases/` practical reading paths and applied examples
-- `06 Engineering/` implementation, frameworks, and coding notes
+- `06 Engineering/` implementation, frameworks, coding notes, and subdomains like RAG, Guardrails, Evals, MCP, and Memory
 - `_Templates/` reusable note templates
 
 ## How to Use

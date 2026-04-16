@@ -79,6 +79,7 @@ parent_note: "[[Home]]"
 ## Implementation Bridge
 
 - [[06 Engineering/README]]
+- [[06 Engineering/Guardrails/Guardrails - MOC]]
 
 ---
 

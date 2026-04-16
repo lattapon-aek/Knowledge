@@ -37,10 +37,15 @@ parent_note: "[[Home]]"
 - [[06 Engineering/Recipes/Recipe - Add a New Framework Note|Add a New Framework Note]]
 - [[06 Engineering/Decisions/Decision - Choose a Framework|Choose a Framework]]
 - [[06 Engineering/RAG/Recipe - Build a RAG Pipeline|Build a RAG Pipeline]]
+- [[06 Engineering/RAG/Decision - Choose a Retrieval Strategy|Choose a Retrieval Strategy]]
 - [[06 Engineering/Guardrails/Recipe - Add Output Validation|Add Output Validation]]
+- [[06 Engineering/Guardrails/Decision - Choose a Validation Boundary|Choose a Validation Boundary]]
 - [[06 Engineering/Evals/Recipe - Build an Eval Harness|Build an Eval Harness]]
+- [[06 Engineering/Evals/Decision - Choose an Evaluation Gate|Choose an Evaluation Gate]]
 - [[06 Engineering/MCP/Recipe - Add MCP Server Integration|Add MCP Server Integration]]
+- [[06 Engineering/MCP/Decision - Choose MCP Integration Boundary|Choose MCP Integration Boundary]]
 - [[06 Engineering/Memory/Recipe - Add a Memory Layer|Add a Memory Layer]]
+- [[06 Engineering/Memory/Decision - Choose a Memory Policy|Choose a Memory Policy]]
 
 ---
 

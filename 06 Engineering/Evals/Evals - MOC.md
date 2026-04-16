@@ -18,6 +18,7 @@ implementation layer สำหรับ eval harness, regression checks, benchma
 ## Notes Map
 
 - [[06 Engineering/Evals/Recipe - Build an Eval Harness|Build an Eval Harness]]
+- [[06 Engineering/Evals/Decision - Choose an Evaluation Gate|Choose an Evaluation Gate]]
 
 ---
 

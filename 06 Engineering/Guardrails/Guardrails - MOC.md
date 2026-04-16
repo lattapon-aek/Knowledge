@@ -18,6 +18,7 @@ implementation layer สำหรับ validation, review gates, fallback behav
 ## Notes Map
 
 - [[06 Engineering/Guardrails/Recipe - Add Output Validation|Add Output Validation]]
+- [[06 Engineering/Guardrails/Decision - Choose a Validation Boundary|Choose a Validation Boundary]]
 
 ---
 

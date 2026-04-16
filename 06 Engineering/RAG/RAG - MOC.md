@@ -18,6 +18,7 @@ implementation layer สำหรับงาน retrieval pipeline, chunking, r
 ## Notes Map
 
 - [[06 Engineering/RAG/Recipe - Build a RAG Pipeline|Build a RAG Pipeline]]
+- [[06 Engineering/RAG/Decision - Choose a Retrieval Strategy|Choose a Retrieval Strategy]]
 
 ---
 

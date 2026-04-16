@@ -18,6 +18,7 @@ implementation layer สำหรับ memory stores, retrieval policies, perso
 ## Notes Map
 
 - [[06 Engineering/Memory/Recipe - Add a Memory Layer|Add a Memory Layer]]
+- [[06 Engineering/Memory/Decision - Choose a Memory Policy|Choose a Memory Policy]]
 
 ---
 

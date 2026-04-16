@@ -103,6 +103,16 @@ Second brain สำหรับความรู้ด้าน AI systems, LLM
 - [[05 Use Cases/Use Cases - Evaluate an AI Agent]]
 - [[06 Engineering/Engineering - MOC|Engineering - MOC]]
 
+## Engineering Subdomains
+
+- [[06 Engineering/RAG/RAG - MOC|RAG]]
+- [[06 Engineering/Guardrails/Guardrails - MOC|Guardrails]]
+- [[06 Engineering/Evals/Evals - MOC|Evals]]
+- [[06 Engineering/MCP/MCP - MOC|MCP]]
+- [[06 Engineering/Memory/Memory - MOC|Memory]]
+- [[06 Engineering/Frameworks/Frameworks - MOC|Frameworks]]
+- [[06 Engineering/Architecture to Code/Architecture to Code - MOC|Architecture to Code]]
+
 ---
 
 ## Workflow And Standards

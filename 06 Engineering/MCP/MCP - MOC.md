@@ -18,6 +18,7 @@ implementation layer สำหรับ integrating MCP servers, client wiring, 
 ## Notes Map
 
 - [[06 Engineering/MCP/Recipe - Add MCP Server Integration|Add MCP Server Integration]]
+- [[06 Engineering/MCP/Decision - Choose MCP Integration Boundary|Choose MCP Integration Boundary]]
 
 ---
 

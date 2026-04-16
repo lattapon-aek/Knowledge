@@ -17,74 +17,74 @@ parent_note: "[[06 Engineering/Patterns/Patterns - MOC]]"
 
 ## ภาพรวม
 
-Communication between agents is a design choice, not an implementation detail. Use synchronous communication when you need strict ordering and simpler control flow. Use asynchronous communication when you need decoupling, retries, and better throughput.
+การสื่อสารระหว่าง agent เป็นเรื่องของ design choice ไม่ใช่รายละเอียดปลายทางของการ implement ใช้ synchronous communication เมื่ออยากได้ ordering ที่เข้มและ control flow ที่ง่ายกว่า ใช้ asynchronous communication เมื่ออยากได้ decoupling, retries, และ throughput ที่ดีกว่า
 
 ---
 
 ## การสื่อสารแบบ Synchronous
 
-Use when:
-- the caller should wait for an answer before continuing
-- ordering matters
-- the flow is short and easy to debug
-- you want simpler ownership and failure visibility
+ใช้เมื่อ:
+- caller ต้องรอคำตอบก่อนเดินต่อ
+- ordering สำคัญ
+- flow สั้นและ debug ง่าย
+- อยากได้ ownership และ failure visibility ที่ง่ายกว่า
 
-Characteristics:
+ลักษณะ:
 - request/response
-- tighter coupling
-- lower conceptual overhead
-- easier to reason about in a small pipeline
+- coupling แน่นกว่า
+- conceptual overhead ต่ำกว่า
+- reason ได้ง่ายกว่าใน pipeline ขนาดเล็ก
 
 ---
 
 ## การสื่อสารแบบ Asynchronous
 
-Use when:
-- agents can work independently
-- the system needs decoupling
-- retries and buffering matter
-- you expect bursts or long-running tasks
+ใช้เมื่อ:
+- agent ทำงานอิสระกันได้
+- ระบบต้องการ decoupling
+- retries และ buffering สำคัญ
+- คาดว่ามี burst หรือ task ที่รันนาน
 
-Characteristics:
+ลักษณะ:
 - queue / pub-sub / topic-based
-- better isolation between producers and consumers
-- requires more infrastructure discipline
-- needs retry, backpressure, and dead-letter handling
+- แยก producer กับ consumer ได้ดีกว่า
+- ต้องมีวินัยด้าน infrastructure มากกว่า
+- ต้องมี retry, backpressure, และ dead-letter handling
 
 ---
 
 ## เมื่อควรเลือก Sync
 
-- orchestrator calling a helper agent
-- low-latency handoff
-- strict sequencing
-- small number of agents
+- orchestrator เรียก helper agent
+- handoff ต้องการ latency ต่ำ
+- sequencing เข้ม
+- มีจำนวน agent ไม่มาก
 
 ## เมื่อควรเลือก Async
 
-- data collection followed by later analysis
-- independent specialist agents
-- long-running workflows
-- higher throughput or burst tolerance
+- เก็บข้อมูลก่อนแล้วค่อยวิเคราะห์ทีหลัง
+- specialist agent ทำงานอิสระกัน
+- workflow ที่รันนาน
+- ต้องการ throughput สูงหรือรับ burst ได้
 
 ---
 
 ## หลักออกแบบ
 
-- decide message semantics before choosing a transport
-- if async, define idempotency and retry policy up front
-- if multiple agents share a topic, define ownership and namespaces
-- keep the message payload small enough to avoid context bloat
-- do not use async just because it sounds more scalable
+- กำหนด semantics ของ message ก่อนเลือก transport
+- ถ้าเป็น async ให้กำหนด idempotency และ retry policy ไว้ตั้งแต่ต้น
+- ถ้ามีหลาย agent แชร์ topic เดียวกัน ให้กำหนด ownership และ namespace ให้ชัด
+- ทำ payload ให้เล็กพอเพื่อไม่ให้ context บวม
+- อย่าเลือก async แค่เพราะฟังดู scale ได้กว่า
 
 ---
 
 ## Failure Modes ที่พบบ่อย
 
-- treating a queue as a magic fix for poor orchestration
-- blocking a synchronous call chain that should have been async
-- losing the trace of who sent what and why
-- duplicating work because idempotency is undefined
+- มอง queue เป็นยาวิเศษสำหรับ orchestration ที่ไม่ดี
+- ปล่อยให้ synchronous call chain block ทั้งที่ควรเป็น async
+- trace หายว่าใครส่งอะไรและทำไม
+- งานซ้ำเพราะยังไม่ได้กำหนด idempotency
 
 ---
 

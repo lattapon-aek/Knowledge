@@ -15,14 +15,14 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 
 ## เมื่อควรใช้กรณีนี้
 
-Use this path when a single agent is no longer enough because the work has become:
+ใช้ path นี้เมื่อ single agent เริ่มไม่พอ เพราะงานกลายเป็น:
 - too broad for one prompt or one runtime loop
 - naturally parallelizable into specialized subtasks
 - dependent on explicit handoffs between roles
 - long-running enough to need checkpointing or resume
 - audit-sensitive enough to need traces and decision lineage
 
-Examples:
+ตัวอย่าง:
 - research agent + writer agent + reviewer agent
 - data collection + analysis + reporting pipeline
 - router agent that dispatches tasks to specialists
@@ -32,47 +32,47 @@ Examples:
 
 ## เส้นตัดสินใจ
 
-1. Start with a single agent plus tools.
-2. Ask whether the task is linear and deterministic.
-3. If yes, stay with a workflow or single-agent design.
-4. If the task is broad, parallel, or role-specialized, consider multi-agent.
-5. If agents must hand off work, persist state, or resume later, multi-agent infra becomes necessary.
-6. If you cannot observe the handoffs and failures, add observability before scaling further.
+1. เริ่มจาก single agent + tools ก่อน
+2. ถามว่างานเป็นเส้นตรงและ deterministic หรือไม่
+3. ถ้าใช่ ให้คงไว้ที่ workflow หรือ single-agent design
+4. ถ้างานกว้าง ขนานได้ หรือแยกบทบาทชัด ค่อยพิจารณา multi-agent
+5. ถ้า agent ต้อง handoff งาน, persist state, หรือ resume ภายหลัง, multi-agent infra เริ่มจำเป็น
+6. ถ้ายังมอง handoff และ failure ไม่ออก ให้เพิ่ม observability ก่อนขยายต่อ
 
 ---
 
 ## สัญญาณที่ควรย้าย
 
-- separate expertise is clearly required
-- different subtasks can run in parallel
-- state must survive interrupts or human approval
-- coordination overhead is lower than coordinating through one giant prompt
-- you need traceable ownership of decisions and outputs
+- ต้องใช้ expertise หลายแบบแยกกันชัด
+- subtasks ต่าง ๆ รันขนานกันได้
+- state ต้องอยู่รอดผ่าน interrupts หรือ human approval
+- ค่า coordination ต่ำกว่าการใช้ prompt ใหญ่ก้อนเดียว
+- ต้องการ traceable ownership ของ decisions และ outputs
 
 ---
 
 ## สัญญาณที่ควรอยู่ single-agent
 
-- the task is still narrow and linear
-- orchestration would be more expensive than the work itself
-- the main problem is prompt quality, not system decomposition
-- the output does not require role separation or shared state
+- งานยังแคบและเป็นเส้นตรง
+- orchestration แพงกว่างานที่ต้องทำ
+- ปัญหาหลักคือ prompt quality ไม่ใช่การแยกโครงระบบ
+- output ไม่จำเป็นต้องแยกบทบาทหรือใช้ shared state
 
 ---
 
-## Failure Modes ที่พบบ่อย
+## รูปแบบความล้มเหลวที่พบบ่อย
 
-- adding agents before the orchestration problem is understood
-- using multi-agent to hide an underspecified task
-- sharing state without ownership rules
-- introducing asynchronous messaging without retries or idempotency
-- lacking traces, making failures impossible to diagnose
+- เพิ่ม agent ก่อนจะเข้าใจปัญหา orchestration
+- ใช้ multi-agent เพื่อกลบงานที่ยังนิยามไม่ชัด
+- แชร์ state โดยไม่มี rules เรื่อง ownership
+- ใส่ asynchronous messaging โดยไม่มี retries หรือ idempotency
+- ไม่มี traces จน diagnose failure ไม่ได้
 
 ---
 
 ## ควรสร้างอะไรก่อน
 
-If the answer is “go multi-agent,” build in this order:
+ถ้าคำตอบคือ “ควรไป multi-agent” ให้สร้างตามลำดับนี้:
 1. role boundaries
 2. orchestrator / router
 3. shared state and persistence

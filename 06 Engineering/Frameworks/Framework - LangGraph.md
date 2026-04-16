@@ -1,15 +1,15 @@
 ---
 tags:
-  - agents
+  - engineering
   - frameworks
   - langgraph
 type: note
 status: draft
 source: ""
-parent_note: "[[Agent Frameworks - MOC]]"
+parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 ---
 
-# Agent Frameworks - LangGraph
+# Framework - LangGraph
 
 ## Summary
 
@@ -29,6 +29,7 @@ LangGraph เป็น framework เชิง graph orchestration สำหร�
 
 ## Related Notes
 
-- [[01 - Landscape]]
-- [[04 Synthesis/Synthesis - LLM to Agent Stack]]
-- [[Agent Frameworks - MOC]]
+- [[02 AI Systems/Agent Frameworks/Core/01 - Landscape|Framework landscape]]
+- [[04 Synthesis/Synthesis - LLM to Agent Stack|Synthesis - LLM to Agent Stack]]
+- [[06 Engineering/Frameworks/Frameworks - MOC|Frameworks - MOC]]
+

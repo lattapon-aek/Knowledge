@@ -20,3 +20,10 @@ parent_note: "[[06 Engineering/Engineering - MOC]]"
 - ควรเก็บสิ่งที่ผูกกับ ecosystem หรือ release ของ framework นั้นโดยตรง
 - ถ้าเป็นแนวคิดที่ไม่ผูก framework ให้ย้ายไป `02 AI Systems/` หรือ `04 Synthesis/`
 
+---
+
+## Notes Map
+
+- [[06 Engineering/Frameworks/Framework - LangGraph|LangGraph]]
+- [[06 Engineering/Frameworks/Framework - LangChain Agents|LangChain agents]]
+- [[06 Engineering/Frameworks/Framework - AutoGen vs CrewAI|AutoGen / CrewAI]]

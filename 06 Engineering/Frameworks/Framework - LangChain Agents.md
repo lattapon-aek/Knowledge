@@ -1,15 +1,15 @@
 ---
 tags:
-  - agents
+  - engineering
   - frameworks
   - langchain
 type: note
 status: draft
 source: ""
-parent_note: "[[Agent Frameworks - MOC]]"
+parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 ---
 
-# Agent Frameworks - LangChain Agents
+# Framework - LangChain Agents
 
 ## Summary
 
@@ -29,5 +29,6 @@ LangChain agents เน้น abstraction สำหรับ tool-calling แล
 
 ## Related Notes
 
-- [[02 AI Systems/Agent Frameworks/Implementations/Agent Frameworks - LangGraph]]
-- [[Agent Frameworks - MOC]]
+- [[06 Engineering/Frameworks/Framework - LangGraph|Framework - LangGraph]]
+- [[06 Engineering/Frameworks/Frameworks - MOC|Frameworks - MOC]]
+

@@ -21,7 +21,7 @@ parent_note: "[[Home]]"
 
 กติกาการอ่าน:
 - ไฟล์ที่มีเลข `01, 02, 03...` คือ core learning path
-- ไฟล์ใน `Implementations/` หรือไฟล์ที่ไม่มีเลขคือ implementation notes และหัวข้อเฉพาะ framework
+- ไฟล์ใน `06 Engineering/Frameworks/` คือ implementation notes และหัวข้อเฉพาะ framework
 
 ---
 
@@ -34,9 +34,9 @@ parent_note: "[[Home]]"
 - [[02 AI Systems/Agent Frameworks/Core/05 - OpenAI Agents and Responses Patterns|OpenAI agents and Responses patterns]]
 - [[02 AI Systems/Agent Frameworks/Core/06 - Evaluation and Observability|Evaluation and observability]]
 - [[02 AI Systems/Agent Frameworks/Core/07 - Checkpointing and Resumability|Checkpointing and resumability]]
-- [[02 AI Systems/Agent Frameworks/Implementations/Agent Frameworks - LangGraph|LangGraph]]
-- [[02 AI Systems/Agent Frameworks/Implementations/Agent Frameworks - LangChain Agents|LangChain agents]]
-- [[02 AI Systems/Agent Frameworks/Implementations/Agent Frameworks - AutoGen vs CrewAI|AutoGen / CrewAI]]
+- [[06 Engineering/Frameworks/Framework - LangGraph|LangGraph]]
+- [[06 Engineering/Frameworks/Framework - LangChain Agents|LangChain agents]]
+- [[06 Engineering/Frameworks/Framework - AutoGen vs CrewAI|AutoGen / CrewAI]]
 
 ---
 
@@ -78,9 +78,9 @@ parent_note: "[[Home]]"
 
 ### 4. Implementation Notes
 
-1. [[02 AI Systems/Agent Frameworks/Implementations/Agent Frameworks - LangGraph]]
-2. [[02 AI Systems/Agent Frameworks/Implementations/Agent Frameworks - LangChain Agents]]
-3. [[02 AI Systems/Agent Frameworks/Implementations/Agent Frameworks - AutoGen vs CrewAI]]
+1. [[06 Engineering/Frameworks/Framework - LangGraph]]
+2. [[06 Engineering/Frameworks/Framework - LangChain Agents]]
+3. [[06 Engineering/Frameworks/Framework - AutoGen vs CrewAI]]
 
 ---
 

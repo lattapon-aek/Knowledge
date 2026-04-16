@@ -1,16 +1,16 @@
 ---
 tags:
-  - agents
+  - engineering
   - frameworks
   - autogen
-  - creawai
+  - crewai
 type: note
 status: draft
 source: ""
-parent_note: "[[Agent Frameworks - MOC]]"
+parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 ---
 
-# Agent Frameworks - AutoGen vs CrewAI
+# Framework - AutoGen vs CrewAI
 
 ## Summary
 
@@ -30,5 +30,6 @@ parent_note: "[[Agent Frameworks - MOC]]"
 
 ## Related Notes
 
-- [[02 AI Systems/Agent Frameworks/Core/01 - Landscape]]
-- [[Agent Frameworks - MOC]]
+- [[02 AI Systems/Agent Frameworks/Core/01 - Landscape|Framework landscape]]
+- [[06 Engineering/Frameworks/Frameworks - MOC|Frameworks - MOC]]
+

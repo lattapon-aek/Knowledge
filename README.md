@@ -28,8 +28,7 @@ This repo is designed to stay portable:
 - `05 Use Cases/` practical reading paths and applied examples
 - `06 Engineering/` implementation, frameworks, coding notes, and subdomains like RAG, Guardrails, Evals, MCP, and Memory
 - `_Templates/` reusable note templates
-  - includes [Agent Brief - Raw Source Safe](_Templates/Agent%20Brief%20-%20Raw%20Source%20Safe.md) for portable agent instructions
-  - includes [Agent Brief - Vault Strict](_Templates/Agent%20Brief%20-%20Vault%20Strict.md) for strict layer-preserving agent instructions
+  - includes [Agent Brief - Vault](_Templates/Agent%20Brief%20-%20Vault.md) for strict layer-preserving agent instructions
 
 ## How to Use
 

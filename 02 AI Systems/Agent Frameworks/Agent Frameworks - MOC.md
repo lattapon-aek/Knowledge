@@ -49,6 +49,8 @@ parent_note: "[[Home]]"
 - [[03 Tools/Claude Code/Claude Code - Multi-Agent MOC]]
 - [[04 Synthesis/Synthesis - LLM to Agent Stack]]
 - [[04 Synthesis/Synthesis - Memory in Agents]]
+- [[06 Engineering/Decisions/Decision - Choose a Framework]]
+- [[06 Engineering/README]]
 
 ---
 

@@ -251,6 +251,7 @@ architecture อาจผูกกับ abstractions ของ framework มา
 - [[02 AI Systems/Agent Frameworks/Core/01 - Landscape]]
 - [[02 AI Systems/Evals/Core/09 - Observability and Feedback Loops]]
 - [[Agent Frameworks - MOC]]
+- [[06 Engineering/Decisions/Decision - Choose a Framework]]
 
 ---
 

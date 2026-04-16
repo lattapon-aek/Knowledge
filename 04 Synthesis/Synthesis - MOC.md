@@ -23,6 +23,7 @@ parent_note: "[[Home]]"
 - [[04 Synthesis/Synthesis - Memory vs RAG vs Context|Synthesis - Memory vs RAG vs Context]]
 - [[04 Synthesis/Synthesis - Prompting vs Fine-tuning vs RAG|Synthesis - Prompting vs Fine-tuning vs RAG]]
 - [[04 Synthesis/Synthesis - Safety, Reliability, and Evals|Synthesis - Safety, Reliability, and Evals]]
+- [[04 Synthesis/Synthesis - Single to Multi-Agent Infrastructure|Synthesis - Single to Multi-Agent Infrastructure]]
 
 ---
 

@@ -16,85 +16,85 @@ parent_note: "[[04 Synthesis/Synthesis - MOC]]"
 
 ## ภาพรวม
 
-multi-agent systems fail in ways single-agent systems usually do not. The biggest risks are not just bad answers, but broken handoffs, stale shared state, duplicated work, prompt injection through tool paths, and observability gaps that make the failure invisible.
+ระบบ multi-agent มักล้มเหลวในแบบที่ single-agent ไม่ค่อยเจอ ความเสี่ยงหลักไม่ใช่แค่คำตอบผิด แต่รวมถึง handoff ที่ขาดตอน, shared state ที่ล้าสมัย, งานซ้ำซ้อน, prompt injection ผ่านทาง tool, และช่องว่างด้าน observability ที่ทำให้ความผิดพลาดมองไม่เห็น
 
-This note separates failure modes by layer so they can be debugged and prevented systematically.
+โน้ตนี้แยก failure modes ตามชั้นของระบบ เพื่อให้ debug และป้องกันได้อย่างเป็นระบบ
 
 ---
 
 ## 1. ความผิดพลาดด้าน Orchestration
 
-### Handoff ที่หลุดเจ้าของ
+### Handoff ที่ไม่มีเจ้าของชัด
 
-An agent delegates work, but no one owns the next step.
+agent ตัวหนึ่งส่งงานต่อ แต่ไม่มีใครรับผิดชอบขั้นถัดไป
 
-Symptoms:
-- task disappears after a transfer
-- a specialist finishes but no downstream agent consumes the result
-- the orchestrator has no clear completion signal
+อาการ:
+- งานหายหลังการส่งต่อ
+- specialist ทำเสร็จแล้วแต่ไม่มี agent ถัดไปใช้ผลลัพธ์
+- orchestrator ไม่มีสัญญาณจบงานที่ชัด
 
-Why it happens:
-- handoff contract is implicit
-- task ownership is not encoded in state
-- routing logic does not know what “done” means
+สาเหตุ:
+- สัญญา handoff เป็นแบบไม่ชัดเจน
+- ownership ของงานไม่ได้ถูกเขียนไว้ใน state
+- logic สำหรับ routing ไม่รู้ว่า “เสร็จ” หมายถึงอะไร
 
-### เลือก Agent ถัดไปผิด
+### เลือก agent ถัดไปผิด
 
-The orchestrator selects the wrong specialist or loops between agents.
+orchestrator เลือก specialist ผิด หรือวนไปมาระหว่าง agent
 
-Symptoms:
-- repeated routing to the wrong role
-- unnecessary back-and-forth
-- task never converges
+อาการ:
+- routing ซ้ำไปยัง role ที่ไม่ถูกต้อง
+- มีการโต้ตอบกลับไปกลับมาที่ไม่จำเป็น
+- งานไม่เคย converge
 
-Why it happens:
-- role boundaries are too vague
-- router criteria are underspecified
-- there is no stop condition
+สาเหตุ:
+- ขอบเขตของ role คลุมเครือเกินไป
+- เงื่อนไขของ router ระบุไม่พอ
+- ไม่มี stop condition
 
-### ลำดับการทำงานแฝง
+### ลำดับการทำงานที่แฝงอยู่
 
-The system looks parallel on paper but is effectively sequential in execution.
+ระบบดูเหมือนทำงานขนานบนกระดาษ แต่จริง ๆ แล้วรันแบบเรียงลำดับ
 
-Symptoms:
-- parallel agents block on the same shared state
-- one agent becomes a bottleneck
-- turns are serialized unintentionally
+อาการ:
+- agent หลายตัวไปติดที่ shared state เดียวกัน
+- agent ตัวหนึ่งกลายเป็นคอขวด
+- turns ถูก serialize โดยไม่ตั้งใจ
 
-AutoGen group chat is explicitly sequential under a manager agent, so “multi-agent” does not automatically mean concurrent execution.
+AutoGen group chat เป็นตัวอย่างที่ชัดว่าแม้จะเป็น multi-agent ก็ยัง sequential ภายใต้ manager agent ได้ ดังนั้น “multi-agent” ไม่ได้แปลว่า concurrent เสมอไป
 
 ---
 
 ## 2. ความผิดพลาดด้าน State และ Memory
 
-### Shared State ที่ล้าสมัย
+### Shared state ที่ล้าสมัย
 
-One agent reads state that is no longer valid.
+agent ตัวหนึ่งอ่าน state ที่ไม่ถูกต้องแล้ว
 
-This is especially likely when:
-- state is persisted across long-running workflows
-- human approval interrupts the flow
-- state is updated by multiple participants
+จะเกิดได้บ่อยเมื่อ:
+- state ถูก persist ข้าม workflow ที่รันนาน
+- มี human approval มาขัดจังหวะ flow
+- state ถูกอัปเดตโดยผู้มีส่วนร่วมหลายคน
 
-LangGraph persistence and CrewAI flows both show that long-running agent workflows need explicit state persistence; that also means state versioning and ownership matter.
+ทั้ง LangGraph persistence และ CrewAI flows แสดงให้เห็นว่าการทำงานของ agent ที่รันนานต้องมี state persistence แบบชัดเจน และนั่นหมายความว่า versioning กับ ownership ของ state ก็สำคัญด้วย
 
-### มุมมอง State ที่ไม่ตรงกัน
+### มุมมอง state ที่ไม่ตรงกัน
 
-Different agents hold inconsistent versions of the same task state.
+agent แต่ละตัวถือ state ของงานเดียวกันคนละเวอร์ชัน
 
-Symptoms:
-- agents disagree on the current status
-- one agent acts on outdated context
-- repeated or conflicting outputs
+อาการ:
+- agent ไม่เห็นตรงกันว่าตอนนี้สถานะคืออะไร
+- agent ตัวหนึ่งทำงานจาก context ที่เก่า
+- ผลลัพธ์ซ้ำซ้อนหรือขัดกันเอง
 
 ### Memory ปนเปื้อน
 
-Long-term memory absorbs transient or incorrect information.
+long-term memory ดูดเอาข้อมูลชั่วคราวหรือข้อมูลผิดเข้าไปเก็บ
 
-Symptoms:
-- the system keeps recalling one-off mistakes
-- user preferences and task facts get mixed
-- a recovered thread behaves differently than expected
+อาการ:
+- ระบบชอบจำความผิดพลาดที่เกิดครั้งเดียว
+- preference ของผู้ใช้ปนกับข้อเท็จจริงของงาน
+- thread ที่กู้คืนมาแล้วทำงานไม่เหมือนที่คาด
 
 ---
 
@@ -102,90 +102,90 @@ Symptoms:
 
 ### งานซ้ำซ้อน
 
-Two agents do the same task because the communication channel or task assignment is unclear.
+agent สองตัวทำงานเดียวกันเพราะ channel สื่อสารหรือการมอบหมายงานไม่ชัด
 
 ### Queue ล่าช้าหรือ Backpressure
 
-Async messaging decouples agents, but it can create backlog or delayed execution if no one monitors the queue.
+การใช้ async messaging ช่วย decouple agent ได้ แต่ก็อาจทำให้ backlog หรือ execution ล่าช้า ถ้าไม่มีใครเฝ้าดู queue
 
 ### ข้อความกำกวม
 
-Agents send messages that are too large, too vague, or missing required fields.
+agent ส่งข้อความที่ยาวเกินไป, กว้างเกินไป, หรือขาดฟิลด์สำคัญ
 
 ### Context หายตอน Handoff
 
-The receiving agent gets a summary that omits critical evidence or constraints.
+agent ฝั่งรับได้แค่สรุปที่ตัดหลักฐานหรือข้อจำกัดสำคัญทิ้งไป
 
-This is common when the team relies on messages instead of structured state or checkpoints.
+เรื่องนี้เจอบ่อยเมื่อทีมพึ่งข้อความมากเกินไป แทนที่จะใช้ structured state หรือ checkpoint
 
 ---
 
 ## 4. ความผิดพลาดด้าน Tool และ Security
 
-### Prompt Injection ผ่าน Tool Inputs
+### การโจมตีแบบ Prompt Injection ผ่าน tool input
 
-OpenAI’s agent safety guidance explicitly warns that untrusted text or data entering a workflow can try to override instructions or cause unintended downstream actions.
+แนวทาง agent safety ของ OpenAI เตือนชัดว่า ข้อความหรือข้อมูลที่ไม่น่าไว้วางใจซึ่งไหลเข้ามาใน workflow สามารถพยายาม override instruction หรือทำให้เกิด action ที่ไม่ตั้งใจได้
 
-This matters more in multi-agent systems because:
-- one agent may process untrusted content
-- another agent may receive the transformed result
-- tool calls can carry malicious payloads downstream
+เรื่องนี้ยิ่งสำคัญในระบบ multi-agent เพราะ:
+- agent ตัวหนึ่งอาจประมวลผลเนื้อหาที่ไม่น่าไว้วางใจ
+- agent อีกตัวอาจรับผลลัพธ์ที่ถูกแปลงแล้วต่อ
+- tool call สามารถพา payload อันตรายไหลลงไปต่อได้
 
-### Tool Access กว้างเกินไป
+### สิทธิ์เข้าถึง tool กว้างเกินไป
 
-If every agent can use every tool, the blast radius of a bad decision grows quickly.
+ถ้า agent ทุกตัวใช้ tool ได้ทุกตัว ผลกระทบจากการตัดสินใจผิดจะขยายตัวเร็วมาก
 
-### Handoff ที่ไม่ปลอดภัยไปยัง MCP หรือ External Tools
+### Handoff ที่ไม่ปลอดภัยไปยัง MCP หรือ tool ภายนอก
 
-If the system does not separate read-only from side-effecting actions, a simple routing mistake can become an actual external action.
+ถ้าระบบไม่แยก action แบบอ่านอย่างเดียวออกจาก action ที่มีผลข้างเคียง การ route ผิดเพียงครั้งเดียวอาจกลายเป็น action ภายนอกจริงได้
 
 ---
 
 ## 5. ความผิดพลาดด้าน Observability
 
-### มอง Trace ไม่เห็น
+### มอง trace ไม่เห็น
 
-OpenAI trace grading emphasizes that traces capture decisions, tool calls, and reasoning steps; without them, workflow-level failures are hard to locate.
+OpenAI trace grading เน้นว่า traces ควรจับ decision, tool call, และ reasoning step ไว้ ถ้าไม่มีสิ่งเหล่านี้ ความผิดพลาดระดับ workflow จะตามหายาก
 
-### เห็นแค่ Final Answer
+### เห็นแค่ final answer
 
-The output looks fine, but the process was expensive, unsafe, or brittle.
+ผลลัพธ์ดูดี แต่กระบวนการข้างในกลับแพง, ไม่ปลอดภัย, หรือเปราะ
 
-### ไม่มีสัญญาณ Regression
+### ไม่มีสัญญาณ regression
 
-The system changes over time, but nobody notices that handoff quality or failure recovery got worse.
+ระบบเปลี่ยนไปตามเวลา แต่ไม่มีใครสังเกตว่าคุณภาพของ handoff หรือการ recovery แย่ลง
 
-OpenAI agent evals and trace grading are designed to make those regressions visible.
+OpenAI agent evals และ trace grading ถูกออกแบบมาเพื่อทำให้ regression แบบนี้มองเห็นได้
 
 ---
 
 ## 6. ความผิดพลาดด้าน Recovery
 
-### Retry Storm
+### Retry storm จากการ retry ซ้ำ
 
-Multiple agents retry the same failing step without a common policy.
+agent หลายตัว retry ขั้นตอนที่ล้มเหลวเดียวกันโดยไม่มีนโยบายร่วม
 
 ### วนลูปไม่จบ
 
-The team keeps revisiting the same unresolved branch.
+ทีมกลับไปแตะ branch เดิมที่ยังไม่จบซ้ำ ๆ
 
 ### Recovery ได้แค่บางส่วน
 
-One subtask is recovered, but the system cannot resume the full workflow consistently.
+subtask หนึ่งกู้คืนได้ แต่ทั้งระบบไม่สามารถ resume workflow เดิมได้อย่างสม่ำเสมอ
 
-LangGraph interrupt/resume and CrewAI resume semantics show why recovery must be designed at the workflow level, not only at the tool-call level.
+แนวคิด interrupt/resume ของ LangGraph และ semantics ของ resume ใน CrewAI แสดงให้เห็นว่าการออกแบบ recovery ต้องทำที่ระดับ workflow ไม่ใช่แค่ระดับ tool call
 
 ---
 
 ## กติกาป้องกันความผิดพลาด
 
-- make ownership explicit at every handoff
-- persist state with versioning and stable identifiers
-- keep agent roles narrow and observable
-- separate read-only agents from agents that can cause side effects
-- require traces before you optimize
-- use evals on trajectories, not just final answers
-- define retry and escalation limits up front
+- ทำให้ ownership ชัดในทุก handoff
+- persist state พร้อม versioning และ stable identifier
+- จำกัด role ของ agent ให้แคบและสังเกตได้
+- แยก agent แบบอ่านอย่างเดียวออกจาก agent ที่ทำ side effect ได้
+- บังคับให้มี traces ก่อนค่อย optimize
+- ใช้ eval กับ trajectory ไม่ใช่แค่ final answer
+- กำหนดขีดจำกัดของ retry และ escalation ไว้ล่วงหน้า
 
 ---
 

@@ -35,6 +35,7 @@ parent_note: "[[Home]]"
 - [[01 Foundations/LLM Foundations/09 - Serving Metrics และระบบ Production LLM|Serving Metrics และระบบ Production LLM]] — caching, latency, และ trade-offs ของ context length
 - [[02 AI Systems/RAG/RAG - MOC|RAG]] — chunking strategy มีผลต่อปริมาณข้อมูลที่เอาเข้า context ได้จริง
 - [[02 AI Systems/AI Agent Fundamentals/AI Agent Fundamentals - MOC|AI Agent Fundamentals]] — multi-turn agents ทำให้ปัญหาการสะสมของ context ชัดขึ้น
+- [[06 Engineering/README]] — implementation layer สำหรับ cache, prompt shaping, retrieval recipes, และ runtime decisions
 
 ---
 

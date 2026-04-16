@@ -128,6 +128,7 @@ flowchart TD
 - [[02 AI Systems/Evals/Evals - MOC|Evals]] — ใช้วัดคุณภาพทั้ง model behavior และ downstream system outcomes
 - [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails]] — reliability, validation, fallback, และ safety controls
 - [[02 AI Systems/Memory Systems/Memory Systems - MOC|Memory Systems]] — บาง memory retrieval patterns ใช้ vector search เป็น recall layer
+- [[06 Engineering/README]] — implementation layer สำหรับ framework, recipe, decision, และ project-specific notes
 
 ---
 

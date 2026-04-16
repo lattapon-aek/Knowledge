@@ -40,6 +40,7 @@ parent_note: "[[Home]]"
 - [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails]] — หลายปัญหาต้องแก้ด้วย validation, fallback, หรือ policy ไม่ใช่ prompt อย่างเดียว
 - [[02 AI Systems/RAG/RAG - MOC|RAG]] — งาน factual หรือ knowledge-intensive มักต้องพึ่ง retrieval ร่วมกับ prompting
 - [[01 Foundations/LLM Foundations/12 - Weights, Context, Retrieval และ Tools|Weights, Context, Retrieval และ Tools]] — ช่วยตัดสินว่าเมื่อไรควรแก้ด้วย prompt, retrieval, หรือ tools
+- [[06 Engineering/README]] — implementation layer สำหรับ prompt-dependent recipes, framework-specific patterns, และ engineering decisions
 
 ---
 

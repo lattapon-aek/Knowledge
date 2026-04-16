@@ -12,13 +12,13 @@ parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 
 # Framework - OpenAI Agents and Responses Patterns
 
-## Summary
+## ภาพรวม
 
 ใน ecosystem ของ OpenAI ตอนนี้ pattern สำคัญไม่ได้เริ่มจาก framework ภายนอกเสมอไป แต่เริ่มจากการประกอบ `Responses API`, `tools`, `stateful interactions`, และ `evaluation/trace features` เข้าด้วยกันให้เป็น agent runtime ที่เหมาะกับงาน
 
 ---
 
-## Scope
+## ขอบเขต
 
 - Responses API as runtime interface
 - tools as capability layer
@@ -40,7 +40,7 @@ parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 
 ---
 
-## Pattern 1: Responses API เป็น runtime interface กลาง
+## รูปแบบ 1: Responses API เป็น runtime interface กลาง
 
 หน้า `Responses` ระบุว่า API นี้รองรับ:
 - text และ image inputs
@@ -62,7 +62,7 @@ flowchart LR
 
 ---
 
-## Pattern 2: Tools เป็น capability layer
+## รูปแบบ 2: Tools เป็น capability layer
 
 หน้า `Using tools` ของ OpenAI ระบุชัดว่าระบบสามารถ extend model capabilities ผ่าน:
 - web search
@@ -79,7 +79,7 @@ flowchart LR
 
 ---
 
-## Pattern 3: Workflow ก่อน agent ถ้างานยังชัด
+## รูปแบบ 3: ใช้ workflow ก่อน agent ถ้างานยังชัด
 
 หน้า `Agent Builder` ของ OpenAI ใช้คำว่า workflow ซ้ำชัดเจน และอธิบายว่าการสร้าง agent ที่มีประโยชน์คือการออกแบบ workflow ของ agents, tools, และ control-flow logic
 
@@ -90,7 +90,7 @@ flowchart LR
 
 ---
 
-## Pattern 4: Knowledge และ memory ควรแยกจาก model core
+## รูปแบบ 4: แยก knowledge และ memory ออกจาก model core
 
 หน้า `Agents` และ `File search` ของ OpenAI แยกชัดว่า knowledge/memory ภายนอกมาจาก:
 - vector stores
@@ -104,7 +104,7 @@ flowchart LR
 
 ---
 
-## Pattern 5: Optimization ต้องมี traces และ evals
+## รูปแบบ 5: การปรับปรุงต้องมี traces และ evals
 
 หน้า `Agents`, `Agent evals`, และ `Trace grading` ของ OpenAI ชี้ตรงกันว่า:
 - agent performance ควรถูกวัดด้วย evals
@@ -129,7 +129,7 @@ flowchart TD
 
 ---
 
-## Architectural Inference For This Vault
+## ข้อสรุปเชิงสถาปัตยกรรมสำหรับ vault นี้
 
 จาก official docs เหล่านี้ เราสรุป pattern กลางของ OpenAI-style agent systems ได้ว่า:
 - `Responses` เป็น execution interface
@@ -142,7 +142,7 @@ flowchart TD
 
 ---
 
-## When This Pattern Fits
+## เมื่อ pattern นี้เหมาะ
 
 เหมาะเมื่อ:
 - ต้องการประกอบ tools หลายประเภทผ่าน runtime เดียว
@@ -157,7 +157,7 @@ flowchart TD
 
 ---
 
-## Design Rules
+## หลักออกแบบ
 
 - เริ่มจาก workflow ที่ชัดก่อนเพิ่ม autonomy
 - แยก reasoning layer ออกจาก tool capability layer
@@ -167,7 +167,7 @@ flowchart TD
 
 ---
 
-## Cross Links
+## ลิงก์ที่เกี่ยวข้อง
 
 - [[02 AI Systems/AI Agent Fundamentals/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
 - [[02 AI Systems/AI Agent Fundamentals/08 - Workflow vs AI Agent]]
@@ -178,7 +178,7 @@ flowchart TD
 
 ---
 
-## Official References
+## แหล่งอ้างอิงทางการ
 
 - OpenAI Agents: https://platform.openai.com/docs/guides/agents
 - OpenAI Responses API: https://platform.openai.com/docs/api-reference/responses/compact?api-mode=responses
@@ -186,4 +186,3 @@ flowchart TD
 - OpenAI File Search: https://platform.openai.com/docs/guides/tools-file-search/
 - OpenAI Agent Evals: https://platform.openai.com/docs/guides/agent-evals
 - OpenAI Trace Grading: https://platform.openai.com/docs/guides/trace-grading
-

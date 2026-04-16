@@ -15,14 +15,14 @@ parent_note: "[[06 Engineering/Engineering - MOC]]"
 
 ---
 
-## Notes
+## หมายเหตุ
 
 - ควรเก็บสิ่งที่ผูกกับ ecosystem หรือ release ของ framework นั้นโดยตรง
 - ถ้าเป็นแนวคิดที่ไม่ผูก framework ให้ย้ายไป `02 AI Systems/` หรือ `04 Synthesis/`
 
 ---
 
-## Notes Map
+## แผนที่โน้ต
 
 - [[06 Engineering/Frameworks/Framework - LangGraph|LangGraph]]
 - [[06 Engineering/Frameworks/Framework - LangChain Agents|LangChain agents]]

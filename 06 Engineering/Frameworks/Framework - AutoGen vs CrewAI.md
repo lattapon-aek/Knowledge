@@ -12,13 +12,13 @@ parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 
 # Framework - AutoGen vs CrewAI
 
-## Summary
+## ภาพรวม
 
 สรุปเชิงเปรียบเทียบจาก official docs: AutoGen และ CrewAI ต่างรองรับ multi-agent workflows แต่ emphasis, runtime model, และ ergonomics ไม่เหมือนกัน
 
 ---
 
-## Scope
+## ขอบเขต
 
 - role-based agents
 - conversation patterns
@@ -28,7 +28,7 @@ parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 
 ---
 
-## Related Notes
+## โน้ตที่เกี่ยวข้อง
 
 - [[02 AI Systems/Agent Frameworks/Core/01 - Landscape|Framework landscape]]
 - [[06 Engineering/Frameworks/Frameworks - MOC|Frameworks - MOC]]

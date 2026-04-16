@@ -1,16 +1,16 @@
 ---
 tags:
-  - agent
+  - engineering
+  - architecture
   - tools
-  - runtime
   - schemas
 type: note
 status: draft
 source: "OpenAI Docs, Anthropic Docs, MCP Official Docs"
-parent_note: "[[AI Agent Fundamentals - MOC]]"
+parent_note: "[[06 Engineering/Architecture to Code/Architecture to Code - MOC]]"
 ---
 
-# AI Agent Fundamentals - Tool Schemas and Runtime Integration
+# Architecture - Tool Schemas and Runtime Integration
 
 > โน้ตเสริมสำหรับอธิบายว่า tool schemas เข้าสู่ runtime request อย่างไร, runtime validate และ execute อย่างไร, และผลลัพธ์ถูกส่งกลับให้ model แบบไหน
 
@@ -151,3 +151,4 @@ MCP เพิ่ม abstraction อีกชั้นโดยนิยาม pr
   https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview
 - MCP: Architecture  
   https://modelcontextprotocol.io/docs/learn/architecture
+

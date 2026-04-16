@@ -108,7 +108,7 @@ sequenceDiagram
 
 SDK หรือ framework อาจมี helper abstractions ต่างกัน แต่แกนกลางยังเหมือนเดิมคือ model เห็น tool schema, runtime execute, แล้วผลลัพธ์ถูกส่งกลับเข้า conversation
 
-> ถ้าต้องการรายละเอียดเรื่อง schema, runtime integration, และ execution boundary ให้ดู [[AI Agent Fundamentals - Tool Schemas and Runtime Integration]]
+> ถ้าต้องการรายละเอียดเรื่อง schema, runtime integration, และ execution boundary ให้ดู [[06 Engineering/Architecture to Code/Architecture - Tool Schemas and Runtime Integration]]
 
 ---
 
@@ -171,7 +171,7 @@ flowchart LR
 - [[13 - Messages, System Prompt และ Chat Templates]]
 - [[06 - วงจร Thought-Action-Observation (TAO)]]
 - [[04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
-- [[AI Agent Fundamentals - Tool Schemas and Runtime Integration]]
+- [[06 Engineering/Architecture to Code/Architecture - Tool Schemas and Runtime Integration]]
 - [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]] — ดู protocol layer สำหรับ tools, resources, prompts, และ consent
 - [[02 AI Systems/Agent Frameworks/Agent Frameworks - MOC|Agent Frameworks - MOC]] — ดูว่า framework ต่าง ๆ จัดการ tool orchestration และ state อย่างไร
 - [[03 Tools/Claude Code/01 - Claude Code คืออะไร|Claude Code Tools]] — ตัวอย่าง production tools

@@ -58,7 +58,7 @@ diagram นี้เป็น conceptual overview ของหมวดนี้
 - [[12 - LLM พื้นฐาน]] — LLM prerequisites
 - [[13 - Messages, System Prompt และ Chat Templates]] — runtime prompt/message layer
 - [[14 - Tools: การออกแบบและทำงาน]] — tools, schemas, MCP connection
-- [[AI Agent Fundamentals - Tool Schemas and Runtime Integration]] — runtime contract ของ tool schemas, validation, execution, และ tool results
+- [[06 Engineering/Architecture to Code/Architecture - Tool Schemas and Runtime Integration]] — runtime contract ของ tool schemas, validation, execution, และ tool results
 
 ---
 

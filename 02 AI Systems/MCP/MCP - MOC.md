@@ -33,7 +33,7 @@ parent_note: "[[Home]]"
 - [[03 - Core Primitives: Tools, Resources, Prompts]] — ความสามารถฝั่ง server, ฟีเจอร์เสริม, capability matrix
 - [[04 - Client Features: Sampling, Roots, Elicitation]] — ความสามารถฝั่ง client, logging
 - [[05 - Security, Consent และ Authorization]] — consent, authorization, security checklist
-- [[06 - HuggingFace MCP Course และ Implementation Guide]] — Course Units 0–3.1, Gradio MCP, Implementation Blueprint, When to use/not use MCP
+- [[06 Engineering/Recipes/Recipe - HuggingFace MCP Course และ Implementation Guide]] — Course Units 0–3.1, Gradio MCP, Implementation Blueprint, When to use/not use MCP
 
 ---
 
@@ -62,7 +62,7 @@ parent_note: "[[Home]]"
 
 ### 3. Practical Orientation
 
-1. [[06 - HuggingFace MCP Course และ Implementation Guide]]
+1. [[06 Engineering/Recipes/Recipe - HuggingFace MCP Course และ Implementation Guide]]
 
 ---
 

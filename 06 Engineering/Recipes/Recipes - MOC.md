@@ -13,3 +13,8 @@ parent_note: "[[06 Engineering/Engineering - MOC]]"
 
 how-to แบบทีละขั้นสำหรับงาน engineering ที่ทำซ้ำได้
 
+---
+
+## Notes Map
+
+- [[06 Engineering/Recipes/Recipe - HuggingFace MCP Course และ Implementation Guide|HuggingFace MCP Course และ Implementation Guide]]

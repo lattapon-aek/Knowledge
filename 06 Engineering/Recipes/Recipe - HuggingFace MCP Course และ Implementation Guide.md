@@ -8,12 +8,10 @@ tags:
 type: note
 status: draft
 source: "MCP/MCP_Knowledge_Base.md (sections 10–18)"
-parent_note: "[[MCP - MOC]]"
+parent_note: "[[06 Engineering/Recipes/Recipes - MOC]]"
 ---
 
-# HuggingFace MCP Course และ Implementation Guide
-
-
+# Recipe - HuggingFace MCP Course และ Implementation Guide
 
 ---
 
@@ -238,3 +236,4 @@ flowchart LR
 - [[02 - Architecture: Host, Client, Server]]
 - [[03 - Core Primitives: Tools, Resources, Prompts]]
 - [[MCP - MOC]]
+

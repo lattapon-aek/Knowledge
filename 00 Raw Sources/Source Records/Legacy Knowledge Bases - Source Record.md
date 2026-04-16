@@ -105,4 +105,4 @@ record นี้รวบรวมแหล่งอ้างอิงแบบ 
 - [[02 AI Systems/MCP/Core/03 - Core Primitives: Tools, Resources, Prompts]]
 - [[02 AI Systems/MCP/Client/04 - Client Features: Sampling, Roots, Elicitation]]
 - [[02 AI Systems/MCP/Security/05 - Security, Consent และ Authorization]]
-- [[02 AI Systems/MCP/Implementation/06 - HuggingFace MCP Course และ Implementation Guide]]
+- [[06 Engineering/Recipes/Recipe - HuggingFace MCP Course และ Implementation Guide]]

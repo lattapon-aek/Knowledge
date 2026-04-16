@@ -124,3 +124,4 @@ flowchart TD
 4. [[02 AI Systems/Evals/Evals - MOC]]
 5. [[02 AI Systems/Agent Frameworks/Agent Frameworks - MOC]]
 6. [[04 Synthesis/Synthesis - Agent Runtime Layers]]
+7. [[06 Engineering/README]]

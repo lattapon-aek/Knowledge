@@ -172,6 +172,7 @@ flowchart LR
 - [[06 - วงจร Thought-Action-Observation (TAO)]]
 - [[04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
 - [[06 Engineering/Architecture to Code/Architecture - Tool Schemas and Runtime Integration]]
+- [[06 Engineering/README]]
 - [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]] — ดู protocol layer สำหรับ tools, resources, prompts, และ consent
 - [[02 AI Systems/Agent Frameworks/Agent Frameworks - MOC|Agent Frameworks - MOC]] — ดูว่า framework ต่าง ๆ จัดการ tool orchestration และ state อย่างไร
 - [[03 Tools/Claude Code/01 - Claude Code คืออะไร|Claude Code Tools]] — ตัวอย่าง production tools

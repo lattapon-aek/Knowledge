@@ -36,6 +36,7 @@ Second brain สำหรับความรู้ด้าน AI systems, LLM
 - [[03 Tools/Claude Code/Claude Code - Multi-Agent MOC|Claude Code]]
 - [[04 Synthesis/Synthesis - MOC|Synthesis]]
 - [[05 Use Cases/Use Cases - MOC|Use Cases]]
+- [[06 Engineering/Engineering - MOC|Engineering]]
 
 ---
 
@@ -100,6 +101,7 @@ Second brain สำหรับความรู้ด้าน AI systems, LLM
 - [[05 Use Cases/Use Cases - Design Guardrails for Tool Use]]
 - [[05 Use Cases/Use Cases - Design Memory for an AI Agent]]
 - [[05 Use Cases/Use Cases - Evaluate an AI Agent]]
+- [[06 Engineering/Engineering - MOC|Engineering - MOC]]
 
 ---
 

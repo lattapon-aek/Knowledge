@@ -47,7 +47,11 @@ vault นี้มี 3 ชั้นหลัก:
    - คือชั้น wiki
    - agent สามารถสร้าง, แก้, สรุป, cross-link, และปรับปรุงได้
 
-3. Schema และ workflow docs
+3. `06 Engineering/`
+   - คือชั้น implementation และ framework-specific engineering notes
+   - agent สามารถสร้าง, แก้, สรุป, cross-link, และปรับปรุงได้
+
+4. Schema และ workflow docs
    - เช่น `AGENTS.md`, `Home.md`, `index.md`, `Vault Standards - *.md`
    - ใช้เป็นกติกากลางสำหรับการดูแล vault
 
@@ -63,6 +67,7 @@ vault นี้มี 3 ชั้นหลัก:
 - [[00 Raw Sources/Articles/Source Manifests - MOC|Source Manifests - MOC]] — entry points สำหรับ source families ที่ active
 - [[04 Synthesis/Synthesis - MOC|Synthesis - MOC]] — ชั้นสังเคราะห์ข้ามหมวด
 - [[05 Use Cases/Use Cases - MOC|Use Cases - MOC]] — reading paths แบบใช้งานจริง
+- [[06 Engineering/Engineering - MOC|Engineering - MOC]] — ชั้น implementation และ framework-specific notes
 - [[Vault Standards - Properties]] — มาตรฐาน metadata
 - [[Vault Workflow - Capture to Evergreen]] — workflow ของ note lifecycle
 
@@ -99,6 +104,7 @@ vault นี้มี 3 ชั้นหลัก:
 - หน้าแม่ใช้ `Topic - MOC.md`
 - โน้ตสังเคราะห์ใช้ `Synthesis - ...`
 - use cases ใช้ `Use Cases - ...`
+- engineering notes ใช้ `Architecture to Code - ...`, `Framework - ...`, `Pattern - ...`, `Recipe - ...`, `Decision - ...`, หรือ `Project Notes - ...`
 - standards/workflow ใช้ `Vault Standards - ...` หรือ `Vault Workflow - ...`
 
 ### 4. Link Discipline

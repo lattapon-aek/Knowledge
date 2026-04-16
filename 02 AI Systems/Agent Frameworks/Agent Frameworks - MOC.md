@@ -31,7 +31,7 @@ parent_note: "[[Home]]"
 - [[02 AI Systems/Agent Frameworks/Core/02 - Framework vs Custom Build|Framework vs custom build]]
 - [[02 AI Systems/Agent Frameworks/Core/03 - State and Memory|State and memory management]]
 - [[02 AI Systems/Agent Frameworks/Core/04 - Tool Orchestration|Tool orchestration]]
-- [[02 AI Systems/Agent Frameworks/Core/05 - OpenAI Agents and Responses Patterns|OpenAI agents and Responses patterns]]
+- [[06 Engineering/Frameworks/Framework - OpenAI Agents and Responses Patterns|OpenAI agents and Responses patterns]]
 - [[02 AI Systems/Agent Frameworks/Core/06 - Evaluation and Observability|Evaluation and observability]]
 - [[02 AI Systems/Agent Frameworks/Core/07 - Checkpointing and Resumability|Checkpointing and resumability]]
 - [[06 Engineering/Frameworks/Framework - LangGraph|LangGraph]]
@@ -66,7 +66,7 @@ parent_note: "[[Home]]"
 2. [[02 AI Systems/Agent Frameworks/Core/02 - Framework vs Custom Build]]
 3. [[02 AI Systems/Agent Frameworks/Core/03 - State and Memory]]
 4. [[02 AI Systems/Agent Frameworks/Core/04 - Tool Orchestration]]
-5. [[02 AI Systems/Agent Frameworks/Core/05 - OpenAI Agents and Responses Patterns]]
+5. [[06 Engineering/Frameworks/Framework - OpenAI Agents and Responses Patterns]]
 6. [[02 AI Systems/Agent Frameworks/Core/06 - Evaluation and Observability]]
 7. [[02 AI Systems/Agent Frameworks/Core/07 - Checkpointing and Resumability]]
 

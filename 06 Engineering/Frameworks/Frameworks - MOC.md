@@ -27,3 +27,4 @@ parent_note: "[[06 Engineering/Engineering - MOC]]"
 - [[06 Engineering/Frameworks/Framework - LangGraph|LangGraph]]
 - [[06 Engineering/Frameworks/Framework - LangChain Agents|LangChain agents]]
 - [[06 Engineering/Frameworks/Framework - AutoGen vs CrewAI|AutoGen / CrewAI]]
+- [[06 Engineering/Frameworks/Framework - OpenAI Agents and Responses Patterns|OpenAI agents and Responses patterns]]

@@ -1,16 +1,16 @@
 ---
 tags:
-  - agents
+  - engineering
   - frameworks
   - openai
   - responses
 type: note
 status: draft
 source: "OpenAI Agents Guide · OpenAI Responses API · OpenAI Using Tools"
-parent_note: "[[Agent Frameworks - MOC]]"
+parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 ---
 
-# Agent Frameworks - OpenAI Agents and Responses Patterns
+# Framework - OpenAI Agents and Responses Patterns
 
 ## Summary
 
@@ -186,3 +186,4 @@ flowchart TD
 - OpenAI File Search: https://platform.openai.com/docs/guides/tools-file-search/
 - OpenAI Agent Evals: https://platform.openai.com/docs/guides/agent-evals
 - OpenAI Trace Grading: https://platform.openai.com/docs/guides/trace-grading
+

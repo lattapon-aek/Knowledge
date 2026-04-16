@@ -13,7 +13,7 @@ parent_note: "[[Agent Frameworks - MOC]]"
 
 ## ภาพรวม
 
-framework ช่วยลดเวลาประกอบระบบ แต่เพิ่ม abstraction, dependency, และข้อจำกัดบางอย่าง จึงต้องแยกให้ชัดว่าเมื่อไรควรใช้ framework และเมื่อไรควรเขียน runtime หรือ orchestration เอง
+framework ช่วยลดเวลาประกอบระบบ แต่เพิ่ม abstraction, dependency, และข้อจำกัดบางอย่าง
 
 ---
 
@@ -35,7 +35,7 @@ framework ช่วยลดเวลาประกอบระบบ แต่
 - ต้องการ distributed runtime หรือแค่ local workflow
 - ต้องการ human approval, checkpoints, tracing, หรือไม่
 
-framework กับ custom build จึงเป็นเรื่อง tradeoff ไม่ใช่คำตอบตายตัว
+framework กับ custom build จึงเป็น tradeoff ของ runtime needs
 
 ---
 
@@ -49,7 +49,7 @@ framework มักคุ้มเมื่อระบบเริ่มมี:
 - multi-agent communication
 - observability needs
 
-official docs ของ LangGraph, AutoGen, และ Semantic Kernel ต่างชี้ไปทางเดียวกันว่า framework มีคุณค่าเมื่อ orchestration และ integration complexity สูงขึ้น
+official docs ของ LangGraph, AutoGen, และ Semantic Kernel ชี้ไปทางเดียวกันว่า framework มีคุณค่าเมื่อ orchestration และ integration complexity สูงขึ้น
 
 ### สิ่งที่ framework มักให้มา
 
@@ -258,8 +258,3 @@ architecture อาจผูกกับ abstractions ของ framework มา
 ## แหล่งอ้างอิงทางการ
 
 - LangGraph Overview: https://langchain-ai.github.io/langgraphjs/reference/modules/langgraph.html
-- AutoGen Overview: https://microsoft.github.io/autogen/stable/index.html
-- AutoGen Core: https://microsoft.github.io/autogen/stable/user-guide/core-user-guide/index.html
-- Semantic Kernel Overview: https://learn.microsoft.com/en-us/semantic-kernel/overview/
-- Semantic Kernel Agent Framework: https://learn.microsoft.com/en-us/semantic-kernel/frameworks/agent/
-- CrewAI Processes: https://docs.crewai.com/en/concepts/processes

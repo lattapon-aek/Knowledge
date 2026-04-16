@@ -34,3 +34,10 @@ parent_note: "[[Home]]"
 - [[02 AI Systems/Memory Systems/Memory Systems - MOC|Memory Systems - MOC]]
 - [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]]
 - [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]
+- [[06 Engineering/README|Engineering - README]]
+
+---
+
+## Implementation Bridge
+
+- [[06 Engineering/README]]

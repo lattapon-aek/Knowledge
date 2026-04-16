@@ -18,78 +18,78 @@ parent_note: "[[06 Engineering/Architecture to Code/Architecture to Code - MOC]]
 
 ## ภาพรวม
 
-Multi-agent deployment is a topology choice, not just an implementation detail. The main questions are where state lives, how agents communicate, how failures are resumed, and whether the runtime is local, containerized, or hosted on a platform that understands long-running stateful workflows.
+การ deploy ระบบ multi-agent เป็นเรื่องของ topology ไม่ใช่แค่รายละเอียดการ implement คำถามหลักคือ state อยู่ที่ไหน, agent สื่อสารกันอย่างไร, resume ความล้มเหลวอย่างไร, และ runtime จะเป็น local, containerized, หรือ hosted บน platform ที่เข้าใจ long-running stateful workflows
 
 ---
 
-## ตัวเลือก Topology
+## ตัวเลือกการวางระบบ
 
-### 1. Prototype แบบ Single Process
+### 1. ต้นแบบแบบ Process เดียว
 
-Best for:
-- early experiments
-- local debugging
-- low concurrency
-- simple sequential workflows
+เหมาะกับ:
+- การทดลองระยะแรก
+- debug บนเครื่องตัวเอง
+- concurrency ต่ำ
+- workflow แบบ sequential ที่ไม่ซับซ้อน
 
-Characteristics:
-- one orchestrator process
-- in-memory coordination or local checkpointing
-- easiest traceability
-- weakest isolation
+ลักษณะ:
+- มี orchestrator process เดียว
+- ใช้ in-memory coordination หรือ local checkpointing
+- trace ย้อนกลับง่ายที่สุด
+- isolation อ่อนที่สุด
 
-LangGraph is explicitly designed as a low-level orchestration runtime for long-running, stateful agents. Its durable execution model makes sense even in a single-process prototype if you want resumability later.
+LangGraph ถูกออกแบบมาเป็น low-level orchestration runtime สำหรับ long-running, stateful agents อย่างชัดเจน โมเดล durable execution ของมันยังมีประโยชน์แม้ใน prototype แบบ single-process ถ้าต้องการ resumability ภายหลัง
 
-### 2. Runtime แบบ Event-driven Multi-Agent
+### 2. Runtime แบบขับด้วย Event สำหรับ Multi-Agent
 
-Best for:
-- concurrent tasks
+เหมาะกับ:
+- งานที่ทำพร้อมกันได้
 - async handoffs
-- queue-backed work
-- topic-based collaboration
+- งานที่พึ่ง queue
+- การร่วมมือแบบ topic-based
 
-Characteristics:
-- message bus or queue
-- multiple processors / subscribers
-- clearer backpressure and retries
-- better scaling than direct sync chaining
+ลักษณะ:
+- ใช้ message bus หรือ queue
+- มี multiple processors / subscribers
+- backpressure และ retries จัดการได้ชัดขึ้น
+- scale ได้ดีกว่าการ chain แบบ sync ตรง ๆ
 
-AutoGen’s concurrent-agent patterns map naturally to this topology:
+รูปแบบ concurrent agents ของ AutoGen เข้ากับ topology แบบนี้ได้ตรง:
 - single message & multiple processors
 - multiple messages & multiple processors
 - direct messaging
 
-### 3. แพลตฟอร์ม Workflow แบบ Stateful
+### 3. แพลตฟอร์ม Workflow แบบเก็บสถานะได้
 
-Best for:
-- long-running work
+เหมาะกับ:
+- งานที่รันนาน
 - human-in-the-loop
 - pause/resume
-- branchy workflows
+- workflow ที่แตกแขนงเยอะ
 
-Characteristics:
-- persisted state
-- explicit thread or run IDs
-- checkpointing
-- deterministic replay rules
+ลักษณะ:
+- มี persisted state
+- ใช้ explicit thread หรือ run IDs
+- มี checkpointing
+- มีกติกา deterministic replay
 
-LangGraph durable execution and CrewAI Flows both show this model clearly: keep state durable, resume from checkpoints, and treat interrupts as a first-class workflow concern.
+LangGraph durable execution และ CrewAI Flows แสดงโมเดลนี้ชัดเจน: ทำให้ state persist ได้, resume จาก checkpoints ได้, และถือว่า interrupts เป็นเรื่องหลักของ workflow
 
-### 4. Topology สำหรับ Production แบบ Service-based
+### 4. แบบ Production ที่แยกเป็น Service
 
-Best for:
-- separate trust boundaries
-- different scaling needs
-- distinct failure domains
-- multiple teams or runtimes
+เหมาะกับ:
+- trust boundary แยกกัน
+- ความต้องการ scale ต่างกัน
+- failure domain ต่างกัน
+- หลายทีม หรือหลาย runtime
 
-Characteristics:
-- containerized services
-- persistent store for workflow state
-- queue or broker for async work
-- observability and rollout controls
+ลักษณะ:
+- ใช้ containerized services
+- มี persistent store สำหรับ workflow state
+- มี queue หรือ broker สำหรับ async work
+- มี observability และ rollout controls
 
-LangSmith deployment is purpose-built for stateful, long-running agents and explicitly contrasts that with traditional stateless web hosting.
+LangSmith deployment ถูกสร้างมาเพื่อ stateful, long-running agents โดยตรง และวางตัวต่างจาก stateless web hosting แบบดั้งเดิมอย่างชัดเจน
 
 ---
 
@@ -109,7 +109,7 @@ flowchart LR
 
 ### Orchestrator
 
-Owns:
+ดูแล:
 - routing
 - sequencing
 - stop conditions
@@ -119,87 +119,87 @@ Owns:
 
 ### ชั้นการสื่อสาร
 
-Choose one of:
-- direct messaging for narrow handoffs
-- topic/queue for async work
-- shared thread for conversational collaboration
+เลือกอย่างใดอย่างหนึ่ง:
+- direct messaging สำหรับ handoff ที่แคบ
+- topic / queue สำหรับงาน async
+- shared thread สำหรับการร่วมมือแบบ conversational
 
 ### ชั้น State
 
-Separate:
+แยก:
 - transient step state
 - checkpointed workflow state
 - long-term memory
 
-LangGraph durable execution requires a checkpointer and a thread identifier, and its docs emphasize deterministic / idempotent handling of side effects for replayable workflows.
+LangGraph durable execution ต้องมี checkpointer และ thread identifier และ docs ของมันเน้นการจัดการ side effect แบบ deterministic / idempotent เพื่อให้ replay workflow ได้
 
 ### ชั้น Deployment
 
-Choose based on scale and failure domain:
-- local single process for prototype
-- async / queue-backed runtime for concurrency
-- containerized services for team or production use
-- managed deployment when persistent state and background execution matter
+เลือกตาม scale และ failure domain:
+- local single process สำหรับ prototype
+- async / queue-backed runtime สำหรับ concurrency
+- containerized services สำหรับทีมหรือ production
+- managed deployment เมื่อ persistent state และ background execution สำคัญ
 
 ---
 
-## กติกาการ Deploy
+## กติกาการนำขึ้นใช้งาน
 
-- keep state external when resume matters
-- make side effects idempotent
-- do not rely on in-memory state for recovery
-- separate orchestration from worker execution when concurrency grows
-- define how traces are exported before production rollout
+- เก็บ state ไว้นอก process เมื่อเรื่อง resume สำคัญ
+- ทำ side effect ให้ idempotent
+- อย่าพึ่ง in-memory state สำหรับ recovery
+- แยก orchestration ออกจาก worker execution เมื่อ concurrency โต
+- กำหนดวิธีส่ง traces ออกก่อน rollout ขึ้น production
 
-CrewAI’s async kickoff methods make concurrency explicit; LangGraph’s durable execution makes checkpointing explicit; LangSmith deployment makes the stateful-hosting assumption explicit. Those three facts point to the same rule: multi-agent systems need runtime support, not just prompt logic.
+async kickoff ของ CrewAI ทำให้ concurrency ชัด, durable execution ของ LangGraph ทำให้ checkpointing ชัด, และ LangSmith deployment ทำให้สมมติฐานเรื่อง stateful hosting ชัด ทั้งสามอย่างชี้ไปข้อสรุปเดียวกันว่า multi-agent systems ต้องมี runtime support ไม่ใช่แค่ prompt logic
 
 ---
 
-## แนวทางเลือก Topology
+## แนวทางเลือกการวางระบบ
 
-Use single-process if:
-- the workflow is short
-- handoffs are rare
-- failure recovery can be manual
+ใช้ process เดียว ถ้า:
+- workflow สั้น
+- handoff มีน้อย
+- รับมือ failure แบบ manual ได้
 
-Use async / queue-backed topology if:
-- multiple agents can run in parallel
-- work may be delayed or retried
-- throughput matters
+ใช้ topology แบบ async / queue-backed ถ้า:
+- agent หลายตัวทำงานพร้อมกันได้
+- งานอาจล่าช้าหรือ retry ได้
+- throughput สำคัญ
 
-Use stateful workflow runtime if:
-- interrupts and resumes matter
-- human approval is part of the flow
-- traceability is a product requirement
+ใช้ runtime แบบ workflow ที่เก็บสถานะได้ ถ้า:
+- interrupts และ resumes สำคัญ
+- human approval เป็นส่วนหนึ่งของ flow
+- traceability เป็น requirement ของระบบ
 
-Use service-based deployment if:
-- agents need different privileges
-- the system crosses trust boundaries
-- you need independent scaling or rollout
+ใช้แบบแยกเป็น service ถ้า:
+- agent ต้องมี privilege ต่างกัน
+- ระบบข้าม trust boundary
+- ต้องการ scaling หรือ rollout แบบแยกส่วน
 
 ---
 
 ## Checklist การลงมือทำ
 
-Before implementation:
-1. Decide whether the topology is sync or async.
-2. Define the source of truth for state.
-3. Define the thread / run identity.
-4. Decide where checkpoints are written.
-5. Decide how retries and idempotency work.
-6. Decide where traces and metrics are stored.
-7. Decide whether you need a queue, a broker, or direct messaging.
-8. Decide which parts must be containerized or isolated.
+ก่อนลงมือทำ:
+1. ตัดสินใจว่า topology เป็น sync หรือ async
+2. กำหนด source of truth ของ state
+3. กำหนด thread / run identity
+4. ตัดสินใจว่าจะเขียน checkpoints ที่ไหน
+5. ตัดสินใจว่า retry และ idempotency ทำอย่างไร
+6. ตัดสินใจว่าจะเก็บ traces และ metrics ไว้ที่ไหน
+7. ตัดสินใจว่าต้องใช้ queue, broker หรือ direct messaging
+8. ตัดสินใจว่าส่วนใดต้อง containerize หรือ isolate
 
 ---
 
 ## หลักออกแบบ
 
-- do not add service boundaries without a state boundary
-- do not add concurrency without observability
-- do not add async messaging without retry and backpressure rules
-- do not choose a production topology before durable execution is defined
-- do not treat deployment as separate from orchestration
+- อย่าเพิ่ม service boundary ถ้ายังไม่มี state boundary
+- อย่าเพิ่ม concurrency ถ้ายังไม่มี observability
+- อย่าเพิ่ม async messaging ถ้ายังไม่มี retry และ backpressure rules
+- อย่าเลือก production topology ก่อนจะกำหนด durable execution ให้ชัด
+- อย่ามอง deployment แยกจาก orchestration
 
 ---
 

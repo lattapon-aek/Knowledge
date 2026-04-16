@@ -11,13 +11,13 @@ parent_note: "[[Agent Frameworks - MOC]]"
 
 # Agent Frameworks - Framework vs Custom Build
 
-## Summary
+## ภาพรวม
 
 framework ช่วยลดเวลาประกอบระบบ แต่เพิ่ม abstraction, dependency, และข้อจำกัดบางอย่าง จึงต้องแยกให้ชัดว่าเมื่อไรควรใช้ framework และเมื่อไรควรเขียน runtime หรือ orchestration เอง
 
 ---
 
-## Scope
+## ขอบเขต
 
 - speed of development
 - observability
@@ -80,23 +80,23 @@ custom build มักคุ้มเมื่อ:
 
 ## ข้อได้เปรียบของ Framework
 
-### 1. Faster Composition
+### 1. ประกอบระบบได้เร็วขึ้น
 
 เริ่มได้เร็วและได้ primitive หลายอย่างพร้อมกัน
 
-### 2. Shared Vocabulary
+### 2. ภาษากลางร่วมกัน
 
 ทีมคุยกันง่ายขึ้นด้วย concepts ที่ framework กำหนด
 
-### 3. Built-in Orchestration
+### 3. มี orchestration ในตัว
 
 เช่น graph execution, message passing, crews, plugins
 
-### 4. State / Persistence Hooks
+### 4. มี hooks สำหรับ state / persistence
 
 หลาย framework มีแนวคิดเรื่อง threads, checkpoints, store, หรือ session state มาให้
 
-### 5. Observability and Control
+### 5. Observability และการควบคุม
 
 framework บางตัวออกแบบมาเพื่อ trace, debug, interrupt, หรือ scale ตั้งแต่ต้น
 
@@ -104,23 +104,23 @@ framework บางตัวออกแบบมาเพื่อ trace, debug
 
 ## ข้อเสียของ Framework
 
-### 1. Abstraction Tax
+### 1. ภาระจาก abstraction
 
 ต้องเรียน mental model ของ framework ก่อน
 
-### 2. Lock-In Risk
+### 2. ความเสี่ยงจาก lock-in
 
 architecture อาจผูกกับ abstractions ของ framework มากเกินไป
 
-### 3. Hidden Complexity
+### 3. ความซับซ้อนที่ซ่อนอยู่
 
 ของที่ดูง่ายตอน prototype อาจซับซ้อนตอน production
 
-### 4. Escape Hatches
+### 4. ทางออกนอก abstraction
 
 บางครั้ง use case จริงต้องออกนอก abstraction ของ framework
 
-### 5. Dependency Surface
+### 5. พื้นที่พึ่งพาเพิ่มขึ้น
 
 เพิ่ม dependency, version churn, และ operational complexity
 
@@ -128,19 +128,19 @@ architecture อาจผูกกับ abstractions ของ framework มา
 
 ## ข้อได้เปรียบของ Custom Build
 
-### 1. Precise Control
+### 1. ควบคุมได้แม่นยำ
 
 คุณกำหนด semantics ของ runtime เองทั้งหมด
 
-### 2. Minimal Surface Area
+### 2. พื้นที่ของระบบน้อย
 
 มีเท่าที่ use case ต้องใช้จริง
 
-### 3. Easier Domain Fit
+### 3. เข้ากับโดเมนง่ายกว่า
 
 ไม่ต้องบังคับ problem ให้เข้ากับ abstraction ของ framework
 
-### 4. Lower Conceptual Overhead
+### 4. ภาระทางความคิดน้อยกว่า
 
 ถ้าระบบเล็ก อาจง่ายกว่าการเรียน framework ใหญ่
 
@@ -148,7 +148,7 @@ architecture อาจผูกกับ abstractions ของ framework มา
 
 ## ข้อเสียของ Custom Build
 
-### 1. Reinventing the Runtime
+### 1. ต้องสร้าง runtime เอง
 
 ต้องสร้างเองเรื่อง:
 - retries
@@ -157,17 +157,17 @@ architecture อาจผูกกับ abstractions ของ framework มา
 - approval points
 - orchestration
 
-### 2. Harder Standardization
+### 2. ทำให้มาตรฐานร่วมยากกว่า
 
 ทีมอาจไม่มี shared framework vocabulary
 
-### 3. Slower Scaling
+### 3. ขยายช้ากว่า
 
 พอระบบโต อาจต้องค่อย ๆ สร้างสิ่งที่ frameworks มีอยู่แล้ว
 
 ---
 
-## Tradeoff Matrix
+## ตารางเปรียบเทียบ tradeoff
 
 | Dimension | Framework | Custom build |
 |---|---|---|
@@ -208,25 +208,25 @@ architecture อาจผูกกับ abstractions ของ framework มา
 
 ## Failure Modes
 
-### 1. Premature Framework Adoption
+### 1. รีบใช้ framework เกินไป
 
 ระบบยังเล็กแต่แบก framework หนักเกินไป
 
-### 2. Premature Custom Build Pride
+### 2. ยึดมั่นจะเขียนเองเกินไป
 
 ยืนยันจะเขียนเองหมดแม้ complexity โตจนควรใช้ framework
 
-### 3. Wrong Evaluation Criteria
+### 3. ใช้เกณฑ์ประเมินผิด
 
 เลือกจาก demo UX แทน runtime needs
 
-### 4. Architecture Coupled to Vendor Vocabulary
+### 4. ผูก architecture กับคำของ vendor มากเกินไป
 
 คิดและตั้งชื่อ architecture ตาม framework จนเปลี่ยนออกยาก
 
 ---
 
-## Design Rules
+## หลักออกแบบ
 
 - เริ่มจาก system requirements ไม่ใช่ framework brand
 - ถ้าปัญหายังเล็ก ให้ optimize for clarity
@@ -246,7 +246,7 @@ architecture อาจผูกกับ abstractions ของ framework มา
 
 ---
 
-## Related Notes
+## โน้ตที่เกี่ยวข้อง
 
 - [[02 AI Systems/Agent Frameworks/Core/01 - Landscape]]
 - [[02 AI Systems/Evals/Core/09 - Observability and Feedback Loops]]
@@ -255,7 +255,7 @@ architecture อาจผูกกับ abstractions ของ framework มา
 
 ---
 
-## Official References
+## แหล่งอ้างอิงทางการ
 
 - LangGraph Overview: https://langchain-ai.github.io/langgraphjs/reference/modules/langgraph.html
 - AutoGen Overview: https://microsoft.github.io/autogen/stable/index.html

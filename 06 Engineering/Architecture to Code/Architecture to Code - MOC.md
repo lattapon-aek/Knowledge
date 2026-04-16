@@ -15,14 +15,14 @@ parent_note: "[[06 Engineering/Engineering - MOC]]"
 
 ---
 
-## Notes
+## หมายเหตุ
 
 - ควรใช้กับสิ่งที่เริ่มจาก `02 AI Systems/` แล้วต้องลง code จริง
 - เหมาะกับ mapping เช่น runtime layers, orchestration, state, persistence, eval, guardrails
 
 ---
 
-## Notes Map
+## แผนที่โน้ต
 
 - [[06 Engineering/Architecture to Code/Architecture - Tool Schemas and Runtime Integration|Tool Schemas and Runtime Integration]]
 - [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Infrastructure|Multi-Agent Infrastructure]]

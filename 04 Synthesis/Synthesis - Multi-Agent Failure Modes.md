@@ -192,6 +192,8 @@ LangGraph interrupt/resume and CrewAI resume semantics show why recovery must be
 
 - [[04 Synthesis/Synthesis - Single to Multi-Agent Infrastructure]]
 - [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Infrastructure]]
+- [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Security and Permissions]]
+- [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Deployment and Topology]]
 - [[06 Engineering/Patterns/Pattern - Sync vs Async Agent Communication]]
 - [[02 AI Systems/Evals/Application/09 - Multi-Agent Evals]]
 - [[02 AI Systems/Guardrails/Guardrails - MOC]]
@@ -209,4 +211,3 @@ LangGraph interrupt/resume and CrewAI resume semantics show why recovery must be
 - LangGraph HITL: https://docs.langchain.com/oss/javascript/langchain/human-in-the-loop
 - AutoGen Group Chat: https://microsoft.github.io/autogen/stable/user-guide/core-user-guide/design-patterns/group-chat.html
 - CrewAI Flows: https://docs.crewai.com/en/concepts/flows
-

@@ -135,6 +135,8 @@ Implementation choices:
 - [[06 Engineering/Frameworks/Framework - LangGraph]]
 - [[06 Engineering/Frameworks/Framework - AutoGen vs CrewAI]]
 - [[06 Engineering/Frameworks/Framework - LangChain Agents]]
+- [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Security and Permissions]]
+- [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Deployment and Topology]]
 - [[06 Engineering/Engineering - MOC]]
 
 ---
@@ -148,4 +150,3 @@ Implementation choices:
 - LangGraph HITL: https://docs.langchain.com/oss/javascript/langchain/human-in-the-loop
 - AutoGen Group Chat: https://microsoft.github.io/autogen/dev/user-guide/core-user-guide/design-patterns/group-chat.html
 - CrewAI Flows: https://docs.crewai.com/en/concepts/flows
-

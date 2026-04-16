@@ -166,6 +166,8 @@ Before coding the workflow:
 - [[04 Synthesis/Synthesis - Single to Multi-Agent Infrastructure]]
 - [[04 Synthesis/Synthesis - Multi-Agent Failure Modes]]
 - [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Infrastructure]]
+- [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Security and Permissions]]
+- [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Deployment and Topology]]
 - [[06 Engineering/Patterns/Pattern - Sync vs Async Agent Communication]]
 - [[02 AI Systems/Agent Frameworks/Core/07 - Checkpointing and Resumability]]
 - [[02 AI Systems/MCP/MCP - MOC]]
@@ -182,4 +184,3 @@ Before coding the workflow:
 - LangGraph HITL: https://docs.langchain.com/oss/javascript/langchain/human-in-the-loop
 - AutoGen Group Chat: https://microsoft.github.io/autogen/stable/user-guide/core-user-guide/design-patterns/group-chat.html
 - CrewAI Flows: https://docs.crewai.com/en/concepts/flows
-

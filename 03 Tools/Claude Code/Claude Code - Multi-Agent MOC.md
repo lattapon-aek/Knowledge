@@ -80,6 +80,7 @@ Claude Code คือ **CLI tool** จาก Anthropic สำหรับ agenti
 - [[06 - การควบคุมต้นทุน]]
 - [[16 - บทบาท Frontend, Backend, QA]]
 - [[21 - กรณีศึกษา]]
+- [[20 - Multi-Provider AI]]
 
 ---
 

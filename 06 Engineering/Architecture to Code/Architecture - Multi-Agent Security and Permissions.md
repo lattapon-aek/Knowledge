@@ -6,6 +6,7 @@ tags:
   - security
   - permissions
   - guardrails
+  - version-sensitive
   - derived
 type: note
 status: evergreen

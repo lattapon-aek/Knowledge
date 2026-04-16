@@ -7,6 +7,7 @@ tags:
   - state
   - observability
   - deployment
+  - version-sensitive
   - derived
 type: note
 status: evergreen

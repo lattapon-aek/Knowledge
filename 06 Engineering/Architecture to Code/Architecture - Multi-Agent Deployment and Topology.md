@@ -6,6 +6,7 @@ tags:
   - deployment
   - topology
   - runtime
+  - version-sensitive
   - derived
 type: note
 status: evergreen

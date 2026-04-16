@@ -7,6 +7,7 @@ tags:
   - messaging
   - state
   - observability
+  - version-sensitive
   - derived
 type: synthesis
 status: evergreen
@@ -162,4 +163,3 @@ flowchart TD
 - AutoGen Group Chat: https://microsoft.github.io/autogen/dev/user-guide/core-user-guide/design-patterns/group-chat.html
 - CrewAI Flows: https://docs.crewai.com/en/concepts/flows
 - CrewAI Agents / Tasks / Deploy: https://docs.crewai.com/how-to/LLM-Connections
-

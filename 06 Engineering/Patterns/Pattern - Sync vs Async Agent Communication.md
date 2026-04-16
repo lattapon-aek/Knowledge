@@ -5,6 +5,7 @@ tags:
   - multi-agent
   - messaging
   - communication
+  - version-sensitive
   - derived
 type: note
 status: evergreen
@@ -94,4 +95,3 @@ Characteristics:
 - [[06 Engineering/Patterns/Pattern - Retry and Backoff]]
 - [[02 AI Systems/Agent Frameworks/Core/04 - Tool Orchestration]]
 - [[02 AI Systems/Agent Frameworks/Core/07 - Checkpointing and Resumability]]
-

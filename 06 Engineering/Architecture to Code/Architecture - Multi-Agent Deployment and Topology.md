@@ -16,15 +16,15 @@ parent_note: "[[06 Engineering/Architecture to Code/Architecture to Code - MOC]]
 
 # Architecture - Multi-Agent Deployment and Topology
 
-## Summary
+## ภาพรวม
 
 Multi-agent deployment is a topology choice, not just an implementation detail. The main questions are where state lives, how agents communicate, how failures are resumed, and whether the runtime is local, containerized, or hosted on a platform that understands long-running stateful workflows.
 
 ---
 
-## Topology Options
+## ตัวเลือก Topology
 
-### 1. Single-Process Prototype
+### 1. Prototype แบบ Single Process
 
 Best for:
 - early experiments
@@ -40,7 +40,7 @@ Characteristics:
 
 LangGraph is explicitly designed as a low-level orchestration runtime for long-running, stateful agents. Its durable execution model makes sense even in a single-process prototype if you want resumability later.
 
-### 2. Event-Driven Multi-Agent Runtime
+### 2. Runtime แบบ Event-driven Multi-Agent
 
 Best for:
 - concurrent tasks
@@ -59,7 +59,7 @@ AutoGen’s concurrent-agent patterns map naturally to this topology:
 - multiple messages & multiple processors
 - direct messaging
 
-### 3. Stateful Workflow Platform
+### 3. แพลตฟอร์ม Workflow แบบ Stateful
 
 Best for:
 - long-running work
@@ -75,7 +75,7 @@ Characteristics:
 
 LangGraph durable execution and CrewAI Flows both show this model clearly: keep state durable, resume from checkpoints, and treat interrupts as a first-class workflow concern.
 
-### 4. Service-Based Production Topology
+### 4. Topology สำหรับ Production แบบ Service-based
 
 Best for:
 - separate trust boundaries
@@ -93,7 +93,7 @@ LangSmith deployment is purpose-built for stateful, long-running agents and expl
 
 ---
 
-## Core Runtime Layers
+## ชั้น Runtime หลัก
 
 ```mermaid
 flowchart LR
@@ -117,14 +117,14 @@ Owns:
 - resume policy
 - workflow state visibility
 
-### Communication Layer
+### ชั้นการสื่อสาร
 
 Choose one of:
 - direct messaging for narrow handoffs
 - topic/queue for async work
 - shared thread for conversational collaboration
 
-### State Layer
+### ชั้น State
 
 Separate:
 - transient step state
@@ -133,7 +133,7 @@ Separate:
 
 LangGraph durable execution requires a checkpointer and a thread identifier, and its docs emphasize deterministic / idempotent handling of side effects for replayable workflows.
 
-### Deployment Layer
+### ชั้น Deployment
 
 Choose based on scale and failure domain:
 - local single process for prototype
@@ -143,7 +143,7 @@ Choose based on scale and failure domain:
 
 ---
 
-## Deployment Rules
+## กติกาการ Deploy
 
 - keep state external when resume matters
 - make side effects idempotent
@@ -155,7 +155,7 @@ CrewAI’s async kickoff methods make concurrency explicit; LangGraph’s durabl
 
 ---
 
-## Topology Selection Guide
+## แนวทางเลือก Topology
 
 Use single-process if:
 - the workflow is short
@@ -179,7 +179,7 @@ Use service-based deployment if:
 
 ---
 
-## Implementation Checklist
+## Checklist การลงมือทำ
 
 Before implementation:
 1. Decide whether the topology is sync or async.
@@ -193,7 +193,7 @@ Before implementation:
 
 ---
 
-## Design Rules
+## หลักออกแบบ
 
 - do not add service boundaries without a state boundary
 - do not add concurrency without observability
@@ -203,7 +203,7 @@ Before implementation:
 
 ---
 
-## Cross Links
+## ลิงก์ที่เกี่ยวข้อง
 
 - [[04 Synthesis/Synthesis - Single to Multi-Agent Infrastructure]]
 - [[04 Synthesis/Synthesis - Multi-Agent Failure Modes]]
@@ -216,7 +216,7 @@ Before implementation:
 
 ---
 
-## References
+## แหล่งอ้างอิง
 
 - LangGraph Overview: https://docs.langchain.com/oss/javascript/langgraph/overview
 - LangGraph Durable Execution: https://docs.langchain.com/oss/javascript/langgraph/durable-execution

@@ -14,7 +14,7 @@ parent_note: "[[04 Synthesis/Synthesis - MOC]]"
 
 # Synthesis - Multi-Agent Failure Modes
 
-## Summary
+## ภาพรวม
 
 multi-agent systems fail in ways single-agent systems usually do not. The biggest risks are not just bad answers, but broken handoffs, stale shared state, duplicated work, prompt injection through tool paths, and observability gaps that make the failure invisible.
 
@@ -22,9 +22,9 @@ This note separates failure modes by layer so they can be debugged and prevented
 
 ---
 
-## 1. Orchestration Failures
+## 1. ความผิดพลาดด้าน Orchestration
 
-### Orphaned Handoffs
+### Handoff ที่หลุดเจ้าของ
 
 An agent delegates work, but no one owns the next step.
 
@@ -38,7 +38,7 @@ Why it happens:
 - task ownership is not encoded in state
 - routing logic does not know what “done” means
 
-### Wrong Next Agent
+### เลือก Agent ถัดไปผิด
 
 The orchestrator selects the wrong specialist or loops between agents.
 
@@ -52,7 +52,7 @@ Why it happens:
 - router criteria are underspecified
 - there is no stop condition
 
-### Hidden Sequentiality
+### ลำดับการทำงานแฝง
 
 The system looks parallel on paper but is effectively sequential in execution.
 
@@ -65,9 +65,9 @@ AutoGen group chat is explicitly sequential under a manager agent, so “multi-a
 
 ---
 
-## 2. State And Memory Failures
+## 2. ความผิดพลาดด้าน State และ Memory
 
-### Stale Shared State
+### Shared State ที่ล้าสมัย
 
 One agent reads state that is no longer valid.
 
@@ -78,7 +78,7 @@ This is especially likely when:
 
 LangGraph persistence and CrewAI flows both show that long-running agent workflows need explicit state persistence; that also means state versioning and ownership matter.
 
-### Divergent State Views
+### มุมมอง State ที่ไม่ตรงกัน
 
 Different agents hold inconsistent versions of the same task state.
 
@@ -87,7 +87,7 @@ Symptoms:
 - one agent acts on outdated context
 - repeated or conflicting outputs
 
-### Memory Contamination
+### Memory ปนเปื้อน
 
 Long-term memory absorbs transient or incorrect information.
 
@@ -98,21 +98,21 @@ Symptoms:
 
 ---
 
-## 3. Communication Failures
+## 3. ความผิดพลาดด้านการสื่อสาร
 
-### Duplicate Work
+### งานซ้ำซ้อน
 
 Two agents do the same task because the communication channel or task assignment is unclear.
 
-### Queue Lag Or Backpressure
+### Queue ล่าช้าหรือ Backpressure
 
 Async messaging decouples agents, but it can create backlog or delayed execution if no one monitors the queue.
 
-### Message Ambiguity
+### ข้อความกำกวม
 
 Agents send messages that are too large, too vague, or missing required fields.
 
-### Lost Context At Handoffs
+### Context หายตอน Handoff
 
 The receiving agent gets a summary that omits critical evidence or constraints.
 
@@ -120,9 +120,9 @@ This is common when the team relies on messages instead of structured state or c
 
 ---
 
-## 4. Tool And Security Failures
+## 4. ความผิดพลาดด้าน Tool และ Security
 
-### Prompt Injection Through Tool Inputs
+### Prompt Injection ผ่าน Tool Inputs
 
 OpenAI’s agent safety guidance explicitly warns that untrusted text or data entering a workflow can try to override instructions or cause unintended downstream actions.
 
@@ -131,27 +131,27 @@ This matters more in multi-agent systems because:
 - another agent may receive the transformed result
 - tool calls can carry malicious payloads downstream
 
-### Over-Broad Tool Access
+### Tool Access กว้างเกินไป
 
 If every agent can use every tool, the blast radius of a bad decision grows quickly.
 
-### Unsafe Handoffs To MCP Or External Tools
+### Handoff ที่ไม่ปลอดภัยไปยัง MCP หรือ External Tools
 
 If the system does not separate read-only from side-effecting actions, a simple routing mistake can become an actual external action.
 
 ---
 
-## 5. Observability Failures
+## 5. ความผิดพลาดด้าน Observability
 
-### No Trace Visibility
+### มอง Trace ไม่เห็น
 
 OpenAI trace grading emphasizes that traces capture decisions, tool calls, and reasoning steps; without them, workflow-level failures are hard to locate.
 
-### Final-Answer Blindness
+### เห็นแค่ Final Answer
 
 The output looks fine, but the process was expensive, unsafe, or brittle.
 
-### No Regression Signal
+### ไม่มีสัญญาณ Regression
 
 The system changes over time, but nobody notices that handoff quality or failure recovery got worse.
 
@@ -159,17 +159,17 @@ OpenAI agent evals and trace grading are designed to make those regressions visi
 
 ---
 
-## 6. Recovery Failures
+## 6. ความผิดพลาดด้าน Recovery
 
 ### Retry Storm
 
 Multiple agents retry the same failing step without a common policy.
 
-### Infinite Loop
+### วนลูปไม่จบ
 
 The team keeps revisiting the same unresolved branch.
 
-### Partial Recovery Failure
+### Recovery ได้แค่บางส่วน
 
 One subtask is recovered, but the system cannot resume the full workflow consistently.
 
@@ -177,7 +177,7 @@ LangGraph interrupt/resume and CrewAI resume semantics show why recovery must be
 
 ---
 
-## Failure-Prevention Rules
+## กติกาป้องกันความผิดพลาด
 
 - make ownership explicit at every handoff
 - persist state with versioning and stable identifiers
@@ -189,7 +189,7 @@ LangGraph interrupt/resume and CrewAI resume semantics show why recovery must be
 
 ---
 
-## Cross Links
+## ลิงก์ที่เกี่ยวข้อง
 
 - [[04 Synthesis/Synthesis - Single to Multi-Agent Infrastructure]]
 - [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Infrastructure]]
@@ -203,7 +203,7 @@ LangGraph interrupt/resume and CrewAI resume semantics show why recovery must be
 
 ---
 
-## References
+## แหล่งอ้างอิง
 
 - OpenAI Safety in Building Agents: https://platform.openai.com/docs/guides/agent-builder-safety
 - OpenAI Trace Grading: https://platform.openai.com/docs/guides/trace-grading

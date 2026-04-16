@@ -16,7 +16,7 @@ parent_note: "[[06 Engineering/Architecture to Code/Architecture to Code - MOC]]
 
 # Architecture - Multi-Agent Ownership and Handoffs
 
-## Summary
+## ภาพรวม
 
 Multi-agent systems need an explicit ownership model. Every handoff should answer three questions:
 - who owns the task now
@@ -27,7 +27,7 @@ Without those answers, delegation becomes ambiguous and the workflow becomes har
 
 ---
 
-## Ownership Model
+## โมเดลความเป็นเจ้าของ
 
 ### 1. Orchestrator Owns The Workflow
 
@@ -62,7 +62,7 @@ LangGraph persistence uses checkpoints organized into threads, and human-in-the-
 
 ---
 
-## Handoff Contract
+## ข้อตกลงของ Handoff
 
 Every handoff should define:
 - source agent
@@ -81,9 +81,9 @@ If the handoff is async, also define:
 
 ---
 
-## Handoff Patterns
+## รูปแบบของ Handoff
 
-### Controller To Specialist
+### Controller ไป Specialist
 
 The controller decides who acts next.
 
@@ -94,7 +94,7 @@ Use when:
 
 AutoGen group chat uses a manager agent to select the next speaker; even there, the manager remains the authority for sequencing.
 
-### State-Based Handoff
+### Handoff แบบอิง State
 
 Agents pass a task forward when state criteria are met.
 
@@ -103,7 +103,7 @@ Use when:
 - the workflow has multiple phases
 - the next agent can infer from persisted state
 
-### Shared Topic Or Shared Thread
+### Shared Topic หรือ Shared Thread
 
 Agents subscribe to the same conversation or topic and take turns.
 
@@ -116,7 +116,7 @@ CrewAI Flows and Tasks/Processes expose stateful orchestration primitives that f
 
 ---
 
-## State Schema Rules
+## กติกาของ State Schema
 
 - keep state schema versioned
 - separate transient state from long-term memory
@@ -126,7 +126,7 @@ CrewAI Flows and Tasks/Processes expose stateful orchestration primitives that f
 
 ---
 
-## Security And Boundary Rules
+## กติกาความปลอดภัยและขอบเขต
 
 - define which agents are read-only
 - define which agents can call side-effecting tools
@@ -138,7 +138,7 @@ OpenAI’s agent safety guidance explicitly treats untrusted text and tool paths
 
 ---
 
-## Implementation Checklist
+## Checklist การลงมือทำ
 
 Before coding the workflow:
 1. Define the orchestrator role.
@@ -152,7 +152,7 @@ Before coding the workflow:
 
 ---
 
-## Design Rules
+## หลักออกแบบ
 
 - never delegate without a handoff contract
 - never persist state without an owner
@@ -162,7 +162,7 @@ Before coding the workflow:
 
 ---
 
-## Cross Links
+## ลิงก์ที่เกี่ยวข้อง
 
 - [[04 Synthesis/Synthesis - Single to Multi-Agent Infrastructure]]
 - [[04 Synthesis/Synthesis - Multi-Agent Failure Modes]]
@@ -176,7 +176,7 @@ Before coding the workflow:
 
 ---
 
-## References
+## แหล่งอ้างอิง
 
 - OpenAI Agents / Agent Builder: https://platform.openai.com/docs/guides/agent-builder
 - OpenAI Safety in Building Agents: https://platform.openai.com/docs/guides/agent-builder-safety

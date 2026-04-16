@@ -15,13 +15,13 @@ parent_note: "[[06 Engineering/Patterns/Patterns - MOC]]"
 
 # Pattern - Sync vs Async Agent Communication
 
-## Summary
+## ภาพรวม
 
 Communication between agents is a design choice, not an implementation detail. Use synchronous communication when you need strict ordering and simpler control flow. Use asynchronous communication when you need decoupling, retries, and better throughput.
 
 ---
 
-## Synchronous Communication
+## การสื่อสารแบบ Synchronous
 
 Use when:
 - the caller should wait for an answer before continuing
@@ -37,7 +37,7 @@ Characteristics:
 
 ---
 
-## Asynchronous Communication
+## การสื่อสารแบบ Asynchronous
 
 Use when:
 - agents can work independently
@@ -53,14 +53,14 @@ Characteristics:
 
 ---
 
-## When To Prefer Sync
+## เมื่อควรเลือก Sync
 
 - orchestrator calling a helper agent
 - low-latency handoff
 - strict sequencing
 - small number of agents
 
-## When To Prefer Async
+## เมื่อควรเลือก Async
 
 - data collection followed by later analysis
 - independent specialist agents
@@ -69,7 +69,7 @@ Characteristics:
 
 ---
 
-## Design Rules
+## หลักออกแบบ
 
 - decide message semantics before choosing a transport
 - if async, define idempotency and retry policy up front
@@ -79,7 +79,7 @@ Characteristics:
 
 ---
 
-## Common Failure Modes
+## Failure Modes ที่พบบ่อย
 
 - treating a queue as a magic fix for poor orchestration
 - blocking a synchronous call chain that should have been async
@@ -88,7 +88,7 @@ Characteristics:
 
 ---
 
-## Cross Links
+## ลิงก์ที่เกี่ยวข้อง
 
 - [[04 Synthesis/Synthesis - Single to Multi-Agent Infrastructure]]
 - [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Infrastructure]]

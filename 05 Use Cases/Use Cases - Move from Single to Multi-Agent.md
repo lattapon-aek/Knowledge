@@ -13,7 +13,7 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 
 # Use Cases - Move from Single to Multi-Agent
 
-## When This Use Case Fits
+## เมื่อควรใช้กรณีนี้
 
 Use this path when a single agent is no longer enough because the work has become:
 - too broad for one prompt or one runtime loop
@@ -30,7 +30,7 @@ Examples:
 
 ---
 
-## Decision Path
+## เส้นตัดสินใจ
 
 1. Start with a single agent plus tools.
 2. Ask whether the task is linear and deterministic.
@@ -41,7 +41,7 @@ Examples:
 
 ---
 
-## Strong Signals To Move
+## สัญญาณที่ควรย้าย
 
 - separate expertise is clearly required
 - different subtasks can run in parallel
@@ -51,7 +51,7 @@ Examples:
 
 ---
 
-## Signals To Stay Single-Agent
+## สัญญาณที่ควรอยู่ single-agent
 
 - the task is still narrow and linear
 - orchestration would be more expensive than the work itself
@@ -60,7 +60,7 @@ Examples:
 
 ---
 
-## Common Failure Modes
+## Failure Modes ที่พบบ่อย
 
 - adding agents before the orchestration problem is understood
 - using multi-agent to hide an underspecified task
@@ -70,7 +70,7 @@ Examples:
 
 ---
 
-## What To Build First
+## ควรสร้างอะไรก่อน
 
 If the answer is “go multi-agent,” build in this order:
 1. role boundaries
@@ -82,7 +82,7 @@ If the answer is “go multi-agent,” build in this order:
 
 ---
 
-## Cross Links
+## ลิงก์ที่เกี่ยวข้อง
 
 - [[04 Synthesis/Synthesis - Single to Multi-Agent Infrastructure]]
 - [[02 AI Systems/AI Agent Fundamentals/08 - Workflow vs AI Agent]]

@@ -16,13 +16,13 @@ parent_note: "[[06 Engineering/Architecture to Code/Architecture to Code - MOC]]
 
 # Architecture - Multi-Agent Security and Permissions
 
-## Summary
+## ภาพรวม
 
 Multi-agent security is mostly a trust-boundary problem. Every extra agent, tool, or handoff increases the places where untrusted input can affect behavior. The safe default is least privilege per agent, structured handoffs, approvals for side effects, and traceable boundaries between read, write, and human-review paths.
 
 ---
 
-## Threat Model
+## โมเดลความเสี่ยง
 
 Treat all of the following as untrusted unless explicitly validated:
 - user input
@@ -35,9 +35,9 @@ OpenAI’s agent safety guidance explicitly warns that prompt injection happens 
 
 ---
 
-## Permission Model
+## โมเดลสิทธิ์
 
-### 1. Read-Only Agents
+### 1. Read-only Agents
 
 Use for:
 - retrieval
@@ -51,7 +51,7 @@ Rules:
 - no secret access
 - output must be structured
 
-### 2. Write-Capable Agents
+### 2. Write-capable Agents
 
 Use for:
 - state updates
@@ -63,7 +63,7 @@ Rules:
 - only validated inputs
 - every write must be traceable
 
-### 3. Approval-Gated Agents
+### 3. Approval-gated Agents
 
 Use for:
 - payments
@@ -73,7 +73,7 @@ Use for:
 
 OpenAI’s safety guide is explicit: keep tool approvals on, and use the human approval node in Agent Builder so end users can review and confirm each operation, including reads and writes.
 
-### 4. Orchestrator-Only Privileges
+### 4. สิทธิ์เฉพาะ Orchestrator
 
 Reserve for:
 - routing decisions
@@ -86,7 +86,7 @@ This keeps control logic separate from specialist work.
 
 ---
 
-## Boundary Rules
+## กติกาขอบเขต
 
 - Never inject untrusted variables directly into developer messages.
 - Pass untrusted inputs through user messages or validated structured fields.
@@ -99,7 +99,7 @@ OpenAI recommends using structured outputs to constrain data flow and reduce inj
 
 ---
 
-## Handoff Security
+## ความปลอดภัยของ Handoff
 
 Every handoff should include only:
 - task id
@@ -118,7 +118,7 @@ If one agent processes untrusted text and another agent uses the transformed res
 
 ---
 
-## Guardrail Stack
+## ชั้นของ Guardrail
 
 Use the following layers together:
 
@@ -133,7 +133,7 @@ OpenAI recommends guardrails for user inputs, tool approvals for MCP operations,
 
 ---
 
-## Implementation Checklist
+## Checklist การลงมือทำ
 
 Before shipping a multi-agent workflow:
 1. Define which agents are read-only.
@@ -147,7 +147,7 @@ Before shipping a multi-agent workflow:
 
 ---
 
-## Design Rules
+## หลักออกแบบ
 
 - assume prompt injection can travel through tool output
 - isolate high-trust and low-trust paths
@@ -157,7 +157,7 @@ Before shipping a multi-agent workflow:
 
 ---
 
-## Cross Links
+## ลิงก์ที่เกี่ยวข้อง
 
 - [[04 Synthesis/Synthesis - Multi-Agent Failure Modes]]
 - [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Ownership and Handoffs]]
@@ -169,7 +169,7 @@ Before shipping a multi-agent workflow:
 
 ---
 
-## References
+## แหล่งอ้างอิง
 
 - OpenAI Safety in Building Agents: https://developers.openai.com/api/docs/guides/agent-builder-safety
 - OpenAI Agent Builder: https://platform.openai.com/docs/guides/agent-builder

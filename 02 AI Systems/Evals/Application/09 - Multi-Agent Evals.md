@@ -15,7 +15,7 @@ parent_note: "[[Evals - MOC]]"
 
 # Evals - Multi-Agent Evals
 
-## Summary
+## ภาพรวม
 
 multi-agent evals must measure more than answer quality. They need to measure how well agents coordinate, hand off tasks, recover from failures, and stay within policy and budget.
 
@@ -23,41 +23,41 @@ OpenAI explicitly recommends trace grading for workflow-level errors, and its ag
 
 ---
 
-## What To Measure
+## สิ่งที่ต้องวัด
 
-### 1. Task Completion
+### 1. การทำงานสำเร็จ
 
 - did the full workflow finish
 - did all required subtasks complete
 - did the system produce a usable final result
 
-### 2. Handoff Quality
+### 2. คุณภาพของ Handoff
 
 - did the right agent receive the right task
 - was the payload complete
 - was ownership unambiguous
 - did the next agent continue without rework
 
-### 3. State Consistency
+### 3. ความสอดคล้องของ State
 
 - did all agents observe the same task state
 - did interrupts or resumes preserve correctness
 - did persisted state reflect the latest valid update
 
-### 4. Tool Correctness
+### 4. ความถูกต้องของ Tool
 
 - were the right tools used
 - were arguments valid
 - were side effects authorized
 - were failures handled correctly
 
-### 5. Safety And Policy Adherence
+### 5. ความปลอดภัยและการทำตามนโยบาย
 
 - were permission boundaries respected
 - did the workflow avoid unsafe actions
 - did the team remain robust to prompt injection and untrusted inputs
 
-### 6. Operational Cost
+### 6. ต้นทุนเชิงปฏิบัติการ
 
 - number of tool calls
 - number of retries
@@ -66,7 +66,7 @@ OpenAI explicitly recommends trace grading for workflow-level errors, and its ag
 
 ---
 
-## Why Final-Answer Eval Is Not Enough
+## ทำไมประเมินแค่ Final Answer ไม่พอ
 
 In multi-agent systems, the final answer can look correct while the system still:
 - wasted steps
@@ -79,7 +79,7 @@ Trace grading is useful because it evaluates the actual trace of decisions and a
 
 ---
 
-## Evaluation Layers
+## ชั้นของ Evaluation
 
 ```mermaid
 flowchart TD
@@ -96,14 +96,14 @@ flowchart TD
     G --> H
 ```
 
-### Layer 1: Example-Level Scoring
+### ชั้น 1: การให้คะแนนระดับตัวอย่าง
 
 Score a single run:
 - pass / fail
 - rubric score
 - LLM-judge score
 
-### Layer 2: Trace Grading
+### ชั้น 2: Trace Grading
 
 Grade the sequence of actions:
 - route choice
@@ -112,7 +112,7 @@ Grade the sequence of actions:
 - handoffs
 - completion behavior
 
-### Layer 3: Regression Testing
+### ชั้น 3: Regression Testing
 
 Compare current behavior to previous behavior:
 - did coordination degrade
@@ -120,7 +120,7 @@ Compare current behavior to previous behavior:
 - did latency jump
 - did safety regress
 
-### Layer 4: System Benchmarks
+### ชั้น 4: System Benchmarks
 
 Run repeated tasks across multiple scenarios:
 - typical cases
@@ -130,7 +130,7 @@ Run repeated tasks across multiple scenarios:
 
 ---
 
-## Multi-Agent Specific Test Cases
+## เคสทดสอบเฉพาะ Multi-Agent
 
 1. **Correct handoff**
    - one agent finishes, another consumes the result without losing context
@@ -155,7 +155,7 @@ Run repeated tasks across multiple scenarios:
 
 ---
 
-## Recommended Metrics
+## Metric ที่แนะนำ
 
 - task success rate
 - handoff success rate
@@ -168,7 +168,7 @@ Run repeated tasks across multiple scenarios:
 
 ---
 
-## Design Rules
+## หลักออกแบบ
 
 - evaluate the trace, not just the answer
 - make handoffs explicit in the test set
@@ -179,7 +179,7 @@ Run repeated tasks across multiple scenarios:
 
 ---
 
-## Cross Links
+## ลิงก์ที่เกี่ยวข้อง
 
 - [[02 AI Systems/Evals/Application/08 - Agent Evals]]
 - [[02 AI Systems/Evals/Core/09 - Observability and Feedback Loops]]
@@ -191,7 +191,7 @@ Run repeated tasks across multiple scenarios:
 
 ---
 
-## References
+## แหล่งอ้างอิง
 
 - OpenAI Agent Evals: https://platform.openai.com/docs/guides/agent-evals
 - OpenAI Trace Grading: https://platform.openai.com/docs/guides/trace-grading

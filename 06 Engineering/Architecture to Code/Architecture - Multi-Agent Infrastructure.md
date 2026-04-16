@@ -17,13 +17,13 @@ parent_note: "[[06 Engineering/Architecture to Code/Architecture to Code - MOC]]
 
 # Architecture - Multi-Agent Infrastructure
 
-## Summary
+## ภาพรวม
 
 นี่คือ implementation view ของการ migrate จาก single-agent ไป multi-agent: ต้องมี orchestrator, messaging layer, state persistence, observability, และ recovery policy แยกจากกันชัด
 
 ---
 
-## Target Stack
+## โครง Stack เป้าหมาย
 
 ```mermaid
 flowchart LR
@@ -50,7 +50,7 @@ flowchart LR
 - centralized orchestrators ให้ determinism และ debug ง่าย
 - router pattern / pipeline pattern / handoff pattern เป็นทางเลือกหลัก
 
-### Messaging Layer
+### ชั้น Messaging
 
 แบ่งเป็น 2 แบบหลัก:
 - synchronous: request-response, ordering ชัด, debug ง่าย, caller block
@@ -63,7 +63,7 @@ Implementation notes:
 
 AutoGen group chat เป็นตัวอย่างของ shared thread / shared topic pattern โดยมี group chat manager คุมลำดับ turn
 
-### State / Memory Layer
+### ชั้น State / Memory
 
 ต้องแยก:
 - run state ของ workflow ปัจจุบัน
@@ -78,7 +78,7 @@ Implementation rules:
 - state ที่แชร์กันต้องชัดว่าใครเขียนได้
 - memory write/read policy ต้องแยกจาก tool output
 
-### Observability / Evaluation Layer
+### ชั้น Observability / Evaluation
 
 ต้องมี:
 - traces ของ decision path
@@ -88,7 +88,7 @@ Implementation rules:
 
 OpenAI trace grading ระบุชัดว่า trace คือ log ของ decisions, tool calls, reasoning steps และใช้หาจุดผิดพลาดใน orchestration
 
-### Deployment Layer
+### ชั้น Deployment
 
 จาก DigitalOcean tutorial:
 - multi-agent systems อาจรันเป็น processes หรือ threads ได้ใน local prototype
@@ -101,7 +101,7 @@ Implementation choices:
 
 ---
 
-## Migration Checklist
+## Checklist การย้ายระบบ
 
 ก่อนย้ายจาก single-agent:
 1. ระบุว่าต้องการ parallelism จริงไหม
@@ -114,7 +114,7 @@ Implementation choices:
 
 ---
 
-## Design Rules
+## หลักออกแบบ
 
 - อย่าเพิ่ม agent ถ้า orchestration ยังไม่ชัด
 - ถ้า resume / interrupt สำคัญ ให้เลือก framework/runtime ที่มี persistence จริง
@@ -124,7 +124,7 @@ Implementation choices:
 
 ---
 
-## Cross Links
+## ลิงก์ที่เกี่ยวข้อง
 
 - [[04 Synthesis/Synthesis - Single to Multi-Agent Infrastructure]]
 - [[02 AI Systems/AI Agent Fundamentals/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
@@ -142,7 +142,7 @@ Implementation choices:
 
 ---
 
-## References
+## แหล่งอ้างอิง
 
 - DigitalOcean: https://www.digitalocean.com/community/tutorials/single-to-multi-agent-infrastructure
 - OpenAI Trace Grading: https://platform.openai.com/docs/guides/trace-grading

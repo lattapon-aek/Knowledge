@@ -18,62 +18,62 @@ parent_note: "[[06 Engineering/Architecture to Code/Architecture to Code - MOC]]
 
 ## ภาพรวม
 
-Multi-agent systems need an explicit ownership model. Every handoff should answer three questions:
-- who owns the task now
-- what state is transferred
-- how completion or escalation is signaled
+ระบบ multi-agent ต้องมีโมเดลความเป็นเจ้าของที่ชัดเจน ทุกครั้งที่มี handoff ควรตอบให้ได้ 3 เรื่อง:
+- ตอนนี้ใครเป็นเจ้าของงาน
+- state อะไรถูกส่งต่อไป
+- จะสื่อว่างานเสร็จหรือให้ escalate อย่างไร
 
-Without those answers, delegation becomes ambiguous and the workflow becomes hard to debug.
+ถ้าไม่มีคำตอบพวกนี้ การ delegate จะกำกวม และ debug workflow ได้ยากขึ้นมาก
 
 ---
 
 ## โมเดลความเป็นเจ้าของ
 
-### 1. Orchestrator Owns The Workflow
+### 1. Orchestrator เป็นเจ้าของ workflow
 
-The orchestrator or manager is responsible for:
-- routing
-- stopping conditions
-- retry/escalation policy
-- overall workflow state
-- traceability of the run
+Orchestrator หรือ manager ต้องรับผิดชอบเรื่อง:
+- การ route งาน
+- เงื่อนไขการหยุด
+- นโยบาย retry / escalate
+- state ของ workflow โดยรวม
+- traceability ของ run
 
-OpenAI Agent Builder frames agents as workflows composed of agents, tools, and control-flow logic. That means ownership of the workflow itself is separate from the ownership of any individual specialist.
+OpenAI Agent Builder มอง agent เป็น workflow ที่ประกอบด้วย agent, tool และ control-flow logic ดังนั้นความเป็นเจ้าของของ workflow จึงแยกจากความเป็นเจ้าของของ specialist แต่ละตัว
 
-### 2. Specialists Own Narrow Subtasks
+### 2. Specialist ควรรับผิดชอบงานย่อยที่แคบ
 
-Specialist agents should own a bounded responsibility:
-- retrieve evidence
-- draft content
-- validate output
-- review policy compliance
-- summarize state
+แต่ละ specialist ควรมีขอบเขตงานที่ชัดและจำกัด เช่น:
+- ดึง evidence
+- ร่างเนื้อหา
+- ตรวจ output
+- ตรวจ policy
+- สรุป state
 
-If a specialist owns too much, handoffs become noisy and recovery gets harder.
+ถ้า specialist รับผิดชอบกว้างเกินไป handoff จะรก และการ recover จะยากขึ้น
 
-### 3. State Owner Must Be Explicit
+### 3. ต้องระบุ owner ของ state ให้ชัด
 
-State should have one of these ownership patterns:
-- orchestrator-owned shared state
-- agent-local state with explicit handoff payloads
-- persisted checkpoint state with thread/run identity
+state ควรมีรูปแบบความเป็นเจ้าของอย่างใดอย่างหนึ่ง:
+- shared state ที่ orchestrator เป็นเจ้าของ
+- agent-local state ที่ส่งต่อผ่าน handoff payload อย่างชัดเจน
+- persisted checkpoint state ที่ผูกกับ thread / run identity
 
-LangGraph persistence uses checkpoints organized into threads, and human-in-the-loop workflows require that the state be inspectable and resumable.
+LangGraph persistence ใช้ checkpoint ที่ผูกกับ threads และ workflow ที่มี human-in-the-loop ต้องทำให้ state inspect และ resume ได้
 
 ---
 
 ## ข้อตกลงของ Handoff
 
-Every handoff should define:
-- source agent
-- destination agent
+ทุก handoff ควรกำหนดให้ชัด:
+- agent ต้นทาง
+- agent ปลายทาง
 - task id
 - state payload
-- expected output format
-- success criteria
-- escalation criteria
+- รูปแบบผลลัพธ์ที่คาดหวัง
+- เกณฑ์ความสำเร็จ
+- เกณฑ์สำหรับ escalate
 
-If the handoff is async, also define:
+ถ้าเป็น handoff แบบ async ให้กำหนดเพิ่มด้วย:
 - retry policy
 - idempotency key
 - timeout
@@ -85,80 +85,80 @@ If the handoff is async, also define:
 
 ### Controller ไป Specialist
 
-The controller decides who acts next.
+Controller เป็นคนตัดสินใจว่าใครควรทำงานถัดไป
 
-Use when:
-- the flow is mostly sequential
-- you want tight control
-- you need simple debugging
+ใช้เมื่อ:
+- flow ส่วนใหญ่เป็นแบบ sequential
+- ต้องการคุมงานให้แน่น
+- ต้องการ debug ให้ง่าย
 
-AutoGen group chat uses a manager agent to select the next speaker; even there, the manager remains the authority for sequencing.
+AutoGen group chat ใช้ manager agent เพื่อเลือก speaker ถัดไป และ manager ยังเป็นผู้คุมลำดับเสมอ
 
 ### Handoff แบบอิง State
 
-Agents pass a task forward when state criteria are met.
+ส่งงานต่อเมื่อ state ผ่านเงื่อนไขที่กำหนดแล้ว
 
-Use when:
-- work should advance only after explicit conditions
-- the workflow has multiple phases
-- the next agent can infer from persisted state
+ใช้เมื่อ:
+- งานควรเดินต่อได้ก็ต่อเมื่อเงื่อนไขชัดเจน
+- workflow มีหลาย phase
+- agent ถัดไปอ่านจาก persisted state แล้วทำงานต่อได้
 
 ### Shared Topic หรือ Shared Thread
 
-Agents subscribe to the same conversation or topic and take turns.
+ให้ agent หลายตัว subscribe topic หรือ thread เดียวกัน แล้วสลับกันทำงาน
 
-Use when:
-- collaboration matters more than strict request/response
-- the team needs a common context
-- role-based turn taking is acceptable
+ใช้เมื่อ:
+- การร่วมมือสำคัญกว่าการตอบแบบ request/response แบบเข้ม
+- ทีมต้องมี context ร่วมกัน
+- ยอมรับการผลัด turn ตามบทบาทได้
 
-CrewAI Flows and Tasks/Processes expose stateful orchestration primitives that fit this pattern.
+CrewAI Flows และ Tasks/Processes มี primitives สำหรับ orchestration แบบ stateful ที่เข้ากับรูปแบบนี้
 
 ---
 
 ## กติกาของ State Schema
 
-- keep state schema versioned
-- separate transient state from long-term memory
-- keep handoff payloads compact and structured
-- include provenance for state that came from tools or retrieval
-- do not place secrets in shared handoff payloads
+- ต้อง version state schema
+- แยก transient state ออกจาก long-term memory
+- ทำให้ handoff payload กระชับและมีโครงสร้าง
+- ใส่ provenance ของ state ที่มาจาก tools หรือ retrieval
+- ห้ามใส่ secrets ลงใน shared handoff payload
 
 ---
 
 ## กติกาความปลอดภัยและขอบเขต
 
-- define which agents are read-only
-- define which agents can call side-effecting tools
-- require approval gates where needed
-- isolate high-risk tools from low-trust inputs
-- assume prompt injection can travel through tool outputs unless filtered
+- กำหนดให้ชัดว่า agent ตัวไหนเป็น read-only
+- กำหนดให้ชัดว่า agent ตัวไหนเรียก tool ที่มี side effect ได้
+- ใช้ approval gate เมื่อจำเป็น
+- แยก tool ความเสี่ยงสูงออกจาก input ที่เชื่อถือได้น้อย
+- ถือว่า prompt injection สามารถไหลผ่าน tool output ได้ถ้าไม่กรอง
 
-OpenAI’s agent safety guidance explicitly treats untrusted text and tool paths as security boundaries.
+แนวทางด้านความปลอดภัยของ OpenAI มอง untrusted text และ tool path เป็น boundary ด้าน security โดยตรง
 
 ---
 
 ## Checklist การลงมือทำ
 
-Before coding the workflow:
-1. Define the orchestrator role.
-2. Define each specialist’s scope.
-3. Define handoff payload schema.
-4. Define state ownership.
-5. Define resume and interrupt behavior.
-6. Define tool permissions.
-7. Define trace logging fields.
-8. Define retry and escalation thresholds.
+ก่อนเขียน workflow:
+1. กำหนดบทบาทของ orchestrator
+2. กำหนดขอบเขตของ specialist แต่ละตัว
+3. กำหนด schema ของ handoff payload
+4. กำหนดว่าใครเป็นเจ้าของ state
+5. กำหนดพฤติกรรม resume และ interrupt
+6. กำหนดสิทธิ์ของ tools
+7. กำหนดฟิลด์สำหรับ trace logging
+8. กำหนดเกณฑ์ retry และ escalate
 
 ---
 
 ## หลักออกแบบ
 
-- never delegate without a handoff contract
-- never persist state without an owner
-- never let message payloads become an unstructured dump
-- never use shared state as a shortcut for poor routing
-- never allow handoffs to erase provenance
+- อย่า delegate โดยไม่มี handoff contract
+- อย่า persist state โดยไม่มี owner
+- อย่าให้ message payload กลายเป็นข้อมูลดิบที่ไร้โครงสร้าง
+- อย่าใช้ shared state แทน routing ที่ไม่ชัด
+- อย่าให้ handoff ลบ provenance ทิ้ง
 
 ---
 

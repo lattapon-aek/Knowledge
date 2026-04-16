@@ -36,22 +36,26 @@ agent ต้องช่วยดูแล vault นี้ให้เป็น 
 
 ## Vault Layers
 
-vault นี้มี 3 ชั้นหลัก:
+vault นี้มี 5 ชั้นหลัก:
 
 1. `00 Raw Sources/`
    - เก็บแหล่งข้อมูลต้นฉบับ
    - เป็น source of truth
    - agent อ่านได้ แต่ไม่ควรแก้ไขต้นฉบับ
 
-2. `01 Foundations/` ถึง `05 Use Cases/`
-   - คือชั้น wiki
+2. `01 Foundations/` ถึง `02 AI Systems/`
+   - คือชั้น concept และ architecture
    - agent สามารถสร้าง, แก้, สรุป, cross-link, และปรับปรุงได้
 
-3. `06 Engineering/`
+3. `03 Tools/`
+   - คือชั้น tool-specific knowledge ที่เปลี่ยนตาม release, config, terminal mode, หรือ behavior ได้
+   - ถ้าเป็น Claude Code ให้แยก concept ที่นิ่งออกจาก notes ที่ `version-sensitive`
+
+4. `04 Synthesis/` ถึง `06 Engineering/`
    - คือชั้น implementation และ framework-specific engineering notes
    - agent สามารถสร้าง, แก้, สรุป, cross-link, และปรับปรุงได้
 
-4. Schema และ workflow docs
+5. Schema และ workflow docs
    - เช่น `AGENTS.md`, `Home.md`, `index.md`, `Vault Standards - *.md`
    - ใช้เป็นกติกากลางสำหรับการดูแล vault
 
@@ -65,6 +69,7 @@ vault นี้มี 3 ชั้นหลัก:
 - [[index]] — catalog กลางของทั้ง vault
 - [[00 Raw Sources/Raw Sources - MOC|Raw Sources - MOC]] — ชั้น raw sources
 - [[00 Raw Sources/Articles/Source Manifests - MOC|Source Manifests - MOC]] — entry points สำหรับ source families ที่ active
+- [[03 Tools/Claude Code/Claude Code - Multi-Agent MOC|Claude Code - Multi-Agent MOC]] — entry point สำหรับ Claude Code notes ที่แบ่ง stable / version-sensitive
 - [[04 Synthesis/Synthesis - MOC|Synthesis - MOC]] — ชั้นสังเคราะห์ข้ามหมวด
 - [[05 Use Cases/Use Cases - MOC|Use Cases - MOC]] — reading paths แบบใช้งานจริง
 - [[06 Engineering/Engineering - MOC|Engineering - MOC]] — ชั้น implementation และ framework-specific notes
@@ -113,6 +118,12 @@ vault นี้มี 3 ชั้นหลัก:
 - note นี้ควรชี้กลับ `MOC` ไหน
 - มี note ไหนควรลิงก์เข้าหามัน
 - ควรอัปเดต `Home` หรือ `index` หรือไม่
+
+### 5. Stable vs Volatile
+
+- `01 Foundations/`, `02 AI Systems/`, `04 Synthesis/`, `05 Use Cases/`, และแนวคิดส่วนใหญ่ใน `06 Engineering/` ควรถือเป็น knowledge ที่ค่อนข้างนิ่ง
+- `03 Tools/Claude Code/` ต้องถือเป็น volatile knowledge เป็นหลัก
+- ถ้าเป็น note ที่ผูกกับ release, setting, terminal mode, or experimental behavior ให้ติดป้ายหรือบอกให้ชัดว่า `version-sensitive`
 
 ---
 

@@ -60,10 +60,34 @@ Claude Code คือ **CLI tool** จาก Anthropic สำหรับ agenti
 ### Quick Reference
 - [[24 - Best Practices & Checklist]]
 
+---
+
+## Related Hubs
+
+- [[04 Synthesis/Synthesis - MOC|Synthesis - MOC]]
+- [[05 Use Cases/Use Cases - MOC|Use Cases - MOC]]
+
+---
+
+## Stable Concepts
+
+หมวดนี้ควรอ่านเป็นแนวคิดและ workflow ที่ค่อนข้างนิ่ง
+
+- [[01 - Claude Code คืออะไร]]
+- [[02 - เปรียบเทียบ Agentic Coding Tools]]
+- [[03 - Orchestrator Pattern]]
+- [[05 - รูปแบบการใช้งาน Multi-Agent]]
+- [[06 - การควบคุมต้นทุน]]
+- [[16 - บทบาท Frontend, Backend, QA]]
+- [[21 - กรณีศึกษา]]
+
+---
+
 ## Version Sensitive Notes
 
-หมายเหตุ: ชุดนี้เปลี่ยนตาม release, terminal, หรือ config ได้
+หมายเหตุ: กลุ่มนี้ผูกกับ release, settings, terminal mode, หรือ behavior ที่เปลี่ยนได้
 
+- [[04 - 1 Session vs Subagents vs Agent Teams]]
 - [[07 - การติดตั้งและเริ่มใช้งาน]]
 - [[08 - Display Mode (In-Process vs Split Panes)]]
 - [[09 - Permissions และ Settings]]
@@ -80,13 +104,6 @@ Claude Code คือ **CLI tool** จาก Anthropic สำหรับ agenti
 - [[22 - Error Handling]]
 - [[23 - ข้อจำกัด Agent Teams|ข้อจำกัด]]
 - [[24 - Best Practices & Checklist]]
-
----
-
-## Related Hubs
-
-- [[04 Synthesis/Synthesis - MOC|Synthesis - MOC]]
-- [[05 Use Cases/Use Cases - MOC|Use Cases - MOC]]
 
 ---
 

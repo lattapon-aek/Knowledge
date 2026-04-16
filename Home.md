@@ -112,6 +112,10 @@ Second brain สำหรับความรู้ด้าน AI systems, LLM
 - [[06 Engineering/Memory/Memory - MOC|Memory]]
 - [[06 Engineering/Frameworks/Frameworks - MOC|Frameworks]]
 - [[06 Engineering/Architecture to Code/Architecture to Code - MOC|Architecture to Code]]
+- [[06 Engineering/Project Notes/Project Notes - MOC|Project Notes]]
+- [[06 Engineering/Decisions/Decisions - MOC|Decisions]]
+- [[06 Engineering/Patterns/Patterns - MOC|Patterns]]
+- [[06 Engineering/Recipes/Recipes - MOC|Recipes]]
 
 ---
 

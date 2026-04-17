@@ -31,7 +31,6 @@ parent_note: "[[Home]]"
 ## Use the Canonical Notes For
 
 - workflow-vs-agent detail → [[04 Synthesis/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]]
-- workflow-vs-agent detail → [[04 Synthesis/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]]
 - when to use / not use agent → [[05 Use Cases/Use Cases - When to Use an Agent|When to Use an Agent]]
 - RAG grounding layer → [[01 Foundations/LLM Foundations/04 - Inference, Context และ RAG]]
 

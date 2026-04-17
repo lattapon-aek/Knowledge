@@ -22,6 +22,8 @@ parent_note: "[[Home]]"
 หมายเหตุการจัดโครง:
 - หมวดนี้เป็น canonical learning path สำหรับพื้นฐานของ agent
 - โน้ตใน `04 Synthesis` ทำหน้าที่เป็น bridge / comparison / synthesis layer และไม่ควรเล่าพื้นฐานซ้ำเกินจำเป็น
+- หัวข้อ LLM / prompt / context primitives เป็นของ `01 Foundations` เป็นหลัก
+- โน้ต `12`, `13`, และ `14` ในหมวดนี้ทำหน้าที่เป็น bridge notes สำหรับ agent-facing runtime เท่านั้น
 
 กติกาการอ่าน:
 - ไฟล์ที่มีเลข `01, 02, 03...` คือ core learning path ของหมวดนี้
@@ -59,9 +61,9 @@ diagram นี้เป็น conceptual overview ของหมวดนี้
 - [[09 - เมื่อไรควรและไม่ควรใช้ Agent]] — decision framework
 - [[10 - Risks และ Best Practices]] — risks, tradeoffs, mitigations
 - [[11 - Key Takeaways และ Quick Reference]] — summary และ quick reference
-- [[12 - LLM พื้นฐาน]] — LLM prerequisites
-- [[13 - Messages, System Prompt และ Chat Templates]] — runtime prompt/message layer
-- [[14 - Tools: การออกแบบและทำงาน]] — tools, schemas, MCP connection
+- [[12 - LLM พื้นฐาน]] — bridge note: agent-facing LLM primer
+- [[13 - Messages, System Prompt และ Chat Templates]] — runtime message layer; bridge to Prompt Engineering / Context Windows
+- [[14 - Tools: การออกแบบและทำงาน]] — tools, schemas, MCP connection; bridge to engineering runtime
 - [[06 Engineering/Architecture to Code/Architecture - Tool Schemas and Runtime Integration]] — runtime contract ของ tool schemas, validation, execution, และ tool results
 
 ---

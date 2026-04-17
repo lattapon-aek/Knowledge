@@ -18,6 +18,10 @@ parent_note: "[[AI Agent Fundamentals - MOC]]"
 
 ## ภาพรวม
 
+โน้ตนี้โฟกัสที่ runtime layer ของ agent: วิธีแพ็ก messages, system prompt, และ chat templates ให้ model เข้าใจ conversation ได้ถูกต้อง  
+ถ้าต้องการหลักการเขียน prompt หรือ prompt anatomy แบบทั่วไป ให้ดู `Prompt Engineering`  
+ถ้าต้องการเรื่อง context budget และ context engineering ให้ดู `Context Windows`
+
 เมื่อผู้ใช้คุยกับ Agent ผ่าน chat interface สิ่งที่เกิดขึ้นเบื้องหลัง:
 
 > Messages หลายรายการถูก **concatenate และ format** เป็น single prompt ก่อนส่งให้ LLM ทุกครั้ง — model ไม่ได้ "จำ" การสนทนา แต่อ่านทั้งหมดในครั้งเดียว
@@ -103,14 +107,6 @@ assistant
 
 **Llama 3.2:** ใช้ special delimiter tokens แตกต่างออกไป (`<|begin_of_text|>`, `<|eot_id|>`, ฯลฯ)
 
-### Base Model vs Instruct Model
-
-| | Base Model | Instruct Model |
-|---|---|---|
-| ฝึกด้วย | Raw text data เพื่อทำนาย next token | Fine-tuned เพื่อตาม instructions และสนทนา |
-| ตัวอย่าง | SmolLM2-135M | SmolLM2-135M-Instruct |
-| ต้องการ chat template? | ต้องการ (เพื่อให้ behave เหมือน instruct) | ใช้ template ของตัวเองได้เลย |
-
 ### ChatML Format
 
 มาตรฐานที่ใช้กันกว้างขวาง — จัด conversation ด้วย role indicators ชัดเจน (system, user, assistant)
@@ -146,6 +142,8 @@ rendered_prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_ge
 2. **TAO cycle instructions** ถูก embed ไว้ใน system prompt — กำหนดว่า agent ต้องคิด-ทำ-สังเกตอย่างไร
 3. **Behavior guidelines** กำหนด personality และข้อจำกัดของ agent
 
+ถ้าต้องการหลักการออกแบบ prompt โดยรวม ให้ดู [[01 Foundations/Prompt Engineering/Prompt Engineering - MOC|Prompt Engineering - MOC]]
+
 > System prompt คือ "คู่มือการทำงาน" ของ agent ที่ถูกอ่านทุกครั้งที่ LLM ประมวลผล
 
 ---
@@ -155,6 +153,8 @@ rendered_prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_ge
 - [[12 - LLM พื้นฐาน]]
 - [[14 - Tools: การออกแบบและทำงาน]]
 - [[06 - วงจร Thought-Action-Observation (TAO)]]
+- [[01 Foundations/Prompt Engineering/Prompt Engineering - MOC|Prompt Engineering - MOC]]
+- [[01 Foundations/Context Windows/Context Windows - MOC|Context Windows - MOC]]
 
 ## ตัวอย่าง Implementation จริง
 

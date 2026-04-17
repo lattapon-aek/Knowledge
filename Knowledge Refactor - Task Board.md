@@ -34,6 +34,8 @@ parent_note: "[[Home]]"
 - ทำให้ `04 Synthesis` เป็น bridge / comparison / decision layer
 - ทำให้ `06 Engineering` เป็น implementation layer
 - ทำให้ `03 Tools/Claude Code` เป็น volatile layer
+- ทำให้ `01 Foundations` เป็น canonical home ของ LLM / prompt / context primitives
+- ให้ `AI Agent Fundamentals/12, 13, 14` เป็น bridge notes สำหรับ agent-facing runtime เท่านั้น
 
 ### Deduplication ที่ทำแล้ว
 

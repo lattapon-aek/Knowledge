@@ -26,6 +26,9 @@ parent_note: "[[Home]]"
 
 ถ้าอ่านแบบลำดับนี้ จะสับสนน้อยที่สุด
 
+> หมวดนี้เป็น canonical home ของ LLM basics, training, inference, production, limitations, และ evaluation primitives  
+> ถ้าต้องการ agent-facing summary ให้ดู bridge notes ใน `AI Agent Fundamentals` แทนการอธิบายซ้ำที่นี่
+
 ---
 
 ## แผนที่ภาพรวม

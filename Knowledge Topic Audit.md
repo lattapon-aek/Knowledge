@@ -63,6 +63,10 @@ parent_note: "[[Knowledge Topic Registry]]"
 - `Guardrails / control` = reviewed, stay
 - ยังไม่มี move candidate ที่ต้องย้ายไฟล์จริงใน phase นี้
 
+สถานะรอบถัดไปถัดมา:
+- `Evaluation` = reviewed, stay
+- ยังไม่มี move candidate ที่ต้องย้ายไฟล์จริงใน phase นี้
+
 ### Phase Status
 
 - Phase 0 (`Foundations / base primitives`) = reviewed, no moves needed

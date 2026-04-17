@@ -131,6 +131,28 @@ parent_note: "[[Knowledge Topic Registry]]"
 
 ---
 
+## File Audit: 02 AI Systems / AI Agent Fundamentals
+
+| File | Current Role | Recommended Owner | Action |
+|---|---|---|---|
+| `AI Agent Fundamentals - MOC` | canonical owner | `02 AI Systems/AI Agent Fundamentals` | stay |
+| `01 - AI Agent คืออะไร` | core runtime concept | `02 AI Systems/AI Agent Fundamentals` | stay |
+| `02 - วิวัฒนาการ LLM สู่ Agent` | core runtime concept | `02 AI Systems/AI Agent Fundamentals` | stay |
+| `03 - คุณสมบัติ 5 อย่างของ Agent` | core runtime concept | `02 AI Systems/AI Agent Fundamentals` | stay |
+| `04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration` | core runtime concept | `02 AI Systems/AI Agent Fundamentals` | stay |
+| `05 - วงจร Perceive-Think-Act-Check` | core runtime loop | `02 AI Systems/AI Agent Fundamentals` | stay |
+| `06 - วงจร Thought-Action-Observation (TAO)` | core runtime loop | `02 AI Systems/AI Agent Fundamentals` | stay |
+| `07 - รูปแบบ Agent Architectures` | architecture concept | `02 AI Systems/AI Agent Fundamentals` | stay |
+| `08 - Workflow vs AI Agent` | decision / comparison note | `02 AI Systems/AI Agent Fundamentals` | stay; bridge to Use Cases / Synthesis |
+| `09 - เมื่อไรควรและไม่ควรใช้ Agent` | decision note | `02 AI Systems/AI Agent Fundamentals` | stay; bridge to Use Cases |
+| `10 - Risks และ Best Practices` | runtime risk note | `02 AI Systems/AI Agent Fundamentals` | stay; bridge to Guardrails / Evals |
+| `11 - Key Takeaways และ Quick Reference` | summary / reference | `02 AI Systems/AI Agent Fundamentals` | stay |
+| `12 - LLM พื้นฐาน` | bridge note | `01 Foundations/LLM Foundations` | keep as bridge |
+| `13 - Messages, System Prompt และ Chat Templates` | bridge note | `01 Foundations/Prompt Engineering` + `01 Foundations/Context Windows` | keep as bridge |
+| `14 - Tools: การออกแบบและทำงาน` | bridge note | `02 AI Systems/MCP` + `06 Engineering` | keep as bridge |
+
+---
+
 ## Use With Registry
 
 - อ่านหน้านี้คู่กับ `Knowledge Topic Registry`

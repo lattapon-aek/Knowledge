@@ -15,6 +15,14 @@ parent_note: "[[Home]]"
 
 ใช้ note นี้เมื่อกำลังออกแบบระบบ RAG ตั้งแต่การเลือก retrieval pipeline ไปจนถึง grounding, evaluation, และ trade-offs ด้าน cost/latency
 
+รายละเอียดเชิงลึกของ retrieval, chunking, reranking, context assembly, และ eval ให้อยู่ใน canonical notes ของ `RAG` แล้ว ใช้ note นี้เป็น decision path เพื่อเลือกชั้นที่ต้องประกอบเท่านั้น
+
+## Canonical Notes
+
+- [[02 AI Systems/RAG/RAG - MOC]]
+- [[04 Synthesis/Synthesis - Memory vs RAG vs Context]]
+- [[04 Synthesis/Synthesis - Prompting vs Fine-tuning vs RAG]]
+
 ---
 
 ## ใช้เมื่อไร
@@ -43,7 +51,7 @@ parent_note: "[[Home]]"
 
 ลำดับที่ควรถาม:
 1. chunk documents อย่างไร
-2. ใช้ lexical, vector, หรือ hybrid retrieval
+2. จะใช้ lexical, vector, หรือ hybrid retrieval
 3. ต้องมี query transformation หรือไม่
 4. ต้องมี reranking หรือไม่
 5. จะประกอบ context ก่อนส่งเข้า model อย่างไร

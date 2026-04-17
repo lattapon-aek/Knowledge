@@ -16,6 +16,8 @@ parent_note: "[[Home]]"
 
 ใช้เมื่อ prompt ตอบไม่สม่ำเสมอ หลุด format หรือให้คำตอบไม่ตรง criteria
 
+รายละเอียด prompt anatomy, patterns, structured generation, และ context engineering อยู่ใน canonical notes ของ `Prompt Engineering` และ `Context Windows` แล้ว
+
 ---
 
 ## Reading Order

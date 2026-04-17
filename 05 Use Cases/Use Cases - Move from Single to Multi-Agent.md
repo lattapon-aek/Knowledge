@@ -22,6 +22,8 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 - long-running enough to need checkpointing or resume
 - audit-sensitive enough to need traces and decision lineage
 
+รายละเอียด infrastructure, ownership, handoffs, security, deployment, และ failure modes อยู่ใน canonical notes ของ `04 Synthesis` และ `06 Engineering` แล้ว หน้านี้เป็น decision path สำหรับย้ายระดับระบบเท่านั้น
+
 ตัวอย่าง:
 - research agent + writer agent + reviewer agent
 - data collection + analysis + reporting pipeline

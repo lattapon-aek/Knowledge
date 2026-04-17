@@ -15,6 +15,16 @@ parent_note: "[[Home]]"
 
 ใช้ note นี้เมื่อกำลังออกแบบ evaluation สำหรับ agent ที่มีทั้ง reasoning, tool use, state, และ safety requirements พร้อมกัน
 
+รายละเอียด success criteria, benchmark design, judge, human review, regression, และ observability อยู่ใน `Evals` canonical notes แล้ว note นี้เป็น decision path สำหรับเลือก evaluation scope
+
+## Canonical Notes
+
+- [[02 AI Systems/Evals/Evals - MOC]]
+- [[02 AI Systems/Evals/Core/01 - Success Criteria]]
+- [[02 AI Systems/Evals/Core/02 - Benchmark Design]]
+- [[02 AI Systems/Evals/Core/03 - LLM-as-Judge]]
+- [[02 AI Systems/Evals/Core/05 - Regression Testing]]
+
 ---
 
 ## ใช้เมื่อไร

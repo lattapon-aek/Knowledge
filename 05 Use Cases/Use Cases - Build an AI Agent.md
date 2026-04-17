@@ -15,6 +15,8 @@ parent_note: "[[Home]]"
 
 ใช้หน้านี้เป็น reading path เร็ว ๆ สำหรับการออกแบบ agent ตั้งแต่พื้นฐานจนถึง tools และ protocol
 
+รายละเอียดเชิงทฤษฎีของ agent runtime อยู่ใน `AI Agent Fundamentals` และรายละเอียด implementation อยู่ใน `06 Engineering` แล้ว หน้านี้เป็นทางเข้าใช้งานจริงเท่านั้น
+
 ---
 
 ## Reading Order

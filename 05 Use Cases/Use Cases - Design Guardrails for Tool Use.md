@@ -15,6 +15,16 @@ parent_note: "[[Home]]"
 
 ใช้ note นี้เมื่อ agent หรือ LLM application มี tool use แล้วต้องออกแบบ guardrails ให้ปลอดภัย ใช้งานได้จริง และไม่หนักจนทำให้ระบบใช้ไม่ได้
 
+รายละเอียด control layers, validation, permission model, fallback, และ incident handling อยู่ใน `Guardrails` canonical notes แล้ว note นี้เป็น decision path สำหรับออกแบบ boundary ของ tool use
+
+## Canonical Notes
+
+- [[02 AI Systems/Guardrails/Guardrails - MOC]]
+- [[02 AI Systems/Guardrails/Core/01 - Input and Output Controls]]
+- [[02 AI Systems/Guardrails/Core/03 - Tool Safety]]
+- [[02 AI Systems/Guardrails/Operations/04 - Permission Models]]
+- [[02 AI Systems/Guardrails/Core/05 - Fallback Policies]]
+
 ---
 
 ## ใช้เมื่อไร

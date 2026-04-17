@@ -14,6 +14,7 @@ parent_note: "[[Home]]"
 
 หมวดนี้เป็น canonical home ของ decision paths และ application-oriented examples  
 ถ้าเป็น theory / foundation ให้ไปหมวด `01` และ `02` แทน
+ถ้าเป็นรายละเอียดเชิงทฤษฎีของ topic หลัก ให้คงไว้ใน canonical note ของ topic นั้น แล้วใช้หมวดนี้เป็นทางเข้าใช้งานจริงเท่านั้น
 
 ---
 

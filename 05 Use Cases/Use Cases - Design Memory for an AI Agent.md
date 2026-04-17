@@ -15,6 +15,14 @@ parent_note: "[[Home]]"
 
 ใช้ note นี้เมื่อกำลังตัดสินใจว่า agent ควรมี memory แบบไหน, อ่านเมื่อไร, เขียนเมื่อไร, และอะไรควรเป็น memory แทนที่จะเป็น RAG หรือ context ธรรมดา
 
+รายละเอียด memory architecture, taxonomy, policy, และ failure modes อยู่ใน `Memory Systems` แล้ว note นี้เป็นเพียง decision path สำหรับเลือก memory boundary
+
+## Canonical Notes
+
+- [[02 AI Systems/Memory Systems/Memory Systems - MOC]]
+- [[04 Synthesis/Synthesis - Memory vs RAG vs Context]]
+- [[04 Synthesis/Synthesis - Memory in Agents]]
+
 ---
 
 ## ใช้เมื่อไร

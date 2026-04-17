@@ -15,6 +15,8 @@ parent_note: "[[Home]]"
 
 การเลือก agent framework ที่ดีไม่ใช่การถามว่า framework ไหนดัง แต่คือการ map use case ของเราเข้ากับ runtime needs จริง เช่น orchestration, state, memory, observability, และ human approval
 
+รายละเอียด framework landscape, framework-vs-custom, state, tool orchestration, observability, และ checkpointing อยู่ใน canonical notes ของ `Agent Frameworks` และ `06 Engineering` แล้ว
+
 ---
 
 ## ใช้เมื่อไร

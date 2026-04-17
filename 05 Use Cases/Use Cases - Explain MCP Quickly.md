@@ -15,6 +15,8 @@ parent_note: "[[Home]]"
 
 ใช้เมื่ออยากอธิบาย MCP ให้คนที่ยังไม่รู้จักเข้าใจเร็ว โดยไม่จมกับ spec ตั้งแต่ต้น
 
+รายละเอียด architecture, primitives, และ security อยู่ใน canonical notes ของ `MCP` แล้ว note นี้เป็น short explanation path เท่านั้น
+
 ---
 
 ## Short Path

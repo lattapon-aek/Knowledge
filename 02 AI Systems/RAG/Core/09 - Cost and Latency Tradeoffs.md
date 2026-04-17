@@ -4,7 +4,7 @@ tags:
   - cost
   - latency
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Retrieval Docs · Microsoft Learn Azure AI Search"
 parent_note: "[[RAG - MOC]]"
 ---

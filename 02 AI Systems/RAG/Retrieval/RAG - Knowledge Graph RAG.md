@@ -4,7 +4,7 @@ tags:
   - graphrag
   - knowledgegraph
 type: note
-status: draft
+status: evergreen
 source: "Neo4j GraphRAG Docs · Neo4j GraphAcademy"
 parent_note: "[[RAG - MOC]]"
 ---
@@ -48,8 +48,7 @@ flowchart TD
     I --> J[LLM Answer]
 ```
 
-หลักสำคัญคือ GraphRAG ไม่จำเป็นต้องแทน vector RAG เสมอไป  
-ในหลายระบบมันทำงานร่วมกัน
+หลักสำคัญคือ GraphRAG ไม่จำเป็นต้องแทน vector RAG เสมอไป และในหลายระบบมันทำงานร่วมกัน
 
 ---
 

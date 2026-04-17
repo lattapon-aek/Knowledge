@@ -4,7 +4,7 @@ tags:
   - embeddings
   - vector-db
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Retrieval Docs · Azure AI Search Vector Search Docs"
 parent_note: "[[RAG - MOC]]"
 ---

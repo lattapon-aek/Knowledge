@@ -4,7 +4,7 @@ tags:
   - evaluation
   - evals
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Retrieval Docs · Google Vertex AI Grounding / Evaluation Docs · Microsoft Learn"
 parent_note: "[[RAG - MOC]]"
 ---

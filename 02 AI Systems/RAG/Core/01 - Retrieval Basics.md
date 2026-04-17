@@ -3,7 +3,7 @@ tags:
   - rag
   - retrieval
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Retrieval & File Search Docs · Google Vertex AI RAG Engine Docs · Microsoft Learn (Azure AI Search)"
 parent_note: "[[RAG - MOC]]"
 ---

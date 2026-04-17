@@ -4,7 +4,7 @@ tags:
   - retrieval
   - hybrid
 type: note
-status: draft
+status: evergreen
 source: "Microsoft Learn (Azure AI Search Hybrid Search) · OpenAI Retrieval Docs"
 parent_note: "[[RAG - MOC]]"
 ---
@@ -56,10 +56,7 @@ flowchart LR
     E --> F[Context Assembly]
 ```
 
-สถาปัตยกรรมนี้ทำให้ retrieval layer:
-- ไม่ยึดติดกับ signal แบบเดียว
-- มี recall ดีขึ้นในหลายโดเมน
-- ยังรักษา exact precision ใน query บางประเภทได้
+สถาปัตยกรรมนี้ทำให้ retrieval layer ไม่ยึดติดกับ signal แบบเดียว มี recall ดีขึ้นในหลายโดเมน และยังรักษา exact precision ใน query บางประเภทได้
 
 ---
 

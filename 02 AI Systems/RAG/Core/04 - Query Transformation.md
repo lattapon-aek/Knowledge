@@ -4,7 +4,7 @@ tags:
   - retrieval
   - querytransformation
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Retrieval Docs · Microsoft Learn Query Rewrite"
 parent_note: "[[RAG - MOC]]"
 ---

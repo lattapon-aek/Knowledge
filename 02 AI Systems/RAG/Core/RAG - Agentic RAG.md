@@ -4,7 +4,7 @@ tags:
   - agenticrag
   - agents
 type: note
-status: draft
+status: evergreen
 source: "Microsoft Learn (Agentic Retrieval) · OpenAI Agents Docs"
 parent_note: "[[RAG - MOC]]"
 ---

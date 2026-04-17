@@ -4,7 +4,7 @@ tags:
   - context
   - assembly
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Retrieval Docs · Microsoft Learn (Azure AI Search Semantic Ranking)"
 parent_note: "[[RAG - MOC]]"
 ---

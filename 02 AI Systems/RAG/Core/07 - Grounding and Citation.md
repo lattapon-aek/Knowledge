@@ -4,7 +4,7 @@ tags:
   - grounding
   - citation
 type: note
-status: draft
+status: evergreen
 source: "Google Cloud Grounding Docs · OpenAI Retrieval Docs"
 parent_note: "[[RAG - MOC]]"
 ---

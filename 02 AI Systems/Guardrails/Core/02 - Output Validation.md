@@ -4,7 +4,7 @@ tags:
   - validation
   - outputs
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Structured Outputs Docs · OpenAI Safety Best Practices · Azure AI Content Safety Groundedness Docs"
 parent_note: "[[Guardrails - MOC]]"
 ---

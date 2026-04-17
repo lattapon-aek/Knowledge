@@ -4,7 +4,7 @@ tags:
   - monitoring
   - incidents
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Safety Best Practices · OpenAI Trace Grading and Evals Docs · Azure AI Content Safety Docs · MCP Security Best Practices"
 parent_note: "[[Guardrails - MOC]]"
 ---

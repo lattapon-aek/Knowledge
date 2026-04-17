@@ -3,7 +3,7 @@ tags:
   - guardrails
   - permissions
 type: note
-status: draft
+status: evergreen
 source: "MCP Authorization and Security Best Practices · OpenAI Safety Best Practices"
 parent_note: "[[Guardrails - MOC]]"
 ---

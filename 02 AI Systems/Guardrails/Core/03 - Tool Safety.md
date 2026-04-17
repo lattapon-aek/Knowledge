@@ -4,7 +4,7 @@ tags:
   - tools
   - safety
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Tools and Function Calling Docs · OpenAI Safety Best Practices · Anthropic Tool Use Docs · MCP Authorization and Consent Concepts"
 parent_note: "[[Guardrails - MOC]]"
 ---

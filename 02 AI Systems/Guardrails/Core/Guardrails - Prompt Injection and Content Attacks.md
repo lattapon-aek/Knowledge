@@ -5,7 +5,7 @@ tags:
   - attacks
   - groundedness
 type: note
-status: draft
+status: evergreen
 source: "Microsoft Learn, Azure AI Content Safety, Microsoft Foundry"
 parent_note: "[[Guardrails - MOC]]"
 ---

@@ -3,7 +3,7 @@ tags:
   - guardrails
   - fallback
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Safety Best Practices · OpenAI Evals and Trace Grading Docs · Azure AI Content Safety Docs"
 parent_note: "[[Guardrails - MOC]]"
 ---

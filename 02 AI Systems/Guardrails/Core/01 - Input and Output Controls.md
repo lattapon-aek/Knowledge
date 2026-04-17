@@ -3,7 +3,7 @@ tags:
   - guardrails
   - validation
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Structured Outputs and Moderation Docs · OpenAI Safety Best Practices · Azure AI Content Safety Docs"
 parent_note: "[[Guardrails - MOC]]"
 ---

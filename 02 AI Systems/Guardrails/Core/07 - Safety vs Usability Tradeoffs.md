@@ -4,7 +4,7 @@ tags:
   - safety
   - tradeoffs
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Safety Best Practices · OpenAI Usage Policies · MCP Security Best Practices · Azure AI Content Safety Docs"
 parent_note: "[[Guardrails - MOC]]"
 ---

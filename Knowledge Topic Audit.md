@@ -252,6 +252,23 @@ parent_note: "[[Knowledge Topic Registry]]"
 
 ---
 
+## File Audit: 04 Synthesis
+
+| File | Current Role | Recommended Owner | Action |
+|---|---|---|---|
+| `Synthesis - MOC` | canonical owner | `04 Synthesis` | stay |
+| `Synthesis - Agent Runtime Layers` | bridge / stack view | `04 Synthesis` | stay |
+| `Synthesis - Agent vs Workflow vs RAG` | comparison / decision bridge | `04 Synthesis` | stay |
+| `Synthesis - LLM to Agent Stack` | stack / bridge view | `04 Synthesis` | stay |
+| `Synthesis - Memory in Agents` | bridge note | `04 Synthesis` | stay |
+| `Synthesis - Memory vs RAG vs Context` | bridge / decision note | `04 Synthesis` | stay |
+| `Synthesis - Prompting vs Fine-tuning vs RAG` | comparison / decision bridge | `04 Synthesis` | stay |
+| `Synthesis - Safety, Reliability, and Evals` | bridge / control synthesis | `04 Synthesis` | stay |
+| `Synthesis - Single to Multi-Agent Infrastructure` | bridge / architecture synthesis | `04 Synthesis` | stay |
+| `Synthesis - Multi-Agent Failure Modes` | bridge / negative index | `04 Synthesis` | stay |
+
+---
+
 ## Use With Registry
 
 - อ่านหน้านี้คู่กับ `Knowledge Topic Registry`

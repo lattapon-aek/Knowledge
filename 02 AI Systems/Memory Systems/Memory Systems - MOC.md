@@ -94,3 +94,4 @@ parent_note: "[[Home]]"
 
 - Memory Systems - Personalization and User Profiles
 - Memory Systems - Memory Compression and Summarization
+- Knowledge Topic Registry

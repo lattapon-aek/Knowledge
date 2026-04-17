@@ -93,3 +93,5 @@ parent_note: "[[Home]]"
 ---
 
 ## โน้ตที่ควรสร้างต่อ
+
+- [[Knowledge Topic Registry]]

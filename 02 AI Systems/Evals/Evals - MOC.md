@@ -109,6 +109,7 @@ parent_note: "[[Home]]"
 
 - [[06 Engineering/README]]
 - [[06 Engineering/Evals/Evals - MOC]]
+- [[Knowledge Topic Registry]]
 
 ## Next Notes To Create
 

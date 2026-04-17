@@ -81,3 +81,4 @@ Prompts = reusable template/workflow
 
 - [[06 Engineering/README]]
 - [[06 Engineering/MCP/MCP - MOC]]
+- [[Knowledge Topic Registry]]

@@ -88,6 +88,7 @@ parent_note: "[[Home]]"
 
 - [[06 Engineering/README]]
 - [[06 Engineering/Guardrails/Guardrails - MOC]]
+- [[Knowledge Topic Registry]]
 
 ---
 

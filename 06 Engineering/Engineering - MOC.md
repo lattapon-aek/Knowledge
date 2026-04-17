@@ -61,3 +61,5 @@ parent_note: "[[Home]]"
 - patterns และ recipes สำหรับ reuse ในงาน coding
 - decisions สำหรับบันทึกเหตุผลการเลือกทาง engineering
 - project notes สำหรับ context ของระบบหรือ repo เฉพาะ
+
+- [[Knowledge Topic Registry]]

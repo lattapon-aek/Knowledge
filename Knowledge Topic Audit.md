@@ -486,3 +486,16 @@ parent_note: "[[Knowledge Topic Registry]]"
 - `Knowledge Topic Registry` = แผนที่ owner
 - `Knowledge Topic Audit` = checklist สำหรับดูว่าเรื่องไหน stay / bridge / move
 - `Knowledge Refactor - Task Board` = แผนงานกลางของ phase ถัดไป
+
+### Bridge Note Check เริ่มต้น
+
+รอบเริ่มต้นของ recategorization ตรวจ bridge notes หลักแล้ว:
+
+- `AI Agent Fundamentals/12 - LLM พื้นฐาน` = keep as bridge
+- `AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates` = keep as bridge
+- `AI Agent Fundamentals/14 - Tools: การออกแบบและทำงาน` = keep as bridge
+
+ผลสรุป:
+- bridge notes เหล่านี้ยังไม่ใช่ move candidates
+- บทบาทของมันคือเชื่อม `01 Foundations` / `02 AI Systems` / `06 Engineering` ให้ชัด
+- รอบถัดไปค่อยประเมิน bridge note อื่น ๆ ทีละ topic ตาม execution order

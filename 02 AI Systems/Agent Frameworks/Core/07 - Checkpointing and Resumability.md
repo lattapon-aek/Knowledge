@@ -24,7 +24,7 @@ parent_note: "[[Agent Frameworks - MOC]]"
 - recover จาก failures
 
 Microsoft Agent Framework อธิบาย checkpoints ไว้ชัดว่าใช้เก็บ workflow state ณ จุดหนึ่งและ resume ได้ภายหลัง  
-Google ADK ก็แยก `Session`, `State`, และ `Memory` เป็นคนละชั้น ซึ่งช่วยให้เห็นว่า resumability ไม่ใช่แค่ “เก็บ memory” แต่เป็นเรื่อง execution continuity ด้วย
+Google ADK แยก `Session`, `State`, และ `Memory` เป็นคนละชั้น ซึ่งช่วยให้เห็นว่า resumability ไม่ใช่แค่ “เก็บ memory” แต่เป็นเรื่อง execution continuity ด้วย
 
 ---
 

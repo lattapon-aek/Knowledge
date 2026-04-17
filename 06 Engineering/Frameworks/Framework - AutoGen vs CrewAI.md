@@ -14,7 +14,7 @@ parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 
 ## ภาพรวม
 
-สรุปเชิงเปรียบเทียบจาก official docs: AutoGen และ CrewAI ต่างรองรับ multi-agent workflows แต่ emphasis, runtime model, และ ergonomics ไม่เหมือนกัน
+สรุปเชิงเปรียบเทียบจาก official docs: AutoGen และ CrewAI รองรับ multi-agent workflows แต่ emphasis, runtime model, และ ergonomics ไม่เหมือนกัน
 
 ---
 
@@ -25,6 +25,11 @@ parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 - orchestration control
 - extensibility
 - practical tradeoffs
+
+## จุดที่ต่างกันหลัก ๆ
+
+- AutoGen เด่นที่ event-driven / conversation-oriented / distributed runtime
+- CrewAI เด่นที่ role-based collaboration และ sequential/hierarchical processes
 
 ---
 

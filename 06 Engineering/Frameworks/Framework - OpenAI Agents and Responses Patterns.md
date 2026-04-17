@@ -14,7 +14,7 @@ parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 
 ## ภาพรวม
 
-ใน ecosystem ของ OpenAI ตอนนี้ pattern สำคัญไม่ได้เริ่มจาก framework ภายนอกเสมอไป แต่เริ่มจากการประกอบ `Responses API`, `tools`, `stateful interactions`, และ `evaluation/trace features` เข้าด้วยกันให้เป็น agent runtime ที่เหมาะกับงาน
+ใน ecosystem ของ OpenAI pattern สำคัญเริ่มจากการประกอบ `Responses API`, `tools`, `stateful interactions`, และ `evaluation/trace features` เข้าด้วยกัน
 
 ---
 
@@ -35,8 +35,6 @@ parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 - knowledge and memory ผ่าน vector stores, file search, และ embeddings
 - logic nodes หรือ orchestration logic
 - evals และ trace grading สำหรับ optimization
-
-ในเชิงสถาปัตย์ของ vault นี้ เรามองว่านี่คือ runtime pattern แบบ modular มากกว่าจะเป็น framework เดี่ยวก้อนเดียว
 
 ---
 
@@ -137,8 +135,6 @@ flowchart TD
 - `vector stores / file search` เป็น knowledge layer
 - `logic/workflows` เป็น orchestration layer
 - `traces + evals` เป็น optimization layer
-
-จุดสำคัญคือ OpenAI ไม่ได้ผลักให้คิดเรื่อง agent เป็น “โมเดลเดี่ยวอัจฉริยะ” แต่เป็นระบบประกอบจากหลายชั้น
 
 ---
 

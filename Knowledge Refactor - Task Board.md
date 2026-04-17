@@ -157,6 +157,12 @@ parent_note: "[[Home]]"
 - ใช้เป็นรายการว่า topic หลักแต่ละเรื่องควรอยู่ folder ไหน / note ไหนเป็น canonical / note ไหนเป็น bridge
 - topic registry จะเป็น source เดียวสำหรับตรวจ ownership ของเรื่องสำคัญก่อนย้ายหรือแตกหมวดใหม่
 
+### 0.1 Folder Structure Plan v2
+
+- ใช้ [[Knowledge Folder Structure Plan v2]] เป็นเอกสารกลางสำหรับทำให้ folder role ใช้รูปแบบเดียวกันทั้ง vault
+- จุดประสงค์คือให้ `Core / Bridge / Application / Reference / Implementation` อ่านออกเหมือนกันในทุกหมวด
+- ถ้าจะปรับโครง folder ในอนาคต ให้ยึดเอกสารนี้ก่อนค่อยย้ายไฟล์จริง
+
 ### 1. Re-categorization Order
 
 ใช้ลำดับนี้เป็นงานหลักของ phase ใหม่:

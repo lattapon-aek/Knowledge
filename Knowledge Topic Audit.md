@@ -320,6 +320,38 @@ parent_note: "[[Knowledge Topic Registry]]"
 
 ---
 
+## File Audit: 03 Tools / Claude Code
+
+| File | Current Role | Recommended Owner | Action |
+|---|---|---|---|
+| `Claude Code - Multi-Agent MOC` | canonical owner | `03 Tools/Claude Code` | stay |
+| `01 - Claude Code คืออะไร` | stable concept / tool intro | `03 Tools/Claude Code` | stay |
+| `02 - เปรียบเทียบ Agentic Coding Tools` | stable comparison note | `03 Tools/Claude Code` | stay |
+| `03 - Orchestrator Pattern` | stable concept note | `03 Tools/Claude Code` | stay |
+| `04 - 1 Session vs Subagents vs Agent Teams` | volatile workflow note | `03 Tools/Claude Code` | stay |
+| `05 - รูปแบบการใช้งาน Multi-Agent` | stable concept note | `03 Tools/Claude Code` | stay |
+| `06 - การควบคุมต้นทุน` | stable concept note | `03 Tools/Claude Code` | stay |
+| `07 - การติดตั้งและเริ่มใช้งาน` | volatile setup note | `03 Tools/Claude Code` | stay |
+| `08 - Display Mode (In-Process vs Split Panes)` | volatile setup note | `03 Tools/Claude Code` | stay |
+| `09 - Permissions และ Settings` | volatile setup note | `03 Tools/Claude Code` | stay |
+| `10 - Session Management และ Commands` | volatile workflow note | `03 Tools/Claude Code` | stay |
+| `11 - โครงสร้างโฟลเดอร์ .claude.md` | volatile workflow note | `03 Tools/Claude Code` | stay |
+| `12 - CLAUDE File` | volatile workflow note | `03 Tools/Claude Code` | stay |
+| `13 - Custom Commands` | volatile workflow note | `03 Tools/Claude Code` | stay |
+| `14 - Built-in Subagents` | volatile workflow note | `03 Tools/Claude Code` | stay |
+| `15 - สร้าง Subagent ด้วย agents.md` | volatile workflow note | `03 Tools/Claude Code` | stay |
+| `16 - บทบาท Frontend, Backend, QA` | stable concept note | `03 Tools/Claude Code` | stay |
+| `17 - Agent Tool` | volatile tool note | `03 Tools/Claude Code` | stay |
+| `18 - Git Worktree` | volatile workflow note | `03 Tools/Claude Code` | stay |
+| `19 - วิธีเริ่ม Agent Team` | volatile workflow note | `03 Tools/Claude Code` | stay |
+| `20 - Multi-Provider AI` | stable concept note | `03 Tools/Claude Code` | stay |
+| `21 - กรณีศึกษา` | stable case note | `03 Tools/Claude Code` | stay |
+| `22 - Error Handling` | volatile workflow note | `03 Tools/Claude Code` | stay |
+| `23 - ข้อจำกัด Agent Teams` | volatile workflow note | `03 Tools/Claude Code` | stay |
+| `24 - Best Practices & Checklist` | volatile reference note | `03 Tools/Claude Code` | stay |
+
+---
+
 ## Use With Registry
 
 - อ่านหน้านี้คู่กับ `Knowledge Topic Registry`

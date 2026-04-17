@@ -457,3 +457,32 @@ parent_note: "[[Knowledge Topic Registry]]"
 - อ่านหน้านี้คู่กับ `Knowledge Topic Registry`
 - ใช้ Registry เป็นแผนที่ owner
 - ใช้ Audit นี้เป็น checklist ว่า topic ไหนควร stay, bridge, หรือ move
+
+---
+
+## Final Summary
+
+ผลสรุปรอบ audit แรก:
+
+- `01 Foundations` = stay
+- `02 AI Systems` = stay
+- `04 Synthesis` = stay
+- `05 Use Cases` = stay
+- `06 Engineering` = stay
+- `03 Tools/Claude Code` = stay
+
+### สิ่งที่คงไว้
+
+- bridge notes ที่ตั้งใจให้เชื่อมข้าม topic
+- implementation notes ที่อยู่ใน `06 Engineering`
+- volatile tool notes ที่อยู่ใน `03 Tools/Claude Code`
+
+### สิ่งที่ยังไม่ต้องย้าย
+
+- ไม่มี move candidate ที่ต้องย้ายเนื้อหาหลักในรอบนี้
+
+### สิ่งที่ใช้ต่อรอบหน้า
+
+- `Knowledge Topic Registry` = แผนที่ owner
+- `Knowledge Topic Audit` = checklist สำหรับดูว่าเรื่องไหน stay / bridge / move
+- `Knowledge Refactor - Task Board` = แผนงานกลางของ phase ถัดไป

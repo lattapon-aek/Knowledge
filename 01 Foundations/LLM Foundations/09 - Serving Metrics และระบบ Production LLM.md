@@ -7,7 +7,7 @@ tags:
   - production
   - rag
 type: note
-status: draft
+status: evergreen
 source: "OpenAI, Anthropic, Hugging Face, NVIDIA"
 parent_note: "[[LLM Foundations - MOC]]"
 ---

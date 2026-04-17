@@ -5,7 +5,7 @@ tags:
   - retrieval
   - similarity
 type: note
-status: draft
+status: evergreen
 source: "OpenAI, Google Cloud Vertex AI, Cohere Docs, Microsoft Learn"
 parent_note: "[[LLM Foundations - MOC]]"
 ---

@@ -6,7 +6,7 @@ tags:
   - alignment
   - pretraining
 type: note
-status: draft
+status: evergreen
 source: "OpenAI, Google Research, Google DeepMind, Anthropic"
 parent_note: "[[LLM Foundations - MOC]]"
 ---

@@ -5,7 +5,7 @@ tags:
   - json
   - reliability
 type: note
-status: draft
+status: evergreen
 source: "OpenAI, Anthropic, Google Cloud Vertex AI, Microsoft Learn"
 parent_note: "[[Prompt Engineering - MOC]]"
 ---

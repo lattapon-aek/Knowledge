@@ -5,7 +5,7 @@ tags:
   - vision
   - audio
 type: note
-status: draft
+status: evergreen
 source: "OpenAI, Google AI for Developers, Anthropic Docs, Microsoft Learn"
 parent_note: "[[LLM Foundations - MOC]]"
 ---

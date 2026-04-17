@@ -6,7 +6,7 @@ tags:
   - bias
   - limitation
 type: note
-status: draft
+status: evergreen
 source: "OpenAI, Anthropic"
 parent_note: "[[LLM Foundations - MOC]]"
 ---

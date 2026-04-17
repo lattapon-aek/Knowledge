@@ -5,7 +5,7 @@ tags:
   - integration
   - agent
 type: note
-status: draft
+status: evergreen
 source: "MCP/MCP_Knowledge_Base.md"
 parent_note: "[[MCP - MOC]]"
 ---

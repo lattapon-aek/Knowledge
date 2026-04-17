@@ -5,7 +5,7 @@ tags:
   - components
   - structure
 type: note
-status: draft
+status: evergreen
 source: "Prompt Engineering/prompt-engineering-knowledge-base.md"
 parent_note: "[[Prompt Engineering - MOC]]"
 ---

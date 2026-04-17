@@ -5,7 +5,7 @@ tags:
   - evals
   - reliability
 type: note
-status: draft
+status: evergreen
 source: "OpenAI, Anthropic, Google Cloud Vertex AI, Microsoft Learn"
 parent_note: "[[LLM Foundations - MOC]]"
 ---

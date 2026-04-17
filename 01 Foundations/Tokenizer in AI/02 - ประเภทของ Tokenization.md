@@ -4,7 +4,7 @@ tags:
   - llm
   - nlp
 type: note
-status: draft
+status: evergreen
 source: "Tokenizer in AI/Tokenizer-Knowledge-Base.md — ส่วนที่ 4–5"
 parent_note: "[[Tokenizer in AI - MOC]]"
 ---

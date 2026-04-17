@@ -6,7 +6,7 @@ tags:
   - kvcache
   - context
 type: note
-status: draft
+status: evergreen
 source: "Anthropic, OpenAI, Hugging Face"
 parent_note: "[[LLM Foundations - MOC]]"
 ---

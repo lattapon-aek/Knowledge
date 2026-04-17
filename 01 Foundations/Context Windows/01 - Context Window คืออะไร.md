@@ -5,7 +5,7 @@ tags:
   - llm
   - contextwindow
 type: note
-status: draft
+status: evergreen
 source: "Context Windows/knowledge-base-context-windows.md"
 parent_note: "[[Context Windows - MOC]]"
 ---

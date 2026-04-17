@@ -7,7 +7,7 @@ tags:
   - scaling
   - finetuning
 type: note
-status: draft
+status: evergreen
 source: "OpenAI, Google Research, Google DeepMind"
 parent_note: "[[LLM Foundations - MOC]]"
 ---

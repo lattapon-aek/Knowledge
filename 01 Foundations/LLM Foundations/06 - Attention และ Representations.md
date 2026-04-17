@@ -6,7 +6,7 @@ tags:
   - multihead
   - representation
 type: note
-status: draft
+status: evergreen
 source: "Google Research, Hugging Face"
 parent_note: "[[LLM Foundations - MOC]]"
 ---

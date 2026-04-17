@@ -7,7 +7,7 @@ tags:
   - llama
   - llm
 type: note
-status: draft
+status: evergreen
 source: "Tokenizer in AI/Tokenizer-Knowledge-Base.md — ส่วนที่ 16"
 parent_note: "[[Tokenizer in AI - MOC]]"
 ---

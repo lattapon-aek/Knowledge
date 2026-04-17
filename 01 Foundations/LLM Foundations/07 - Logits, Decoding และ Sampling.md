@@ -6,7 +6,7 @@ tags:
   - temperature
   - logits
 type: note
-status: draft
+status: evergreen
 source: "Hugging Face, OpenAI"
 parent_note: "[[LLM Foundations - MOC]]"
 ---

@@ -6,7 +6,7 @@ tags:
   - embedding
   - pretraining
 type: note
-status: draft
+status: evergreen
 source: "OpenAI, Hugging Face, Google Research, Google DeepMind"
 parent_note: "[[LLM Foundations - MOC]]"
 ---

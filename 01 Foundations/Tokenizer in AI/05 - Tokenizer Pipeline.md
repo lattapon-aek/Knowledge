@@ -5,7 +5,7 @@ tags:
   - nlp
   - huggingface
 type: note
-status: draft
+status: evergreen
 source: "Tokenizer in AI/Tokenizer-Knowledge-Base.md — ส่วนที่ 7, 15"
 parent_note: "[[Tokenizer in AI - MOC]]"
 ---

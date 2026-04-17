@@ -14,7 +14,7 @@ parent_note: "[[Agent Frameworks - MOC]]"
 
 ## ภาพรวม
 
-framework ที่ดีไม่ได้ช่วยแค่ orchestration แต่ต้องช่วยให้ระบบ `trace`, `inspect`, `evaluate`, และ `improve` ได้ด้วย ถ้ารัน agent ได้แต่ตรวจพฤติกรรมย้อนหลังไม่ได้ framework นั้นยังไม่ครบสำหรับ production systems
+framework ที่ดีไม่ได้ช่วยแค่ orchestration แต่ต้องช่วยให้ระบบ `trace`, `inspect`, `evaluate`, และ `improve` ได้ด้วย
 
 ---
 

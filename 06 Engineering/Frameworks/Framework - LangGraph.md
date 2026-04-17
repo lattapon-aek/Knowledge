@@ -13,7 +13,7 @@ parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 
 ## ภาพรวม
 
-สรุปเชิงสถาปัตย์จาก official docs: LangGraph เป็น low-level orchestration framework/runtime สำหรับ stateful agent workflows เหมาะกับงานที่ต้องการ flow, branching, durability, และ human-in-the-loop แบบ explicit
+สรุปเชิงสถาปัตย์จาก official docs: LangGraph เป็น low-level orchestration framework/runtime สำหรับ stateful agent workflows
 
 ---
 
@@ -24,6 +24,13 @@ parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 - checkpointing
 - human-in-the-loop
 - LangGraph vs simple agent loop
+
+## จุดเด่นที่ควรจำ
+
+- explicit flow control
+- persistence และ checkpointing
+- human-in-the-loop
+- เหมาะกับ long-running, branching workflows
 
 ---
 

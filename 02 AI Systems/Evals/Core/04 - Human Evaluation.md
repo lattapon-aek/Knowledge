@@ -3,7 +3,7 @@ tags:
   - evals
   - humanreview
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Evaluation Best Practices · Google Cloud Evaluation Overview"
 parent_note: "[[Evals - MOC]]"
 ---

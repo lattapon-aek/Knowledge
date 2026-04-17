@@ -4,7 +4,7 @@ tags:
   - observability
   - feedbackloops
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Evaluation Best Practices · OpenAI Trace Grading"
 parent_note: "[[Evals - MOC]]"
 ---

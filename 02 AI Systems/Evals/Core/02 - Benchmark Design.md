@@ -3,7 +3,7 @@ tags:
   - evals
   - benchmark
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Evaluation Best Practices"
 parent_note: "[[Evals - MOC]]"
 ---

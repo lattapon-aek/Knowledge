@@ -3,7 +3,7 @@ tags:
   - evals
   - regression
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Evals Guide · OpenAI Evaluation Best Practices"
 parent_note: "[[Evals - MOC]]"
 ---

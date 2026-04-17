@@ -3,7 +3,7 @@ tags:
   - evals
   - agents
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Agent Evals Guide · OpenAI Evals Guide"
 parent_note: "[[Evals - MOC]]"
 ---

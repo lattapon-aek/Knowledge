@@ -3,7 +3,7 @@ tags:
   - evals
   - rag
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Retrieval Docs · Google Cloud Grounding / Evaluation Docs"
 parent_note: "[[Evals - MOC]]"
 ---

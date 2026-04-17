@@ -3,7 +3,7 @@ tags:
   - evals
   - success-criteria
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Evals Guide · OpenAI Evaluation Best Practices · Google Cloud Evaluation Overview"
 parent_note: "[[Evals - MOC]]"
 ---

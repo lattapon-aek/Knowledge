@@ -83,6 +83,22 @@ parent_note: "[[Knowledge Topic Registry]]"
 - สิ่งที่ควรคงไว้คือ bridge semantics ของแต่ละ note
 - phase ถัดไปยังเดินต่อได้ตาม execution order โดยไม่ต้องย้ายไฟล์จริงในสองหมวดนี้
 
+### Phase 4–5 Detailed Bridge Check
+
+ตรวจเรื่อง `RAG` และ `Guardrails` แล้ว:
+
+- `RAG/Core/06 - Context Assembly` = stay; bridge to `Context Engineering`
+- `RAG/Core/07 - Grounding and Citation` = stay; bridge to `Evals`
+- `RAG/Evaluation/08 - Evaluation` = stay; bridge to `Evals`
+- `Guardrails/Core/03 - Tool Safety` = stay; bridge to `AI Agent Fundamentals/14` and `MCP`
+- `Guardrails/Operations/04 - Permission Models` = stay; bridge to `MCP` / `06 Engineering`
+- `Guardrails/Operations/06 - Monitoring and Incidents` = stay; bridge to `Evals`
+
+ผลสรุป:
+- ยังไม่มี move candidate สำหรับ phase 4–5
+- ทั้งสองหมวดควรคงบทบาทเดิมเป็น owner หลัก
+- bridge notes ที่เกี่ยวข้องยังคงไว้เพื่อเชื่อมไปยัง `Evals`, `MCP`, `Context Windows`, และ `Engineering`
+
 ---
 
 ## Execution Order

@@ -4,7 +4,7 @@ tags:
   - frameworks
   - landscape
 type: note
-status: draft
+status: evergreen
 source: "LangGraph Docs · AutoGen Docs · Semantic Kernel Agent Framework Docs · CrewAI Concepts Docs"
 parent_note: "[[Agent Frameworks - MOC]]"
 ---

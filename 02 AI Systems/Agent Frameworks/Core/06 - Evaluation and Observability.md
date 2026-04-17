@@ -5,7 +5,7 @@ tags:
   - evals
   - observability
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Agent Evals · OpenAI Trace Grading · Azure Monitor Agent Observability"
 parent_note: "[[Agent Frameworks - MOC]]"
 ---

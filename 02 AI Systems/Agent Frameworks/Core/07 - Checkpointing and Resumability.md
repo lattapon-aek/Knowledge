@@ -5,7 +5,7 @@ tags:
   - checkpointing
   - resumability
 type: note
-status: draft
+status: evergreen
 source: "Microsoft Learn, Google ADK"
 parent_note: "[[Agent Frameworks - MOC]]"
 ---

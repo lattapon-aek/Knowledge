@@ -5,7 +5,7 @@ tags:
   - state
   - memory
 type: note
-status: draft
+status: evergreen
 source: "LangGraph Persistence Docs · Google ADK Sessions and Memory Docs · AutoGen Core Docs · Semantic Kernel Agent Framework Docs"
 parent_note: "[[Agent Frameworks - MOC]]"
 ---

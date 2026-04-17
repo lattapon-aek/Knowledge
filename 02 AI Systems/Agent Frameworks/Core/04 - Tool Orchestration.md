@@ -5,7 +5,7 @@ tags:
   - tools
   - orchestration
 type: note
-status: draft
+status: evergreen
 source: "LangGraph Docs · AutoGen Docs · Semantic Kernel Docs · OpenAI Tools Docs"
 parent_note: "[[Agent Frameworks - MOC]]"
 ---

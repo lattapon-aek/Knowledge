@@ -35,6 +35,18 @@ parent_note: "[[Knowledge Topic Registry]]"
 | Bridge notes | keep | ใช้เฉพาะจุดที่ต้องเชื่อมข้าม topic |
 | Move candidates | none in this pass | ยังไม่ต้องย้ายเนื้อหาหลักก่อนเริ่ม phase ใหม่ |
 
+## Re-categorization Execution Log
+
+เริ่ม execution จริงตาม `Knowledge Topic Registry` แล้ว โดยใช้หลักว่า:
+- ไม่ย้ายไฟล์ถ้า owner ยังชัด
+- คง bridge notes ไว้ถ้าช่วยเชื่อม topic ได้ดี
+- ย้ายเฉพาะกรณีที่มี canonical owner เปลี่ยนจริง
+
+สถานะรอบแรก:
+- `Foundations` = reviewed, stay
+- `Agent runtime` = reviewed, stay
+- ยังไม่มี move candidate ที่ต้องย้ายไฟล์จริงใน batch แรก
+
 ### Phase Status
 
 - Phase 0 (`Foundations / base primitives`) = reviewed, no moves needed

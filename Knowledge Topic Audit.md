@@ -185,6 +185,26 @@ parent_note: "[[Knowledge Topic Registry]]"
 
 ---
 
+## File Audit: 02 AI Systems / RAG
+
+| File | Current Role | Recommended Owner | Action |
+|---|---|---|---|
+| `RAG - MOC` | canonical owner | `02 AI Systems/RAG` | stay |
+| `Core/01 - Retrieval Basics` | core retrieval concept | `02 AI Systems/RAG` | stay |
+| `Core/02 - Chunking Strategies` | core retrieval concept | `02 AI Systems/RAG` | stay |
+| `Retrieval/03 - Embeddings and Vector Databases` | retrieval infrastructure concept | `02 AI Systems/RAG` | stay |
+| `Core/04 - Query Transformation` | retrieval pipeline concept | `02 AI Systems/RAG` | stay |
+| `Retrieval/05 - Reranking` | retrieval pipeline concept | `02 AI Systems/RAG` | stay |
+| `Core/06 - Context Assembly` | retrieval pipeline concept | `02 AI Systems/RAG` | stay |
+| `Core/07 - Grounding and Citation` | grounding concept | `02 AI Systems/RAG` | stay |
+| `Evaluation/08 - Evaluation` | RAG evaluation concept | `02 AI Systems/RAG` + `02 AI Systems/Evals` | stay; bridge to Evals |
+| `Core/09 - Cost and Latency Tradeoffs` | operational RAG concept | `02 AI Systems/RAG` | stay |
+| `Core/RAG - Agentic RAG` | advanced RAG concept | `02 AI Systems/RAG` | stay |
+| `Retrieval/RAG - Hybrid Retrieval` | advanced retrieval pattern | `02 AI Systems/RAG` | stay |
+| `Retrieval/RAG - Knowledge Graph RAG` | advanced retrieval pattern | `02 AI Systems/RAG` | stay |
+
+---
+
 ## Use With Registry
 
 - อ่านหน้านี้คู่กับ `Knowledge Topic Registry`

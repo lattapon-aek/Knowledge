@@ -40,6 +40,7 @@ parent_note: "[[Knowledge Topic Registry]]"
 - Phase 0 (`Foundations / base primitives`) = reviewed, no moves needed
 - Phase 1 (`Agent runtime`) = reviewed, no moves needed
 - Phase 2 (`Framework selection`) = reviewed, no moves needed
+- Phase 3 (`Memory architecture`) = reviewed, no moves needed
 - Execution จะเดินตามลำดับใน section `Execution Order`
 
 ### Bridge Notes ที่ควรคงไว้

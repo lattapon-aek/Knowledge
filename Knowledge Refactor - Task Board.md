@@ -43,6 +43,7 @@ parent_note: "[[Home]]"
 - ย่อ notes bridge ด้าน runtime layers และ LLM-to-agent stack
 - ย่อ `AI Agent Fundamentals` หลายหน้าให้เหลือ concept สำคัญ
 - ย่อ `Agent Frameworks - Landscape` และ `Framework vs Custom Build`
+- ปิดฝั่ง `06 Engineering` ทั้งชุดแล้ว รวม `Frameworks`, `Architecture to Code`, `Recipes`, `Decisions`, `Evals`, `Guardrails`, `Memory`, `MCP`, `Patterns`, และ `Project Notes`
 
 ### Style cleanup
 
@@ -67,20 +68,7 @@ parent_note: "[[Home]]"
 - คงตาราง, diagram, และ framework-specific comparisons ไว้
 - แยกให้ชัดว่าอะไรเป็น concept level และอะไรเป็น implementation level
 
-### 2. `06 Engineering/Frameworks`
-
-โฟกัส:
-- `Framework - LangGraph`
-- `Framework - LangChain Agents`
-- `Framework - AutoGen vs CrewAI`
-- `Framework - OpenAI Agents and Responses Patterns`
-
-งานที่ต้องดู:
-- ลดการเล่า concept ซ้ำกับ `Agent Frameworks`
-- คงรายละเอียด implementation และ official references ไว้
-- ทำให้แต่ละหน้าเป็น vendor/framework-specific มากขึ้น
-
-### 3. `02 AI Systems/Memory Systems` และ `02 AI Systems/RAG`
+### 2. `02 AI Systems/Memory Systems` และ `02 AI Systems/RAG`
 
 โฟกัส:
 - policy / taxonomy / retrieval / context assembly / agentic RAG
@@ -89,7 +77,7 @@ parent_note: "[[Home]]"
 - ตรวจซ้ำระหว่าง memory, RAG, และ remaining synthesis notes
 - ยังคง canonical notes ที่เป็นฐานความรู้ไว้ครบ
 
-### 4. `02 AI Systems/Guardrails` และ `02 AI Systems/Evals`
+### 3. `02 AI Systems/Guardrails` และ `02 AI Systems/Evals`
 
 โฟกัส:
 - input/output controls
@@ -100,7 +88,7 @@ parent_note: "[[Home]]"
 - ลดการอธิบายที่ซ้ำกับ synthesis notes
 - คง control/eval primitives ไว้ครบ
 
-### 5. `05 Use Cases`
+### 4. `05 Use Cases`
 
 โฟกัส:
 - decision paths
@@ -110,7 +98,7 @@ parent_note: "[[Home]]"
 - ตัดซ้ำกับ synthesis เมื่อเป็นแค่ decision bridge
 - คง use case examples ที่ช่วยนำไปใช้จริง
 
-### 6. `03 Tools/Claude Code`
+### 5. `03 Tools/Claude Code`
 
 สถานะ:
 - ตั้งใจให้เป็น volatile/reference layer
@@ -130,8 +118,6 @@ parent_note: "[[Home]]"
 
 ## Suggested Next Steps
 
-1. เก็บ `Agent Frameworks` core ที่เหลือ
-2. ลด overlap ระหว่าง `Agent Frameworks` กับ `06 Engineering/Frameworks`
-3. ตรวจ `Memory Systems` / `RAG` / `Guardrails` / `Evals` รอบสุดท้าย
-4. ค่อย sweep `05 Use Cases` ถ้ายังมี bridge ที่ซ้ำ
-
+1. ตรวจ `Memory Systems` / `RAG` / `Guardrails` / `Evals` รอบสุดท้าย
+2. ค่อย sweep `05 Use Cases` ถ้ายังมี bridge ที่ซ้ำ
+3. เก็บ `03 Tools/Claude Code` ถ้าต้องการลด volatile overlap ในรอบถัดไป

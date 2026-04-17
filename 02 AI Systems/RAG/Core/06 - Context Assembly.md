@@ -13,7 +13,7 @@ parent_note: "[[RAG - MOC]]"
 
 ## Summary
 
-retrieval ที่ดีไม่พอ ถ้าประกอบ context ไม่ดี ระบบก็ยังตอบพลาดได้เพราะลำดับ, noise, และ truncation มีผลกับ generation มาก
+retrieval ที่ดีไม่พอ ถ้าประกอบ context ไม่ดี ระบบก็ยังตอบพลาดได้
 
 ---
 
@@ -75,7 +75,7 @@ patterns ที่พบบ่อย:
 - query-grouped
 - chronology-aware
 
-Microsoft semantic ranking reinforce แนวคิดว่าการจัดลำดับก่อนส่งต่อมีผลต่อ final relevance อย่างมาก
+Microsoft semantic ranking reinforce แนวคิดว่าการจัดลำดับก่อนส่งต่อมีผลต่อ final relevance
 
 ---
 
@@ -88,7 +88,7 @@ retrieval หลายแบบ โดยเฉพาะ hybrid retrieval แล
 - ลด diversity
 - เพิ่ม noise
 
-dedup จึงเป็นส่วนหนึ่งของ assembly ไม่ใช่เรื่อง optional
+dedup เป็นส่วนหนึ่งของ assembly ไม่ใช่เรื่อง optional
 
 ---
 

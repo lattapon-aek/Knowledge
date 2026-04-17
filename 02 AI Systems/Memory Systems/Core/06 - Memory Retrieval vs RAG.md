@@ -23,7 +23,7 @@ memory retrieval กับ RAG retrieval ต่างก็เป็น retrieva
 - memory retrieval เน้น continuity, personalization, และ prior interactions
 - RAG retrieval เน้น external knowledge, grounding, และ evidence
 
-ดังนั้นระบบที่ดีไม่ควรมองสองอย่างนี้เป็นสิ่งเดียวกัน แม้จะใช้ primitive คล้ายกัน เช่น search, ranking, หรือ context injection
+ดังนั้นระบบที่ดีไม่ควรมองสองอย่างนี้เป็นสิ่งเดียวกัน แม้จะใช้ primitive คล้ายกัน
 
 ---
 

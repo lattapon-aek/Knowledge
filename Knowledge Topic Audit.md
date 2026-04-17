@@ -66,6 +66,23 @@ parent_note: "[[Knowledge Topic Registry]]"
 - ไม่มีไฟล์ที่ต้อง move ทันทีในรอบนี้
 - ถ้าจะ re-categorize ในรอบถัดไป ให้เริ่มจากการปรับลิงก์/bridge ก่อน แล้วค่อยพิจารณาย้ายเฉพาะกรณีที่ owner ยังไม่ชัด
 
+### Phase 2–3 Detailed Bridge Check
+
+ตรวจเรื่อง `Agent Frameworks` และ `Memory Systems` แล้ว:
+
+- `Agent Frameworks/Core/03 - State and Memory` = stay; bridge to `Memory Systems`
+- `Agent Frameworks/Core/04 - Tool Orchestration` = stay; bridge to `AI Agent Fundamentals` / `06 Engineering`
+- `Agent Frameworks/Core/06 - Evaluation and Observability` = stay; bridge to `Evals`
+- `Agent Frameworks/Core/07 - Checkpointing and Resumability` = stay; bridge to `Memory Systems` / `06 Engineering`
+- `Memory Systems/Core/06 - Memory Retrieval vs RAG` = stay as bridge to `RAG`
+- `Memory Systems/Application/04 - Agent Memory Patterns` = stay; bridge to `Agent Frameworks` / `Use Cases`
+- `Memory Systems/Application/05 - Memory Failure Modes` = stay; bridge to `Evals` / `Guardrails`
+
+ผลสรุป:
+- ยังไม่มี move candidate สำหรับ phase 2–3
+- สิ่งที่ควรคงไว้คือ bridge semantics ของแต่ละ note
+- phase ถัดไปยังเดินต่อได้ตาม execution order โดยไม่ต้องย้ายไฟล์จริงในสองหมวดนี้
+
 ---
 
 ## Execution Order

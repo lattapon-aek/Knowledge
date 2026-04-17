@@ -4,7 +4,7 @@ tags:
   - transformer
   - foundation
 type: note
-status: draft
+status: evergreen
 source: "HuggingFace Agents Course — Unit 1 \"What are LLMs?\" (huggingface.co/learn/agents-course/unit1)"
 parent_note: "[[AI Agent Fundamentals - MOC]]"
 ---

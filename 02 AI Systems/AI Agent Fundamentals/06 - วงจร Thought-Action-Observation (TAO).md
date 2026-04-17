@@ -6,7 +6,7 @@ tags:
   - react
   - cot
 type: note
-status: draft
+status: evergreen
 source: "Hugging Face Agents Course — Unit 1 · Anthropic Tool Use Overview · OpenAI Function Calling"
 parent_note: "[[AI Agent Fundamentals - MOC]]"
 ---

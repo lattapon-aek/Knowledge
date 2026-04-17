@@ -3,7 +3,7 @@ tags:
   - agent
   - architecture
 type: note
-status: draft
+status: evergreen
 source: "Google Skills — Agent Fundamentals (Module 2–3) · OpenAI Agents Guide · Anthropic Tool Use Overview"
 parent_note: "[[AI Agent Fundamentals - MOC]]"
 ---
@@ -31,10 +31,6 @@ flowchart LR
 
 ในเชิงสถาปัตย์ของโน้ตนี้ ใช้กรอบ `Model + Tools + Orchestration` เพื่ออธิบาย agent architecture ให้เห็นบทบาทของแต่ละส่วนอย่างชัดเจน
 
-**Analogies:**
-- **ร้านอาหาร**: Model = พ่อครัว · Tools = อุปกรณ์ครัว · Orchestration = กระบวนการรับออเดอร์ วางแผน ปรุง เสิร์ฟ
-- **รถยนต์**: Model = engine · Tools = wheels · Orchestration = steering system
-
 ---
 
 ## Component 1: Model (การคิด)
@@ -45,11 +41,9 @@ Model คือ **centralized decision maker** ของ agent
 
 ### 1. Understanding intent
 - รับ natural language แล้วแปลงเป็น goal ที่มีโครงสร้าง
-- ตรวจจับ ambiguity เช่น "Paris, France หรือ Paris, Texas?"
 
 ### 2. Making decisions
 - ในแต่ละ step ตัดสินใจว่า: ควรหา flight ก่อนหรือโรงแรมก่อน? ถามเพิ่มหรือใช้ default?
-- reasoning เรื่อง priorities, dependencies, likely outcomes
 
 ### 3. Learning from feedback
 - เมื่อ tool ส่งผลกลับมา ตีความและปรับแผน เช่น:

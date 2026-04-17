@@ -5,7 +5,7 @@ tags:
   - chat-template
   - messages
 type: note
-status: draft
+status: evergreen
 source: "HuggingFace Agents Course — Unit 1 \"Messages and Special Tokens\" (huggingface.co/learn/agents-course/unit1)"
 parent_note: "[[AI Agent Fundamentals - MOC]]"
 ---

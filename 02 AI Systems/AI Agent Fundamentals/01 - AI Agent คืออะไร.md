@@ -3,7 +3,7 @@ tags:
   - agent
   - definition
 type: note
-status: draft
+status: evergreen
 source: "Google Skills — Agent Fundamentals (Module 1)"
 parent_note: "[[AI Agent Fundamentals - MOC]]"
 ---
@@ -24,7 +24,6 @@ parent_note: "[[AI Agent Fundamentals - MOC]]"
 - เป็น application ที่พยายามทำเป้าหมายให้สำเร็จ
 - สังเกต environment ระหว่างทาง
 - ลงมือทำผ่านเครื่องมือที่มี
-- มีความ proactive มากกว่ารอรับคำสั่งทีละ step
 
 ---
 
@@ -41,10 +40,7 @@ LLM รุ่นแรกสามารถ:
 
 ### Function Calling ยังไม่พอ
 
-LLM + Function Calling เรียก API ได้ แต่ข้อจำกัดยังชัด:
-- ผู้ใช้หรือโค้ดรอบนอกยังต้อง orchestrate ทุกขั้นตอนเอง
-- ไม่ autonomous, ไม่ proactive
-- ต้องสั่งการทีละขั้น
+LLM + Function Calling เรียก API ได้ แต่ผู้ใช้หรือโค้ดรอบนอกยังต้อง orchestrate ทุกขั้นตอนเอง
 
 ### สิ่งที่ผู้ใช้ต้องการจริง ๆ
 

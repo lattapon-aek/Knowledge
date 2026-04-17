@@ -4,7 +4,7 @@ tags:
   - decision-framework
   - use-cases
 type: note
-status: draft
+status: evergreen
 source: "Google Skills — Agent Fundamentals (Module 4)"
 parent_note: "[[AI Agent Fundamentals - MOC]]"
 ---

@@ -4,7 +4,7 @@ tags:
   - loop
   - orchestration
 type: note
-status: draft
+status: evergreen
 source: "Google Skills — Agent Fundamentals (Module 3) · OpenAI Agents Guide · Hugging Face Agents Course"
 parent_note: "[[AI Agent Fundamentals - MOC]]"
 ---

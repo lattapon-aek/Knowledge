@@ -5,7 +5,7 @@ tags:
   - design
   - mcp
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Docs, Anthropic Docs, MCP Official Docs"
 parent_note: "[[AI Agent Fundamentals - MOC]]"
 ---

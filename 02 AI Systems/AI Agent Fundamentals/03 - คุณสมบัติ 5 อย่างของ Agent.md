@@ -3,7 +3,7 @@ tags:
   - agent
   - properties
 type: note
-status: draft
+status: evergreen
 source: "Google Skills — Agent Fundamentals (Module 1)"
 parent_note: "[[AI Agent Fundamentals - MOC]]"
 ---

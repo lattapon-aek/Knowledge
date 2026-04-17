@@ -4,7 +4,7 @@ tags:
   - architecture
   - patterns
 type: note
-status: draft
+status: evergreen
 source: "Hugging Face Agents Course · OpenAI Agents Guide · Anthropic Tool Use Overview"
 parent_note: "[[AI Agent Fundamentals - MOC]]"
 ---

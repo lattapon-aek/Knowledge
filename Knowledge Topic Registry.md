@@ -39,6 +39,33 @@ parent_note: "[[Home]]"
 | Implementation | `06 Engineering` | `Engineering - MOC` | framework, recipe, decision, project notes |
 | Claude Code / tooling | `03 Tools/Claude Code` | `Claude Code - Multi-Agent MOC` | volatile tool-specific notes |
 
+## Core Subtopics
+
+ใช้ตารางนี้เมื่อ topic ใหญ่แตกย่อยแล้ว แต่ยังอยากคุมเจ้าของหลักให้ชัด
+
+| Subtopic | Canonical Home | Canonical Note / Entry |
+|---|---|---|
+| Agent loop / runtime basics | `02 AI Systems/AI Agent Fundamentals` | `AI Agent Fundamentals - MOC` |
+| Runtime messages / system prompt / templates | `02 AI Systems/AI Agent Fundamentals` | `13 - Messages, System Prompt และ Chat Templates` |
+| Tool runtime contract | `02 AI Systems/AI Agent Fundamentals` + `06 Engineering` | `14 - Tools: การออกแบบและทำงาน` / `Architecture - Tool Schemas and Runtime Integration` |
+| State / memory / checkpointing | `02 AI Systems/Agent Frameworks` | `03 - State and Memory`, `07 - Checkpointing and Resumability` |
+| Tool orchestration | `02 AI Systems/Agent Frameworks` | `04 - Tool Orchestration` |
+| Evaluation / observability / trace grading | `02 AI Systems/Agent Frameworks` + `02 AI Systems/Evals` | `06 - Evaluation and Observability` / `Evals - MOC` |
+| Multi-agent infrastructure | `04 Synthesis` + `06 Engineering` | `Synthesis - Single to Multi-Agent Infrastructure` / `Architecture - Multi-Agent Infrastructure` |
+| Multi-agent handoffs / ownership | `06 Engineering` | `Architecture - Multi-Agent Ownership and Handoffs` |
+| Multi-agent security / permissions | `06 Engineering` | `Architecture - Multi-Agent Security and Permissions` |
+| Multi-agent deployment / topology | `06 Engineering` | `Architecture - Multi-Agent Deployment and Topology` |
+| Prompt anatomy / patterns | `01 Foundations/Prompt Engineering` | `Prompt Engineering - MOC` |
+| Context budget / caching / long-context | `01 Foundations/Context Windows` | `Context Windows - MOC` |
+| Tokenization / tokenizer behavior | `01 Foundations/Tokenizer in AI` | `Tokenizer in AI - MOC` |
+| LLM theory / inference / evaluation primitives | `01 Foundations/LLM Foundations` | `LLM Foundations - MOC` |
+| Retrieval / grounding / RAG eval | `02 AI Systems/RAG` | `RAG - MOC` |
+| Memory policy / long-term recall | `02 AI Systems/Memory Systems` | `Memory Systems - MOC` |
+| Guardrails / safety controls | `02 AI Systems/Guardrails` | `Guardrails - MOC` |
+| Use-case decisions | `05 Use Cases` | `Use Cases - MOC` |
+| Bridge / synthesis | `04 Synthesis` | `Synthesis - MOC` |
+| Volatile tool reference | `03 Tools/Claude Code` | `Claude Code - Multi-Agent MOC` |
+
 ## Folder Map
 
 - `00 Raw Sources` = raw inputs / source records

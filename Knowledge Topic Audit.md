@@ -47,6 +47,10 @@ parent_note: "[[Knowledge Topic Registry]]"
 - `Agent runtime` = reviewed, stay
 - ยังไม่มี move candidate ที่ต้องย้ายไฟล์จริงใน batch แรก
 
+สถานะรอบถัดไป:
+- `Framework selection` = reviewed, stay
+- ยังไม่มี move candidate ที่ต้องย้ายไฟล์จริงใน phase นี้
+
 ### Phase Status
 
 - Phase 0 (`Foundations / base primitives`) = reviewed, no moves needed

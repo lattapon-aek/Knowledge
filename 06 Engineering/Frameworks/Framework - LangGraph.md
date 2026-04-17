@@ -4,7 +4,7 @@ tags:
   - frameworks
   - langgraph
 type: note
-status: draft
+status: evergreen
 source: "https://docs.langchain.com/oss/javascript/langgraph/overview · https://docs.langchain.com/oss/javascript/langchain/overview"
 parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 ---

@@ -5,7 +5,7 @@ tags:
   - openai
   - responses
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Agents Guide · OpenAI Responses API · OpenAI Using Tools"
 parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 ---

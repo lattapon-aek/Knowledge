@@ -5,7 +5,7 @@ tags:
   - autogen
   - crewai
 type: note
-status: draft
+status: evergreen
 source: "https://microsoft.github.io/autogen/0.4.8/reference/index.html · https://docs.crewai.com/how-to/bring-your-own-agent"
 parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 ---

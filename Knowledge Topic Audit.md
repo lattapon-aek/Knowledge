@@ -221,6 +221,24 @@ parent_note: "[[Knowledge Topic Registry]]"
 
 ---
 
+## File Audit: 02 AI Systems / Evals
+
+| File | Current Role | Recommended Owner | Action |
+|---|---|---|---|
+| `Evals - MOC` | canonical owner | `02 AI Systems/Evals` | stay |
+| `Core/01 - Success Criteria` | core evaluation concept | `02 AI Systems/Evals` | stay |
+| `Core/02 - Benchmark Design` | core evaluation concept | `02 AI Systems/Evals` | stay |
+| `Core/03 - LLM-as-Judge` | core evaluation concept | `02 AI Systems/Evals` | stay |
+| `Core/04 - Human Evaluation` | core evaluation concept | `02 AI Systems/Evals` | stay |
+| `Core/05 - Regression Testing` | core evaluation concept | `02 AI Systems/Evals` | stay |
+| `Core/09 - Observability and Feedback Loops` | operational evaluation concept | `02 AI Systems/Evals` | stay |
+| `Application/06 - Prompt Evals` | applied evaluation note | `02 AI Systems/Evals` | stay |
+| `Application/07 - RAG Evals` | applied evaluation note | `02 AI Systems/Evals` | stay |
+| `Application/08 - Agent Evals` | applied evaluation note | `02 AI Systems/Evals` | stay |
+| `Application/09 - Multi-Agent Evals` | applied evaluation note | `02 AI Systems/Evals` | stay |
+
+---
+
 ## Use With Registry
 
 - อ่านหน้านี้คู่กับ `Knowledge Topic Registry`

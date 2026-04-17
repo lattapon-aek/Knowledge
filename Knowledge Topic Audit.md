@@ -99,6 +99,23 @@ parent_note: "[[Knowledge Topic Registry]]"
 - ทั้งสองหมวดควรคงบทบาทเดิมเป็น owner หลัก
 - bridge notes ที่เกี่ยวข้องยังคงไว้เพื่อเชื่อมไปยัง `Evals`, `MCP`, `Context Windows`, และ `Engineering`
 
+### Phase 6–7 Detailed Bridge Check
+
+ตรวจเรื่อง `Evals` และ `Use Cases` แล้ว:
+
+- `Evals/Core/01 - Success Criteria` = stay
+- `Evals/Core/02 - Benchmark Design` = stay
+- `Evals/Core/09 - Observability and Feedback Loops` = stay; bridge to `Agent Frameworks` / production monitoring
+- `Use Cases/Design Memory for an AI Agent` = stay; bridge to `Memory Systems`
+- `Use Cases/Improve Prompt Reliability` = stay; bridge to `Prompt Engineering` / `Context Windows`
+- `Use Cases/Evaluate an AI Agent` = stay; bridge to `Evals`
+
+ผลสรุป:
+- ยังไม่มี move candidate สำหรับ phase 6–7
+- `Evals` คงเป็น measurement owner
+- `Use Cases` คงเป็น decision/application owner
+- bridge notes ยังช่วยเชื่อมไปยัง canonical topic ได้ตรงจุด
+
 ---
 
 ## Execution Order

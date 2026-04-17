@@ -152,7 +152,7 @@ parent_note: "[[Home]]"
 
 ### 0. Topic Registry
 
-- สร้าง `Knowledge Topic Registry.md` เป็นแผนที่กลางของ vault
+- `Knowledge Topic Registry.md` ถูกสร้างแล้วเป็นแผนที่กลางของ vault
 - ใช้เป็นรายการว่า topic หลักแต่ละเรื่องควรอยู่ folder ไหน / note ไหนเป็น canonical / note ไหนเป็น bridge
 - topic registry จะเป็น source เดียวสำหรับตรวจ ownership ของเรื่องสำคัญก่อนย้ายหรือแตกหมวดใหม่
 

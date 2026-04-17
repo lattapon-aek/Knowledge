@@ -17,6 +17,7 @@ Second brain สำหรับความรู้ด้าน AI systems, LLM
 - [[00 Raw Sources/Articles/Source Manifests - MOC|Source Manifests]] — entry points สำหรับชุดแหล่งข้อมูลที่ใช้อยู่จริง
 - [[00 Raw Sources/Source Records/Source Records - MOC|Source Records]] — ทะเบียนแหล่งอ้างอิงที่กู้คืนจากโน้ตเดิม
 - [[index]] — catalog กลางของฝั่ง wiki
+- [[Knowledge Topic Registry]] — แผนที่กลางของ topic canonical ownership
 
 ---
 
@@ -119,6 +120,7 @@ Second brain สำหรับความรู้ด้าน AI systems, LLM
 - [[_Templates/Quick Capture Template|Quick Capture Template]]
 - [[Vault Standards - Note Lifecycle]]
 - [[Vault Standards - Properties]]
+- [[Knowledge Topic Registry]]
 
 ใช้หลักง่าย ๆ:
 

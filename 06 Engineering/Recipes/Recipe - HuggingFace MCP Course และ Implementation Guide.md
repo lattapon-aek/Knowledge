@@ -8,7 +8,7 @@ tags:
   - synthesis
   - derived
 type: note
-status: draft
+status: evergreen
 source: "https://huggingface.co/learn · MCP/MCP_Knowledge_Base.md (sections 10–18)"
 parent_note: "[[06 Engineering/Recipes/Recipes - MOC]]"
 ---

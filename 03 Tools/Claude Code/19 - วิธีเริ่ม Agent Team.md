@@ -65,3 +65,4 @@ Use Sonnet for each teammate.
 - [[08 - Display Mode (In-Process vs Split Panes)]]
 - [[09 - Permissions และ Settings]]
 - [[23 - ข้อจำกัด Agent Teams]]
+- [[05 Use Cases/Use Cases - Move from Single to Multi-Agent]]

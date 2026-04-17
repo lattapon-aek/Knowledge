@@ -18,6 +18,9 @@ Claude Code คือ **CLI tool** จาก Anthropic สำหรับ **Agen
 - ควบคุมได้เต็มรูปแบบผ่านไฟล์ config
 - รองรับการทำงานแบบ Autonomous และ Non-interactive
 
+ถ้าต้องการกรอบคิด agent ทั่วไปให้ดู `AI Agent Fundamentals`
+ถ้าต้องการกรอบตัดสินใจว่าเมื่อไรควรใช้ agent หรือ multi-agent ให้ดู `05 Use Cases`
+
 ---
 
 ## คำสั่งพื้นฐาน

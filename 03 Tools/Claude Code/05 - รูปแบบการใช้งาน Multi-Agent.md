@@ -103,3 +103,4 @@ flowchart TD
 ## พื้นฐานทฤษฎีที่เกี่ยวข้อง
 
 - [[02 AI Systems/AI Agent Fundamentals/07 - รูปแบบ Agent Architectures|Multi-Agent Workflows]] — Sequential / Parallel / Cross-layer patterns ที่ใช้ใน Claude Code ตรงกับ Multi-Agent Workflows ในทฤษฎี
+- [[05 Use Cases/Use Cases - Move from Single to Multi-Agent]] — ใช้เป็น entry point ว่าเมื่อไรควรใช้ pattern แบบไหน

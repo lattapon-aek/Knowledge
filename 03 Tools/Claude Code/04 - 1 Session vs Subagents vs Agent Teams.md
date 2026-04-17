@@ -143,3 +143,4 @@ flowchart LR
 
 - [[02 AI Systems/AI Agent Fundamentals/01 - AI Agent คืออะไร|Spectrum of Agency]] — 1 Session / Subagents / Agent Teams ตรงกับ spectrum: Simple Processor → Multi-step Agent → Multi-Agent
 - [[02 AI Systems/AI Agent Fundamentals/08 - Workflow vs AI Agent|Workflow vs AI Agent]] — Sequential Subagents = Workflow pattern / Dynamic Agent Teams = Agent pattern
+- [[05 Use Cases/Use Cases - Move from Single to Multi-Agent]] — decision path ว่างานแบบไหนควรขยับจาก single-agent ไป multi-agent

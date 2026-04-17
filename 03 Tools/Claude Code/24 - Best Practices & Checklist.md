@@ -78,3 +78,5 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 - [[02 AI Systems/AI Agent Fundamentals/09 - เมื่อไรควรและไม่ควรใช้ Agent|Decision Framework]] — เกณฑ์ตัดสินใจว่าเมื่อไรควรใช้ Agent ระดับใด ก่อนใช้ checklist นี้
 - [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]] — รวมข้อจำกัด, validation, fallback, permissions, และ monitoring ที่เกี่ยวกับ production agents
 - [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]] — ใช้ตรวจว่าระบบ multi-agent ใช้งานได้จริงและไม่ regress เมื่อปรับ prompt หรือ model
+- [[05 Use Cases/Use Cases - Build an AI Agent]]
+- [[05 Use Cases/Use Cases - Move from Single to Multi-Agent]]

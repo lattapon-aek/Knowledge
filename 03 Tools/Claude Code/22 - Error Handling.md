@@ -79,3 +79,4 @@ Orchestrator spawn
 ## พื้นฐานทฤษฎีที่เกี่ยวข้อง
 
 - [[02 AI Systems/AI Agent Fundamentals/10 - Risks และ Best Practices|Risks & Best Practices]] — Hallucination, Overreliance, Failure Handling และ Guardrails ในทฤษฎี ตรงกับปัญหาที่พบใน Claude Code จริง
+- [[05 Use Cases/Use Cases - Evaluate an AI Agent]]

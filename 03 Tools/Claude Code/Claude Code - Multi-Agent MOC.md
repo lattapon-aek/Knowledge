@@ -66,6 +66,7 @@ Claude Code คือ **CLI tool** จาก Anthropic สำหรับ agenti
 
 - [[04 Synthesis/Synthesis - MOC|Synthesis - MOC]]
 - [[05 Use Cases/Use Cases - MOC|Use Cases - MOC]]
+- [[02 AI Systems/AI Agent Fundamentals/AI Agent Fundamentals - MOC|AI Agent Fundamentals - MOC]]
 
 ---
 
@@ -81,6 +82,9 @@ Claude Code คือ **CLI tool** จาก Anthropic สำหรับ agenti
 - [[16 - บทบาท Frontend, Backend, QA]]
 - [[21 - กรณีศึกษา]]
 - [[20 - Multi-Provider AI]]
+ 
+ถ้าต้องการอ่านกรอบคิดเรื่อง agent / workflow / decision ก่อน ให้ไป `AI Agent Fundamentals`
+ถ้าต้องการอ่าน decision path ว่าควรใช้ agent เมื่อไรหรือควรขยายเป็น multi-agent เมื่อไร ให้ไป `05 Use Cases`
 
 ---
 

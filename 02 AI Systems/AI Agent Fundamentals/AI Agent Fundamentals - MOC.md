@@ -22,6 +22,7 @@ parent_note: "[[Home]]"
 หมายเหตุการจัดโครง:
 - หมวดนี้เป็น canonical learning path สำหรับพื้นฐานของ agent
 - โน้ตใน `04 Synthesis` ทำหน้าที่เป็น bridge / comparison / synthesis layer และไม่ควรเล่าพื้นฐานซ้ำเกินจำเป็น
+- ถ้าเป็น decision path หรือ application-oriented example ให้เริ่มที่ `05 Use Cases` ก่อน แล้วค่อยย้อนกลับมาอ่าน note canonical ของหมวดนี้
 - หัวข้อ LLM / prompt / context primitives เป็นของ `01 Foundations` เป็นหลัก
 - โน้ต `12`, `13`, และ `14` ในหมวดนี้ทำหน้าที่เป็น bridge notes สำหรับ agent-facing runtime เท่านั้น
 
@@ -65,6 +66,9 @@ diagram นี้เป็น conceptual overview ของหมวดนี้
 - [[13 - Messages, System Prompt และ Chat Templates]] — runtime message layer; bridge to Prompt Engineering / Context Windows
 - [[14 - Tools: การออกแบบและทำงาน]] — tools, schemas, MCP connection; bridge to engineering runtime
 - [[06 Engineering/Architecture to Code/Architecture - Tool Schemas and Runtime Integration]] — runtime contract ของ tool schemas, validation, execution, และ tool results
+- [[05 Use Cases/Use Cases - Build an AI Agent]] — decision-oriented entry point สำหรับออกแบบ agent
+- [[05 Use Cases/Use Cases - Move from Single to Multi-Agent]] — decision-oriented entry point สำหรับขยายเป็น multi-agent
+- [[05 Use Cases/Use Cases - Evaluate an AI Agent]] — decision-oriented entry point สำหรับ evaluation
 
 ---
 

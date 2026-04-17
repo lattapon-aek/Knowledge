@@ -122,6 +122,8 @@ Start
 
 - [[08 - Workflow vs AI Agent]]
 - [[10 - Risks และ Best Practices]]
+- [[05 Use Cases/Use Cases - Build an AI Agent]]
+- [[05 Use Cases/Use Cases - Move from Single to Multi-Agent]]
 
 ## ตัวอย่าง Implementation จริง
 

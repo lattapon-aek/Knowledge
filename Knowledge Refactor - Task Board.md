@@ -150,6 +150,39 @@ parent_note: "[[Home]]"
 
 ใช้แผนนี้เมื่อจะจัดหมวดใหม่ทั้ง vault:
 
+## Core Folder Layout
+
+```
+Knowledge/
+├── 00 Raw Sources/
+├── 01 Foundations/
+├── 02 AI Systems/
+├── 03 Tools/
+├── 04 Synthesis/
+├── 05 Use Cases/
+├── 06 Engineering/
+├── _Templates/
+├── Home.md
+├── index.md
+├── AGENTS.md
+└── README.md
+```
+
+### หน้าที่ของแต่ละ Folder
+
+- `00 Raw Sources` = แหล่งข้อมูลดิบ / digest / source records
+- `01 Foundations` = concept base ที่นิ่งที่สุด
+- `02 AI Systems` = agent runtime, protocol, memory, RAG, guardrails, evals
+- `03 Tools` = volatile tooling knowledge
+- `04 Synthesis` = bridge / comparison / decision synthesis
+- `05 Use Cases` = decision paths และ application examples
+- `06 Engineering` = implementation, recipes, decisions, project notes
+- `_Templates` = template สำหรับโน้ตใหม่
+- `Home.md` = landing page หลัก
+- `index.md` = catalog กลาง
+- `AGENTS.md` = instructions สำหรับ agent
+- `README.md` = documentation สำหรับคนอ่าน GitHub
+
 ### 1. Foundations
 
 - `01 Foundations` = LLM / prompt / context / token / evaluation primitives

@@ -78,3 +78,4 @@ Tokenization
 - [[02 AI Systems/RAG/RAG - MOC|RAG]] — chunking, retrieval payload size, และ context assembly ล้วนได้รับผลจาก tokenization
 - [[02 AI Systems/AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates|Messages, System Prompt และ Chat Templates]] — Special tokens และ message formatting ใน agent systems
 - [[06 Engineering/README]] — implementation layer สำหรับ token budgets, chunking, caching, และ framework-specific runtime behavior
+- [[Knowledge Topic Registry]]

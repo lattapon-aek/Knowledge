@@ -45,6 +45,7 @@ parent_note: "[[Home]]"
 - [[02 AI Systems/RAG/RAG - MOC|RAG]] — งาน factual หรือ knowledge-intensive มักต้องพึ่ง retrieval ร่วมกับ prompting
 - [[01 Foundations/LLM Foundations/12 - Weights, Context, Retrieval และ Tools|Weights, Context, Retrieval และ Tools]] — ช่วยตัดสินว่าเมื่อไรควรแก้ด้วย prompt, retrieval, หรือ tools
 - [[06 Engineering/README]] — implementation layer สำหรับ prompt-dependent recipes, framework-specific patterns, และ engineering decisions
+- [[Knowledge Topic Registry]]
 
 ---
 

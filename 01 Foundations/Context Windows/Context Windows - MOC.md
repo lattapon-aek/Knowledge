@@ -40,6 +40,7 @@ parent_note: "[[Home]]"
 - [[02 AI Systems/AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates|AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates]] — bridge note สำหรับ runtime context/message layer
 - [[02 AI Systems/AI Agent Fundamentals/AI Agent Fundamentals - MOC|AI Agent Fundamentals]] — multi-turn agents ทำให้ปัญหาการสะสมของ context ชัดขึ้น
 - [[06 Engineering/README]] — implementation layer สำหรับ cache, prompt shaping, retrieval recipes, และ runtime decisions
+- [[Knowledge Topic Registry]]
 
 ---
 

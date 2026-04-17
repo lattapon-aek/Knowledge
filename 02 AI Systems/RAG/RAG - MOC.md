@@ -19,6 +19,9 @@ parent_note: "[[Home]]"
 
 RAG คือการดึงข้อมูลภายนอกที่เกี่ยวข้องเข้ามาใน runtime context ก่อนให้โมเดลตอบ เพื่อลด knowledge gap และเพิ่ม grounding
 
+หมวดนี้เป็น canonical home ของ retrieval pipeline, chunking, reranking, context assembly, grounding, และ RAG evaluation  
+ถ้าพูดถึง memory continuity หรือ personalization ให้ไป `Memory Systems` แทน
+
 กติกาการอ่าน:
 - ไฟล์ที่มีเลข `01, 02, 03...` คือ core learning path
 - ไฟล์ที่ไม่มีเลขคือหัวข้อ advanced หรือ pattern เฉพาะทาง

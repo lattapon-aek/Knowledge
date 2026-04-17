@@ -19,6 +19,9 @@ parent_note: "[[Home]]"
 
 หมวดนี้ครอบคลุมทั้ง offline evals, online evals, human review, failure analysis, regression detection, และ success criteria
 
+หมวดนี้เป็น canonical home ของ evaluation layer  
+ถ้าพูดถึง policy / permission / fallback ให้ไป `Guardrails - MOC` แทน
+
 กติกาการอ่าน:
 - ไฟล์ที่มีเลข `01, 02, 03...` คือ core learning path
 - ไฟล์ที่ไม่มีเลขคือหัวข้อเสริมหรือหัวข้อที่ยังรอแตกเพิ่ม

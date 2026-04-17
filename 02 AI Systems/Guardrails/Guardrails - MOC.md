@@ -19,6 +19,9 @@ parent_note: "[[Home]]"
 
 หมวดนี้รวมการออกแบบข้อจำกัด, policy enforcement, validation, fallback behavior, permission control, monitoring, และ incident handling
 
+หมวดนี้เป็น canonical home ของ control layer และ safety boundaries  
+ถ้าพูดถึง measurement / regression / eval ให้ไป `Evals - MOC` แทน
+
 กติกาการอ่าน:
 - ไฟล์ที่มีเลข `01, 02, 03...` คือ core learning path
 - ไฟล์ที่ไม่มีเลขคือหัวข้อเสริมเชิง policy หรือ advanced topics

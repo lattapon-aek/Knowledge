@@ -12,6 +12,9 @@ parent_note: "[[Home]]"
 
 หมวดนี้รวบรวม reading paths แบบใช้งานจริงสำหรับการออกแบบ agentic systems และ tooling
 
+หมวดนี้เป็น canonical home ของ decision paths และ application-oriented examples  
+ถ้าเป็น theory / foundation ให้ไปหมวด `01` และ `02` แทน
+
 ---
 
 ## Notes Map

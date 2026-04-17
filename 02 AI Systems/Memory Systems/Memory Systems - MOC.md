@@ -19,6 +19,9 @@ parent_note: "[[Home]]"
 
 หมวดนี้ครอบ working memory, long-term memory, episodic memory, semantic memory, memory write/read policies, และ failure modes ของ memory systems
 
+หมวดนี้เป็น canonical home ของ memory architecture และ memory policy  
+การใช้ memory ร่วมกับ RAG ให้ดู `RAG - MOC` และ synthesis notes แทนการเล่าแบบรวมกัน
+
 กติกาการอ่าน:
 - ไฟล์ที่มีเลข `01, 02, 03...` คือ core learning path
 - ไฟล์ที่ไม่มีเลขคือหัวข้อเสริมที่จะแตกต่อในอนาคต

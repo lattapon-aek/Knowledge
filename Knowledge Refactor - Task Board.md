@@ -36,6 +36,12 @@ parent_note: "[[Home]]"
 - ทำให้ `03 Tools/Claude Code` เป็น volatile layer
 - ทำให้ `01 Foundations` เป็น canonical home ของ LLM / prompt / context primitives
 - ให้ `AI Agent Fundamentals/12, 13, 14` เป็น bridge notes สำหรับ agent-facing runtime เท่านั้น
+- ทำให้ `Agent Frameworks` เป็น canonical home ของ framework selection และ framework-level tradeoffs
+- ทำให้ `Memory Systems` เป็น canonical home ของ memory architecture และ memory policy
+- ทำให้ `RAG` เป็น canonical home ของ retrieval pipeline, grounding, และ RAG evaluation
+- ทำให้ `Guardrails` เป็น canonical home ของ control layer และ safety boundaries
+- ทำให้ `Evals` เป็น canonical home ของ evaluation layer
+- ทำให้ `Use Cases` เป็น canonical home ของ decision paths และ application examples
 
 ### Deduplication ที่ทำแล้ว
 

@@ -19,6 +19,9 @@ parent_note: "[[Home]]"
 
 หมวดนี้ใช้เปรียบเทียบ framework และแนวทาง implementation ของ agent systems เช่น orchestration, memory, tool use, graph execution, และ observability
 
+หมวดนี้เป็น canonical home ของการเลือก framework และ framework-level tradeoffs  
+รายละเอียด implementation เชิง tool/runtime จริงให้ดู `06 Engineering/Frameworks` แทน
+
 กติกาการอ่าน:
 - ไฟล์ที่มีเลข `01, 02, 03...` คือ core learning path
 - ไฟล์ใน `06 Engineering/Frameworks/` คือ implementation notes และหัวข้อเฉพาะ framework

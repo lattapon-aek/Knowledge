@@ -239,6 +239,19 @@ parent_note: "[[Knowledge Topic Registry]]"
 
 ---
 
+## File Audit: 02 AI Systems / MCP
+
+| File | Current Role | Recommended Owner | Action |
+|---|---|---|---|
+| `MCP - MOC` | canonical owner | `02 AI Systems/MCP` | stay |
+| `Core/01 - MCP คืออะไรและแก้ปัญหาอะไร` | protocol concept | `02 AI Systems/MCP` | stay |
+| `Core/02 - Architecture: Host, Client, Server` | protocol architecture | `02 AI Systems/MCP` | stay |
+| `Core/03 - Core Primitives: Tools, Resources, Prompts` | protocol primitives | `02 AI Systems/MCP` | stay |
+| `Client/04 - Client Features: Sampling, Roots, Elicitation` | client capability note | `02 AI Systems/MCP` | stay |
+| `Security/05 - Security, Consent และ Authorization` | protocol security note | `02 AI Systems/MCP` | stay |
+
+---
+
 ## Use With Registry
 
 - อ่านหน้านี้คู่กับ `Knowledge Topic Registry`

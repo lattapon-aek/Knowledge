@@ -13,7 +13,7 @@ parent_note: "[[RAG - MOC]]"
 
 ## Summary
 
-embedding model และ vector index มีผลโดยตรงต่อคุณภาพ retrieval, latency, cost, และความง่ายในการ scale ระบบ RAG
+embedding model และ vector index มีผลโดยตรงต่อคุณภาพ retrieval, latency, cost, และการ scale ระบบ RAG
 
 ---
 
@@ -48,7 +48,7 @@ flowchart LR
     R --> S[Retrieved Chunks]
 ```
 
-ดังนั้น embeddings ไม่ใช่ retrieval ทั้งหมด แต่เป็น representation layer ที่ทำให้ retrieval เชิงความหมายเกิดขึ้นได้
+ดังนั้น embeddings ไม่ใช่ retrieval ทั้งหมด แต่เป็น representation layer สำหรับ semantic search
 
 ---
 

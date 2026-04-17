@@ -12,7 +12,7 @@ parent_note: "[[RAG - MOC]]"
 
 ## Summary
 
-หัวใจของ RAG คือการหาข้อมูลที่เกี่ยวข้องจริงก่อนประกอบเข้า prompt ถ้า retrieval พลาด คำตอบปลายทางมักพลาดตาม
+หัวใจของ RAG คือการหาข้อมูลที่เกี่ยวข้องจริงก่อนประกอบเข้า prompt
 
 ---
 
@@ -118,7 +118,7 @@ flowchart TD
 หลักคิด:
 - lexical retrieval เด่นเรื่อง precision บางชนิด
 - semantic retrieval เด่นเรื่อง recall เชิงความหมาย
-- ระบบ production จำนวนมากจึงไม่ใช้แบบใดแบบหนึ่งล้วน
+- production systems จำนวนมากจึงใช้ร่วมกัน
 
 ---
 
@@ -149,7 +149,7 @@ flowchart LR
 
 ## Top-k, Recall, Precision
 
-retrieval ไม่ได้มีคำถามแค่ว่า “หาเจอไหม” แต่มีคำถามว่า “หาได้ครบแค่ไหน” และ “มี noise เท่าไร”
+retrieval ต้องบาลานซ์ coverage กับ noise
 
 ### top-k
 

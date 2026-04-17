@@ -15,6 +15,8 @@ parent_note: "[[Home]]"
 หมวดนี้เป็น canonical home ของ decision paths และ application-oriented examples  
 ถ้าเป็น theory / foundation ให้ไปหมวด `01` และ `02` แทน
 ถ้าเป็นรายละเอียดเชิงทฤษฎีของ topic หลัก ให้คงไว้ใน canonical note ของ topic นั้น แล้วใช้หมวดนี้เป็นทางเข้าใช้งานจริงเท่านั้น
+ถ้าเป็น comparison หรือ tradeoff ระหว่างหลาย topic ให้ดู `04 Synthesis` ก่อน แล้วค่อยกลับมาใช้หมวดนี้เลือก path ที่เหมาะกับงานจริง
+ถ้าเป็น implementation / code-level detail ให้ไป `06 Engineering` แทน
 
 ---
 
@@ -42,6 +44,13 @@ parent_note: "[[Home]]"
 - [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]
 - [[04 Synthesis/Synthesis - MOC|Synthesis - MOC]]
 - [[06 Engineering/README|Engineering - README]]
+
+## Boundary Reminder
+
+- ถ้าเป็น concept หลัก ให้ไป canonical note ของ topic นั้นก่อน
+- ถ้าเป็น decision path ให้ใช้หมวดนี้
+- ถ้าเป็นการ compare หรือสรุป tradeoff ข้าม topic ให้ไป `04 Synthesis`
+- ถ้าเป็น implementation จริง ให้ไป `06 Engineering`
 
 ---
 

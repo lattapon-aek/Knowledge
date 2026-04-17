@@ -38,3 +38,10 @@ parent_note: "[[Home]]"
 
 - [[04 Synthesis/Synthesis - Memory vs RAG vs Context]]
 - [[Home]]
+
+## Boundary Reminder
+
+- ถ้าต้องการ theory ของ workflow vs agent ให้ไปอ่าน `AI Agent Fundamentals/08 - Workflow vs AI Agent`
+- ถ้าต้องการ decision ว่าเมื่อไรควรและไม่ควรใช้ agent ให้ไป `AI Agent Fundamentals/09 - เมื่อไรควรและไม่ควรใช้ Agent`
+- ถ้าต้องการรายละเอียด retrieval grounding ให้ไป `RAG - MOC`
+- หน้านี้เป็น bridge สำหรับตัดสินใจเร็ว ไม่ใช่ที่อธิบาย canonical theory ซ้ำ

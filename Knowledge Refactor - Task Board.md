@@ -65,7 +65,11 @@ parent_note: "[[Home]]"
 
 ---
 
-## คงเหลือ
+## Archive / Watchlist
+
+ไม่มีงาน refactor หลักค้างอยู่แล้วในรอบนี้
+
+หัวข้อนี้เก็บไว้เป็นรายการตรวจสอบสำหรับรอบถัดไปเท่านั้น
 
 ### 1. `02 AI Systems/Agent Frameworks`
 
@@ -136,9 +140,9 @@ parent_note: "[[Home]]"
 
 ## Suggested Next Steps
 
-1. ตรวจ `Memory Systems` / `RAG` / `Guardrails` / `Evals` รอบสุดท้าย
-2. ค่อย sweep `05 Use Cases` ถ้ายังมี bridge ที่ซ้ำ
-3. ถ้าจะ refactor ต่อ ให้เริ่มจากการตรวจ boundary ระหว่าง `Agent Frameworks` กับ `06 Engineering` อีกครั้ง
+1. เก็บไว้ใช้เป็น checklist ตอนจะ re-categorize vault ใหม่
+2. ถ้ากลับมาทำ refactor อีก ให้เริ่มจาก `Agent Frameworks` กับ `06 Engineering`
+3. ใช้ `Future Re-categorization Plan` เป็นแผนกลางสำหรับการจัดหมวดใหม่ทั้ง vault
 
 ---
 

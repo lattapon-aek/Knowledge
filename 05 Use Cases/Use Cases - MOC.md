@@ -30,6 +30,7 @@ parent_note: "[[Home]]"
 - [[05 Use Cases/Use Cases - Evaluate an AI Agent|Use Cases - Evaluate an AI Agent]]
 - [[05 Use Cases/Use Cases - Explain MCP Quickly|Use Cases - Explain MCP Quickly]]
 - [[05 Use Cases/Use Cases - Improve Prompt Reliability|Use Cases - Improve Prompt Reliability]]
+- [[05 Use Cases/Use Cases - When to Use an Agent|Use Cases - When to Use an Agent]]
 - [[05 Use Cases/Use Cases - Move from Single to Multi-Agent|Use Cases - Move from Single to Multi-Agent]]
 
 ---

@@ -34,6 +34,7 @@ parent_note: "[[Knowledge Topic Registry]]"
 | `03 Tools/Claude Code` | stay | เป็น volatile tool layer |
 | Bridge notes | keep | ใช้เฉพาะจุดที่ต้องเชื่อมข้าม topic |
 | Move batch 1 | executed | bridge note 3 ไฟล์ย้ายไป owner ใหม่แล้ว |
+| Move batch 2 | executed | workflow comparison + agent decision notes ย้ายไป owner ใหม่แล้ว |
 
 ## Re-categorization Execution Log
 
@@ -386,8 +387,8 @@ Move batch 1 ที่ทำจริง:
 | `05 - วงจร Perceive-Think-Act-Check` | core runtime loop | `02 AI Systems/AI Agent Fundamentals` | stay |
 | `06 - วงจร Thought-Action-Observation (TAO)` | core runtime loop | `02 AI Systems/AI Agent Fundamentals` | stay |
 | `07 - รูปแบบ Agent Architectures` | architecture concept | `02 AI Systems/AI Agent Fundamentals` | stay |
-| `08 - Workflow vs AI Agent` | decision / comparison note | `02 AI Systems/AI Agent Fundamentals` | stay; bridge to Use Cases / Synthesis |
-| `09 - เมื่อไรควรและไม่ควรใช้ Agent` | decision note | `02 AI Systems/AI Agent Fundamentals` | stay; bridge to Use Cases |
+| `08 - Workflow vs AI Agent` | decision / comparison note | `04 Synthesis/Synthesis - MOC` | moved to `04 Synthesis/Synthesis - Workflow vs AI Agent` |
+| `09 - เมื่อไรควรและไม่ควรใช้ Agent` | decision note | `05 Use Cases/Use Cases - MOC` | moved to `05 Use Cases/Use Cases - When to Use an Agent` |
 | `10 - Risks และ Best Practices` | runtime risk note | `02 AI Systems/AI Agent Fundamentals` | stay; bridge to Guardrails / Evals |
 | `11 - Key Takeaways และ Quick Reference` | summary / reference | `02 AI Systems/AI Agent Fundamentals` | stay |
 | `12 - LLM พื้นฐาน` | bridge note | `01 Foundations/LLM Foundations` | keep as bridge |
@@ -501,6 +502,7 @@ Move batch 1 ที่ทำจริง:
 |---|---|---|---|
 | `Synthesis - MOC` | canonical owner | `04 Synthesis` | stay |
 | `Synthesis - Agent Runtime Layers` | bridge / stack view | `04 Synthesis` | stay |
+| `Synthesis - Workflow vs AI Agent` | comparison / bridge note | `04 Synthesis` | stay |
 | `Synthesis - Agent vs Workflow vs RAG` | comparison / decision bridge | `04 Synthesis` | stay |
 | `Synthesis - LLM to Agent Stack` | stack / bridge view | `04 Synthesis` | stay |
 | `Synthesis - Memory in Agents` | bridge note | `04 Synthesis` | stay |
@@ -525,6 +527,7 @@ Move batch 1 ที่ทำจริง:
 | `Use Cases - Evaluate an AI Agent` | application / decision path | `05 Use Cases` | stay |
 | `Use Cases - Explain MCP Quickly` | application / decision path | `05 Use Cases` | stay |
 | `Use Cases - Improve Prompt Reliability` | application / decision path | `05 Use Cases` | stay |
+| `Use Cases - When to Use an Agent` | decision / application path | `05 Use Cases` | stay |
 | `Use Cases - Move from Single to Multi-Agent` | application / decision path | `05 Use Cases` | stay |
 
 ---
@@ -623,6 +626,7 @@ Move batch 1 ที่ทำจริง:
 ### สิ่งที่ยังไม่ต้องย้าย
 
 - ไม่มี move candidate ที่ต้องย้ายเนื้อหาหลักในรอบนี้
+- move batch 2 ดำเนินไปแล้วสำหรับ workflow comparison และ agent decision notes
 
 ### สิ่งที่ใช้ต่อรอบหน้า
 

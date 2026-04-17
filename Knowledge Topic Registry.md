@@ -28,6 +28,8 @@ parent_note: "[[Home]]"
 | Context engineering | `01 Foundations/Context Windows` | `Context Windows - MOC` | `01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates` |
 | Tokenization | `01 Foundations/Tokenizer in AI` | `Tokenizer in AI - MOC` | `LLM Foundations` links |
 | Agent runtime | `02 AI Systems/AI Agent Fundamentals` | `AI Agent Fundamentals - MOC` | `05 Use Cases/Use Cases - Build an AI Agent` |
+| Workflow vs AI Agent | `04 Synthesis` | `Synthesis - Workflow vs AI Agent` | `02 AI Systems/AI Agent Fundamentals` bridge |
+| When to use an agent | `05 Use Cases` | `Use Cases - When to Use an Agent` | `04 Synthesis/Synthesis - Workflow vs AI Agent` |
 | Framework selection | `02 AI Systems/Agent Frameworks` | `Agent Frameworks - MOC` | `06 Engineering/Frameworks/*`, `05 Use Cases/Use Cases - Choose an Agent Framework` |
 | MCP / protocol layer | `02 AI Systems/MCP` | `MCP - MOC` | `02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน` |
 | Memory architecture | `02 AI Systems/Memory Systems` | `Memory Systems - MOC` | `04 Synthesis/Synthesis - Memory in Agents`, `05 Use Cases/Use Cases - Design Memory for an AI Agent` |
@@ -46,6 +48,8 @@ parent_note: "[[Home]]"
 | Subtopic | Canonical Home | Canonical Note / Entry |
 |---|---|---|
 | Agent loop / runtime basics | `02 AI Systems/AI Agent Fundamentals` | `AI Agent Fundamentals - MOC` |
+| Workflow / decision bridge | `04 Synthesis` | `Synthesis - Workflow vs AI Agent` |
+| Agent use decision | `05 Use Cases` | `Use Cases - When to Use an Agent` |
 | Runtime messages / system prompt / templates | `02 AI Systems/AI Agent Fundamentals` | `13 - Messages, System Prompt และ Chat Templates` |
 | Tool runtime contract | `02 AI Systems/AI Agent Fundamentals` + `06 Engineering` | `14 - Tools: การออกแบบและทำงาน` / `Architecture - Tool Schemas and Runtime Integration` |
 | State / memory / checkpointing | `02 AI Systems/Agent Frameworks` | `03 - State and Memory`, `07 - Checkpointing and Resumability` |

@@ -61,8 +61,6 @@ diagram นี้เป็น conceptual overview ของหมวดนี้
 - [[05 - วงจร Perceive-Think-Act-Check]] — Agent loop ระดับสูง
 - [[06 - วงจร Thought-Action-Observation (TAO)]] — TAO / ReAct style loop
 - [[07 - รูปแบบ Agent Architectures]] — architecture patterns
-- [[08 - Workflow vs AI Agent]] — ความต่าง และเมื่อไรควรใช้อะไร
-- [[09 - เมื่อไรควรและไม่ควรใช้ Agent]] — decision framework
 - [[10 - Risks และ Best Practices]] — risks, tradeoffs, mitigations
 - [[11 - Key Takeaways และ Quick Reference]] — summary และ quick reference
 
@@ -71,6 +69,8 @@ diagram นี้เป็น conceptual overview ของหมวดนี้
 - [[01 Foundations/LLM Foundations/12 - LLM พื้นฐาน|12 - LLM พื้นฐาน]] — bridge note: agent-facing LLM primer
 - [[01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]] — runtime message layer; bridge to Prompt Engineering / Context Windows
 - [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]] — tools, schemas, MCP connection; bridge to engineering runtime
+- [[04 Synthesis/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]] — comparison / bridge note สำหรับ workflow vs agent
+- [[05 Use Cases/Use Cases - When to Use an Agent|When to Use an Agent]] — decision-oriented bridge note
 - [[06 Engineering/Architecture to Code/Architecture - Tool Schemas and Runtime Integration]] — runtime contract ของ tool schemas, validation, execution, และ tool results
 - [[05 Use Cases/Use Cases - Build an AI Agent]] — decision-oriented entry point สำหรับออกแบบ agent
 - [[05 Use Cases/Use Cases - Move from Single to Multi-Agent]] — decision-oriented entry point สำหรับขยายเป็น multi-agent
@@ -88,12 +88,10 @@ flowchart TD
     D --> E["05 PTAC Loop"]
     E --> F["06 TAO Loop"]
     F --> G["07 Agent Architectures"]
-    G --> H["08 Workflow vs AI Agent"]
-    H --> I["09 เมื่อไรควรและไม่ควรใช้ Agent"]
     D --> J["14 Tools"]
     J --> K["13 Messages / System Prompt / Templates"]
-    I --> L["10 Risks และ Best Practices"]
-    L --> M["11 Key Takeaways"]
+    G --> H["10 Risks และ Best Practices"]
+    H --> I["11 Key Takeaways"]
 ```
 
 ใช้ flow นี้ถ้าต้องการอ่านหมวดนี้แบบเป็นระบบตั้งแต่ concept จนถึง decision-making และ practical tool layer
@@ -116,8 +114,8 @@ flowchart TD
 ### 3. Architectures and Decisions
 
 1. [[07 - รูปแบบ Agent Architectures]]
-2. [[08 - Workflow vs AI Agent]]
-3. [[09 - เมื่อไรควรและไม่ควรใช้ Agent]]
+2. [[04 Synthesis/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]]
+3. [[05 Use Cases/Use Cases - When to Use an Agent|When to Use an Agent]]
 
 ### 4. Risks and Practical Runtime Layers
 

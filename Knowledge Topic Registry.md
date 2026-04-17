@@ -70,6 +70,7 @@ parent_note: "[[Home]]"
 
 ใช้ลำดับนี้เวลาจะเริ่มจัดหมวดใหม่ทั้ง vault
 
+0. `Foundations / base primitives`
 1. `Agent runtime`
 2. `Framework selection`
 3. `Memory architecture`

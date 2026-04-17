@@ -23,13 +23,13 @@ parent_note: "[[Home]]"
 
 | Topic | Canonical Folder | Canonical Note | Bridge / Entry Notes |
 |---|---|---|---|
-| LLM foundations | `01 Foundations/LLM Foundations` | `LLM Foundations - MOC` | `AI Agent Fundamentals/12 - LLM พื้นฐาน` |
-| Prompt design | `01 Foundations/Prompt Engineering` | `Prompt Engineering - MOC` | `AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates` |
-| Context engineering | `01 Foundations/Context Windows` | `Context Windows - MOC` | `AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates` |
+| LLM foundations | `01 Foundations/LLM Foundations` | `LLM Foundations - MOC` | `01 Foundations/LLM Foundations/12 - LLM พื้นฐาน` |
+| Prompt design | `01 Foundations/Prompt Engineering` | `Prompt Engineering - MOC` | `01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates` |
+| Context engineering | `01 Foundations/Context Windows` | `Context Windows - MOC` | `01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates` |
 | Tokenization | `01 Foundations/Tokenizer in AI` | `Tokenizer in AI - MOC` | `LLM Foundations` links |
 | Agent runtime | `02 AI Systems/AI Agent Fundamentals` | `AI Agent Fundamentals - MOC` | `05 Use Cases/Use Cases - Build an AI Agent` |
 | Framework selection | `02 AI Systems/Agent Frameworks` | `Agent Frameworks - MOC` | `06 Engineering/Frameworks/*`, `05 Use Cases/Use Cases - Choose an Agent Framework` |
-| MCP / protocol layer | `02 AI Systems/MCP` | `MCP - MOC` | `AI Agent Fundamentals/14 - Tools: การออกแบบและทำงาน` |
+| MCP / protocol layer | `02 AI Systems/MCP` | `MCP - MOC` | `02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน` |
 | Memory architecture | `02 AI Systems/Memory Systems` | `Memory Systems - MOC` | `04 Synthesis/Synthesis - Memory in Agents`, `05 Use Cases/Use Cases - Design Memory for an AI Agent` |
 | Retrieval / RAG | `02 AI Systems/RAG` | `RAG - MOC` | `04 Synthesis/Synthesis - Memory vs RAG vs Context`, `05 Use Cases/Use Cases - Design a RAG System` |
 | Guardrails / control | `02 AI Systems/Guardrails` | `Guardrails - MOC` | `05 Use Cases/Use Cases - Design Guardrails for Tool Use` |

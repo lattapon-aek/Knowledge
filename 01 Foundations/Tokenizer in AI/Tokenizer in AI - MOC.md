@@ -76,6 +76,6 @@ Tokenization
 - [[01 Foundations/Context Windows/Context Windows - MOC]] — Token count กำหนดว่าข้อความใส่ใน context window ได้เท่าไร
 - [[01 Foundations/Prompt Engineering/Prompt Engineering - MOC]] — Prompt ที่ดีต้องคำนึงถึง token count ด้วย
 - [[02 AI Systems/RAG/RAG - MOC|RAG]] — chunking, retrieval payload size, และ context assembly ล้วนได้รับผลจาก tokenization
-- [[02 AI Systems/AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates|Messages, System Prompt และ Chat Templates]] — Special tokens และ message formatting ใน agent systems
+- [[01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates|Messages, System Prompt และ Chat Templates]] — Special tokens และ message formatting ใน agent systems
 - [[06 Engineering/README]] — implementation layer สำหรับ token budgets, chunking, caching, และ framework-specific runtime behavior
 - [[Knowledge Topic Registry]]

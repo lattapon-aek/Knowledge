@@ -84,4 +84,4 @@ flowchart TD
 
 - [[02 AI Systems/AI Agent Fundamentals/01 - AI Agent คืออะไร|AI Agent คืออะไร]] — Claude Code คือ implementation จริงของ Agent: Brain (Claude LLM) + Body (Tools)
 - [[02 AI Systems/AI Agent Fundamentals/05 - วงจร Perceive-Think-Act-Check|PTAC Loop]] — Agentic Loop ข้างบนคือ Perceive→Think→Act→Check ที่ทำงานจริง
-- [[02 AI Systems/AI Agent Fundamentals/14 - Tools: การออกแบบและทำงาน|Tools: การออกแบบและทำงาน]] — Read/Write/Edit/Bash/Grep/Glob คือ Tools ตามนิยามนี้
+- [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน|Tools: การออกแบบและทำงาน]] — Read/Write/Edit/Bash/Grep/Glob คือ Tools ตามนิยามนี้

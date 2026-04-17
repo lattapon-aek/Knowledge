@@ -15,7 +15,7 @@ parent_note: "[[Home]]"
 > **Sources**: Anthropic Docs · Google Caching API · RoPE Paper · Position Interpolation Paper · Model Cards
 
 หมวดนี้เป็น canonical home ของ context budget, context rot, prompt caching, long-context trade-offs, และ context engineering  
-โน้ต `02 AI Systems/AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates` ใช้เป็น runtime bridge เท่านั้น ไม่ใช่ที่อธิบาย context management หลัก
+โน้ต `01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates` ใช้เป็น runtime bridge เท่านั้น ไม่ใช่ที่อธิบาย context management หลัก
 
 ---
 
@@ -37,7 +37,7 @@ parent_note: "[[Home]]"
 - [[01 Foundations/LLM Foundations/04 - Inference, Context และ RAG|Inference, Context และ RAG]] — RAG เป็นทางเลือกเมื่อ context เริ่มตึงหรือไม่อยากใส่ข้อมูลทั้งหมด
 - [[01 Foundations/LLM Foundations/09 - Serving Metrics และระบบ Production LLM|Serving Metrics และระบบ Production LLM]] — caching, latency, และ trade-offs ของ context length
 - [[02 AI Systems/RAG/RAG - MOC|RAG]] — chunking strategy มีผลต่อปริมาณข้อมูลที่เอาเข้า context ได้จริง
-- [[02 AI Systems/AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates|AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates]] — bridge note สำหรับ runtime context/message layer
+- [[01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]] — bridge note สำหรับ runtime context/message layer
 - [[02 AI Systems/AI Agent Fundamentals/AI Agent Fundamentals - MOC|AI Agent Fundamentals]] — multi-turn agents ทำให้ปัญหาการสะสมของ context ชัดขึ้น
 - [[06 Engineering/README]] — implementation layer สำหรับ cache, prompt shaping, retrieval recipes, และ runtime decisions
 - [[Knowledge Topic Registry]]

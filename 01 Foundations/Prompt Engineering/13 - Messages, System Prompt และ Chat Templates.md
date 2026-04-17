@@ -7,7 +7,7 @@ tags:
 type: note
 status: evergreen
 source: "HuggingFace Agents Course — Unit 1 \"Messages and Special Tokens\" (huggingface.co/learn/agents-course/unit1)"
-parent_note: "[[AI Agent Fundamentals - MOC]]"
+parent_note: "[[Prompt Engineering - MOC]]"
 ---
 
 # Messages, System Prompt และ Chat Templates
@@ -48,7 +48,7 @@ system_message = {
 - ระบุ instructions สำคัญ เช่น tools ที่ใช้ได้ และรูปแบบ output
 - กำหนด guardrails และ persona ของระบบ
 
-> รายละเอียดเชิง runtime layer และ tool contract ดูที่ [[14 - Tools: การออกแบบและทำงาน]]
+> รายละเอียดเชิง runtime layer และ tool contract ดูที่ [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]]
 
 ### 2. User Messages
 
@@ -150,8 +150,8 @@ rendered_prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_ge
 
 ## ดูต่อ
 
-- [[12 - LLM พื้นฐาน]]
-- [[14 - Tools: การออกแบบและทำงาน]]
+- [[01 Foundations/LLM Foundations/12 - LLM พื้นฐาน|12 - LLM พื้นฐาน]]
+- [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]]
 - [[06 - วงจร Thought-Action-Observation (TAO)]]
 - [[01 Foundations/Prompt Engineering/Prompt Engineering - MOC|Prompt Engineering - MOC]]
 - [[01 Foundations/Context Windows/Context Windows - MOC|Context Windows - MOC]]

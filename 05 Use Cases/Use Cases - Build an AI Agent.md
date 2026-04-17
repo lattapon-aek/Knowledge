@@ -26,7 +26,7 @@ parent_note: "[[Home]]"
 3. [[02 AI Systems/AI Agent Fundamentals/05 - วงจร Perceive-Think-Act-Check]]
 4. [[02 AI Systems/AI Agent Fundamentals/07 - รูปแบบ Agent Architectures]]
 5. [[02 AI Systems/AI Agent Fundamentals/09 - เมื่อไรควรและไม่ควรใช้ Agent]]
-6. [[02 AI Systems/AI Agent Fundamentals/14 - Tools: การออกแบบและทำงาน]]
+6. [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน]]
 7. [[02 AI Systems/MCP/Core/01 - MCP คืออะไรและแก้ปัญหาอะไร]]
 8. [[02 AI Systems/MCP/Core/03 - Core Primitives: Tools, Resources, Prompts]]
 

@@ -33,7 +33,7 @@ parent_note: "[[Knowledge Topic Registry]]"
 | `06 Engineering` | stay | เป็น implementation / recipe / project layer |
 | `03 Tools/Claude Code` | stay | เป็น volatile tool layer |
 | Bridge notes | keep | ใช้เฉพาะจุดที่ต้องเชื่อมข้าม topic |
-| Move candidates | none in this pass | ยังไม่ต้องย้ายเนื้อหาหลักก่อนเริ่ม phase ใหม่ |
+| Move batch 1 | executed | bridge note 3 ไฟล์ย้ายไป owner ใหม่แล้ว |
 
 ## Re-categorization Execution Log
 
@@ -75,7 +75,12 @@ parent_note: "[[Knowledge Topic Registry]]"
 - `Bridge / synthesis` = reviewed, stay
 - `Implementation` = reviewed, stay
 - `Claude Code / tooling` = reviewed, stay
-- ไม่มี move candidate ในรอบ execution นี้
+- ไม่มี move candidate เพิ่มเติมในรอบ execution นี้
+
+Move batch 1 ที่ทำจริง:
+- `01 Foundations/LLM Foundations/12 - LLM พื้นฐาน` -> `01 Foundations/LLM Foundations`
+- `01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates` -> `01 Foundations/Prompt Engineering`
+- `02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน` -> `02 AI Systems/MCP`
 
 ### Phase Status
 
@@ -196,7 +201,7 @@ parent_note: "[[Knowledge Topic Registry]]"
 - `MCP/05 - Security, Consent และ Authorization` = stay
 - `MCP/06 Engineering/Recipes/Recipe - HuggingFace MCP Course และ Implementation Guide` = stay; bridge to `06 Engineering`
 - `06 Engineering/MCP/MCP - MOC` = stay; implementation bridge
-- `AI Agent Fundamentals/14 - Tools: การออกแบบและทำงาน` = stay; bridge to `MCP`
+- `02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน` = stay; bridge to `MCP`
 
 ผลสรุป:
 - ยังไม่มี move candidate สำหรับ phase 10
@@ -262,13 +267,13 @@ parent_note: "[[Knowledge Topic Registry]]"
 
 | Topic | Canonical Home | Canonical Owner | Bridge / Entry Notes | หมายเหตุ |
 |---|---|---|---|---|
-| LLM primitives | `01 Foundations/LLM Foundations` | `LLM Foundations - MOC` | `AI Agent Fundamentals/12 - LLM พื้นฐาน` | theory base |
-| Prompt design | `01 Foundations/Prompt Engineering` | `Prompt Engineering - MOC` | `AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates` | prompt theory |
-| Context engineering | `01 Foundations/Context Windows` | `Context Windows - MOC` | `AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates` | context budget / caching |
+| LLM primitives | `01 Foundations/LLM Foundations` | `LLM Foundations - MOC` | `01 Foundations/LLM Foundations/12 - LLM พื้นฐาน` | theory base |
+| Prompt design | `01 Foundations/Prompt Engineering` | `Prompt Engineering - MOC` | `01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates` | prompt theory |
+| Context engineering | `01 Foundations/Context Windows` | `Context Windows - MOC` | `01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates` | context budget / caching |
 | Tokenization | `01 Foundations/Tokenizer in AI` | `Tokenizer in AI - MOC` | `LLM Foundations` links | stable primitive |
 | Agent runtime | `02 AI Systems/AI Agent Fundamentals` | `AI Agent Fundamentals - MOC` | `05 Use Cases/Use Cases - Build an AI Agent` | runtime owner |
 | Framework selection | `02 AI Systems/Agent Frameworks` | `Agent Frameworks - MOC` | `06 Engineering/Frameworks/*`, `05 Use Cases/Use Cases - Choose an Agent Framework` | selection owner |
-| MCP / protocol layer | `02 AI Systems/MCP` | `MCP - MOC` | `AI Agent Fundamentals/14 - Tools: การออกแบบและทำงาน` | protocol owner |
+| MCP / protocol layer | `02 AI Systems/MCP` | `MCP - MOC` | `02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน` | protocol owner |
 | Memory architecture | `02 AI Systems/Memory Systems` | `Memory Systems - MOC` | `04 Synthesis/Synthesis - Memory in Agents`, `05 Use Cases/Use Cases - Design Memory for an AI Agent` | memory owner |
 | Retrieval / RAG | `02 AI Systems/RAG` | `RAG - MOC` | `04 Synthesis/Synthesis - Memory vs RAG vs Context`, `05 Use Cases/Use Cases - Design a RAG System` | retrieval owner |
 | Guardrails / control | `02 AI Systems/Guardrails` | `Guardrails - MOC` | `05 Use Cases/Use Cases - Design Guardrails for Tool Use` | control owner |
@@ -629,9 +634,9 @@ parent_note: "[[Knowledge Topic Registry]]"
 
 รอบเริ่มต้นของ recategorization ตรวจ bridge notes หลักแล้ว:
 
-- `AI Agent Fundamentals/12 - LLM พื้นฐาน` = keep as bridge
-- `AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates` = keep as bridge
-- `AI Agent Fundamentals/14 - Tools: การออกแบบและทำงาน` = keep as bridge
+- `01 Foundations/LLM Foundations/12 - LLM พื้นฐาน` = keep as bridge
+- `01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates` = keep as bridge
+- `02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน` = keep as bridge
 
 ผลสรุป:
 - bridge notes เหล่านี้ยังไม่ใช่ move candidates

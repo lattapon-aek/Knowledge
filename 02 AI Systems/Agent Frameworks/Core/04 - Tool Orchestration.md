@@ -233,7 +233,7 @@ tool fail แล้ว runtime ไม่มี retry/fallback strategy
 
 ## ความสัมพันธ์กับโน้ตอื่น
 
-- [[02 AI Systems/AI Agent Fundamentals/14 - Tools: การออกแบบและทำงาน]] — ความเข้าใจพื้นฐานของ tools
+- [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน]] — ความเข้าใจพื้นฐานของ tools
 - [[02 AI Systems/Guardrails/Core/03 - Tool Safety]] — orchestration ที่ดีต้องอยู่ในขอบเขตความปลอดภัย
 - [[02 AI Systems/Guardrails/Core/05 - Fallback Policies]] — recovery paths เมื่อ tool fail
 - [[02 AI Systems/Agent Frameworks/Core/01 - Landscape]] — framework families ต่างกันที่ orchestration model
@@ -244,7 +244,7 @@ tool fail แล้ว runtime ไม่มี retry/fallback strategy
 
 ## โน้ตที่เกี่ยวข้อง
 
-- [[02 AI Systems/AI Agent Fundamentals/14 - Tools: การออกแบบและทำงาน]]
+- [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน]]
 - [[02 AI Systems/Guardrails/Core/03 - Tool Safety]]
 - [[Agent Frameworks - MOC]]
 

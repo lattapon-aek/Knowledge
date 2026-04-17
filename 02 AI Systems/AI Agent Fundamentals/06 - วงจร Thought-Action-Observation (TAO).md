@@ -271,5 +271,5 @@ Action: Finish["It's 18°C and cloudy in Paris."]
 
 - [[07 - รูปแบบ Agent Architectures]] — ReAct ใช้แนวคิด TAO เป็นแกนกลาง
 - [[05 - วงจร Perceive-Think-Act-Check]]
-- [[14 - Tools: การออกแบบและทำงาน]]
-- [[13 - Messages, System Prompt และ Chat Templates]]
+- [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]]
+- [[01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]]

@@ -38,5 +38,5 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 
 ## พื้นฐานทฤษฎีที่เกี่ยวข้อง
 
-- [[02 AI Systems/AI Agent Fundamentals/14 - Tools: การออกแบบและทำงาน|Tools: การออกแบบและทำงาน]] — Agent Tool คือ Tool ชนิดพิเศษ: แทนที่จะ return data กลับมา มัน spawn agent อีกตัวเป็น output
+- [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน|Tools: การออกแบบและทำงาน]] — Agent Tool คือ Tool ชนิดพิเศษ: แทนที่จะ return data กลับมา มัน spawn agent อีกตัวเป็น output
 - [[02 AI Systems/AI Agent Fundamentals/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration|Orchestration Component]] — การ spawn subagent ผ่าน Agent Tool คือ Orchestration ที่ทำงานจริง

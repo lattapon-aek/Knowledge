@@ -7,7 +7,7 @@ tags:
 type: note
 status: evergreen
 source: "OpenAI Docs, Anthropic Docs, MCP Official Docs"
-parent_note: "[[AI Agent Fundamentals - MOC]]"
+parent_note: "[[MCP - MOC]]"
 ---
 
 # Tools: การออกแบบและทำงาน
@@ -138,7 +138,7 @@ Model
 - continues reasoning with tool result in context
 ```
 
-> ดูรายละเอียด System Prompt ได้ที่ [[13 - Messages, System Prompt และ Chat Templates]]
+> ดูรายละเอียด System Prompt ได้ที่ [[01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]]
 
 ```mermaid
 flowchart LR
@@ -174,7 +174,7 @@ flowchart LR
 
 ## ดูต่อ
 
-- [[13 - Messages, System Prompt และ Chat Templates]]
+- [[01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]]
 - [[06 - วงจร Thought-Action-Observation (TAO)]]
 - [[04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
 - [[01 Foundations/Prompt Engineering/07 - Structured Generation และ Output Formats|Structured Generation และ Output Formats]]

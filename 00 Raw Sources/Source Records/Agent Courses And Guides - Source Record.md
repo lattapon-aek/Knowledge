@@ -48,9 +48,9 @@ variants ที่ถูกอ้าง:
 ถูกใช้ใน:
 - [[02 AI Systems/AI Agent Fundamentals/06 - วงจร Thought-Action-Observation (TAO)]]
 - [[02 AI Systems/AI Agent Fundamentals/07 - รูปแบบ Agent Architectures]]
-- [[02 AI Systems/AI Agent Fundamentals/12 - LLM พื้นฐาน]]
-- [[02 AI Systems/AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates]]
-- [[02 AI Systems/AI Agent Fundamentals/14 - Tools: การออกแบบและทำงาน]]
+- [[01 Foundations/LLM Foundations/12 - LLM พื้นฐาน]]
+- [[01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates]]
+- [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน]]
 
 ---
 

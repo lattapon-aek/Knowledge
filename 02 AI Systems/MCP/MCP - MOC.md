@@ -39,7 +39,7 @@ parent_note: "[[Home]]"
 
 ## Related Notes
 
-- [[02 AI Systems/AI Agent Fundamentals/AI Agent Fundamentals - MOC|AI Agent Fundamentals]] — MCP คือ protocol layer สำหรับเชื่อม tools เข้ากับ agents (ดูหัวข้อ Tools ใน 14 - Tools: การออกแบบและทำงาน)
+- [[02 AI Systems/AI Agent Fundamentals/AI Agent Fundamentals - MOC|AI Agent Fundamentals]] — MCP คือ protocol layer สำหรับเชื่อม tools เข้ากับ agents
 - [[01 Foundations/LLM Foundations/LLM Foundations - MOC|LLM Foundations]] — Host ใน MCP คือ LLM application; Tools ทำงานบนผลลัพธ์ของ LLM inference
 - [[01 Foundations/Prompt Engineering/Prompt Engineering - MOC|Prompt Engineering]] — MCP Prompts (server feature) เป็น reusable prompt templates ที่ server ส่งให้ host
 
@@ -49,7 +49,7 @@ parent_note: "[[Home]]"
 
 ### 1. Foundations Before MCP
 
-1. [[02 AI Systems/AI Agent Fundamentals/14 - Tools: การออกแบบและทำงาน]]
+1. [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน]]
 2. [[01 Foundations/LLM Foundations/12 - Weights, Context, Retrieval และ Tools]]
 
 ### 2. Core MCP Concepts

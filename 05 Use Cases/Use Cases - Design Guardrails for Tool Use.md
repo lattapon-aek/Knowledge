@@ -113,7 +113,7 @@ parent_note: "[[Home]]"
 5. [[02 AI Systems/Guardrails/Core/05 - Fallback Policies]]
 6. [[02 AI Systems/Guardrails/Operations/06 - Monitoring and Incidents]]
 7. [[02 AI Systems/Guardrails/Core/07 - Safety vs Usability Tradeoffs]]
-8. [[02 AI Systems/AI Agent Fundamentals/14 - Tools: การออกแบบและทำงาน]]
+8. [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน]]
 
 ---
 

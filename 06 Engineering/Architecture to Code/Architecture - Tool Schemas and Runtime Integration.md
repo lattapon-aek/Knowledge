@@ -133,8 +133,8 @@ MCP เพิ่ม abstraction อีกชั้นโดยนิยาม pr
 
 ## โน้ตที่เกี่ยวข้อง
 
-- [[14 - Tools: การออกแบบและทำงาน]]
-- [[13 - Messages, System Prompt และ Chat Templates]]
+- [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]]
+- [[01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]]
 - [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]
 - [[02 AI Systems/Guardrails/Core/03 - Tool Safety|Guardrails - Tool Safety]]
 - [[02 AI Systems/Agent Frameworks/Core/04 - Tool Orchestration|Agent Frameworks - Tool Orchestration]]

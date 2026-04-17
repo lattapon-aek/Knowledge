@@ -225,7 +225,7 @@ Final Response
 
 ## ดูต่อ
 
-- [[09 - เมื่อไรควรและไม่ควรใช้ Agent]]
+- [[05 Use Cases/Use Cases - When to Use an Agent|When to Use an Agent]]
 - [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]] — รวม input/output controls, tool safety, fallback, monitoring, และ permission models
 - [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]] — วัด reliability และตรวจ regression ของ agent behavior
 - [[05 Use Cases/Use Cases - Evaluate an AI Agent]]

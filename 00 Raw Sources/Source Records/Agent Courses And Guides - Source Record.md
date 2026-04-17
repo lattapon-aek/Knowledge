@@ -31,7 +31,7 @@ variants ที่ถูกอ้าง:
 - [[02 AI Systems/AI Agent Fundamentals/03 - คุณสมบัติ 5 อย่างของ Agent]]
 - [[02 AI Systems/AI Agent Fundamentals/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
 - [[02 AI Systems/AI Agent Fundamentals/05 - วงจร Perceive-Think-Act-Check]]
-- [[02 AI Systems/AI Agent Fundamentals/09 - เมื่อไรควรและไม่ควรใช้ Agent]]
+- [[05 Use Cases/Use Cases - When to Use an Agent|When to Use an Agent]]
 - [[02 AI Systems/AI Agent Fundamentals/11 - Key Takeaways และ Quick Reference]]
 
 ---
@@ -60,7 +60,7 @@ bundle ที่ถูกอ้าง:
 - `OpenAI Agents Guide · Google Skills — Agent Fundamentals · Anthropic Tool Use Overview`
 
 ถูกใช้ใน:
-- [[02 AI Systems/AI Agent Fundamentals/08 - Workflow vs AI Agent]]
+- [[04 Synthesis/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]]
 
 ---
 

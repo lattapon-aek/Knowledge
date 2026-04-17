@@ -75,7 +75,7 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 ## พื้นฐานทฤษฎีที่เกี่ยวข้อง
 
 - [[02 AI Systems/AI Agent Fundamentals/10 - Risks และ Best Practices|Best Practices ทฤษฎี]] — Privacy-by-Design, Guardrails, Monitoring, Incident Response ในทฤษฎี ตรงกับ checklist นี้
-- [[02 AI Systems/AI Agent Fundamentals/09 - เมื่อไรควรและไม่ควรใช้ Agent|Decision Framework]] — เกณฑ์ตัดสินใจว่าเมื่อไรควรใช้ Agent ระดับใด ก่อนใช้ checklist นี้
+- [[05 Use Cases/Use Cases - When to Use an Agent|Decision Framework]] — เกณฑ์ตัดสินใจว่าเมื่อไรควรใช้ Agent ระดับใด ก่อนใช้ checklist นี้
 - [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]] — รวมข้อจำกัด, validation, fallback, permissions, และ monitoring ที่เกี่ยวกับ production agents
 - [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]] — ใช้ตรวจว่าระบบ multi-agent ใช้งานได้จริงและไม่ regress เมื่อปรับ prompt หรือ model
 - [[05 Use Cases/Use Cases - Build an AI Agent]]

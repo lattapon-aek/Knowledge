@@ -81,5 +81,5 @@ parent_note: "[[AI Agent Fundamentals - MOC]]"
 ## ดูต่อ
 
 - [[AI Agent Fundamentals - MOC]]
-- [[09 - เมื่อไรควรและไม่ควรใช้ Agent]]
+- [[05 Use Cases/Use Cases - When to Use an Agent|When to Use an Agent]]
 - [[10 - Risks และ Best Practices]]

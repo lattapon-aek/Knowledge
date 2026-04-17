@@ -87,8 +87,8 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 ## ลิงก์ที่เกี่ยวข้อง
 
 - [[04 Synthesis/Synthesis - Single to Multi-Agent Infrastructure]]
-- [[02 AI Systems/AI Agent Fundamentals/08 - Workflow vs AI Agent]]
-- [[02 AI Systems/AI Agent Fundamentals/09 - เมื่อไรควรและไม่ควรใช้ Agent]]
+- [[04 Synthesis/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]]
+- [[05 Use Cases/Use Cases - When to Use an Agent|When to Use an Agent]]
 - [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Infrastructure]]
 - [[06 Engineering/Frameworks/Framework - OpenAI Agents and Responses Patterns]]
 - [[06 Engineering/Frameworks/Framework - LangGraph]]

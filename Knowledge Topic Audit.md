@@ -269,6 +269,23 @@ parent_note: "[[Knowledge Topic Registry]]"
 
 ---
 
+## File Audit: 05 Use Cases
+
+| File | Current Role | Recommended Owner | Action |
+|---|---|---|---|
+| `Use Cases - MOC` | canonical owner | `05 Use Cases` | stay |
+| `Use Cases - Build an AI Agent` | application / decision path | `05 Use Cases` | stay |
+| `Use Cases - Choose an Agent Framework` | application / decision path | `05 Use Cases` | stay |
+| `Use Cases - Design a RAG System` | application / decision path | `05 Use Cases` | stay |
+| `Use Cases - Design Guardrails for Tool Use` | application / decision path | `05 Use Cases` | stay |
+| `Use Cases - Design Memory for an AI Agent` | application / decision path | `05 Use Cases` | stay |
+| `Use Cases - Evaluate an AI Agent` | application / decision path | `05 Use Cases` | stay |
+| `Use Cases - Explain MCP Quickly` | application / decision path | `05 Use Cases` | stay |
+| `Use Cases - Improve Prompt Reliability` | application / decision path | `05 Use Cases` | stay |
+| `Use Cases - Move from Single to Multi-Agent` | application / decision path | `05 Use Cases` | stay |
+
+---
+
 ## Use With Registry
 
 - อ่านหน้านี้คู่กับ `Knowledge Topic Registry`

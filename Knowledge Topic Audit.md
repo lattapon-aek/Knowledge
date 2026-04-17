@@ -35,6 +35,12 @@ parent_note: "[[Knowledge Topic Registry]]"
 | Bridge notes | keep | ใช้เฉพาะจุดที่ต้องเชื่อมข้าม topic |
 | Move candidates | none in this pass | ยังไม่ต้องย้ายเนื้อหาหลักก่อนเริ่ม phase ใหม่ |
 
+### Phase Status
+
+- Phase 0 (`Foundations / base primitives`) = reviewed, no moves needed
+- Phase 1 (`Agent runtime`) = ready for next pass
+- Execution จะเดินตามลำดับใน section `Execution Order`
+
 ### Bridge Notes ที่ควรคงไว้
 
 - `AI Agent Fundamentals/12, 13, 14`

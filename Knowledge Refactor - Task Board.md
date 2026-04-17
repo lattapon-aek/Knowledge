@@ -139,3 +139,49 @@ parent_note: "[[Home]]"
 1. ตรวจ `Memory Systems` / `RAG` / `Guardrails` / `Evals` รอบสุดท้าย
 2. ค่อย sweep `05 Use Cases` ถ้ายังมี bridge ที่ซ้ำ
 3. ถ้าจะ refactor ต่อ ให้เริ่มจากการตรวจ boundary ระหว่าง `Agent Frameworks` กับ `06 Engineering` อีกครั้ง
+
+---
+
+## Future Re-categorization Plan
+
+ใช้แผนนี้เมื่อจะจัดหมวดใหม่ทั้ง vault:
+
+### 1. Foundations
+
+- `01 Foundations` = LLM / prompt / context / token / evaluation primitives
+- หน้าที่ของหมวดนี้คือเป็นฐาน concept ที่นิ่งที่สุด
+
+### 2. Agent Runtime
+
+- `02 AI Systems/AI Agent Fundamentals` = agent loop, runtime, orchestration
+- `02 AI Systems/Agent Frameworks` = framework selection และ runtime tradeoffs
+
+### 3. Protocol and Tooling
+
+- `02 AI Systems/MCP` = protocol layer สำหรับ tools, resources, prompts
+- `03 Tools/Claude Code` = volatile tool/reference layer
+
+### 4. Retrieval, Memory, Safety, Evaluation
+
+- `Memory Systems` = memory architecture and policy
+- `RAG` = retrieval pipeline and grounding
+- `Guardrails` = control layer
+- `Evals` = evaluation layer
+
+### 5. Application and Implementation
+
+- `05 Use Cases` = decision paths / application examples
+- `06 Engineering` = implementation, recipes, decisions, project notes
+
+### 6. Bridge Layer
+
+- `04 Synthesis` = comparison, bridge, and decision synthesis
+
+### Re-categorization Rules
+
+- ถ้าหัวข้ออยู่ได้มากกว่า 1 หมวด ให้เลือก canonical home ก่อน
+- ถ้าเป็นความรู้พื้นฐานที่ใช้หลายที่ ให้คงไว้ใน `01 Foundations`
+- ถ้าเป็น runtime behavior ของ agent ให้ไป `02 AI Systems`
+- ถ้าเป็นวิธีทำงานจริงหรือ code-level detail ให้ไป `06 Engineering`
+- ถ้าเป็นตัวอย่างใช้งานจริงหรือ decision path ให้ไป `05 Use Cases`
+- ถ้าเป็น bridge ระหว่างหมวด ให้ไป `04 Synthesis`

@@ -21,7 +21,14 @@ parent_note: "[[Home]]"
 - `memory` คือสิ่งที่ระบบจำข้ามรอบ
 - `RAG` คือการดึง knowledge ภายนอกมา grounding คำตอบในรอบนั้น
 
-## ใช้โน้ตแม่แทนเมื่อ
+## Quick Decision
+
+- ข้อมูลต้องใช้ตอนนี้ → context
+- ต้องจำข้ามรอบ → memory
+- ต้องอิงเอกสาร/แหล่งข้อมูล → RAG
+- ต้องการทั้ง continuity และ grounding → ใช้ memory + RAG ร่วมกัน
+
+## Canonical Notes To Read Instead
 
 | ต้องการ | ไปอ่าน |
 |---|---|
@@ -31,25 +38,10 @@ parent_note: "[[Home]]"
 | retrieval vs RAG | [[02 AI Systems/Memory Systems/Core/06 - Memory Retrieval vs RAG]] |
 | RAG pipeline | [[02 AI Systems/RAG/RAG - MOC]] |
 
-## Quick Decision
-
-- ข้อมูลต้องใช้ตอนนี้ → context
-- ต้องจำข้ามรอบ → memory
-- ต้องอิงเอกสาร/แหล่งข้อมูล → RAG
-- ต้องการทั้ง continuity และ grounding → ใช้ memory + RAG ร่วมกัน
-
-## Failure Modes
-
-- ใช้ context แทน memory
-- ใช้ memory แทน RAG
-- ใช้ RAG แทน personalization
-- ดึงทุกอย่างพร้อมกันจน context หนักเกิน
-
 ## Cross Links
 
 - [[02 AI Systems/Memory Systems/Memory Systems - MOC]]
 - [[02 AI Systems/RAG/RAG - MOC]]
-- [[04 Synthesis/Synthesis - Memory in Agents]]
 - [[04 Synthesis/Synthesis - Agent vs Workflow vs RAG]]
 - [[01 Foundations/Context Windows/Context Windows - MOC]]
 - [[Home]]

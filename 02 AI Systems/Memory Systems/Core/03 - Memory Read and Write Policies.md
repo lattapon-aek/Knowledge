@@ -4,7 +4,7 @@ tags:
   - policy
   - readwrite
 type: note
-status: draft
+status: evergreen
 source: "Microsoft Foundry Memory Docs · Azure Cosmos Agentic Memories Docs · Google ADK Memory Docs · OpenAI Conversation State and File Search Docs"
 parent_note: "[[Memory Systems - MOC]]"
 ---

@@ -5,7 +5,7 @@ tags:
   - retrieval
   - comparison
 type: note
-status: draft
+status: evergreen
 source: "Google ADK, Microsoft Learn, OpenAI Docs"
 parent_note: "[[Memory Systems - MOC]]"
 ---

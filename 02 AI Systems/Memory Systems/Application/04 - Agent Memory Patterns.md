@@ -4,7 +4,7 @@ tags:
   - agents
   - patterns
 type: note
-status: draft
+status: evergreen
 source: "Microsoft Foundry Memory Docs · Google ADK Sessions and Memory Docs · OpenAI Conversation State and File Search Docs"
 parent_note: "[[Memory Systems - MOC]]"
 ---

@@ -4,7 +4,7 @@ tags:
   - workingmemory
   - longtermmemory
 type: note
-status: draft
+status: evergreen
 source: "Anthropic Context Windows Docs · OpenAI Conversation State and File Search Docs · Microsoft Foundry Memory Docs · Google ADK Sessions and Memory Docs"
 parent_note: "[[Memory Systems - MOC]]"
 ---

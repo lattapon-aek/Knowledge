@@ -21,6 +21,8 @@ parent_note: "[[Home]]"
 
 หมวดนี้เป็น canonical home ของ memory architecture และ memory policy  
 การใช้ memory ร่วมกับ RAG ให้ดู `RAG - MOC` และ synthesis notes แทนการเล่าแบบรวมกัน
+ถ้าเป็นการตัดสินใจเชิงใช้งานว่า "ควรใช้ memory แบบไหน" ให้ดู `05 Use Cases` เป็น entry point แล้วกลับมาอ่าน note canonical ของหมวดนี้
+ถ้าเป็น pattern การใช้ memory ร่วมกับ session, checkpoint, หรือ tool runtime ให้ดู `Agent Frameworks` เป็นชั้น implementation ที่เกี่ยวข้อง
 
 กติกาการอ่าน:
 - ไฟล์ที่มีเลข `01, 02, 03...` คือ core learning path
@@ -82,7 +84,8 @@ parent_note: "[[Home]]"
 2. [[02 AI Systems/RAG/RAG - MOC]]
 3. [[02 AI Systems/Guardrails/Guardrails - MOC]]
 4. [[02 AI Systems/Evals/Evals - MOC]]
-5. [[04 Synthesis/Synthesis - Agent Runtime Layers]]
+5. [[05 Use Cases/Use Cases - Design Memory for an AI Agent]]
+6. [[04 Synthesis/Synthesis - Agent Runtime Layers]]
 
 ---
 

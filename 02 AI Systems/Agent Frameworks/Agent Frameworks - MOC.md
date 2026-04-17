@@ -21,6 +21,7 @@ parent_note: "[[Home]]"
 
 หมวดนี้เป็น canonical home ของการเลือก framework และ framework-level tradeoffs  
 รายละเอียด implementation เชิง tool/runtime จริงให้ดู `06 Engineering/Frameworks` แทน
+เรื่อง memory architecture, taxonomy, และ policy ระดับเนื้อหาให้ดู `Memory Systems` เป็น canonical home แทน; หมวดนี้เก็บเฉพาะ state/memory ในมุมของ framework runtime
 
 กติกาการอ่าน:
 - ไฟล์ที่มีเลข `01, 02, 03...` คือ core learning path
@@ -79,7 +80,8 @@ parent_note: "[[Home]]"
 
 1. [[02 AI Systems/MCP/MCP - MOC]]
 2. [[04 Synthesis/Synthesis - Memory in Agents]]
-3. [[04 Synthesis/Synthesis - LLM to Agent Stack]]
+3. [[05 Use Cases/Use Cases - Choose an Agent Framework]]
+4. [[04 Synthesis/Synthesis - LLM to Agent Stack]]
 
 ### 4. โน้ตเชิง Implementation
 

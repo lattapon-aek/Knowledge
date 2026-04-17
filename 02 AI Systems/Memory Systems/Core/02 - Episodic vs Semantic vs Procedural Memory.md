@@ -5,7 +5,7 @@ tags:
   - semantic
   - procedural
 type: note
-status: draft
+status: evergreen
 source: "Microsoft Foundry Memory Docs · Azure Cosmos Agentic Memories Docs · Google ADK Memory Docs · Primary Research on Agent Memory"
 parent_note: "[[Memory Systems - MOC]]"
 ---

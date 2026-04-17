@@ -286,6 +286,40 @@ parent_note: "[[Knowledge Topic Registry]]"
 
 ---
 
+## File Audit: 06 Engineering
+
+| File | Current Role | Recommended Owner | Action |
+|---|---|---|---|
+| `Engineering - MOC` | canonical owner | `06 Engineering` | stay |
+| `README.md` | vault documentation | `06 Engineering` / repo docs | stay |
+| `Architecture to Code/Architecture - Multi-Agent Infrastructure` | implementation architecture | `06 Engineering/Architecture to Code` | stay |
+| `Architecture to Code/Architecture - Multi-Agent Ownership and Handoffs` | implementation architecture | `06 Engineering/Architecture to Code` | stay |
+| `Architecture to Code/Architecture - Multi-Agent Security and Permissions` | implementation architecture | `06 Engineering/Architecture to Code` | stay |
+| `Architecture to Code/Architecture - Multi-Agent Deployment and Topology` | implementation architecture | `06 Engineering/Architecture to Code` | stay |
+| `Architecture to Code/Architecture - Tool Schemas and Runtime Integration` | implementation architecture | `06 Engineering/Architecture to Code` | stay |
+| `Frameworks/Framework - LangGraph` | framework implementation note | `06 Engineering/Frameworks` | stay |
+| `Frameworks/Framework - LangChain Agents` | framework implementation note | `06 Engineering/Frameworks` | stay |
+| `Frameworks/Framework - AutoGen vs CrewAI` | framework implementation note | `06 Engineering/Frameworks` | stay |
+| `Frameworks/Framework - OpenAI Agents and Responses Patterns` | framework implementation note | `06 Engineering/Frameworks` | stay |
+| `Patterns/Pattern - Retry and Backoff` | reusable implementation pattern | `06 Engineering/Patterns` | stay |
+| `Patterns/Pattern - Sync vs Async Agent Communication` | reusable implementation pattern | `06 Engineering/Patterns` | stay |
+| `Recipes/Recipe - Add a New Framework Note` | recipe / maintenance note | `06 Engineering/Recipes` | stay |
+| `Recipes/Recipe - Build a RAG Pipeline` | recipe note | `06 Engineering/Recipes` | stay |
+| `Recipes/Recipe - Add MCP Server Integration` | recipe note | `06 Engineering/Recipes` | stay |
+| `Recipes/Recipe - Add Output Validation` | recipe note | `06 Engineering/Recipes` | stay |
+| `Recipes/Recipe - Add a Memory Layer` | recipe note | `06 Engineering/Recipes` | stay |
+| `Recipes/Recipe - Build an Eval Harness` | recipe note | `06 Engineering/Recipes` | stay |
+| `Recipes/Recipe - HuggingFace MCP Course และ Implementation Guide` | derived implementation guide | `06 Engineering/Recipes` | stay; derived |
+| `Decisions/Decision - Choose a Framework` | engineering decision note | `06 Engineering/Decisions` | stay |
+| `Decisions/Decision - Choose a Retrieval Strategy` | engineering decision note | `06 Engineering/Decisions` | stay |
+| `Decisions/Decision - Choose a Validation Boundary` | engineering decision note | `06 Engineering/Decisions` | stay |
+| `Decisions/Decision - Choose an Evaluation Gate` | engineering decision note | `06 Engineering/Decisions` | stay |
+| `Decisions/Decision - Choose MCP Integration Boundary` | engineering decision note | `06 Engineering/Decisions` | stay |
+| `Decisions/Decision - Choose a Memory Policy` | engineering decision note | `06 Engineering/Decisions` | stay |
+| `Project Notes/Project Note - Example Implementation Log` | project note | `06 Engineering/Project Notes` | stay |
+
+---
+
 ## Use With Registry
 
 - อ่านหน้านี้คู่กับ `Knowledge Topic Registry`

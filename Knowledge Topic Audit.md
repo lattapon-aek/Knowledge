@@ -51,6 +51,10 @@ parent_note: "[[Knowledge Topic Registry]]"
 - `Framework selection` = reviewed, stay
 - ยังไม่มี move candidate ที่ต้องย้ายไฟล์จริงใน phase นี้
 
+สถานะรอบต่อไป:
+- `Memory architecture` = reviewed, stay
+- ยังไม่มี move candidate ที่ต้องย้ายไฟล์จริงใน phase นี้
+
 ### Phase Status
 
 - Phase 0 (`Foundations / base primitives`) = reviewed, no moves needed

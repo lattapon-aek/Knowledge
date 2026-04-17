@@ -5,7 +5,7 @@ tags:
   - tools
   - schemas
 type: note
-status: draft
+status: evergreen
 source: "OpenAI Docs, Anthropic Docs, MCP Official Docs"
 parent_note: "[[06 Engineering/Architecture to Code/Architecture to Code - MOC]]"
 ---

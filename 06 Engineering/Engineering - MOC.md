@@ -13,6 +13,10 @@ parent_note: "[[Home]]"
 
 ชั้นสำหรับเรื่อง coding, framework, implementation, และ project-specific engineering notes
 
+หมวดนี้เป็น canonical home ของ implementation layer  
+ถ้าเป็น framework selection / framework-level tradeoffs ให้ดู `02 AI Systems/Agent Frameworks` ก่อน  
+ถ้าเป็น memory architecture / retrieval theory / guardrail theory / eval theory ให้ดูหมวด AI Systems ที่เป็น owner ของเรื่องนั้นก่อน แล้วค่อยใช้หมวดนี้เป็น implementation layer
+
 ---
 
 ## Maps

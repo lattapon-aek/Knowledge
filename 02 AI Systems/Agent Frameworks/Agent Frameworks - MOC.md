@@ -22,6 +22,7 @@ parent_note: "[[Home]]"
 หมวดนี้เป็น canonical home ของการเลือก framework และ framework-level tradeoffs  
 รายละเอียด implementation เชิง tool/runtime จริงให้ดู `06 Engineering/Frameworks` แทน
 เรื่อง memory architecture, taxonomy, และ policy ระดับเนื้อหาให้ดู `Memory Systems` เป็น canonical home แทน; หมวดนี้เก็บเฉพาะ state/memory ในมุมของ framework runtime
+ถ้าเป็นเรื่อง architecture อธิบายระดับ concept ให้เก็บที่หมวดนี้; ถ้าเป็น code, recipe, หรือ framework-specific implementation ให้ไป `06 Engineering` แทน
 
 กติกาการอ่าน:
 - ไฟล์ที่มีเลข `01, 02, 03...` คือ core learning path

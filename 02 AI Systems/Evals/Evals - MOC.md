@@ -55,6 +55,7 @@ parent_note: "[[Home]]"
 - [[02 AI Systems/Memory Systems/Memory Systems - MOC]]
 - [[02 AI Systems/Agent Frameworks/Agent Frameworks - MOC]]
 - [[05 Use Cases/Use Cases - Improve Prompt Reliability]]
+- [[05 Use Cases/Use Cases - Evaluate an AI Agent]]
 
 ---
 
@@ -93,6 +94,7 @@ parent_note: "[[Home]]"
 4. [[02 AI Systems/Memory Systems/Memory Systems - MOC]]
 5. [[02 AI Systems/Agent Frameworks/Agent Frameworks - MOC]]
 6. [[02 AI Systems/Evals/Application/09 - Multi-Agent Evals]]
+7. [[05 Use Cases/Use Cases - Evaluate an AI Agent]]
 
 ### 6. Use Case
 

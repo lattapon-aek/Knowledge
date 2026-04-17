@@ -49,6 +49,7 @@ parent_note: "[[Home]]"
 - [[03 Tools/Claude Code/24 - Best Practices & Checklist]]
 - [[01 Foundations/LLM Foundations/05 - ข้อจำกัดและการประเมินผล LLM]]
 - [[01 Foundations/Context Windows/02 - การบริหารและ Context Engineering]]
+- [[05 Use Cases/Use Cases - Design Guardrails for Tool Use]]
 
 ---
 
@@ -76,6 +77,7 @@ parent_note: "[[Home]]"
 
 1. [[02 AI Systems/Guardrails/Operations/06 - Monitoring and Incidents]]
 2. [[02 AI Systems/Guardrails/Core/07 - Safety vs Usability Tradeoffs]]
+3. [[05 Use Cases/Use Cases - Design Guardrails for Tool Use]]
 
 ---
 

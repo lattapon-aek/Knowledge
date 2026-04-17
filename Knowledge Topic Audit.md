@@ -45,6 +45,7 @@ parent_note: "[[Knowledge Topic Registry]]"
 - Phase 5 (`Guardrails / control`) = reviewed, no moves needed
 - Phase 6 (`Evaluation`) = reviewed, no moves needed
 - Phase 7 (`Use case decisions`) = reviewed, no moves needed
+- Phase 8 (`Bridge / synthesis`) = reviewed, no moves needed
 - Execution จะเดินตามลำดับใน section `Execution Order`
 
 ### Bridge Notes ที่ควรคงไว้

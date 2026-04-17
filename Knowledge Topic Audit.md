@@ -153,6 +153,24 @@ parent_note: "[[Knowledge Topic Registry]]"
 
 ---
 
+## File Audit: 02 AI Systems / Agent Frameworks
+
+| File | Current Role | Recommended Owner | Action |
+|---|---|---|---|
+| `Agent Frameworks - MOC` | canonical owner | `02 AI Systems/Agent Frameworks` | stay |
+| `Core/01 - Landscape` | framework landscape overview | `02 AI Systems/Agent Frameworks` | stay |
+| `Core/02 - Framework vs Custom Build` | decision / comparison note | `02 AI Systems/Agent Frameworks` | stay; bridge to Use Cases / Engineering |
+| `Core/03 - State and Memory` | framework runtime concept | `02 AI Systems/Agent Frameworks` | stay; bridge to Memory Systems |
+| `Core/04 - Tool Orchestration` | framework runtime concept | `02 AI Systems/Agent Frameworks` | stay; bridge to AI Agent Fundamentals / Engineering |
+| `Core/06 - Evaluation and Observability` | framework runtime concept | `02 AI Systems/Agent Frameworks` | stay; bridge to Evals |
+| `Core/07 - Checkpointing and Resumability` | framework runtime concept | `02 AI Systems/Agent Frameworks` | stay; bridge to Memory Systems / Engineering |
+| `06 Engineering/Frameworks/Framework - LangGraph` | implementation note | `06 Engineering/Frameworks` | stay in engineering |
+| `06 Engineering/Frameworks/Framework - LangChain Agents` | implementation note | `06 Engineering/Frameworks` | stay in engineering |
+| `06 Engineering/Frameworks/Framework - AutoGen vs CrewAI` | implementation note | `06 Engineering/Frameworks` | stay in engineering |
+| `06 Engineering/Frameworks/Framework - OpenAI Agents and Responses Patterns` | implementation note | `06 Engineering/Frameworks` | stay in engineering |
+
+---
+
 ## Use With Registry
 
 - อ่านหน้านี้คู่กับ `Knowledge Topic Registry`

@@ -171,6 +171,20 @@ parent_note: "[[Knowledge Topic Registry]]"
 
 ---
 
+## File Audit: 02 AI Systems / Memory Systems
+
+| File | Current Role | Recommended Owner | Action |
+|---|---|---|---|
+| `Memory Systems - MOC` | canonical owner | `02 AI Systems/Memory Systems` | stay |
+| `Core/01 - Working Memory vs Long-Term Memory` | core memory concept | `02 AI Systems/Memory Systems` | stay |
+| `Core/02 - Episodic vs Semantic vs Procedural Memory` | core memory taxonomy | `02 AI Systems/Memory Systems` | stay |
+| `Core/03 - Memory Read and Write Policies` | core memory policy | `02 AI Systems/Memory Systems` | stay |
+| `Core/06 - Memory Retrieval vs RAG` | bridge note | `02 AI Systems/Memory Systems` | keep as bridge to RAG |
+| `Application/04 - Agent Memory Patterns` | application pattern | `02 AI Systems/Memory Systems` | stay; bridge to Agent Frameworks / Use Cases |
+| `Application/05 - Memory Failure Modes` | risk / failure note | `02 AI Systems/Memory Systems` | stay; bridge to Evals / Guardrails |
+
+---
+
 ## Use With Registry
 
 - อ่านหน้านี้คู่กับ `Knowledge Topic Registry`

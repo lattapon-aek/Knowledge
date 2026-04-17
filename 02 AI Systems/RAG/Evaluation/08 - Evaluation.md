@@ -36,8 +36,8 @@ RAG เป็นระบบหลายชั้น:
 - generation
 
 ดังนั้น answer ที่ผิดไม่ได้แปลว่า retrieval ผิดเสมอไป  
-OpenAI retrieval docs ชี้ให้เห็นลำดับพื้นฐานของ “retrieve first, then synthesize”  
-Google docs ฝั่ง grounding และ evaluation ชี้ชัดว่าควรแยกการวัด groundedness ออกจากตัว text quality
+OpenAI retrieval docs ชี้ลำดับ “retrieve first, then synthesize”  
+Google docs ฝั่ง grounding และ evaluation ชี้ชัดว่าควรแยก groundedness ออกจาก text quality
 
 ```mermaid
 flowchart LR
@@ -92,8 +92,7 @@ metrics / criteria ที่ใช้บ่อย:
 
 ## Groundedness และ Citation Quality
 
-Google ระบุชัดใน `Check grounding with RAG` ว่า groundedness คือระดับที่ answer candidate สอดคล้องกับ facts ที่ retrieval มา  
-API ของ Google ให้:
+Google ระบุชัดใน `Check grounding with RAG` ว่า groundedness คือระดับที่ answer candidate สอดคล้องกับ facts ที่ retrieval มา และ API ของ Google ให้:
 - support score
 - citations supporting each claim
 
@@ -226,7 +225,7 @@ answer ถูกบางส่วน แต่ cite ไม่ตรง
 ## Design Rules
 
 - แยก eval ของ retrieval, grounding, และ answer quality ออกจากกัน
-- ใช้ groundedness เป็นคนละมิติจาก text quality
+- groundedness เป็นคนละมิติจาก text quality
 - slice evaluation set ตาม question type
 - วัด latency และ cost คู่กับ quality ทุกครั้ง
 - ถ้าจะ compare systems ให้ compare ทั้ง pipeline ไม่ใช่ metric เดียว

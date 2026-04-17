@@ -49,6 +49,8 @@ parent_note: "[[Home]]"
 - ย่อ notes bridge ด้าน prompting / fine-tuning / RAG
 - ย่อ notes bridge ด้าน agent vs workflow / RAG
 - ย่อ notes bridge ด้าน runtime layers และ LLM-to-agent stack
+- ย่อ notes bridge ด้าน memory retrieval vs RAG และ memory / RAG / context
+- ย่อ notes bridge ด้าน agent runtime layers และ LLM-to-agent stack ให้เป็น pointer เท่านั้น
 - ย่อ `AI Agent Fundamentals` หลายหน้าให้เหลือ concept สำคัญ
 - ย่อ `Agent Frameworks - Landscape` และ `Framework vs Custom Build`
 - ปิดฝั่ง `06 Engineering` ทั้งชุดแล้ว รวม `Frameworks`, `Architecture to Code`, `Recipes`, `Decisions`, `Evals`, `Guardrails`, `Memory`, `MCP`, `Patterns`, และ `Project Notes`

@@ -42,6 +42,7 @@ parent_note: "[[Knowledge Topic Registry]]"
 - Phase 2 (`Framework selection`) = reviewed, no moves needed
 - Phase 3 (`Memory architecture`) = reviewed, no moves needed
 - Phase 4 (`Retrieval / RAG`) = reviewed, no moves needed
+- Phase 5 (`Guardrails / control`) = reviewed, no moves needed
 - Execution จะเดินตามลำดับใน section `Execution Order`
 
 ### Bridge Notes ที่ควรคงไว้

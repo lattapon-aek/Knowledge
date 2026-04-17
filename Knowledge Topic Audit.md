@@ -184,6 +184,26 @@ parent_note: "[[Knowledge Topic Registry]]"
 - `Engineering` คงบทบาท implementation / recipe / project layer
 - bridge notes ของทั้งสองหมวดควรคงไว้เพื่อเชื่อมไปยัง canonical owner ของแต่ละ topic
 
+### Phase 10 Detailed Bridge Check
+
+ตรวจเรื่อง `MCP` แล้ว:
+
+- `MCP - MOC` = stay; canonical home ของ protocol layer
+- `MCP/01 - MCP คืออะไรและแก้ปัญหาอะไร` = stay
+- `MCP/02 - Architecture: Host, Client, Server` = stay
+- `MCP/03 - Core Primitives: Tools, Resources, Prompts` = stay
+- `MCP/04 - Client Features: Sampling, Roots, Elicitation` = stay
+- `MCP/05 - Security, Consent และ Authorization` = stay
+- `MCP/06 Engineering/Recipes/Recipe - HuggingFace MCP Course และ Implementation Guide` = stay; bridge to `06 Engineering`
+- `06 Engineering/MCP/MCP - MOC` = stay; implementation bridge
+- `AI Agent Fundamentals/14 - Tools: การออกแบบและทำงาน` = stay; bridge to `MCP`
+
+ผลสรุป:
+- ยังไม่มี move candidate สำหรับ phase 10
+- `MCP` คงบทบาท protocol owner
+- `06 Engineering/MCP` คงบทบาท implementation bridge
+- bridge notes ที่เกี่ยวข้องควรคงไว้เพื่อเชื่อมไปยัง `AI Agent Fundamentals` และ `06 Engineering`
+
 ---
 
 ## Execution Order

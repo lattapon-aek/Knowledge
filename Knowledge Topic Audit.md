@@ -51,6 +51,60 @@ parent_note: "[[Knowledge Topic Registry]]"
 - ไม่มีไฟล์ที่ต้อง move ทันทีในรอบนี้
 - ถ้าจะ re-categorize ในรอบถัดไป ให้เริ่มจากการปรับลิงก์/bridge ก่อน แล้วค่อยพิจารณาย้ายเฉพาะกรณีที่ owner ยังไม่ชัด
 
+---
+
+## Execution Order
+
+ลำดับลงมือจริงสำหรับรอบ re-categorize:
+
+1. `01 Foundations`
+   - ยืนยันว่า `LLM / prompt / context / tokenizer` อยู่ที่ owner เดิม
+   - bridge notes คงไว้ ไม่ต้องย้าย
+
+2. `02 AI Systems / AI Agent Fundamentals`
+   - ตรวจว่า `12 / 13 / 14` เป็น bridge notes จริง
+   - ยืน boundary ระหว่าง agent runtime กับ foundations / engineering
+
+3. `02 AI Systems / Agent Frameworks`
+   - คง framework selection ไว้ที่นี่
+   - implementation notes อยู่ `06 Engineering`
+
+4. `02 AI Systems / Memory Systems`
+   - คง memory architecture / policy ไว้ที่นี่
+   - bridge กับ `RAG` และ `Agent Frameworks` เท่านั้น
+
+5. `02 AI Systems / RAG`
+   - คง retrieval / grounding / evaluation ที่เกี่ยวกับ RAG ไว้ที่นี่
+   - bridge กับ `Memory Systems` และ `Evals`
+
+6. `02 AI Systems / Guardrails`
+   - คง control layer ไว้ที่นี่
+   - bridge ไป `Evals` เฉพาะกรณี measurement
+
+7. `02 AI Systems / Evals`
+   - คง measurement layer ไว้ที่นี่
+   - bridge กลับไป `Guardrails` เฉพาะ policy implication
+
+8. `02 AI Systems / MCP`
+   - คง protocol layer ไว้ที่นี่
+   - bridge ไป `AI Agent Fundamentals` และ `06 Engineering` ตาม context
+
+9. `04 Synthesis`
+   - ใช้เป็น bridge / compare / decision summary
+   - ไม่ต้องย้ายถ้าเป็น synthesis จริง
+
+10. `05 Use Cases`
+    - ใช้เป็น decision path / application entry
+    - ไม่ต้องย้ายถ้าเป็น use case จริง
+
+11. `06 Engineering`
+    - คง implementation, recipes, decisions, project notes ไว้
+    - ถ้าเจอ theory ซ้ำ ค่อยระบุ bridge กลับไป owner
+
+12. `03 Tools/Claude Code`
+    - เก็บท้ายสุด
+    - คงเป็น volatile tool layer
+
 ## Core Ownership Map
 
 | Topic | Canonical Home | Canonical Owner | Bridge / Entry Notes | หมายเหตุ |

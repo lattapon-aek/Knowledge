@@ -5,7 +5,7 @@ tags:
   - architecture
   - limitations
 type: note
-status: draft
+status: evergreen
 created: "2026-04-09"
 source: "https://code.claude.com/docs/en/agent-teams"
 parent_note: "[[Claude Code - Multi-Agent MOC]]"

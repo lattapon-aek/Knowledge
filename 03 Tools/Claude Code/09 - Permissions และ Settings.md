@@ -6,7 +6,7 @@ tags:
   - configuration
   - version-sensitive
 type: note
-status: draft
+status: evergreen
 created: "2026-04-09"
 source: "https://code.claude.com/docs/en/settings"
 parent_note: "[[Claude Code - Multi-Agent MOC]]"

@@ -111,8 +111,8 @@ parent_note: "[[Home]]"
 ### 5. `03 Tools/Claude Code`
 
 สถานะ:
-- ตั้งใจให้เป็น volatile/reference layer
-- ยังไม่ใช่เป้าหมายหลักของ refactor ชุดนี้
+- ปิดเป็น volatile/reference layer แล้ว
+- note หลักถูกยกเป็น `evergreen` ครบแล้ว
 
 ---
 
@@ -130,4 +130,4 @@ parent_note: "[[Home]]"
 
 1. ตรวจ `Memory Systems` / `RAG` / `Guardrails` / `Evals` รอบสุดท้าย
 2. ค่อย sweep `05 Use Cases` ถ้ายังมี bridge ที่ซ้ำ
-3. เก็บ `03 Tools/Claude Code` ถ้าต้องการลด volatile overlap ในรอบถัดไป
+3. ถ้าจะ refactor ต่อ ให้เริ่มจากการตรวจ boundary ระหว่าง `Agent Frameworks` กับ `06 Engineering` อีกครั้ง

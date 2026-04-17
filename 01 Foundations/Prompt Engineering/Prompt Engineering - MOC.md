@@ -13,6 +13,9 @@ parent_note: "[[Home]]"
 > แหล่งความรู้รวมทุกหัวข้อเกี่ยวกับ Prompt Engineering
 > Sources: OpenAI · Google Cloud / Vertex AI · Anthropic · Microsoft Learn · AWS Bedrock
 
+หมวดนี้เป็น canonical home ของ prompt anatomy, prompt patterns, structured generation, และ output formats  
+โน้ต `02 AI Systems/AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates` ใช้เป็น runtime bridge เท่านั้น ไม่ใช่ที่อธิบาย prompt design หลัก
+
 
 ---
 

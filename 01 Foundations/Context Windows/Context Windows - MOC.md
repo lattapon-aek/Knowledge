@@ -14,6 +14,9 @@ parent_note: "[[Home]]"
 > 
 > **Sources**: Anthropic Docs · Google Caching API · RoPE Paper · Position Interpolation Paper · Model Cards
 
+หมวดนี้เป็น canonical home ของ context budget, context rot, prompt caching, long-context trade-offs, และ context engineering  
+โน้ต `02 AI Systems/AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates` ใช้เป็น runtime bridge เท่านั้น ไม่ใช่ที่อธิบาย context management หลัก
+
 ---
 
 ## Notes

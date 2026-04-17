@@ -116,6 +116,32 @@ parent_note: "[[Knowledge Topic Registry]]"
 - `Use Cases` คงเป็น decision/application owner
 - bridge notes ยังช่วยเชื่อมไปยัง canonical topic ได้ตรงจุด
 
+### Phase 8–9 Detailed Bridge Check
+
+ตรวจเรื่อง `Synthesis` และ `Engineering` แล้ว:
+
+- `Synthesis - Agent Runtime Layers` = stay; bridge to `AI Agent Fundamentals` / `Agent Frameworks` / `Evals`
+- `Synthesis - LLM to Agent Stack` = stay; bridge to `LLM Foundations` / `Prompt Engineering` / `Context Windows` / `AI Agent Fundamentals`
+- `Synthesis - Memory in Agents` = stay; bridge to `Memory Systems`
+- `Synthesis - Memory vs RAG vs Context` = stay; bridge to `Memory Systems` / `RAG` / `Context Windows`
+- `Synthesis - Prompting vs Fine-tuning vs RAG` = stay; bridge to `Prompt Engineering` / `RAG`
+- `Synthesis - Safety, Reliability, and Evals` = stay; bridge to `Guardrails` / `Evals`
+- `Synthesis - Single to Multi-Agent Infrastructure` = stay; bridge to `AI Agent Fundamentals` / `Engineering`
+- `Synthesis - Multi-Agent Failure Modes` = stay; bridge to `Guardrails` / `Evals` / `Architecture to Code`
+- `Engineering - MOC` = stay; canonical home ของ implementation layer
+- `Engineering/Frameworks/*` = stay; implementation-specific framework notes
+- `Engineering/Architecture to Code/*` = stay; implementation architecture notes
+- `Engineering/Patterns/*` = stay; reusable implementation patterns
+- `Engineering/Recipes/*` = stay; implementation recipes
+- `Engineering/Decisions/*` = stay; engineering decision records
+- `Engineering/Project Notes/*` = stay; project-specific implementation context
+
+ผลสรุป:
+- ยังไม่มี move candidate สำหรับ phase 8–9
+- `Synthesis` คงบทบาท bridge / comparison / decision synthesis
+- `Engineering` คงบทบาท implementation / recipe / project layer
+- bridge notes ของทั้งสองหมวดควรคงไว้เพื่อเชื่อมไปยัง canonical owner ของแต่ละ topic
+
 ---
 
 ## Execution Order

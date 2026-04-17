@@ -66,6 +66,21 @@ parent_note: "[[Home]]"
 | Bridge / synthesis | `04 Synthesis` | `Synthesis - MOC` |
 | Volatile tool reference | `03 Tools/Claude Code` | `Claude Code - Multi-Agent MOC` |
 
+## Re-categorization Order
+
+ใช้ลำดับนี้เวลาจะเริ่มจัดหมวดใหม่ทั้ง vault
+
+1. `Agent runtime`
+2. `Framework selection`
+3. `Memory architecture`
+4. `Retrieval / RAG`
+5. `Guardrails / control`
+6. `Evaluation`
+7. `Use case decisions`
+8. `Bridge / synthesis`
+9. `Implementation`
+10. `Claude Code / tooling`
+
 ## Folder Map
 
 - `00 Raw Sources` = raw inputs / source records

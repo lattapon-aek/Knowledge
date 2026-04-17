@@ -156,6 +156,21 @@ parent_note: "[[Home]]"
 - ใช้เป็นรายการว่า topic หลักแต่ละเรื่องควรอยู่ folder ไหน / note ไหนเป็น canonical / note ไหนเป็น bridge
 - topic registry จะเป็น source เดียวสำหรับตรวจ ownership ของเรื่องสำคัญก่อนย้ายหรือแตกหมวดใหม่
 
+### 1. Re-categorization Order
+
+ใช้ลำดับนี้เป็นงานหลักของ phase ใหม่:
+
+1. `Agent runtime`
+2. `Framework selection`
+3. `Memory architecture`
+4. `Retrieval / RAG`
+5. `Guardrails / control`
+6. `Evaluation`
+7. `Use case decisions`
+8. `Bridge / synthesis`
+9. `Implementation`
+10. `Claude Code / tooling`
+
 ## Core Folder Layout
 
 ```

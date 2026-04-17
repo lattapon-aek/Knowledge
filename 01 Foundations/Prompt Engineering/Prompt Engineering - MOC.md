@@ -36,6 +36,7 @@ parent_note: "[[Home]]"
 - [[01 Foundations/LLM Foundations/LLM Foundations - MOC|LLM Foundations]] — Prompt ส่งผลต่อ decoding, in-context learning, และ model behavior โดยตรง
 - [[01 Foundations/LLM Foundations/07 - Logits, Decoding และ Sampling|Logits, Decoding และ Sampling]] — decoding settings ทำให้ prompt เดียวกันให้ output ต่างกันได้
 - [[01 Foundations/LLM Foundations/08 - Data, Pretraining และ Model Modes|Data, Pretraining และ Model Modes]] — few-shot prompting และ in-context learning เชื่อมกับ model modes โดยตรง
+- [[02 AI Systems/AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates|AI Agent Fundamentals/13 - Messages, System Prompt และ Chat Templates]] — bridge note สำหรับ runtime message layer
 - [[02 AI Systems/AI Agent Fundamentals/AI Agent Fundamentals - MOC|AI Agent Fundamentals]] — Agent ใช้ prompt engineering สำหรับ reasoning (ReAct, CoT) และ system prompt ควบคุม agent behavior
 - [[01 Foundations/Context Windows/Context Windows - MOC|Context Windows]] — Context engineering เป็นส่วนหนึ่งของ prompt engineering — จัดลำดับ, caching, noise reduction
 - [[02 AI Systems/MCP/MCP - MOC|MCP]] — MCP Prompts (server feature) คือ reusable prompt templates ที่ server expose ให้ user

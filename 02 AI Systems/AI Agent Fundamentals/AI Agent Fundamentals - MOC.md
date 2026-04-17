@@ -25,6 +25,7 @@ parent_note: "[[Home]]"
 - ถ้าเป็น decision path หรือ application-oriented example ให้เริ่มที่ `05 Use Cases` ก่อน แล้วค่อยย้อนกลับมาอ่าน note canonical ของหมวดนี้
 - หัวข้อ LLM / prompt / context primitives เป็นของ `01 Foundations` เป็นหลัก
 - โน้ต `12`, `13`, และ `14` ในหมวดนี้ทำหน้าที่เป็น bridge notes สำหรับ agent-facing runtime เท่านั้น
+- ถ้า topic เดียวมี canonical home อยู่แล้ว ให้ใช้ canonical home นั้นก่อน แล้วค่อยใช้ bridge note ในหมวดนี้เป็นจุดอ่านต่อ
 
 กติกาการอ่าน:
 - ไฟล์ที่มีเลข `01, 02, 03...` คือ core learning path ของหมวดนี้
@@ -51,6 +52,8 @@ diagram นี้เป็น conceptual overview ของหมวดนี้
 
 ## Notes Map
 
+### Core learning path
+
 - [[01 - AI Agent คืออะไร]] — นิยาม ช่องว่างระหว่าง LLM กับ Agent
 - [[02 - วิวัฒนาการ LLM สู่ Agent]] — 3 ระยะ: LLM → Function Calling → Agent
 - [[03 - คุณสมบัติ 5 อย่างของ Agent]] — Goal-directed · Autonomous · Proactive · Environmental awareness · Tool use
@@ -62,6 +65,9 @@ diagram นี้เป็น conceptual overview ของหมวดนี้
 - [[09 - เมื่อไรควรและไม่ควรใช้ Agent]] — decision framework
 - [[10 - Risks และ Best Practices]] — risks, tradeoffs, mitigations
 - [[11 - Key Takeaways และ Quick Reference]] — summary และ quick reference
+
+### Bridge notes
+
 - [[12 - LLM พื้นฐาน]] — bridge note: agent-facing LLM primer
 - [[13 - Messages, System Prompt และ Chat Templates]] — runtime message layer; bridge to Prompt Engineering / Context Windows
 - [[14 - Tools: การออกแบบและทำงาน]] — tools, schemas, MCP connection; bridge to engineering runtime

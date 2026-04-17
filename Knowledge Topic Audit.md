@@ -109,9 +109,30 @@ parent_note: "[[Knowledge Topic Registry]]"
 
 ---
 
+## File Audit: 01 Foundations
+
+| File | Current Role | Recommended Owner | Action |
+|---|---|---|---|
+| `LLM Foundations - MOC` | canonical owner | `01 Foundations/LLM Foundations` | stay |
+| `01 - LLM คืออะไรและพื้นฐาน` | core foundational note | `01 Foundations/LLM Foundations` | stay |
+| `02 - สถาปัตยกรรม Transformer` | core foundational note | `01 Foundations/LLM Foundations` | stay |
+| `03 - การฝึกและ Post-Training` | core foundational note | `01 Foundations/LLM Foundations` | stay |
+| `04 - Inference, Context และ RAG` | inference / runtime foundation | `01 Foundations/LLM Foundations` | stay; bridge to Context/RAG |
+| `05 - ข้อจำกัดและการประเมินผล LLM` | limitation / eval primitive | `01 Foundations/LLM Foundations` | stay; bridge to Evals |
+| `06 - Attention และ Representations` | core foundational note | `01 Foundations/LLM Foundations` | stay |
+| `07 - Logits, Decoding และ Sampling` | core foundational note | `01 Foundations/LLM Foundations` | stay |
+| `08 - Data, Pretraining และ Model Modes` | core foundational note | `01 Foundations/LLM Foundations` | stay |
+| `09 - Serving Metrics และระบบ Production LLM` | production foundation | `01 Foundations/LLM Foundations` | stay |
+| `10 - Embeddings และ Semantic Similarity` | representation foundation | `01 Foundations/LLM Foundations` | stay; bridge to RAG |
+| `11 - Multimodal Foundations` | multimodal foundation | `01 Foundations/LLM Foundations` | stay |
+| `12 - Weights, Context, Retrieval และ Tools` | bridge note | `01 Foundations/LLM Foundations` | keep as bridge |
+| `13 - Evaluation Foundations` | eval primitive | `01 Foundations/LLM Foundations` | stay; bridge to Evals |
+| `14 - Vector Representations และ Similarity Search` | representation foundation | `01 Foundations/LLM Foundations` | stay; bridge to RAG |
+
+---
+
 ## Use With Registry
 
 - อ่านหน้านี้คู่กับ `Knowledge Topic Registry`
 - ใช้ Registry เป็นแผนที่ owner
 - ใช้ Audit นี้เป็น checklist ว่า topic ไหนควร stay, bridge, หรือ move
-

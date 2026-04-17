@@ -47,7 +47,7 @@ parent_note: "[[Home]]"
 - [[04 Synthesis/Synthesis - Memory in Agents]]
 - [[02 AI Systems/Agent Frameworks/Core/03 - State and Memory]]
 - [[01 Foundations/Context Windows/Context Windows - MOC]]
-- [[01 Foundations/LLM Foundations/12 - Weights, Context, Retrieval และ Tools]]
+- [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools]]
 - [[01 Foundations/LLM Foundations/13 - Evaluation Foundations]]
 - [[02 AI Systems/RAG/RAG - MOC]]
 - [[02 AI Systems/Guardrails/Guardrails - MOC]]

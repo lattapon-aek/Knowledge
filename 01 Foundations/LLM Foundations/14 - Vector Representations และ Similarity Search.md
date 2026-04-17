@@ -484,7 +484,7 @@ items ที่คล้ายใน vector space อาจยังไม่ใ
 - [[01 Foundations/LLM Foundations/10 - Embeddings และ Semantic Similarity]]
 - [[01 Foundations/Tokenizer in AI/06 - ทำไม Tokenization ถึงสำคัญ]]
 - [[01 Foundations/LLM Foundations/11 - Multimodal Foundations]]
-- [[01 Foundations/LLM Foundations/12 - Weights, Context, Retrieval และ Tools]]
+- [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools]]
 - [[02 AI Systems/RAG/RAG - MOC]]
 - [[02 AI Systems/Memory Systems/Memory Systems - MOC]]
 - [[Home]]

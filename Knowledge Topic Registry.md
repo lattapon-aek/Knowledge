@@ -27,6 +27,7 @@ parent_note: "[[Home]]"
 | Prompt design | `01 Foundations/Prompt Engineering` | `Prompt Engineering - MOC` | `01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates` |
 | Context engineering | `01 Foundations/Context Windows` | `Context Windows - MOC` | `01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates` |
 | Tokenization | `01 Foundations/Tokenizer in AI` | `Tokenizer in AI - MOC` | `LLM Foundations` links |
+| Weights / context / retrieval / tools | `04 Synthesis` | `Synthesis - Weights, Context, Retrieval และ Tools` | `01 Foundations/LLM Foundations/04 - Inference, Context และ RAG`, `01 Foundations/Prompt Engineering/07 - Structured Generation และ Output Formats`, `02 AI Systems/RAG/RAG - MOC`, `02 AI Systems/MCP/MCP - MOC` |
 | Agent runtime | `02 AI Systems/AI Agent Fundamentals` | `AI Agent Fundamentals - MOC` | `05 Use Cases/Use Cases - Build an AI Agent` |
 | Workflow vs AI Agent | `04 Synthesis` | `Synthesis - Workflow vs AI Agent` | `02 AI Systems/AI Agent Fundamentals` bridge |
 | When to use an agent | `05 Use Cases` | `Use Cases - When to Use an Agent` | `04 Synthesis/Synthesis - Workflow vs AI Agent` |

@@ -4,10 +4,11 @@ tags:
   - context
   - retrieval
   - tools
+  - synthesis
 type: note
 status: evergreen
 source: "OpenAI, Anthropic, Google Cloud Vertex AI, Microsoft Learn"
-parent_note: "[[LLM Foundations - MOC]]"
+parent_note: "[[Synthesis - MOC]]"
 ---
 # Weights, Context, Retrieval และ Tools
 

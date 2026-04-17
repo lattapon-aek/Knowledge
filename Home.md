@@ -56,7 +56,7 @@ Second brain สำหรับความรู้ด้าน AI systems, LLM
 
 1. [[01 Foundations/LLM Foundations/10 - Embeddings และ Semantic Similarity]]
 2. [[01 Foundations/LLM Foundations/14 - Vector Representations และ Similarity Search]]
-3. [[01 Foundations/LLM Foundations/12 - Weights, Context, Retrieval และ Tools]]
+3. [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools]]
 4. [[01 Foundations/Prompt Engineering/07 - Structured Generation และ Output Formats]]
 5. [[01 Foundations/LLM Foundations/11 - Multimodal Foundations]]
 6. [[01 Foundations/LLM Foundations/13 - Evaluation Foundations]]

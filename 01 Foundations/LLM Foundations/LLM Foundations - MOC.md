@@ -78,7 +78,6 @@ flowchart TD
 ## 3. Inference
 
 - [[04 - Inference, Context และ RAG]] — inference loop, context window, token types, prefill/decode, KV cache, RAG, context engineering
-- [[12 - Weights, Context, Retrieval และ Tools]] — แยกบทบาทของ model knowledge, prompt context, retrieval, และ tool use
 
 ---
 
@@ -114,7 +113,7 @@ flowchart TD
 ## คำถามที่มักสับสน
 
 - **Weights vs Context vs RAG** -> เริ่มที่ [[08 - Data, Pretraining และ Model Modes]] แล้วต่อ [[04 - Inference, Context และ RAG]]
-- **Weights vs Context vs Retrieval vs Tools** -> อ่าน [[12 - Weights, Context, Retrieval และ Tools]]
+- **Weights vs Context vs Retrieval vs Tools** -> อ่าน [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools|Weights, Context, Retrieval และ Tools]]
 - **Attention vs KV Cache** -> อ่าน [[06 - Attention และ Representations]] แล้วต่อ [[04 - Inference, Context และ RAG]]
 - **Pretraining vs Instruction Tuning vs RLHF** -> อ่าน [[03 - การฝึกและ Post-Training]]
 - **Inference vs Serving** -> อ่าน [[04 - Inference, Context และ RAG]] แล้วต่อ [[09 - Serving Metrics และระบบ Production LLM]]
@@ -126,6 +125,7 @@ flowchart TD
 - [[01 Foundations/Context Windows/Context Windows - MOC|Context Windows]] — ลงลึกเรื่อง working memory, long context, prompt structure
 - [[01 Foundations/Prompt Engineering/Prompt Engineering - MOC|Prompt Engineering]] — prompting มีผลต่อ in-context behavior และ decoding outcomes
 - [[01 Foundations/LLM Foundations/12 - LLM พื้นฐาน|12 - LLM พื้นฐาน]] — bridge note สำหรับมุม agent-facing เท่านั้น
+- [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools|Weights, Context, Retrieval และ Tools]] — bridge note สำหรับแยกบทบาทของ weights/context/retrieval/tools
 - [[02 AI Systems/AI Agent Fundamentals/AI Agent Fundamentals - MOC|AI Agent Fundamentals]] — agents พึ่งพา context management, tool use, and orchestration
 - [[02 AI Systems/MCP/MCP - MOC|MCP]] — protocol สำหรับเชื่อม tools เข้ากับ LLM applications
 - [[02 AI Systems/RAG/RAG - MOC|RAG]] — ระบบ retrieval เชิงปฏิบัติที่ต่อยอดจาก embeddings, context assembly, และ grounding

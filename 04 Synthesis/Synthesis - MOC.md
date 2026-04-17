@@ -21,6 +21,7 @@ parent_note: "[[Home]]"
 ## Notes Map
 
 - [[04 Synthesis/Synthesis - Agent Runtime Layers|Synthesis - Agent Runtime Layers]]
+- [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools|Synthesis - Weights, Context, Retrieval และ Tools]]
 - [[04 Synthesis/Synthesis - Workflow vs AI Agent|Synthesis - Workflow vs AI Agent]]
 - [[04 Synthesis/Synthesis - Agent vs Workflow vs RAG|Synthesis - Agent vs Workflow vs RAG]]
 - [[04 Synthesis/Synthesis - LLM to Agent Stack|Synthesis - LLM to Agent Stack]]

@@ -20,7 +20,7 @@ record นี้รวบรวมโน้ตที่อิง **หลาย 
 
 ถูกใช้ใน:
 - [[01 Foundations/Prompt Engineering/07 - Structured Generation และ Output Formats]]
-- [[01 Foundations/LLM Foundations/12 - Weights, Context, Retrieval และ Tools]]
+- [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools]]
 - [[01 Foundations/LLM Foundations/13 - Evaluation Foundations]]
 
 ---

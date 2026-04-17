@@ -35,6 +35,7 @@ parent_note: "[[Knowledge Topic Registry]]"
 | Bridge notes | keep | ใช้เฉพาะจุดที่ต้องเชื่อมข้าม topic |
 | Move batch 1 | executed | bridge note 3 ไฟล์ย้ายไป owner ใหม่แล้ว |
 | Move batch 2 | executed | workflow comparison + agent decision notes ย้ายไป owner ใหม่แล้ว |
+| Move batch 3 | executed | bridge note `Weights, Context, Retrieval และ Tools` ย้ายออกจาก Foundations แล้ว |
 
 ## Re-categorization Execution Log
 
@@ -369,7 +370,7 @@ Move batch 1 ที่ทำจริง:
 | `09 - Serving Metrics และระบบ Production LLM` | production foundation | `01 Foundations/LLM Foundations` | stay |
 | `10 - Embeddings และ Semantic Similarity` | representation foundation | `01 Foundations/LLM Foundations` | stay; bridge to RAG |
 | `11 - Multimodal Foundations` | multimodal foundation | `01 Foundations/LLM Foundations` | stay |
-| `12 - Weights, Context, Retrieval และ Tools` | bridge note | `01 Foundations/LLM Foundations` | keep as bridge |
+| `12 - Weights, Context, Retrieval และ Tools` | bridge note | `04 Synthesis/Synthesis - MOC` | moved to `04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools` |
 | `13 - Evaluation Foundations` | eval primitive | `01 Foundations/LLM Foundations` | stay; bridge to Evals |
 | `14 - Vector Representations และ Similarity Search` | representation foundation | `01 Foundations/LLM Foundations` | stay; bridge to RAG |
 
@@ -627,6 +628,7 @@ Move batch 1 ที่ทำจริง:
 
 - ไม่มี move candidate ที่ต้องย้ายเนื้อหาหลักในรอบนี้
 - move batch 2 ดำเนินไปแล้วสำหรับ workflow comparison และ agent decision notes
+- move batch 3 ดำเนินไปแล้วสำหรับ weights/context/retrieval/tools bridge note
 
 ### สิ่งที่ใช้ต่อรอบหน้า
 

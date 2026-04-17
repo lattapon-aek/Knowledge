@@ -45,3 +45,9 @@ parent_note: "[[Home]]"
 - [[04 Synthesis/Synthesis - Agent vs Workflow vs RAG]]
 - [[01 Foundations/Context Windows/Context Windows - MOC]]
 - [[Home]]
+
+## Boundary Reminder
+
+- ถ้าเป็น memory policy หรือ memory taxonomy ให้กลับไปอ่าน `Memory Systems`
+- ถ้าเป็น retrieval pipeline หรือ grounding ให้กลับไปอ่าน `RAG`
+- ถ้าต้องการ decision path สั้น ๆ ให้ใช้หน้านี้เป็นจุดเริ่ม แล้วค่อยตาม canonical note

@@ -23,6 +23,7 @@ parent_note: "[[Home]]"
 การใช้ memory ร่วมกับ RAG ให้ดู `RAG - MOC` และ synthesis notes แทนการเล่าแบบรวมกัน
 ถ้าเป็นการตัดสินใจเชิงใช้งานว่า "ควรใช้ memory แบบไหน" ให้ดู `05 Use Cases` เป็น entry point แล้วกลับมาอ่าน note canonical ของหมวดนี้
 ถ้าเป็น pattern การใช้ memory ร่วมกับ session, checkpoint, หรือ tool runtime ให้ดู `Agent Frameworks` เป็นชั้น implementation ที่เกี่ยวข้อง
+ถ้าเป็น retrieval pipeline, chunking, reranking, grounding, หรือ RAG evaluation ให้ไป `RAG - MOC` แทน ไม่เล่าซ้ำในหมวด memory
 
 กติกาการอ่าน:
 - ไฟล์ที่มีเลข `01, 02, 03...` คือ core learning path

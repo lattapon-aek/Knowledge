@@ -205,6 +205,22 @@ parent_note: "[[Knowledge Topic Registry]]"
 
 ---
 
+## File Audit: 02 AI Systems / Guardrails
+
+| File | Current Role | Recommended Owner | Action |
+|---|---|---|---|
+| `Guardrails - MOC` | canonical owner | `02 AI Systems/Guardrails` | stay |
+| `Core/01 - Input and Output Controls` | core control concept | `02 AI Systems/Guardrails` | stay |
+| `Core/Guardrails - Prompt Injection and Content Attacks` | core safety concept | `02 AI Systems/Guardrails` | stay |
+| `Core/02 - Output Validation` | core control concept | `02 AI Systems/Guardrails` | stay |
+| `Core/03 - Tool Safety` | core control concept | `02 AI Systems/Guardrails` | stay |
+| `Operations/04 - Permission Models` | operational control concept | `02 AI Systems/Guardrails` | stay |
+| `Core/05 - Fallback Policies` | operational control concept | `02 AI Systems/Guardrails` | stay |
+| `Operations/06 - Monitoring and Incidents` | operational control concept | `02 AI Systems/Guardrails` | stay |
+| `Core/07 - Safety vs Usability Tradeoffs` | decision / tradeoff concept | `02 AI Systems/Guardrails` | stay |
+
+---
+
 ## Use With Registry
 
 - อ่านหน้านี้คู่กับ `Knowledge Topic Registry`

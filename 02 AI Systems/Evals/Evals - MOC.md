@@ -21,6 +21,7 @@ parent_note: "[[Home]]"
 
 หมวดนี้เป็น canonical home ของ evaluation layer  
 ถ้าพูดถึง policy / permission / fallback ให้ไป `Guardrails - MOC` แทน
+ถ้าเป็นเรื่อง output restriction, validation, incident response, หรือ approval gate ให้ไป `Guardrails - MOC` ก่อน แล้วค่อยใช้ evals เป็น measurement layer
 
 กติกาการอ่าน:
 - ไฟล์ที่มีเลข `01, 02, 03...` คือ core learning path
@@ -56,6 +57,7 @@ parent_note: "[[Home]]"
 - [[02 AI Systems/Agent Frameworks/Agent Frameworks - MOC]]
 - [[05 Use Cases/Use Cases - Improve Prompt Reliability]]
 - [[05 Use Cases/Use Cases - Evaluate an AI Agent]]
+- [[04 Synthesis/Synthesis - Safety, Reliability, and Evals]]
 
 ---
 

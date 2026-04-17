@@ -151,6 +151,12 @@ flowchart LR
 - [[02 AI Systems/Evals/Core/09 - Observability and Feedback Loops]]
 - [[Home]]
 
+## Boundary Reminder
+
+- ถ้าเป็น control policy, fallback, approval, หรือ permission boundary ให้กลับไปอ่าน `Guardrails`
+- ถ้าเป็น benchmark, rubric, judge, หรือ regression suite ให้กลับไปอ่าน `Evals`
+- หน้านี้ใช้สรุปความสัมพันธ์ของสามชั้น ไม่ใช่ที่เล่ารายละเอียดซ้ำกับ canonical notes
+
 ---
 
 ## Official References

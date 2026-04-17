@@ -21,6 +21,7 @@ parent_note: "[[Home]]"
 
 หมวดนี้เป็น canonical home ของ control layer และ safety boundaries  
 ถ้าพูดถึง measurement / regression / eval ให้ไป `Evals - MOC` แทน
+ถ้าเป็นความหมายของ success criteria, benchmark design, judge, หรือ regression suite ให้ไป `Evals - MOC` ก่อน แล้วค่อยย้อนกลับมาอ่าน guardrail implications
 
 กติกาการอ่าน:
 - ไฟล์ที่มีเลข `01, 02, 03...` คือ core learning path
@@ -50,6 +51,8 @@ parent_note: "[[Home]]"
 - [[01 Foundations/LLM Foundations/05 - ข้อจำกัดและการประเมินผล LLM]]
 - [[01 Foundations/Context Windows/02 - การบริหารและ Context Engineering]]
 - [[05 Use Cases/Use Cases - Design Guardrails for Tool Use]]
+- [[02 AI Systems/Evals/Evals - MOC]]
+- [[04 Synthesis/Synthesis - Safety, Reliability, and Evals]]
 
 ---
 

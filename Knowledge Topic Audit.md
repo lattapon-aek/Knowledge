@@ -59,6 +59,10 @@ parent_note: "[[Knowledge Topic Registry]]"
 - `Retrieval / RAG` = reviewed, stay
 - ยังไม่มี move candidate ที่ต้องย้ายไฟล์จริงใน phase นี้
 
+สถานะรอบถัดไปอีก:
+- `Guardrails / control` = reviewed, stay
+- ยังไม่มี move candidate ที่ต้องย้ายไฟล์จริงใน phase นี้
+
 ### Phase Status
 
 - Phase 0 (`Foundations / base primitives`) = reviewed, no moves needed

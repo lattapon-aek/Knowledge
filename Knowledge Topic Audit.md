@@ -20,6 +20,37 @@ parent_note: "[[Knowledge Topic Registry]]"
 
 ---
 
+## Action Summary
+
+สรุปภาพรวมจาก audit รอบนี้:
+
+| Layer | Action | หมายเหตุ |
+|---|---|---|
+| `01 Foundations` | stay | เป็นฐาน primitives ที่นิ่ง |
+| `02 AI Systems` | stay | แยก owner ย่อยชัดแล้ว: agent runtime, framework, memory, RAG, guardrails, evals, MCP |
+| `04 Synthesis` | stay | เป็น bridge / comparison / decision layer |
+| `05 Use Cases` | stay | เป็น decision path / application layer |
+| `06 Engineering` | stay | เป็น implementation / recipe / project layer |
+| `03 Tools/Claude Code` | stay | เป็น volatile tool layer |
+| Bridge notes | keep | ใช้เฉพาะจุดที่ต้องเชื่อมข้าม topic |
+| Move candidates | none in this pass | ยังไม่ต้องย้ายเนื้อหาหลักก่อนเริ่ม phase ใหม่ |
+
+### Bridge Notes ที่ควรคงไว้
+
+- `AI Agent Fundamentals/12, 13, 14`
+- `Synthesis - Memory in Agents`
+- `Synthesis - Memory vs RAG vs Context`
+- `Synthesis - Agent vs Workflow vs RAG`
+- `Synthesis - Agent Runtime Layers`
+- `Synthesis - LLM to Agent Stack`
+- `Synthesis - Safety, Reliability, and Evals`
+- `Synthesis - Single to Multi-Agent Infrastructure`
+
+### Move Candidates ในอนาคต
+
+- ไม่มีไฟล์ที่ต้อง move ทันทีในรอบนี้
+- ถ้าจะ re-categorize ในรอบถัดไป ให้เริ่มจากการปรับลิงก์/bridge ก่อน แล้วค่อยพิจารณาย้ายเฉพาะกรณีที่ owner ยังไม่ชัด
+
 ## Core Ownership Map
 
 | Topic | Canonical Home | Canonical Owner | Bridge / Entry Notes | หมายเหตุ |

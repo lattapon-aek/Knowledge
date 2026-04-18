@@ -45,28 +45,28 @@ Second brain สำหรับความรู้ด้าน AI systems, LLM
 
 ### Core LLM Path
 
-1. [[01 Foundations/LLM Foundations/01 - LLM คืออะไรและพื้นฐาน]]
-2. [[01 Foundations/Tokenizer in AI/01 - Tokenization คืออะไร]]
-3. [[01 Foundations/LLM Foundations/02 - สถาปัตยกรรม Transformer]]
-4. [[01 Foundations/LLM Foundations/04 - Inference, Context และ RAG]]
-5. [[01 Foundations/Context Windows/01 - Context Window คืออะไร]]
-6. [[01 Foundations/LLM Foundations/14 - Vector Representations และ Similarity Search]]
+1. [[01 Foundations/LLM Foundations/Core/01 - LLM คืออะไรและพื้นฐาน]]
+2. [[01 Foundations/Tokenizer in AI/Core/01 - Tokenization คืออะไร]]
+3. [[01 Foundations/LLM Foundations/Core/02 - สถาปัตยกรรม Transformer]]
+4. [[01 Foundations/LLM Foundations/Core/04 - Inference, Context และ RAG]]
+5. [[01 Foundations/Context Windows/Core/01 - Context Window คืออะไร]]
+6. [[01 Foundations/LLM Foundations/Core/14 - Vector Representations และ Similarity Search]]
 
 ### Systems Designer Path
 
-1. [[01 Foundations/LLM Foundations/10 - Embeddings และ Semantic Similarity]]
-2. [[01 Foundations/LLM Foundations/14 - Vector Representations และ Similarity Search]]
+1. [[01 Foundations/LLM Foundations/Core/10 - Embeddings และ Semantic Similarity]]
+2. [[01 Foundations/LLM Foundations/Core/14 - Vector Representations และ Similarity Search]]
 3. [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools]]
-4. [[01 Foundations/Prompt Engineering/07 - Structured Generation และ Output Formats]]
-5. [[01 Foundations/LLM Foundations/11 - Multimodal Foundations]]
-6. [[01 Foundations/LLM Foundations/13 - Evaluation Foundations]]
+4. [[01 Foundations/Prompt Engineering/Core/07 - Structured Generation และ Output Formats]]
+5. [[01 Foundations/LLM Foundations/Core/11 - Multimodal Foundations]]
+6. [[01 Foundations/LLM Foundations/Core/13 - Evaluation Foundations]]
 
 ### Build Better Prompts
 
-1. [[01 Foundations/Prompt Engineering/01 - Prompt Engineering คืออะไร]]
-2. [[01 Foundations/Prompt Engineering/02 - องค์ประกอบของ Prompt]]
-3. [[01 Foundations/Prompt Engineering/03 - Prompt Patterns พื้นฐาน]]
-4. [[01 Foundations/Prompt Engineering/05 - Evaluation และ Failure Modes]]
+1. [[01 Foundations/Prompt Engineering/Core/01 - Prompt Engineering คืออะไร]]
+2. [[01 Foundations/Prompt Engineering/Core/02 - องค์ประกอบของ Prompt]]
+3. [[01 Foundations/Prompt Engineering/Core/03 - Prompt Patterns พื้นฐาน]]
+4. [[01 Foundations/Prompt Engineering/Core/05 - Evaluation และ Failure Modes]]
 
 ### Build Agents
 

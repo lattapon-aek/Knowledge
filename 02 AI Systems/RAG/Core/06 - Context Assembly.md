@@ -198,7 +198,7 @@ evidence ถูก แต่ถูกวางลำดับไม่ดี
 - [[02 AI Systems/RAG/Retrieval/05 - Reranking]] — reranking มาก่อน assembly
 - [[02 AI Systems/RAG/Core/RAG - Agentic RAG]] — agentic systems อาจมีหลาย assembly stages
 - [[02 AI Systems/RAG/Evaluation/08 - Evaluation]] — ต้องแยก assembly failures ออกจาก retrieval failures
-- [[01 Foundations/Context Windows/02 - การบริหารและ Context Engineering]] — context budget และ layout
+- [[01 Foundations/Context Windows/Core/02 - การบริหารและ Context Engineering]] — context budget และ layout
 - [[RAG - MOC]]
 
 ---

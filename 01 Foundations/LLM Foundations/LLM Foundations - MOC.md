@@ -124,7 +124,7 @@ flowchart TD
 
 - [[01 Foundations/Context Windows/Context Windows - MOC|Context Windows]] — ลงลึกเรื่อง working memory, long context, prompt structure
 - [[01 Foundations/Prompt Engineering/Prompt Engineering - MOC|Prompt Engineering]] — prompting มีผลต่อ in-context behavior และ decoding outcomes
-- [[01 Foundations/LLM Foundations/12 - LLM พื้นฐาน|12 - LLM พื้นฐาน]] — bridge note สำหรับมุม agent-facing เท่านั้น
+- [[01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน|12 - LLM พื้นฐาน]] — bridge note สำหรับมุม agent-facing เท่านั้น
 - [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools|Weights, Context, Retrieval และ Tools]] — bridge note สำหรับแยกบทบาทของ weights/context/retrieval/tools
 - [[02 AI Systems/AI Agent Fundamentals/AI Agent Fundamentals - MOC|AI Agent Fundamentals]] — agents พึ่งพา context management, tool use, and orchestration
 - [[02 AI Systems/MCP/MCP - MOC|MCP]] — protocol สำหรับเชื่อม tools เข้ากับ LLM applications

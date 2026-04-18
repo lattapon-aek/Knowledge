@@ -90,7 +90,7 @@ Anthropic: บางปัญหาไม่ควรแก้ด้วย promp
 
 - [[02 - องค์ประกอบของ Prompt]] — anatomy ของ prompt ที่ดี
 - [[03 - Prompt Patterns พื้นฐาน]] — แพตเทิร์นที่ใช้บ่อย
-- [[01 Foundations/LLM Foundations/08 - Data, Pretraining และ Model Modes|Data, Pretraining และ Model Modes]] — ทำความเข้าใจ in-context learning และข้อจำกัดของการแก้ปัญหาด้วย prompt อย่างเดียว
-- [[01 Foundations/LLM Foundations/04 - Inference, Context และ RAG|Inference, Context และ RAG]] — งานที่ต้องพึ่ง grounding หรือ retrieval
+- [[01 Foundations/LLM Foundations/Core/08 - Data, Pretraining และ Model Modes|Data, Pretraining และ Model Modes]] — ทำความเข้าใจ in-context learning และข้อจำกัดของการแก้ปัญหาด้วย prompt อย่างเดียว
+- [[01 Foundations/LLM Foundations/Core/04 - Inference, Context และ RAG|Inference, Context และ RAG]] — งานที่ต้องพึ่ง grounding หรือ retrieval
 - [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]] — ดูการประเมินว่า prompt ที่ออกแบบแล้วใช้งานได้ดีจริงหรือไม่
 - [[Prompt Engineering - MOC]]

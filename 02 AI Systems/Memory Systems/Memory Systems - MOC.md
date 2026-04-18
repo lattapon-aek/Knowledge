@@ -48,7 +48,7 @@ parent_note: "[[Home]]"
 - [[02 AI Systems/Agent Frameworks/Core/03 - State and Memory]]
 - [[01 Foundations/Context Windows/Context Windows - MOC]]
 - [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools]]
-- [[01 Foundations/LLM Foundations/13 - Evaluation Foundations]]
+- [[01 Foundations/LLM Foundations/Core/13 - Evaluation Foundations]]
 - [[02 AI Systems/RAG/RAG - MOC]]
 - [[02 AI Systems/Guardrails/Guardrails - MOC]]
 - [[02 AI Systems/Evals/Evals - MOC]]
@@ -63,7 +63,7 @@ parent_note: "[[Home]]"
 
 ### 1. Foundations Before Memory Systems
 
-1. [[01 Foundations/Context Windows/01 - Context Window คืออะไร]]
+1. [[01 Foundations/Context Windows/Core/01 - Context Window คืออะไร]]
 2. [[04 Synthesis/Synthesis - Memory in Agents]]
 3. [[04 Synthesis/Synthesis - Memory vs RAG vs Context]]
 

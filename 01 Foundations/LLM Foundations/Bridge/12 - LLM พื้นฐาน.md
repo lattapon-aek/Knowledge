@@ -27,7 +27,7 @@ parent_note: "[[LLM Foundations - MOC]]"
 | LLM คืออะไร, tokenization, transformer, decoding, training, embeddings, evaluation | [[01 Foundations/LLM Foundations/LLM Foundations - MOC|LLM Foundations - MOC]] |
 | Prompt anatomy, patterns, structured output | [[01 Foundations/Prompt Engineering/Prompt Engineering - MOC|Prompt Engineering - MOC]] |
 | Context budget, context rot, caching, long-context trade-offs | [[01 Foundations/Context Windows/Context Windows - MOC|Context Windows - MOC]] |
-| System prompt / messages / chat templates ใน runtime | [[01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]] |
+| System prompt / messages / chat templates ใน runtime | [[01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]] |
 | Tool schemas / tool calling / MCP runtime contract | [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]] |
 
 ## LLM ในบทบาท Agent Brain
@@ -44,6 +44,6 @@ LLM คือ core model ที่ agent ใช้เพื่อ:
 ## ดูต่อ
 
 - [[01 Foundations/LLM Foundations/LLM Foundations - MOC|LLM Foundations - MOC]]
-- [[01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]]
+- [[01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]]
 - [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]]
 - [[04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]

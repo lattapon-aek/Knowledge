@@ -276,7 +276,7 @@ retrieve memory ผิด user, ผิด thread, หรือผิด identity
 
 ## ความสัมพันธ์กับโน้ตอื่น
 
-- [[01 Foundations/Context Windows/01 - Context Window คืออะไร]] — working memory ของ model
+- [[01 Foundations/Context Windows/Core/01 - Context Window คืออะไร]] — working memory ของ model
 - [[04 Synthesis/Synthesis - Memory in Agents]] — ภาพรวม memory types
 - [[02 AI Systems/Memory Systems/Core/02 - Episodic vs Semantic vs Procedural Memory]] — ประเภทของ long-term memory
 - [[02 AI Systems/Memory Systems/Core/03 - Memory Read and Write Policies]] — นโยบายของ memory systems
@@ -289,7 +289,7 @@ retrieve memory ผิด user, ผิด thread, หรือผิด identity
 ## Related Notes
 
 - [[04 Synthesis/Synthesis - Memory in Agents]]
-- [[01 Foundations/Context Windows/01 - Context Window คืออะไร]]
+- [[01 Foundations/Context Windows/Core/01 - Context Window คืออะไร]]
 - [[Memory Systems - MOC]]
 
 ---

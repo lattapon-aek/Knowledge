@@ -48,8 +48,8 @@ parent_note: "[[Home]]"
 - [[02 AI Systems/MCP/Security/05 - Security, Consent และ Authorization]]
 - [[03 Tools/Claude Code/22 - Error Handling]]
 - [[03 Tools/Claude Code/24 - Best Practices & Checklist]]
-- [[01 Foundations/LLM Foundations/05 - ข้อจำกัดและการประเมินผล LLM]]
-- [[01 Foundations/Context Windows/02 - การบริหารและ Context Engineering]]
+- [[01 Foundations/LLM Foundations/Core/05 - ข้อจำกัดและการประเมินผล LLM]]
+- [[01 Foundations/Context Windows/Core/02 - การบริหารและ Context Engineering]]
 - [[05 Use Cases/Use Cases - Design Guardrails for Tool Use]]
 - [[02 AI Systems/Evals/Evals - MOC]]
 - [[04 Synthesis/Synthesis - Safety, Reliability, and Evals]]
@@ -60,8 +60,8 @@ parent_note: "[[Home]]"
 
 ### 1. Foundations Before Guardrails
 
-1. [[01 Foundations/LLM Foundations/05 - ข้อจำกัดและการประเมินผล LLM]]
-2. [[01 Foundations/Prompt Engineering/07 - Structured Generation และ Output Formats]]
+1. [[01 Foundations/LLM Foundations/Core/05 - ข้อจำกัดและการประเมินผล LLM]]
+2. [[01 Foundations/Prompt Engineering/Core/07 - Structured Generation และ Output Formats]]
 3. [[02 AI Systems/AI Agent Fundamentals/10 - Risks และ Best Practices]]
 
 ### 2. Core Control Layers

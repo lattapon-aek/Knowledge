@@ -222,5 +222,5 @@ graph TD
 - [[03 - อัลกอริทึม BPE และ Byte-level BPE]]
 - [[04 - WordPiece และ SentencePiece]]
 - [[05 - Tokenizer Pipeline]]
-- [[01 Foundations/LLM Foundations/02 - สถาปัตยกรรม Transformer]]
-- [[01 Foundations/LLM Foundations/08 - Data, Pretraining และ Model Modes]]
+- [[01 Foundations/LLM Foundations/Core/02 - สถาปัตยกรรม Transformer]]
+- [[01 Foundations/LLM Foundations/Core/08 - Data, Pretraining และ Model Modes]]

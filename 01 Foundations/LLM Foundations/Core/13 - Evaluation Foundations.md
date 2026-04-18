@@ -233,8 +233,8 @@ trade-offs หลัก:
 
 - [[05 - ข้อจำกัดและการประเมินผล LLM]]
 - [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools]]
-- [[01 Foundations/Prompt Engineering/05 - Evaluation และ Failure Modes|Prompt Engineering - Evaluation และ Failure Modes]]
-- [[01 Foundations/Prompt Engineering/07 - Structured Generation และ Output Formats|Structured Generation และ Output Formats]]
+- [[01 Foundations/Prompt Engineering/Core/05 - Evaluation และ Failure Modes|Prompt Engineering - Evaluation และ Failure Modes]]
+- [[01 Foundations/Prompt Engineering/Core/07 - Structured Generation และ Output Formats|Structured Generation และ Output Formats]]
 - [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]
 - [[02 AI Systems/Evals/Core/01 - Success Criteria|Evals - Success Criteria]]
 - [[02 AI Systems/Evals/Application/08 - Agent Evals|Evals - Agent Evals]]

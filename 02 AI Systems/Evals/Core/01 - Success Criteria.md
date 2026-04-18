@@ -156,7 +156,7 @@ eval ที่ดีควรเชื่อมสองฝั่งนี้เ
 
 ## ความสัมพันธ์กับโน้ตอื่น
 
-- [[01 Foundations/LLM Foundations/13 - Evaluation Foundations]] — foundations ของ evaluation
+- [[01 Foundations/LLM Foundations/Core/13 - Evaluation Foundations]] — foundations ของ evaluation
 - [[02 AI Systems/Evals/Core/03 - LLM-as-Judge]] — grader ต้องยึด criteria ที่ชัด
 - [[02 AI Systems/Evals/Application/06 - Prompt Evals]] — prompt evals ต้องมี success criteria ก่อน
 - [[02 AI Systems/Evals/Application/08 - Agent Evals]] — agent evals ต้องมีทั้ง task และ operational criteria
@@ -166,7 +166,7 @@ eval ที่ดีควรเชื่อมสองฝั่งนี้เ
 
 ## Related Notes
 
-- [[01 Foundations/Prompt Engineering/05 - Evaluation และ Failure Modes]]
+- [[01 Foundations/Prompt Engineering/Core/05 - Evaluation และ Failure Modes]]
 - [[Evals - MOC]]
 
 ---

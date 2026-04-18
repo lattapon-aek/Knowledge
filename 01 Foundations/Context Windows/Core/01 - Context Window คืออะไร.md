@@ -308,8 +308,8 @@ Output Generation
 
 - [[02 - การบริหารและ Context Engineering]] — วิธีจัดการ context อย่างมีประสิทธิภาพ
 - [[03 - Prompt Caching]] — การลด cost ด้วย prefix caching
-- [[01 Foundations/LLM Foundations/08 - Data, Pretraining และ Model Modes|Data, Pretraining และ Model Modes]] — แยก `weights`, `context`, และ `external memory`
-- [[01 Foundations/LLM Foundations/04 - Inference, Context และ RAG|Inference และ RAG]] — บริบท context ในระบบ serving
-- [[01 Foundations/LLM Foundations/09 - Serving Metrics และระบบ Production LLM|Serving Metrics และระบบ Production LLM]] — prefill, decode, TTFT, และ cache trade-offs
+- [[01 Foundations/LLM Foundations/Core/08 - Data, Pretraining และ Model Modes|Data, Pretraining และ Model Modes]] — แยก `weights`, `context`, และ `external memory`
+- [[01 Foundations/LLM Foundations/Core/04 - Inference, Context และ RAG|Inference และ RAG]] — บริบท context ในระบบ serving
+- [[01 Foundations/LLM Foundations/Core/09 - Serving Metrics และระบบ Production LLM|Serving Metrics และระบบ Production LLM]] — prefill, decode, TTFT, และ cache trade-offs
 - [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]] — ดูว่าข้อจำกัด context window มีผลต่อ retrieval, chunking, และ context assembly อย่างไร
 - [[Context Windows - MOC]]

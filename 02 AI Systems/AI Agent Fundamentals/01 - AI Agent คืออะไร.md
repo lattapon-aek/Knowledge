@@ -124,7 +124,7 @@ Agent ไม่ได้มีแค่แบบเดียว — มีอย
 - [[02 - วิวัฒนาการ LLM สู่ Agent]]
 - [[03 - คุณสมบัติ 5 อย่างของ Agent]]
 - [[11 - Key Takeaways และ Quick Reference]]
-- [[01 Foundations/LLM Foundations/12 - LLM พื้นฐาน|12 - LLM พื้นฐาน]]
+- [[01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน|12 - LLM พื้นฐาน]]
 
 ## ตัวอย่าง Implementation จริง
 

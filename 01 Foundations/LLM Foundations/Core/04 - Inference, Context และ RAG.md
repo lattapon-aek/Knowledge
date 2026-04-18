@@ -262,6 +262,6 @@ flowchart TD
 
 - [[09 - Serving Metrics และระบบ Production LLM]] — batching, TTFT, cache strategy, throughput
 - [[05 - ข้อจำกัดและการประเมินผล LLM]]
-- [[01 Foundations/Context Windows/01 - Context Window คืออะไร|Context Window คืออะไร]]
+- [[01 Foundations/Context Windows/Core/01 - Context Window คืออะไร|Context Window คืออะไร]]
 - [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]] — แยกดูโครงสร้าง RAG, retrieval, chunking, reranking, และ evaluation
 - [[LLM Foundations - MOC]]

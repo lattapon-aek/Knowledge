@@ -108,7 +108,7 @@ sequenceDiagram
 
 SDK หรือ framework อาจมี helper abstractions ต่างกัน แต่แกนกลางยังเหมือนเดิม คือ model เห็น tool schema, runtime execute, แล้วผลลัพธ์ถูกส่งกลับเข้า conversation
 
-ถ้าต้องการมุม structured output / schema-first output ในฝั่ง prompt design ให้ดู [[01 Foundations/Prompt Engineering/07 - Structured Generation และ Output Formats|Structured Generation และ Output Formats]]  
+ถ้าต้องการมุม structured output / schema-first output ในฝั่ง prompt design ให้ดู [[01 Foundations/Prompt Engineering/Core/07 - Structured Generation และ Output Formats|Structured Generation และ Output Formats]]
 โน้ตนี้เน้น tool runtime contract และ execution boundary ไม่ใช่ output formatting แบบทั่วไป
 
 > ถ้าต้องการรายละเอียดเรื่อง schema, runtime integration, และ execution boundary ให้ดู [[06 Engineering/Architecture to Code/Architecture - Tool Schemas and Runtime Integration]]
@@ -138,7 +138,7 @@ Model
 - continues reasoning with tool result in context
 ```
 
-> ดูรายละเอียด System Prompt ได้ที่ [[01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]]
+> ดูรายละเอียด System Prompt ได้ที่ [[01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]]
 
 ```mermaid
 flowchart LR
@@ -174,10 +174,10 @@ flowchart LR
 
 ## ดูต่อ
 
-- [[01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]]
+- [[01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]]
 - [[06 - วงจร Thought-Action-Observation (TAO)]]
 - [[04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
-- [[01 Foundations/Prompt Engineering/07 - Structured Generation และ Output Formats|Structured Generation และ Output Formats]]
+- [[01 Foundations/Prompt Engineering/Core/07 - Structured Generation และ Output Formats|Structured Generation และ Output Formats]]
 - [[06 Engineering/Architecture to Code/Architecture - Tool Schemas and Runtime Integration]]
 - [[06 Engineering/README]]
 - [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]] — ดู protocol layer สำหรับ tools, resources, prompts, และ consent

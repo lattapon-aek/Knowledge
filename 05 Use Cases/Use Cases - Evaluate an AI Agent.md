@@ -103,7 +103,7 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 
 ## Recommended Reading
 
-1. [[01 Foundations/LLM Foundations/13 - Evaluation Foundations]]
+1. [[01 Foundations/LLM Foundations/Core/13 - Evaluation Foundations]]
 2. [[02 AI Systems/Evals/Core/01 - Success Criteria]]
 3. [[02 AI Systems/Evals/Core/02 - Benchmark Design]]
 4. [[02 AI Systems/Evals/Core/03 - LLM-as-Judge]]

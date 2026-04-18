@@ -104,8 +104,8 @@ Microsoft: วิธีที่มีประสิทธิภาพที่
 ## ดูต่อ
 
 - [[04 - หลักการจากหลายบริษัท]] — best practices
-- [[01 Foundations/LLM Foundations/05 - ข้อจำกัดและการประเมินผล LLM|ข้อจำกัดและการประเมินผล LLM]] — model eval vs system eval, hallucination, benchmark limits
-- [[01 Foundations/LLM Foundations/04 - Inference, Context และ RAG|Inference, Context และ RAG]] — retrieval failures และ context-related failure modes
+- [[01 Foundations/LLM Foundations/Core/05 - ข้อจำกัดและการประเมินผล LLM|ข้อจำกัดและการประเมินผล LLM]] — model eval vs system eval, hallucination, benchmark limits
+- [[01 Foundations/LLM Foundations/Core/04 - Inference, Context และ RAG|Inference, Context และ RAG]] — retrieval failures และ context-related failure modes
 - [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]] — ขยายไปสู่ prompt evals, RAG evals, และ agent evals
 - [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]] — เชื่อม failure modes กับ output validation, fallback, และ safety controls
 - [[Prompt Engineering - MOC]]

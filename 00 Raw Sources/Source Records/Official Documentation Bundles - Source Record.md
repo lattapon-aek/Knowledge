@@ -19,23 +19,23 @@ record นี้รวบรวมโน้ตที่อิง **หลาย 
 ## Bundle: OpenAI + Anthropic + Google Cloud Vertex AI + Microsoft Learn
 
 ถูกใช้ใน:
-- [[01 Foundations/Prompt Engineering/07 - Structured Generation และ Output Formats]]
+- [[01 Foundations/Prompt Engineering/Core/07 - Structured Generation และ Output Formats]]
 - [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools]]
-- [[01 Foundations/LLM Foundations/13 - Evaluation Foundations]]
+- [[01 Foundations/LLM Foundations/Core/13 - Evaluation Foundations]]
 
 ---
 
 ## Bundle: OpenAI + Google Cloud Vertex AI + Cohere Docs + Microsoft Learn
 
 ถูกใช้ใน:
-- [[01 Foundations/LLM Foundations/10 - Embeddings และ Semantic Similarity]]
+- [[01 Foundations/LLM Foundations/Core/10 - Embeddings และ Semantic Similarity]]
 
 ---
 
 ## Bundle: OpenAI + Google AI for Developers + Anthropic Docs + Microsoft Learn
 
 ถูกใช้ใน:
-- [[01 Foundations/LLM Foundations/11 - Multimodal Foundations]]
+- [[01 Foundations/LLM Foundations/Core/11 - Multimodal Foundations]]
 
 ---
 

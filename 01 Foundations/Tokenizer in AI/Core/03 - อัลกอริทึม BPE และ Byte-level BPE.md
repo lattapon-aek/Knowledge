@@ -114,4 +114,4 @@ GPT-2 และ RoBERTa ใช้แนวคิด **byte-level BPE** ซึ่
 - [[02 - ประเภทของ Tokenization]]
 - [[04 - WordPiece และ SentencePiece]]
 - [[07 - เปรียบเทียบ Tokenizer รายโมเดล]]
-- [[01 Foundations/LLM Foundations/02 - สถาปัตยกรรม Transformer]]
+- [[01 Foundations/LLM Foundations/Core/02 - สถาปัตยกรรม Transformer]]

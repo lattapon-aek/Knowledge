@@ -328,7 +328,7 @@ controls อ่อนเกินไปจน unsafe content หรือ malfor
 
 ## ความสัมพันธ์กับโน้ตอื่น
 
-- [[01 Foundations/Prompt Engineering/07 - Structured Generation และ Output Formats]] — output contracts และ schema enforcement
+- [[01 Foundations/Prompt Engineering/Core/07 - Structured Generation และ Output Formats]] — output contracts และ schema enforcement
 - [[Guardrails - Prompt Injection and Content Attacks]] — adversarial inputs, document attacks, groundedness, และ task adherence
 - [[02 AI Systems/Guardrails/Core/03 - Tool Safety]] — output ที่จะไปเรียก tools ต้องมีกติกาเพิ่ม
 - [[02 AI Systems/Guardrails/Core/05 - Fallback Policies]] — เมื่อ controls ไม่ผ่านควรไปทางไหน
@@ -340,7 +340,7 @@ controls อ่อนเกินไปจน unsafe content หรือ malfor
 
 ## Related Notes
 
-- [[01 Foundations/Prompt Engineering/07 - Structured Generation และ Output Formats]]
+- [[01 Foundations/Prompt Engineering/Core/07 - Structured Generation และ Output Formats]]
 - [[Guardrails - Prompt Injection and Content Attacks]]
 - [[02 AI Systems/RAG/Core/07 - Grounding and Citation]]
 - [[Guardrails - MOC]]

@@ -150,7 +150,7 @@ rendered_prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_ge
 
 ## ดูต่อ
 
-- [[01 Foundations/LLM Foundations/12 - LLM พื้นฐาน|12 - LLM พื้นฐาน]]
+- [[01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน|12 - LLM พื้นฐาน]]
 - [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]]
 - [[06 - วงจร Thought-Action-Observation (TAO)]]
 - [[01 Foundations/Prompt Engineering/Prompt Engineering - MOC|Prompt Engineering - MOC]]

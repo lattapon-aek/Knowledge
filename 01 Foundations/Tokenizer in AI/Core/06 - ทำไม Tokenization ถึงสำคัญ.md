@@ -152,4 +152,4 @@ graph LR
 - [[01 - Tokenization คืออะไร]]
 - [[04 - WordPiece และ SentencePiece]]
 - [[01 Foundations/Context Windows/Context Windows - MOC]]
-- [[01 Foundations/LLM Foundations/04 - Inference, Context และ RAG]]
+- [[01 Foundations/LLM Foundations/Core/04 - Inference, Context และ RAG]]

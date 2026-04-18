@@ -66,8 +66,8 @@ diagram นี้เป็น conceptual overview ของหมวดนี้
 
 ### Bridge notes
 
-- [[01 Foundations/LLM Foundations/12 - LLM พื้นฐาน|12 - LLM พื้นฐาน]] — bridge note: agent-facing LLM primer
-- [[01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]] — runtime message layer; bridge to Prompt Engineering / Context Windows
+- [[01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน|12 - LLM พื้นฐาน]] — bridge note: agent-facing LLM primer
+- [[01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]] — runtime message layer; bridge to Prompt Engineering / Context Windows
 - [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]] — tools, schemas, MCP connection; bridge to engineering runtime
 - [[04 Synthesis/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]] — comparison / bridge note สำหรับ workflow vs agent
 - [[05 Use Cases/Use Cases - When to Use an Agent|When to Use an Agent]] — decision-oriented bridge note
@@ -121,12 +121,12 @@ flowchart TD
 
 1. [[10 - Risks และ Best Practices]]
 2. [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]]
-3. [[01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]]
+3. [[01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]]
 
 ### 5. Reference
 
 1. [[11 - Key Takeaways และ Quick Reference]]
-2. [[01 Foundations/LLM Foundations/12 - LLM พื้นฐาน|12 - LLM พื้นฐาน]]
+2. [[01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน|12 - LLM พื้นฐาน]]
 
 ---
 

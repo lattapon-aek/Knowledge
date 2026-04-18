@@ -69,13 +69,13 @@ Tokenization
 
 ## Cross-topic Links
 
-- [[01 Foundations/LLM Foundations/01 - LLM คืออะไรและพื้นฐาน]] — Tokenization เป็นขั้นตอนแรกใน LLM pipeline
-- [[01 Foundations/LLM Foundations/02 - สถาปัตยกรรม Transformer]] — Transformer รับ token IDs เป็น input
-- [[01 Foundations/LLM Foundations/06 - Attention และ Representations]] — token embeddings ถูกแปลงต่อเป็น contextual representations
-- [[01 Foundations/LLM Foundations/07 - Logits, Decoding และ Sampling]] — Output ของโมเดลยังเป็น token IDs ก่อน decode
+- [[01 Foundations/LLM Foundations/Core/01 - LLM คืออะไรและพื้นฐาน]] — Tokenization เป็นขั้นตอนแรกใน LLM pipeline
+- [[01 Foundations/LLM Foundations/Core/02 - สถาปัตยกรรม Transformer]] — Transformer รับ token IDs เป็น input
+- [[01 Foundations/LLM Foundations/Core/06 - Attention และ Representations]] — token embeddings ถูกแปลงต่อเป็น contextual representations
+- [[01 Foundations/LLM Foundations/Core/07 - Logits, Decoding และ Sampling]] — Output ของโมเดลยังเป็น token IDs ก่อน decode
 - [[01 Foundations/Context Windows/Context Windows - MOC]] — Token count กำหนดว่าข้อความใส่ใน context window ได้เท่าไร
 - [[01 Foundations/Prompt Engineering/Prompt Engineering - MOC]] — Prompt ที่ดีต้องคำนึงถึง token count ด้วย
 - [[02 AI Systems/RAG/RAG - MOC|RAG]] — chunking, retrieval payload size, และ context assembly ล้วนได้รับผลจาก tokenization
-- [[01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates|Messages, System Prompt และ Chat Templates]] — Special tokens และ message formatting ใน agent systems
+- [[01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates|Messages, System Prompt และ Chat Templates]] — Special tokens และ message formatting ใน agent systems
 - [[06 Engineering/README]] — implementation layer สำหรับ token budgets, chunking, caching, และ framework-specific runtime behavior
 - [[Knowledge Topic Registry]]

@@ -46,10 +46,10 @@ parent_note: "[[Home]]"
 
 ## Related Notes
 
-- [[01 Foundations/Prompt Engineering/05 - Evaluation และ Failure Modes]]
-- [[01 Foundations/Prompt Engineering/06 - Template และ Common Problems]]
-- [[01 Foundations/LLM Foundations/05 - ข้อจำกัดและการประเมินผล LLM]]
-- [[01 Foundations/LLM Foundations/13 - Evaluation Foundations]]
+- [[01 Foundations/Prompt Engineering/Core/05 - Evaluation และ Failure Modes]]
+- [[01 Foundations/Prompt Engineering/Core/06 - Template และ Common Problems]]
+- [[01 Foundations/LLM Foundations/Core/05 - ข้อจำกัดและการประเมินผล LLM]]
+- [[01 Foundations/LLM Foundations/Core/13 - Evaluation Foundations]]
 - [[02 AI Systems/RAG/RAG - MOC]]
 - [[02 AI Systems/AI Agent Fundamentals/AI Agent Fundamentals - MOC]]
 - [[02 AI Systems/Guardrails/Guardrails - MOC]]
@@ -65,9 +65,9 @@ parent_note: "[[Home]]"
 
 ### 1. Foundations Before Evals
 
-1. [[01 Foundations/Prompt Engineering/05 - Evaluation และ Failure Modes]]
-2. [[01 Foundations/LLM Foundations/05 - ข้อจำกัดและการประเมินผล LLM]]
-3. [[01 Foundations/LLM Foundations/13 - Evaluation Foundations]]
+1. [[01 Foundations/Prompt Engineering/Core/05 - Evaluation และ Failure Modes]]
+2. [[01 Foundations/LLM Foundations/Core/05 - ข้อจำกัดและการประเมินผล LLM]]
+3. [[01 Foundations/LLM Foundations/Core/13 - Evaluation Foundations]]
 
 ### 2. Core Eval Concepts
 

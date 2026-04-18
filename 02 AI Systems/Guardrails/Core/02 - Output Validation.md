@@ -241,7 +241,7 @@ output ปลอดภัยแต่ไม่ตอบโจทย์
 ## ความสัมพันธ์กับโน้ตอื่น
 
 - [[02 AI Systems/Guardrails/Core/01 - Input and Output Controls]] — guardrails ชั้นแรกของ output path
-- [[01 Foundations/Prompt Engineering/07 - Structured Generation และ Output Formats]] — schema และ structured outputs
+- [[01 Foundations/Prompt Engineering/Core/07 - Structured Generation และ Output Formats]] — schema และ structured outputs
 - [[02 AI Systems/RAG/Core/07 - Grounding and Citation]] — groundedness และ citations
 - [[02 AI Systems/Guardrails/Core/05 - Fallback Policies]] — เมื่อ validation ไม่ผ่านควรทำอะไรต่อ
 - [[02 AI Systems/Evals/Application/06 - Prompt Evals]] — ทดสอบ output validation paths
@@ -251,7 +251,7 @@ output ปลอดภัยแต่ไม่ตอบโจทย์
 
 ## Related Notes
 
-- [[01 Foundations/Prompt Engineering/07 - Structured Generation และ Output Formats]]
+- [[01 Foundations/Prompt Engineering/Core/07 - Structured Generation และ Output Formats]]
 - [[02 AI Systems/RAG/Core/07 - Grounding and Citation]]
 - [[Guardrails - MOC]]
 

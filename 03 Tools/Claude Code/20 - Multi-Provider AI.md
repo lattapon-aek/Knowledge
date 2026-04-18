@@ -49,4 +49,4 @@ flowchart TD
 
 ## พื้นฐานทฤษฎีที่เกี่ยวข้อง
 
-- [[01 Foundations/LLM Foundations/12 - LLM พื้นฐาน|LLM พื้นฐาน]] — รายชื่อ LLM ต่างเจ้า (GPT-4, Llama, Gemini, Claude) และความแตกต่างด้านสถาปัตยกรรม
+- [[01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน|LLM พื้นฐาน]] — รายชื่อ LLM ต่างเจ้า (GPT-4, Llama, Gemini, Claude) และความแตกต่างด้านสถาปัตยกรรม

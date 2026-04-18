@@ -30,15 +30,15 @@ record นี้รวบรวมแหล่งอ้างอิงแบบ 
 - `LLM/knowledge-llm/09-serving-metrics-and-practical-systems.md`
 
 ถูกใช้ใน:
-- [[01 Foundations/LLM Foundations/01 - LLM คืออะไรและพื้นฐาน]]
-- [[01 Foundations/LLM Foundations/02 - สถาปัตยกรรม Transformer]]
-- [[01 Foundations/LLM Foundations/03 - การฝึกและ Post-Training]]
-- [[01 Foundations/LLM Foundations/04 - Inference, Context และ RAG]]
-- [[01 Foundations/LLM Foundations/05 - ข้อจำกัดและการประเมินผล LLM]]
-- [[01 Foundations/LLM Foundations/06 - Attention และ Representations]]
-- [[01 Foundations/LLM Foundations/07 - Logits, Decoding และ Sampling]]
-- [[01 Foundations/LLM Foundations/08 - Data, Pretraining และ Model Modes]]
-- [[01 Foundations/LLM Foundations/09 - Serving Metrics และระบบ Production LLM]]
+- [[01 Foundations/LLM Foundations/Core/01 - LLM คืออะไรและพื้นฐาน]]
+- [[01 Foundations/LLM Foundations/Core/02 - สถาปัตยกรรม Transformer]]
+- [[01 Foundations/LLM Foundations/Core/03 - การฝึกและ Post-Training]]
+- [[01 Foundations/LLM Foundations/Core/04 - Inference, Context และ RAG]]
+- [[01 Foundations/LLM Foundations/Core/05 - ข้อจำกัดและการประเมินผล LLM]]
+- [[01 Foundations/LLM Foundations/Core/06 - Attention และ Representations]]
+- [[01 Foundations/LLM Foundations/Core/07 - Logits, Decoding และ Sampling]]
+- [[01 Foundations/LLM Foundations/Core/08 - Data, Pretraining และ Model Modes]]
+- [[01 Foundations/LLM Foundations/Core/09 - Serving Metrics และระบบ Production LLM]]
 
 ---
 
@@ -48,12 +48,12 @@ record นี้รวบรวมแหล่งอ้างอิงแบบ 
 - `Prompt Engineering/prompt-engineering-knowledge-base.md`
 
 ถูกใช้ใน:
-- [[01 Foundations/Prompt Engineering/01 - Prompt Engineering คืออะไร]]
-- [[01 Foundations/Prompt Engineering/02 - องค์ประกอบของ Prompt]]
-- [[01 Foundations/Prompt Engineering/03 - Prompt Patterns พื้นฐาน]]
-- [[01 Foundations/Prompt Engineering/04 - หลักการจากหลายบริษัท]]
-- [[01 Foundations/Prompt Engineering/05 - Evaluation และ Failure Modes]]
-- [[01 Foundations/Prompt Engineering/06 - Template และ Common Problems]]
+- [[01 Foundations/Prompt Engineering/Core/01 - Prompt Engineering คืออะไร]]
+- [[01 Foundations/Prompt Engineering/Core/02 - องค์ประกอบของ Prompt]]
+- [[01 Foundations/Prompt Engineering/Core/03 - Prompt Patterns พื้นฐาน]]
+- [[01 Foundations/Prompt Engineering/Core/04 - หลักการจากหลายบริษัท]]
+- [[01 Foundations/Prompt Engineering/Core/05 - Evaluation และ Failure Modes]]
+- [[01 Foundations/Prompt Engineering/Core/06 - Template และ Common Problems]]
 
 ---
 
@@ -63,9 +63,9 @@ record นี้รวบรวมแหล่งอ้างอิงแบบ 
 - `Context Windows/knowledge-base-context-windows.md`
 
 ถูกใช้ใน:
-- [[01 Foundations/Context Windows/01 - Context Window คืออะไร]]
-- [[01 Foundations/Context Windows/02 - การบริหารและ Context Engineering]]
-- [[01 Foundations/Context Windows/03 - Prompt Caching]]
+- [[01 Foundations/Context Windows/Core/01 - Context Window คืออะไร]]
+- [[01 Foundations/Context Windows/Core/02 - การบริหารและ Context Engineering]]
+- [[01 Foundations/Context Windows/Core/03 - Prompt Caching]]
 
 ---
 
@@ -83,13 +83,13 @@ record นี้รวบรวมแหล่งอ้างอิงแบบ 
 
 ถูกใช้ใน:
 - [[01 Foundations/Tokenizer in AI/Tokenizer in AI - MOC]]
-- [[01 Foundations/Tokenizer in AI/01 - Tokenization คืออะไร]]
-- [[01 Foundations/Tokenizer in AI/02 - ประเภทของ Tokenization]]
-- [[01 Foundations/Tokenizer in AI/03 - อัลกอริทึม BPE และ Byte-level BPE]]
-- [[01 Foundations/Tokenizer in AI/04 - WordPiece และ SentencePiece]]
-- [[01 Foundations/Tokenizer in AI/05 - Tokenizer Pipeline]]
-- [[01 Foundations/Tokenizer in AI/06 - ทำไม Tokenization ถึงสำคัญ]]
-- [[01 Foundations/Tokenizer in AI/07 - เปรียบเทียบ Tokenizer รายโมเดล]]
+- [[01 Foundations/Tokenizer in AI/Core/01 - Tokenization คืออะไร]]
+- [[01 Foundations/Tokenizer in AI/Core/02 - ประเภทของ Tokenization]]
+- [[01 Foundations/Tokenizer in AI/Core/03 - อัลกอริทึม BPE และ Byte-level BPE]]
+- [[01 Foundations/Tokenizer in AI/Core/04 - WordPiece และ SentencePiece]]
+- [[01 Foundations/Tokenizer in AI/Core/05 - Tokenizer Pipeline]]
+- [[01 Foundations/Tokenizer in AI/Core/06 - ทำไม Tokenization ถึงสำคัญ]]
+- [[01 Foundations/Tokenizer in AI/Core/07 - เปรียบเทียบ Tokenizer รายโมเดล]]
 
 ---
 

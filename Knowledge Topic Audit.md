@@ -80,8 +80,8 @@ parent_note: "[[Knowledge Topic Registry]]"
 - ไม่มี move candidate เพิ่มเติมในรอบ execution นี้
 
 Move batch 1 ที่ทำจริง:
-- `01 Foundations/LLM Foundations/12 - LLM พื้นฐาน` -> `01 Foundations/LLM Foundations`
-- `01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates` -> `01 Foundations/Prompt Engineering`
+- `01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน` -> `01 Foundations/LLM Foundations`
+- `01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates` -> `01 Foundations/Prompt Engineering`
 - `02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน` -> `02 AI Systems/MCP`
 
 ### Phase Status
@@ -269,9 +269,9 @@ Move batch 1 ที่ทำจริง:
 
 | Topic | Canonical Home | Canonical Owner | Bridge / Entry Notes | หมายเหตุ |
 |---|---|---|---|---|
-| LLM primitives | `01 Foundations/LLM Foundations` | `LLM Foundations - MOC` | `01 Foundations/LLM Foundations/12 - LLM พื้นฐาน` | theory base |
-| Prompt design | `01 Foundations/Prompt Engineering` | `Prompt Engineering - MOC` | `01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates` | prompt theory |
-| Context engineering | `01 Foundations/Context Windows` | `Context Windows - MOC` | `01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates` | context budget / caching |
+| LLM primitives | `01 Foundations/LLM Foundations` | `LLM Foundations - MOC` | `01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน` | theory base |
+| Prompt design | `01 Foundations/Prompt Engineering` | `Prompt Engineering - MOC` | `01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates` | prompt theory |
+| Context engineering | `01 Foundations/Context Windows` | `Context Windows - MOC` | `01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates` | context budget / caching |
 | Tokenization | `01 Foundations/Tokenizer in AI` | `Tokenizer in AI - MOC` | `LLM Foundations` links | stable primitive |
 | Agent runtime | `02 AI Systems/AI Agent Fundamentals` | `AI Agent Fundamentals - MOC` | `05 Use Cases/Use Cases - Build an AI Agent` | runtime owner |
 | Framework selection | `02 AI Systems/Agent Frameworks` | `Agent Frameworks - MOC` | `06 Engineering/Frameworks/*`, `05 Use Cases/Use Cases - Choose an Agent Framework` | selection owner |
@@ -640,8 +640,8 @@ Move batch 1 ที่ทำจริง:
 
 รอบเริ่มต้นของ recategorization ตรวจ bridge notes หลักแล้ว:
 
-- `01 Foundations/LLM Foundations/12 - LLM พื้นฐาน` = keep as bridge
-- `01 Foundations/Prompt Engineering/13 - Messages, System Prompt และ Chat Templates` = keep as bridge
+- `01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน` = keep as bridge
+- `01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates` = keep as bridge
 - `02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน` = keep as bridge
 
 ผลสรุป:

@@ -118,4 +118,4 @@ graph TD
 - [[01 - Tokenization คืออะไร]]
 - [[03 - อัลกอริทึม BPE และ Byte-level BPE]]
 - [[04 - WordPiece และ SentencePiece]]
-- [[01 Foundations/LLM Foundations/02 - สถาปัตยกรรม Transformer]]
+- [[01 Foundations/LLM Foundations/Core/02 - สถาปัตยกรรม Transformer]]

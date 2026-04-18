@@ -35,7 +35,7 @@ parent_note: "[[04 Synthesis/Synthesis - MOC]]"
 ## Cross Links
 
 - [[01 Foundations/Prompt Engineering/Prompt Engineering - MOC]]
-- [[01 Foundations/LLM Foundations/04 - Inference, Context และ RAG]]
-- [[01 Foundations/LLM Foundations/03 - การฝึกและ Post-Training]]
+- [[01 Foundations/LLM Foundations/Core/04 - Inference, Context และ RAG]]
+- [[01 Foundations/LLM Foundations/Core/03 - การฝึกและ Post-Training]]
 - [[04 Synthesis/Synthesis - Memory vs RAG vs Context]]
 - [[Home]]

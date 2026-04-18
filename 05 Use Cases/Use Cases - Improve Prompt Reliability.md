@@ -22,13 +22,13 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 
 ## Reading Order
 
-1. [[01 Foundations/Prompt Engineering/01 - Prompt Engineering คืออะไร]]
-2. [[01 Foundations/Prompt Engineering/02 - องค์ประกอบของ Prompt]]
-3. [[01 Foundations/Prompt Engineering/03 - Prompt Patterns พื้นฐาน]]
-4. [[01 Foundations/Prompt Engineering/04 - หลักการจากหลายบริษัท]]
-5. [[01 Foundations/Prompt Engineering/05 - Evaluation และ Failure Modes]]
-6. [[01 Foundations/Prompt Engineering/06 - Template และ Common Problems]]
-7. [[01 Foundations/Context Windows/02 - การบริหารและ Context Engineering]]
+1. [[01 Foundations/Prompt Engineering/Core/01 - Prompt Engineering คืออะไร]]
+2. [[01 Foundations/Prompt Engineering/Core/02 - องค์ประกอบของ Prompt]]
+3. [[01 Foundations/Prompt Engineering/Core/03 - Prompt Patterns พื้นฐาน]]
+4. [[01 Foundations/Prompt Engineering/Core/04 - หลักการจากหลายบริษัท]]
+5. [[01 Foundations/Prompt Engineering/Core/05 - Evaluation และ Failure Modes]]
+6. [[01 Foundations/Prompt Engineering/Core/06 - Template และ Common Problems]]
+7. [[01 Foundations/Context Windows/Core/02 - การบริหารและ Context Engineering]]
 
 ---
 

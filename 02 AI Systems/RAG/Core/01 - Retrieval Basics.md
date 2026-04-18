@@ -255,8 +255,8 @@ semantic search อย่างเดียวอาจพลาด exact matche
 
 ## ความสัมพันธ์กับโน้ตอื่น
 
-- [[01 Foundations/LLM Foundations/04 - Inference, Context และ RAG]] — ภาพรวม RAG runtime
-- [[01 Foundations/LLM Foundations/10 - Embeddings และ Semantic Similarity]] — semantic retrieval foundations
+- [[01 Foundations/LLM Foundations/Core/04 - Inference, Context และ RAG]] — ภาพรวม RAG runtime
+- [[01 Foundations/LLM Foundations/Core/10 - Embeddings และ Semantic Similarity]] — semantic retrieval foundations
 - [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools]] — retrieval อยู่ตรงไหนใน stack
 - [[02 AI Systems/RAG/Retrieval/03 - Embeddings and Vector Databases]] — index, vectors, metadata filtering
 - [[02 AI Systems/RAG/Retrieval/05 - Reranking]] — ranking layer หลัง retrieval
@@ -268,8 +268,8 @@ semantic search อย่างเดียวอาจพลาด exact matche
 
 ## Related Notes
 
-- [[01 Foundations/LLM Foundations/04 - Inference, Context และ RAG]]
-- [[01 Foundations/LLM Foundations/10 - Embeddings และ Semantic Similarity]]
+- [[01 Foundations/LLM Foundations/Core/04 - Inference, Context และ RAG]]
+- [[01 Foundations/LLM Foundations/Core/10 - Embeddings และ Semantic Similarity]]
 - [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools]]
 - [[RAG - MOC]]
 

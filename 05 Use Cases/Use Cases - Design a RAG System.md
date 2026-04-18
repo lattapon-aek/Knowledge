@@ -6,7 +6,7 @@ tags:
 type: usecase
 status: evergreen
 source: ""
-parent_note: "[[Home]]"
+parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 ---
 
 # Use Cases - Design a RAG System

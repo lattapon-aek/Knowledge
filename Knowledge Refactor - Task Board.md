@@ -58,6 +58,7 @@ parent_note: "[[Home]]"
 - ปิดฝั่ง `MCP` core + client + security notes เป็น evergreen แล้ว
 - ปรับ navigation ของ `RAG` ให้ชี้กลับ `Vector Representations`, `Memory Systems`, `Agent Frameworks`, และ `Evals` ชัดขึ้นโดยไม่ย้าย canonical notes
 - ปรับ catalog ของ `Guardrails` และ `Evals` ให้ครบทุก canonical note และเรียงตาม learning path เดียวกับ MOC
+- ปรับ `Use Cases` ให้ parent note, catalog, และลิงก์สั้นใช้ MOC / path เต็มสอดคล้องกัน
 
 ### Style cleanup
 

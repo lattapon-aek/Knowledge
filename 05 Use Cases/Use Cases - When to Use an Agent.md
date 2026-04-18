@@ -6,7 +6,7 @@ tags:
 type: note
 status: evergreen
 source: "Google Skills — Agent Fundamentals (Module 4)"
-parent_note: "[[Use Cases - MOC]]"
+parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 ---
 
 # เมื่อไรควรและไม่ควรใช้ Agent
@@ -121,7 +121,7 @@ Start
 ## ดูต่อ
 
 - [[04 Synthesis/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]]
-- [[10 - Risks และ Best Practices]]
+- [[02 AI Systems/AI Agent Fundamentals/10 - Risks และ Best Practices]]
 - [[05 Use Cases/Use Cases - Build an AI Agent]]
 - [[05 Use Cases/Use Cases - Move from Single to Multi-Agent]]
 

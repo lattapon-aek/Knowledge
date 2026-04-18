@@ -7,7 +7,7 @@ type: usecase
 status: evergreen
 created: "2026-04-12"
 source: ""
-parent_note: "[[Home]]"
+parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 ---
 
 # Use Cases - Improve Prompt Reliability

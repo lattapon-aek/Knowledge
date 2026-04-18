@@ -18,6 +18,25 @@ parent_note: "[[Knowledge Refactor - Task Board]]"
 - ลดความรู้สึกว่า `01 Foundations` กับ `02 AI Systems` ใช้ตรรกะคนละแบบ
 - แยก `core`, `bridge`, `application`, `reference`, และ `implementation` ให้คงเส้นคงวา
 - ไม่แตะความหมายของเนื้อหาเดิม ถ้าไม่จำเป็นต้องย้ายจริง
+- ปรับ folder architecture โดยไม่ทำให้เนื้อหาเดิมหาย ย่อ หรือเปลี่ยนความหมาย
+
+---
+
+## Hard Rules: No Content Loss
+
+ทุก phase ของการปรับ folder architecture ต้องถือกติกานี้เป็นข้อบังคับ:
+
+1. ห้ามลบเนื้อหาเดิม
+2. ห้ามย่อหรือ rewrite เนื้อหาหลักในระหว่างงานย้าย folder
+3. คงชื่อไฟล์เดิมให้มากที่สุด เพื่อลด link churn
+4. ย้าย MOC ให้อยู่ root ของ topic เสมอ ไม่ย้ายเข้า role folder
+5. ทุก phase ต้องตรวจ:
+   - จำนวนไฟล์ `.md` ไม่ลดลงโดยไม่ตั้งใจ
+   - broken wikilinks ต้องเป็น `MISSING 0`
+   - `git diff --check` ต้องผ่าน
+6. Commit แยกตาม phase เพื่อ rollback ได้ง่าย
+
+งานนี้เป็น folder architecture refactor ไม่ใช่งานปรับเนื้อหาเชิงความรู้
 
 ---
 
@@ -91,6 +110,80 @@ Knowledge/
 
 ---
 
+## Target Architecture
+
+โครงปลายทางที่ต้องการสำหรับรอบนี้:
+
+```text
+01 Foundations/
+├── LLM Foundations/
+│   ├── LLM Foundations - MOC.md
+│   ├── Core/
+│   └── Bridge/
+├── Prompt Engineering/
+│   ├── Prompt Engineering - MOC.md
+│   ├── Core/
+│   └── Bridge/
+├── Context Windows/
+│   ├── Context Windows - MOC.md
+│   └── Core/
+└── Tokenizer in AI/
+    ├── Tokenizer in AI - MOC.md
+    └── Core/
+
+02 AI Systems/
+├── AI Agent Fundamentals/
+│   ├── AI Agent Fundamentals - MOC.md
+│   ├── Core/
+│   └── Reference/
+├── Agent Frameworks/
+│   ├── Agent Frameworks - MOC.md
+│   └── Core/
+├── Memory Systems/
+│   ├── Memory Systems - MOC.md
+│   ├── Core/
+│   └── Application/
+├── RAG/
+│   ├── RAG - MOC.md
+│   ├── Core/
+│   ├── Retrieval/
+│   └── Evaluation/
+├── Guardrails/
+│   ├── Guardrails - MOC.md
+│   ├── Core/
+│   └── Operations/
+├── Evals/
+│   ├── Evals - MOC.md
+│   ├── Core/
+│   └── Application/
+└── MCP/
+    ├── MCP - MOC.md
+    ├── Core/
+    ├── Client/
+    ├── Security/
+    └── Bridge/
+
+03 Tools/Claude Code/
+├── Claude Code - Multi-Agent MOC.md
+├── Core/
+├── Workflow/
+└── Reference/
+
+04 Synthesis/
+├── Synthesis - MOC.md
+├── Bridge/
+└── Decision/
+
+05 Use Cases/
+├── Use Cases - MOC.md
+├── Application/
+└── Decision/
+```
+
+`06 Engineering` มีโครง implementation-specific อยู่แล้ว จึงไม่ต้องรื้อใหญ่ในรอบนี้
+
+---
+
 ## โครงย่อยที่อยากให้สม่ำเสมอ
 
 ### 01 Foundations
@@ -160,4 +253,3 @@ Knowledge/
 - [[Knowledge Topic Registry]]
 - [[Knowledge Topic Audit]]
 - [[Knowledge Refactor - Task Board]]
-

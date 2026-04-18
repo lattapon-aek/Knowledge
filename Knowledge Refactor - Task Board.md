@@ -56,6 +56,8 @@ parent_note: "[[Home]]"
 - ย่อ `Agent Frameworks - Landscape` และ `Framework vs Custom Build`
 - ปิดฝั่ง `06 Engineering` ทั้งชุดแล้ว รวม `Frameworks`, `Architecture to Code`, `Recipes`, `Decisions`, `Evals`, `Guardrails`, `Memory`, `MCP`, `Patterns`, และ `Project Notes`
 - ปิดฝั่ง `MCP` core + client + security notes เป็น evergreen แล้ว
+- ปรับ navigation ของ `RAG` ให้ชี้กลับ `Vector Representations`, `Memory Systems`, `Agent Frameworks`, และ `Evals` ชัดขึ้นโดยไม่ย้าย canonical notes
+- ปรับ catalog ของ `Guardrails` และ `Evals` ให้ครบทุก canonical note และเรียงตาม learning path เดียวกับ MOC
 
 ### Style cleanup
 

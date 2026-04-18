@@ -32,14 +32,14 @@ parent_note: "[[Home]]"
 ## Notes Map
 
 - [[02 AI Systems/Evals/Core/01 - Success Criteria|Eval basics and success criteria]]
-- [[02 AI Systems/Evals/Application/06 - Prompt Evals|Prompt evals]]
-- [[02 AI Systems/Evals/Application/07 - RAG Evals|RAG evals]]
-- [[02 AI Systems/Evals/Application/08 - Agent Evals|Agent evals]]
-- Task-based benchmarks
+- [[02 AI Systems/Evals/Core/02 - Benchmark Design|Benchmark design]]
 - [[02 AI Systems/Evals/Core/03 - LLM-as-Judge|LLM-as-judge]]
 - [[02 AI Systems/Evals/Core/04 - Human Evaluation|Human evaluation]]
 - [[02 AI Systems/Evals/Core/05 - Regression Testing|Regression testing]]
-- [[02 AI Systems/Evals/Core/02 - Benchmark Design|Benchmark design]]
+- [[02 AI Systems/Evals/Application/06 - Prompt Evals|Prompt evals]]
+- [[02 AI Systems/Evals/Application/07 - RAG Evals|RAG evals]]
+- [[02 AI Systems/Evals/Application/08 - Agent Evals|Agent evals]]
+- [[02 AI Systems/Evals/Application/09 - Multi-Agent Evals|Multi-agent evals]]
 - [[02 AI Systems/Evals/Core/09 - Observability and Feedback Loops|Observability and feedback loops]]
 
 ---
@@ -47,7 +47,7 @@ parent_note: "[[Home]]"
 ## Related Notes
 
 - [[01 Foundations/Prompt Engineering/05 - Evaluation และ Failure Modes]]
-- [[06 - Template และ Common Problems]]
+- [[01 Foundations/Prompt Engineering/06 - Template และ Common Problems]]
 - [[01 Foundations/LLM Foundations/05 - ข้อจำกัดและการประเมินผล LLM]]
 - [[01 Foundations/LLM Foundations/13 - Evaluation Foundations]]
 - [[02 AI Systems/RAG/RAG - MOC]]

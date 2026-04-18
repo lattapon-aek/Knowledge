@@ -236,6 +236,7 @@ answer ถูกบางส่วน แต่ cite ไม่ตรง
 
 - [[01 Foundations/LLM Foundations/13 - Evaluation Foundations]] — evaluation foundations ระดับกว้าง
 - [[02 AI Systems/Evals/Evals - MOC]] — หมวด evals หลักของระบบ AI
+- [[02 AI Systems/Evals/Application/07 - RAG Evals]] — canonical eval note ฝั่ง Evals สำหรับ RAG systems
 - [[02 AI Systems/RAG/Core/01 - Retrieval Basics]] — retrieval metrics ต้องเริ่มจาก retrieval layer
 - [[02 AI Systems/RAG/Retrieval/RAG - Hybrid Retrieval]] — hybrid retrieval ต้อง eval แยกเป็น slices
 - [[02 AI Systems/RAG/Core/RAG - Agentic RAG]] — agentic RAG ต้องวัด planning กับ retrieval เพิ่ม

@@ -6,7 +6,7 @@ tags:
 type: note
 status: evergreen
 source: "OpenAI Agents Guide · Google Skills — Agent Fundamentals · Anthropic Tool Use Overview"
-parent_note: "[[AI Agent Fundamentals - MOC]]"
+parent_note: "[[04 Synthesis/Synthesis - MOC]]"
 ---
 
 # Workflow vs AI Agent

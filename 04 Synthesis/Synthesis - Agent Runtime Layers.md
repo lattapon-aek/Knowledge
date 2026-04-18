@@ -7,7 +7,7 @@ tags:
 type: synthesis
 status: evergreen
 source: "OpenAI Agents Guide · OpenAI Responses API · OpenAI Using Tools · Google ADK Sessions and Memory"
-parent_note: "[[Home]]"
+parent_note: "[[04 Synthesis/Synthesis - MOC]]"
 ---
 
 # Synthesis - Agent Runtime Layers

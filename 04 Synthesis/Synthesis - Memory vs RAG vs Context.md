@@ -8,7 +8,7 @@ tags:
 type: synthesis
 status: evergreen
 source: "vault-local synthesis"
-parent_note: "[[Home]]"
+parent_note: "[[04 Synthesis/Synthesis - MOC]]"
 ---
 
 # Synthesis - Memory vs RAG vs Context

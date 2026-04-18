@@ -59,6 +59,7 @@ parent_note: "[[Home]]"
 - ปรับ navigation ของ `RAG` ให้ชี้กลับ `Vector Representations`, `Memory Systems`, `Agent Frameworks`, และ `Evals` ชัดขึ้นโดยไม่ย้าย canonical notes
 - ปรับ catalog ของ `Guardrails` และ `Evals` ให้ครบทุก canonical note และเรียงตาม learning path เดียวกับ MOC
 - ปรับ `Use Cases` ให้ parent note, catalog, และลิงก์สั้นใช้ MOC / path เต็มสอดคล้องกัน
+- ปรับ `04 Synthesis` ให้ parent note และ catalog ชี้เข้า MOC ครบทุก bridge note
 
 ### Style cleanup
 

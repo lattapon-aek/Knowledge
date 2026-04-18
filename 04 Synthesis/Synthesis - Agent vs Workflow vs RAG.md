@@ -9,7 +9,7 @@ type: synthesis
 status: evergreen
 created: "2026-04-12"
 source: "vault-local synthesis"
-parent_note: "[[Home]]"
+parent_note: "[[04 Synthesis/Synthesis - MOC]]"
 ---
 
 # Agent vs Workflow vs RAG

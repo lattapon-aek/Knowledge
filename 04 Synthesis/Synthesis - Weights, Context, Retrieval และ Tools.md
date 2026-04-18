@@ -8,7 +8,7 @@ tags:
 type: note
 status: evergreen
 source: "OpenAI, Anthropic, Google Cloud Vertex AI, Microsoft Learn"
-parent_note: "[[Synthesis - MOC]]"
+parent_note: "[[04 Synthesis/Synthesis - MOC]]"
 ---
 # Weights, Context, Retrieval และ Tools
 

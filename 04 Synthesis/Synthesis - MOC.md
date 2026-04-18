@@ -38,10 +38,13 @@ parent_note: "[[Home]]"
 
 - [[01 Foundations/LLM Foundations/LLM Foundations - MOC|LLM Foundations - MOC]]
 - [[02 AI Systems/AI Agent Fundamentals/AI Agent Fundamentals - MOC|AI Agent Fundamentals - MOC]]
+- [[02 AI Systems/Agent Frameworks/Agent Frameworks - MOC|Agent Frameworks - MOC]]
+- [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]
 - [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 - [[02 AI Systems/Memory Systems/Memory Systems - MOC|Memory Systems - MOC]]
 - [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]]
 - [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]
+- [[05 Use Cases/Use Cases - MOC|Use Cases - MOC]]
 - [[06 Engineering/README|Engineering - README]]
 
 ---

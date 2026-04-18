@@ -7,7 +7,7 @@ tags:
 type: synthesis
 status: evergreen
 source: "OpenAI Evaluation Best Practices · OpenAI Trace Grading · Azure AI Content Safety"
-parent_note: "[[Home]]"
+parent_note: "[[04 Synthesis/Synthesis - MOC]]"
 ---
 
 # Synthesis - Safety, Reliability, and Evals

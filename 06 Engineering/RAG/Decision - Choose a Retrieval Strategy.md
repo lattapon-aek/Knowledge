@@ -27,6 +27,11 @@ decision note สำหรับเลือกว่า RAG ควรใช้ 
 - lexical retrieval
 - dense retrieval
 - hybrid retrieval
+- multi-source retrieval
+- metadata-filtered retrieval
+- hierarchical / parent-child retrieval
+- graph retrieval
+- agentic retrieval
 - reranking
 
 ## Criteria
@@ -36,6 +41,8 @@ decision note สำหรับเลือกว่า RAG ควรใช้ 
 - cost
 - maintainability
 - integration complexity
+- permission / trust boundary
+- source freshness
 
 ## Decision
 
@@ -46,3 +53,13 @@ decision note สำหรับเลือกว่า RAG ควรใช้ 
 - ได้อะไร
 - เสียอะไร
 - สิ่งที่ต้อง monitor
+
+---
+
+## Related System Notes
+
+- [[02 AI Systems/RAG/Retrieval/RAG - Hybrid Retrieval]]
+- [[02 AI Systems/RAG/Retrieval/RAG - Multi-Source Retrieval]]
+- [[02 AI Systems/RAG/Retrieval/RAG - Metadata Filtering and Permission-Aware Retrieval]]
+- [[02 AI Systems/RAG/Retrieval/RAG - Hierarchical and Parent-Child Retrieval]]
+- [[02 AI Systems/RAG/Retrieval/RAG - Knowledge Graph RAG]]

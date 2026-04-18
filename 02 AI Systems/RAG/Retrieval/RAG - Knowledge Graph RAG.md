@@ -167,6 +167,8 @@ documents อัปเดตแล้ว graph ไม่อัปเดตตา
 
 - [[02 AI Systems/RAG/Core/01 - Retrieval Basics]] — retrieval layer พื้นฐาน
 - [[02 AI Systems/RAG/Retrieval/RAG - Hybrid Retrieval]] — GraphRAG มักทำงานร่วมกับ hybrid retrieval
+- [[02 AI Systems/RAG/Retrieval/RAG - Multi-Source Retrieval]] — graph เป็น retrieval source เฉพาะทาง
+- [[02 AI Systems/RAG/Retrieval/RAG - Hierarchical and Parent-Child Retrieval]] — graph และ hierarchy ช่วย retrieval บนเอกสารยาว/relationship-heavy domains
 - [[02 AI Systems/RAG/Core/06 - Context Assembly]] — การประกอบ graph-derived evidence เข้าสู่ prompt
 - [[02 AI Systems/RAG/Evaluation/08 - Evaluation]] — ต้องวัด graph retrieval แยกจาก generation
 - [[02 AI Systems/Agent Frameworks/Core/03 - State and Memory]] — graph memory บางแบบเชื่อมกับ agents ได้

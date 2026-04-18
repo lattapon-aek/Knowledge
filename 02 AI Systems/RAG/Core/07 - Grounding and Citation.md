@@ -145,6 +145,8 @@ pipeline ตัด metadata ทิ้งระหว่าง assembly หรื
 
 - [[02 AI Systems/RAG/Core/01 - Retrieval Basics]] — grounding เริ่มจาก retrieval quality
 - [[02 AI Systems/RAG/Core/06 - Context Assembly]] — assembly ต้องรักษา source trace
+- [[02 AI Systems/RAG/Retrieval/RAG - Metadata Filtering and Permission-Aware Retrieval]] — citation ต้องไม่ชี้ source ที่ผู้ใช้ไม่มีสิทธิ์เห็น
+- [[02 AI Systems/RAG/Core/RAG - Security and Source Trust]] — citation ไม่เท่ากับ source trust
 - [[02 AI Systems/RAG/Evaluation/08 - Evaluation]] — groundedness และ citation quality เป็นมิติ eval สำคัญ
 - [[02 AI Systems/RAG/Core/RAG - Agentic RAG]] — agentic systems ต้อง trace หลาย retrieval steps ได้
 - [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]

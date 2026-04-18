@@ -240,6 +240,7 @@ answer ถูกบางส่วน แต่ cite ไม่ตรง
 - [[02 AI Systems/RAG/Core/01 - Retrieval Basics]] — retrieval metrics ต้องเริ่มจาก retrieval layer
 - [[02 AI Systems/RAG/Retrieval/RAG - Hybrid Retrieval]] — hybrid retrieval ต้อง eval แยกเป็น slices
 - [[02 AI Systems/RAG/Core/RAG - Agentic RAG]] — agentic RAG ต้องวัด planning กับ retrieval เพิ่ม
+- [[02 AI Systems/RAG/Evaluation/Agentic RAG - Evaluation and Failure Modes]] — eval agentic RAG แบบแยก planning/routing/retrieval/synthesis
 - [[02 AI Systems/RAG/Core/06 - Context Assembly]] — assembly quality มีผลต่อ answer quality
 - [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 

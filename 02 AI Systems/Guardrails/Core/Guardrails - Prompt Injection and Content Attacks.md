@@ -158,6 +158,7 @@ flowchart LR
 - [[02 - Output Validation]]
 - [[03 - Tool Safety]]
 - [[02 AI Systems/RAG/Core/07 - Grounding and Citation|RAG - Grounding and Citation]]
+- [[02 AI Systems/RAG/Core/RAG - Security and Source Trust|RAG - Security and Source Trust]]
 - [[02 AI Systems/Evals/Application/07 - RAG Evals|Evals - RAG Evals]]
 
 ---

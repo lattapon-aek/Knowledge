@@ -252,7 +252,7 @@ trade-offs หลัก:
 - [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools|Weights, Context, Retrieval และ Tools]]
 - [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]]
 - [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]
-- [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน|Tools: การออกแบบและทำงาน]]
+- [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน|Tools: การออกแบบและทำงาน]]
 - [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]
 
 ---

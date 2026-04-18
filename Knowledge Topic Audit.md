@@ -82,7 +82,7 @@ parent_note: "[[Knowledge Topic Registry]]"
 Move batch 1 ที่ทำจริง:
 - `01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน` -> `01 Foundations/LLM Foundations`
 - `01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates` -> `01 Foundations/Prompt Engineering`
-- `02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน` -> `02 AI Systems/MCP`
+- `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน` -> `02 AI Systems/MCP`
 
 ### Phase Status
 
@@ -203,7 +203,7 @@ Move batch 1 ที่ทำจริง:
 - `MCP/05 - Security, Consent และ Authorization` = stay
 - `MCP/06 Engineering/Recipes/Recipe - HuggingFace MCP Course และ Implementation Guide` = stay; bridge to `06 Engineering`
 - `06 Engineering/MCP/MCP - MOC` = stay; implementation bridge
-- `02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน` = stay; bridge to `MCP`
+- `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน` = stay; bridge to `MCP`
 
 ผลสรุป:
 - ยังไม่มี move candidate สำหรับ phase 10
@@ -275,7 +275,7 @@ Move batch 1 ที่ทำจริง:
 | Tokenization | `01 Foundations/Tokenizer in AI` | `Tokenizer in AI - MOC` | `LLM Foundations` links | stable primitive |
 | Agent runtime | `02 AI Systems/AI Agent Fundamentals` | `AI Agent Fundamentals - MOC` | `05 Use Cases/Use Cases - Build an AI Agent` | runtime owner |
 | Framework selection | `02 AI Systems/Agent Frameworks` | `Agent Frameworks - MOC` | `06 Engineering/Frameworks/*`, `05 Use Cases/Use Cases - Choose an Agent Framework` | selection owner |
-| MCP / protocol layer | `02 AI Systems/MCP` | `MCP - MOC` | `02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน` | protocol owner |
+| MCP / protocol layer | `02 AI Systems/MCP` | `MCP - MOC` | `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน` | protocol owner |
 | Memory architecture | `02 AI Systems/Memory Systems` | `Memory Systems - MOC` | `04 Synthesis/Synthesis - Memory in Agents`, `05 Use Cases/Use Cases - Design Memory for an AI Agent` | memory owner |
 | Retrieval / RAG | `02 AI Systems/RAG` | `RAG - MOC` | `04 Synthesis/Synthesis - Memory vs RAG vs Context`, `05 Use Cases/Use Cases - Design a RAG System` | retrieval owner |
 | Guardrails / control | `02 AI Systems/Guardrails` | `Guardrails - MOC` | `05 Use Cases/Use Cases - Design Guardrails for Tool Use` | control owner |
@@ -642,7 +642,7 @@ Move batch 1 ที่ทำจริง:
 
 - `01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน` = keep as bridge
 - `01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates` = keep as bridge
-- `02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน` = keep as bridge
+- `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน` = keep as bridge
 
 ผลสรุป:
 - bridge notes เหล่านี้ยังไม่ใช่ move candidates

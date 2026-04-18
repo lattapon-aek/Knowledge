@@ -44,7 +44,7 @@ parent_note: "[[Home]]"
 
 ## Related Notes
 
-- [[02 AI Systems/AI Agent Fundamentals/10 - Risks และ Best Practices]]
+- [[02 AI Systems/AI Agent Fundamentals/Reference/10 - Risks และ Best Practices]]
 - [[02 AI Systems/MCP/Security/05 - Security, Consent และ Authorization]]
 - [[03 Tools/Claude Code/22 - Error Handling]]
 - [[03 Tools/Claude Code/24 - Best Practices & Checklist]]
@@ -62,7 +62,7 @@ parent_note: "[[Home]]"
 
 1. [[01 Foundations/LLM Foundations/Core/05 - ข้อจำกัดและการประเมินผล LLM]]
 2. [[01 Foundations/Prompt Engineering/Core/07 - Structured Generation และ Output Formats]]
-3. [[02 AI Systems/AI Agent Fundamentals/10 - Risks และ Best Practices]]
+3. [[02 AI Systems/AI Agent Fundamentals/Reference/10 - Risks และ Best Practices]]
 
 ### 2. Core Control Layers
 

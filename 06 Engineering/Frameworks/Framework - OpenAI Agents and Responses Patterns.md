@@ -165,7 +165,7 @@ flowchart TD
 
 ## ลิงก์ที่เกี่ยวข้อง
 
-- [[02 AI Systems/AI Agent Fundamentals/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
+- [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
 - [[04 Synthesis/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]]
 - [[02 AI Systems/MCP/MCP - MOC]]
 - [[02 AI Systems/Evals/Core/09 - Observability and Feedback Loops]]

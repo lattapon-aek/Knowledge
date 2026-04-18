@@ -21,12 +21,12 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 
 ## Reading Order
 
-1. [[02 AI Systems/AI Agent Fundamentals/01 - AI Agent คืออะไร]]
-2. [[02 AI Systems/AI Agent Fundamentals/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
-3. [[02 AI Systems/AI Agent Fundamentals/05 - วงจร Perceive-Think-Act-Check]]
-4. [[02 AI Systems/AI Agent Fundamentals/07 - รูปแบบ Agent Architectures]]
+1. [[02 AI Systems/AI Agent Fundamentals/Core/01 - AI Agent คืออะไร]]
+2. [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
+3. [[02 AI Systems/AI Agent Fundamentals/Core/05 - วงจร Perceive-Think-Act-Check]]
+4. [[02 AI Systems/AI Agent Fundamentals/Core/07 - รูปแบบ Agent Architectures]]
 5. [[05 Use Cases/Use Cases - When to Use an Agent|When to Use an Agent]]
-6. [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน]]
+6. [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน]]
 7. [[02 AI Systems/MCP/Core/01 - MCP คืออะไรและแก้ปัญหาอะไร]]
 8. [[02 AI Systems/MCP/Core/03 - Core Primitives: Tools, Resources, Prompts]]
 

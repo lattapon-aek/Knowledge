@@ -85,5 +85,5 @@ flowchart TD
 
 ## พื้นฐานทฤษฎีที่เกี่ยวข้อง
 
-- [[02 AI Systems/AI Agent Fundamentals/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration|Orchestration Component]] — Orchestrator Pattern คือการ implement Orchestration component ใน Agent equation (Model + Tools + **Orchestration**)
-- [[02 AI Systems/AI Agent Fundamentals/07 - รูปแบบ Agent Architectures|Multi-Agent Workflows]] — Pattern นี้ตรงกับ Multi-Agent Workflows ใน Agent Architectures
+- [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration|Orchestration Component]] — Orchestrator Pattern คือการ implement Orchestration component ใน Agent equation (Model + Tools + **Orchestration**)
+- [[02 AI Systems/AI Agent Fundamentals/Core/07 - รูปแบบ Agent Architectures|Multi-Agent Workflows]] — Pattern นี้ตรงกับ Multi-Agent Workflows ใน Agent Architectures

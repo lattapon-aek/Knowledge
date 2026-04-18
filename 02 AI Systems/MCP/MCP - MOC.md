@@ -49,7 +49,7 @@ parent_note: "[[Home]]"
 
 ### 1. Foundations Before MCP
 
-1. [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน]]
+1. [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน]]
 2. [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools]]
 
 ### 2. Core MCP Concepts

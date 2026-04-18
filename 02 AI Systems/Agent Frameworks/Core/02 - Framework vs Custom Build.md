@@ -240,7 +240,7 @@ architecture อาจผูกกับ abstractions ของ framework มา
 
 - [[02 AI Systems/Agent Frameworks/Core/01 - Landscape]] — ภาพรวมของ framework families
 - [[02 AI Systems/Agent Frameworks/Core/03 - State and Memory]] — จุดตัดสินใจสำคัญอีกแกน
-- [[02 AI Systems/AI Agent Fundamentals/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]] — complexity ของ orchestration เป็นตัวผลักให้ใช้ framework
+- [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]] — complexity ของ orchestration เป็นตัวผลักให้ใช้ framework
 - [[02 AI Systems/Evals/Core/09 - Observability and Feedback Loops]] — observability เป็น factor สำคัญในการเลือก
 - [[Agent Frameworks - MOC]]
 

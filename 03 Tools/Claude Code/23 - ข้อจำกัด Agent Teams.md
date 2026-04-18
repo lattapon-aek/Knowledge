@@ -53,4 +53,4 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 ## พื้นฐานทฤษฎีที่เกี่ยวข้อง
 
 - [[05 Use Cases/Use Cases - When to Use an Agent|When to Use an Agent]] — Latency / Cost / Complexity tradeoffs ในทฤษฎี ตรงกับข้อจำกัดจริงของ Agent Teams
-- [[02 AI Systems/AI Agent Fundamentals/10 - Risks และ Best Practices|Scalability Challenges]] — Context window limit, Hallucination, Oversight issues ที่พบใน production
+- [[02 AI Systems/AI Agent Fundamentals/Reference/10 - Risks และ Best Practices|Scalability Challenges]] — Context window limit, Hallucination, Oversight issues ที่พบใน production

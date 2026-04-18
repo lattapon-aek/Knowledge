@@ -52,8 +52,8 @@ parent_note: "[[Home]]"
 - [[02 AI Systems/RAG/RAG - MOC]]
 - [[02 AI Systems/Guardrails/Guardrails - MOC]]
 - [[02 AI Systems/Evals/Evals - MOC]]
-- [[02 AI Systems/AI Agent Fundamentals/05 - วงจร Perceive-Think-Act-Check]]
-- [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน]]
+- [[02 AI Systems/AI Agent Fundamentals/Core/05 - วงจร Perceive-Think-Act-Check]]
+- [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน]]
 - [[06 Engineering/README]]
 - [[06 Engineering/Memory/Memory - MOC]]
 

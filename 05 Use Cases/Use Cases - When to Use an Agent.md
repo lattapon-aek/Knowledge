@@ -121,7 +121,7 @@ Start
 ## ดูต่อ
 
 - [[04 Synthesis/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]]
-- [[02 AI Systems/AI Agent Fundamentals/10 - Risks และ Best Practices]]
+- [[02 AI Systems/AI Agent Fundamentals/Reference/10 - Risks และ Best Practices]]
 - [[05 Use Cases/Use Cases - Build an AI Agent]]
 - [[05 Use Cases/Use Cases - Move from Single to Multi-Agent]]
 

@@ -32,7 +32,7 @@ parent_note: "[[Home]]"
 | Workflow vs AI Agent | `04 Synthesis` | `Synthesis - Workflow vs AI Agent` | `02 AI Systems/AI Agent Fundamentals` bridge |
 | When to use an agent | `05 Use Cases` | `Use Cases - When to Use an Agent` | `04 Synthesis/Synthesis - Workflow vs AI Agent` |
 | Framework selection | `02 AI Systems/Agent Frameworks` | `Agent Frameworks - MOC` | `06 Engineering/Frameworks/*`, `05 Use Cases/Use Cases - Choose an Agent Framework` |
-| MCP / protocol layer | `02 AI Systems/MCP` | `MCP - MOC` | `02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน` |
+| MCP / protocol layer | `02 AI Systems/MCP` | `MCP - MOC` | `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน` |
 | Memory architecture | `02 AI Systems/Memory Systems` | `Memory Systems - MOC` | `04 Synthesis/Synthesis - Memory in Agents`, `05 Use Cases/Use Cases - Design Memory for an AI Agent` |
 | Retrieval / RAG | `02 AI Systems/RAG` | `RAG - MOC` | `04 Synthesis/Synthesis - Memory vs RAG vs Context`, `05 Use Cases/Use Cases - Design a RAG System` |
 | Guardrails / control | `02 AI Systems/Guardrails` | `Guardrails - MOC` | `05 Use Cases/Use Cases - Design Guardrails for Tool Use` |

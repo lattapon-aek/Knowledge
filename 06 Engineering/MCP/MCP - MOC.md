@@ -25,7 +25,7 @@ implementation layer สำหรับ integrating MCP servers, client wiring, 
 ## Related Hubs
 
 - [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]
-- [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน|AI Agent Fundamentals - Tools]]
+- [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน|AI Agent Fundamentals - Tools]]
 - [[06 Engineering/README|Engineering - README]]
 
 ---

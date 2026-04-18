@@ -349,13 +349,13 @@ memory recall แทรกทุกที่จนตอบเอนตามป
 - [[02 AI Systems/Memory Systems/Core/03 - Memory Read and Write Policies]] — control plane ของ memory
 - [[02 AI Systems/Agent Frameworks/Core/03 - State and Memory]] — state/memory ใน frameworks
 - [[02 AI Systems/RAG/RAG - MOC]] — external retrieval ที่มักทำงานคู่กับ memory
-- [[02 AI Systems/AI Agent Fundamentals/05 - วงจร Perceive-Think-Act-Check]] — agent loop ที่ memory เข้าไปเสริม
+- [[02 AI Systems/AI Agent Fundamentals/Core/05 - วงจร Perceive-Think-Act-Check]] — agent loop ที่ memory เข้าไปเสริม
 
 ---
 
 ## Related Notes
 
-- [[02 AI Systems/AI Agent Fundamentals/05 - วงจร Perceive-Think-Act-Check]]
+- [[02 AI Systems/AI Agent Fundamentals/Core/05 - วงจร Perceive-Think-Act-Check]]
 - [[02 AI Systems/Agent Frameworks/Core/03 - State and Memory]]
 - [[02 AI Systems/RAG/RAG - MOC]]
 - [[Memory Systems - MOC]]

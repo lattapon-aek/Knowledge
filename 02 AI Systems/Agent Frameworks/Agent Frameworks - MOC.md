@@ -47,9 +47,9 @@ parent_note: "[[Home]]"
 
 ## โน้ตที่เกี่ยวข้อง
 
-- [[02 AI Systems/AI Agent Fundamentals/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
-- [[02 AI Systems/AI Agent Fundamentals/07 - รูปแบบ Agent Architectures]]
-- [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน]]
+- [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
+- [[02 AI Systems/AI Agent Fundamentals/Core/07 - รูปแบบ Agent Architectures]]
+- [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน]]
 - [[02 AI Systems/MCP/MCP - MOC]]
 - [[03 Tools/Claude Code/Claude Code - Multi-Agent MOC]]
 - [[04 Synthesis/Synthesis - LLM to Agent Stack]]
@@ -63,9 +63,9 @@ parent_note: "[[Home]]"
 
 ### 1. พื้นฐานก่อน Frameworks
 
-1. [[02 AI Systems/AI Agent Fundamentals/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
-2. [[02 AI Systems/AI Agent Fundamentals/07 - รูปแบบ Agent Architectures]]
-3. [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน]]
+1. [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
+2. [[02 AI Systems/AI Agent Fundamentals/Core/07 - รูปแบบ Agent Architectures]]
+3. [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน]]
 
 ### 2. แนวคิดหลักของ Framework
 

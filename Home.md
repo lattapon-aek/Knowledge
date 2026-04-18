@@ -70,10 +70,10 @@ Second brain สำหรับความรู้ด้าน AI systems, LLM
 
 ### Build Agents
 
-1. [[02 AI Systems/AI Agent Fundamentals/01 - AI Agent คืออะไร]]
-2. [[02 AI Systems/AI Agent Fundamentals/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
-3. [[02 AI Systems/AI Agent Fundamentals/05 - วงจร Perceive-Think-Act-Check]]
-4. [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน]]
+1. [[02 AI Systems/AI Agent Fundamentals/Core/01 - AI Agent คืออะไร]]
+2. [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
+3. [[02 AI Systems/AI Agent Fundamentals/Core/05 - วงจร Perceive-Think-Act-Check]]
+4. [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน]]
 5. [[02 AI Systems/MCP/Core/01 - MCP คืออะไรและแก้ปัญหาอะไร]]
 
 ---

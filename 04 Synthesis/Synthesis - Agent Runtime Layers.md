@@ -26,9 +26,9 @@ agent systems จะเข้าใจง่ายขึ้นมากถ้า
 
 | ต้องการ | ไปอ่าน |
 |---|---|
-| agent concept / loop / orchestration | [[02 AI Systems/AI Agent Fundamentals/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]] |
+| agent concept / loop / orchestration | [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]] |
 | state / memory in framework runtime | [[02 AI Systems/Agent Frameworks/Core/03 - State and Memory]] |
-| tools / capability layer | [[02 AI Systems/MCP/14 - Tools: การออกแบบและทำงาน]] |
+| tools / capability layer | [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน]] |
 | observability / eval loop | [[02 AI Systems/Agent Frameworks/Core/06 - Evaluation and Observability]] |
 | checkpoint / resumability | [[02 AI Systems/Agent Frameworks/Core/07 - Checkpointing and Resumability]] |
 

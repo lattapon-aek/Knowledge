@@ -68,6 +68,20 @@ parent_note: "[[Home]]"
 - ลด presentation English ที่เกินจำเป็น
 - คง technical terms และ mermaid diagram ไว้
 
+### Diagram coverage
+
+- สร้าง [[Knowledge Architecture Diagram Plan]] เป็นแผนกลางสำหรับเติม architecture / workflow / decision diagrams ทั่ว vault
+- audit รอบแรกพบว่า `RAG` coverage ดีแล้ว แต่ยังควรเติม diagrams ใน `Home`, `index`, MOC หลัก, `06 Engineering`, `04 Synthesis`, และ `05 Use Cases`
+- เติม Phase 0 P0 แล้วใน [[Home]] และ [[index]]
+- เติม Phase 0 P1 แล้วใน [[Knowledge Topic Registry]] และ [[Knowledge Folder Structure Plan v2]]
+- เติม Phase 1 P0 แล้วใน MOC หลักของ `RAG`, `AI Agent Fundamentals`, `MCP`, `Guardrails`, `Evals`, และ `Memory Systems`
+- เติม Phase 1 P1 แล้วใน MOC หลักของ `Agent Frameworks`, `Claude Code`, `Synthesis`, `Use Cases`, และ `Engineering`
+- เติม Phase 2 P0 แล้วใน engineering recipes/decisions หลักของ `RAG`, `Architecture to Code`, `Evals`, `Guardrails`, `MCP`, และ `Memory`
+- เติม Phase 2 P1 แล้วใน engineering decision notes ของ `Framework`, `Evaluation Gate`, `Validation Boundary`, `MCP Boundary`, และ `Memory Policy`
+- เติม Phase 3 แล้วใน synthesis/use case notes หลักสำหรับ runtime layers, LLM-to-agent, memory/RAG/context, agent/workflow/RAG, prompting/RAG/fine-tuning, multi-agent, RAG, guardrails, memory, และ agent eval/use decisions
+- เติม Phase 4 แล้วใน MOC ของ `LLM Foundations`, `Context Windows`, `Prompt Engineering`, และ `Tokenizer in AI`
+- เติม Phase 5 แล้วใน Claude Code workflow/reference notes หลัก พร้อม mark เนื้อหาที่ผูก release/config เป็น `version-sensitive`
+
 ---
 
 ## Archive / Watchlist

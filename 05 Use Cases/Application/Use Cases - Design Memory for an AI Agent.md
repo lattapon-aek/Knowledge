@@ -35,6 +35,29 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 
 ---
 
+## Memory Design Flow
+
+```mermaid
+flowchart TD
+    A["Candidate information"] --> B{"Needed after current task?"}
+    B -->|no| C["Keep in context / working state"]
+    B -->|yes| D{"User-specific or session-specific?"}
+    D -->|yes| E["Memory candidate"]
+    D -->|no| F{"Document/source knowledge?"}
+    F -->|yes| G["Use RAG instead"]
+    F -->|no| H["Do not persist yet"]
+
+    E --> I["Apply consent / scope / retention policy"]
+    I --> J["Choose type<br/>episodic / semantic / procedural"]
+    J --> K["Write policy"]
+    K --> L["Read policy"]
+    L --> M["Evaluate relevance, freshness, privacy"]
+```
+
+flow นี้ช่วยเลือก memory boundary: ไม่ใช่ทุกข้อมูลที่ควรถูกจำ ถ้าเป็น knowledge จากเอกสารให้ใช้ RAG ถ้าเป็นข้อมูลเฉพาะงานปัจจุบันให้ใช้ context/working state และถ้าจะ persist ต้องมี consent, scope, retention, read/write policy.
+
+---
+
 ## Step 1: นิยาม memory need ก่อน
 
 ตอบคำถามเหล่านี้:

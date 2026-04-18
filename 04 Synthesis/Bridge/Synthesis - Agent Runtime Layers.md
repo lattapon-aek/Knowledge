@@ -22,6 +22,30 @@ agent systems จะเข้าใจง่ายขึ้นมากถ้า
 - ถ้าต้องการเรื่อง observability/evals ให้ดู `Evals` และ `Agent Frameworks`
 
 ---
+
+## Runtime Layer Stack
+
+```mermaid
+flowchart TD
+    A["Product Goal / User Task"] --> B["Application Workflow"]
+    B --> C["Agent Orchestration"]
+    C --> D["Model + Instructions"]
+    C --> E["Tools / MCP / External Systems"]
+    C --> F["State / Memory"]
+    C --> G["RAG / Context Retrieval"]
+    E --> H["Actions / Side Effects"]
+    F --> I["Persistence / Checkpoints"]
+    G --> J["Grounded Context"]
+    H --> K["Observability / Traces"]
+    I --> K
+    J --> K
+    K --> L["Evals / Regression"]
+    L --> B
+```
+
+stack นี้ช่วยแยกความรับผิดชอบของแต่ละชั้น: product workflow กำหนดงาน, orchestration เลือก step/tool, model ทำ inference, tools/RAG/memory เติม capability และ context, ส่วน observability/evals ใช้คุมคุณภาพทั้ง runtime.
+
+---
 ## Canonical Notes To Read Instead
 
 | ต้องการ | ไปอ่าน |

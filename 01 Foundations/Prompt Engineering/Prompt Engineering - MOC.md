@@ -19,6 +19,26 @@ parent_note: "[[Home]]"
 
 ---
 
+## Prompt Lifecycle Map
+
+```mermaid
+flowchart LR
+    A["Intent / Task"] --> B["Instructions"]
+    B --> C["Context / Examples"]
+    C --> D["Constraints / Policy"]
+    D --> E["Output Format / Schema"]
+    E --> F["Model Output"]
+    F --> G["Evaluation"]
+    G --> H["Failure Analysis"]
+    H --> B
+    H --> C
+    H --> E
+```
+
+prompt engineering ที่ใช้ใน production ควรเป็น loop: นิยาม intent, instruction, context, constraints, output format แล้ววัดผลจาก eval/failure analysis ไม่ใช่แก้ถ้อยคำแบบ ad hoc.
+
+---
+
 ## Notes
 
 - [[01 - Prompt Engineering คืออะไร]] — นิยาม, คำศัพท์พื้นฐาน, Workflow, ขอบเขต

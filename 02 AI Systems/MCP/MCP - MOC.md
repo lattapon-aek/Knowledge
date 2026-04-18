@@ -26,6 +26,33 @@ parent_note: "[[Home]]"
 
 ---
 
+## MCP System Map
+
+```mermaid
+flowchart LR
+    A["User"] --> B["MCP Host<br/>AI application"]
+    B --> C["MCP Client<br/>1 client per server"]
+    C --> D["MCP Server"]
+
+    D --> E["Tools<br/>actions / computation"]
+    D --> F["Resources<br/>read-only context"]
+    D --> G["Prompts<br/>reusable workflows"]
+
+    C <--> H["Transport<br/>stdio / HTTP"]
+    B --> I["Model / Agent Runtime"]
+    I --> B
+
+    J["Consent / Authorization"] --> B
+    J --> C
+    J --> D
+    K["Sampling / Roots / Elicitation"] --> B
+    K --> C
+```
+
+ภาพนี้วาง MCP เป็น protocol boundary ระหว่าง AI application กับ external capability provider โดยแยก host, client, server, primitives, transport, และ security/consent ออกจากกัน เพื่อไม่ให้สับสนระหว่าง agent architecture กับ integration protocol.
+
+---
+
 ## Notes Map
 
 - [[01 - MCP คืออะไรและแก้ปัญหาอะไร]] — นิยาม, M×N problem, ขอบเขต protocol

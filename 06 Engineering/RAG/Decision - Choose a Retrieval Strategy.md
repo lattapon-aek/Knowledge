@@ -15,6 +15,42 @@ decision note สำหรับเลือกว่า RAG ควรใช้ 
 
 ---
 
+## Retrieval Strategy Decision Tree
+
+```mermaid
+flowchart TD
+    A["Query / Corpus Requirement"] --> B{"Need exact names, IDs, or terms?"}
+    B -->|yes| C["Lexical / keyword retrieval"]
+    B -->|no| D{"Need semantic similarity?"}
+    D -->|yes| E["Dense vector retrieval"]
+    D -->|no| F{"Data spans multiple stores?"}
+
+    C --> G{"Need broader recall?"}
+    E --> G
+    G -->|yes| H["Hybrid retrieval"]
+    G -->|no| I{"Need strict scope?"}
+
+    F -->|yes| J["Multi-source retrieval + source routing"]
+    F -->|no| I
+    H --> I
+    J --> I
+
+    I -->|permissions / tenants / time| K["Metadata-filtered retrieval"]
+    I -->|long documents| L["Hierarchical / parent-child retrieval"]
+    I -->|relationships matter| M["Graph retrieval"]
+    I -->|multi-step unknown query| N["Agentic retrieval"]
+
+    K --> O["Reranking if precision is weak"]
+    L --> O
+    M --> O
+    N --> O
+    O --> P["Context assembly + eval"]
+```
+
+เลือก strategy จากข้อจำกัดของ query/corpus ก่อน แล้วค่อยเพิ่ม hybrid, filtering, hierarchy, graph, agentic retrieval หรือ reranking เท่าที่จำเป็น เพราะแต่ละชั้นเพิ่ม latency, cost, และ implementation complexity.
+
+---
+
 ## Context
 
 - ข้อมูลอยู่ที่ไหน

@@ -20,6 +20,34 @@ parent_note: "[[Home]]"
 
 ---
 
+## Use Case Navigation Map
+
+```mermaid
+flowchart TD
+    A["Practical Question"] --> B{"Need a decision?"}
+    B -->|yes| C["Decision Use Cases"]
+    B -->|no| D{"Need a build path?"}
+    D -->|yes| E["Application Use Cases"]
+    D -->|no| F["Canonical Concept MOC"]
+
+    C --> G["When to use an agent"]
+    C --> H["Choose framework / move to multi-agent"]
+    E --> I["Build agent / design RAG / memory / guardrails / evals"]
+    E --> J["Explain MCP / improve prompt reliability"]
+
+    G --> K["04 Synthesis"]
+    H --> K
+    I --> L["06 Engineering"]
+    J --> L
+    F --> M["01 Foundations / 02 AI Systems"]
+    K --> M
+    L --> M
+```
+
+ภาพนี้ทำให้หมวด use cases เป็นทางเข้าเชิงงานจริง: เริ่มจากคำถามหรือเป้าหมายของผู้อ่าน แล้วค่อยโยงกลับไป synthesis, canonical concept, หรือ engineering implementation ตามระดับที่ต้องใช้.
+
+---
+
 ## Notes Map
 
 - [[05 Use Cases/Decision/Use Cases - When to Use an Agent|Use Cases - When to Use an Agent]]

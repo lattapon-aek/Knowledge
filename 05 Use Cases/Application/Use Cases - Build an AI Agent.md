@@ -19,6 +19,24 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 
 ---
 
+## End-to-End Build Flow
+
+```mermaid
+flowchart LR
+    A["Define goal"] --> B["Decide agent vs workflow"]
+    B --> C["Specify tools and boundaries"]
+    C --> D["Design loop<br/>plan / act / observe / check"]
+    D --> E["Add memory or RAG only if needed"]
+    E --> F["Add guardrails and permissions"]
+    F --> G["Build eval cases"]
+    G --> H["Implement runtime"]
+    H --> I["Monitor and iterate"]
+```
+
+ใช้ flow นี้เป็นทางลัดก่อนลงอ่าน canonical notes: เริ่มจาก goal และ decision ว่าควรเป็น agent จริงหรือไม่ จากนั้นค่อยเพิ่ม tools, loop, memory/RAG, guardrails, evals, และ implementation.
+
+---
+
 ## Reading Order
 
 1. [[02 AI Systems/AI Agent Fundamentals/Core/01 - AI Agent คืออะไร]]

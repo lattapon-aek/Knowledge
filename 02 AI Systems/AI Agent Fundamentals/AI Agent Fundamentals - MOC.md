@@ -48,6 +48,33 @@ flowchart TD
 
 diagram นี้เป็น conceptual overview ของหมวดนี้ เพื่อสรุปว่า agent systems ต่างจาก prompt-response ทั่วไปตรงที่มี loop, tools, และ orchestration
 
+## Agent System Architecture
+
+```mermaid
+flowchart TD
+    A["User Goal / Task"] --> B["Agent Runtime"]
+    B --> C["Model"]
+    B --> D["Planning / Orchestration"]
+    D --> E["Tools / MCP"]
+    D --> F["Memory"]
+    D --> G["RAG / Knowledge"]
+    E --> H["Actions / Tool Results"]
+    F --> B
+    G --> B
+    H --> B
+    B --> I["Final Response / Action"]
+
+    J["Guardrails / Permissions"] --> B
+    J --> E
+    J --> I
+    K["Evals / Observability"] --> B
+    K --> D
+    K --> I
+    L["Agent Frameworks"] --> B
+```
+
+ภาพนี้วาง agent เป็นระบบ runtime ที่เชื่อม model, planning, tools, memory, RAG, guardrails, evals และ frameworks เข้าด้วยกัน ไม่ใช่แค่ LLM ที่ตอบข้อความ
+
 ---
 
 ## Notes Map

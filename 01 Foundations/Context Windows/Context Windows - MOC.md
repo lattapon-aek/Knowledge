@@ -19,6 +19,27 @@ parent_note: "[[Home]]"
 
 ---
 
+## Context Architecture Map
+
+```mermaid
+flowchart TD
+    A["System / Developer Instructions"] --> B["Prompt Assembly"]
+    C["User Message"] --> B
+    D["Conversation History"] --> B
+    E["Retrieved Context / RAG"] --> B
+    F["Memory / Session State"] --> B
+    G["Tool Results"] --> B
+    B --> H["Context Window Budget"]
+    H --> I["Model Inference"]
+    I --> J["Output Tokens"]
+    J --> K["Cost / Latency / Quality"]
+    K --> B
+```
+
+ภาพนี้แสดง context window เป็น runtime budget ที่รวม instructions, user message, history, retrieved context, memory, และ tool results เข้าไปพร้อมกัน ดังนั้น context engineering คือการจัดลำดับและตัดสินใจว่าอะไรควรเข้า context ตอนนี้.
+
+---
+
 ## Notes
 
 | # | Note | เนื้อหาหลัก |

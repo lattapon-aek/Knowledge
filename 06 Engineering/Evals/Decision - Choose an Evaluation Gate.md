@@ -15,6 +15,34 @@ decision note สำหรับกำหนดว่า eval ผลไหนต
 
 ---
 
+## Evaluation Gate Decision Flow
+
+```mermaid
+flowchart TD
+    A["Change / Release Candidate"] --> B{"User or business risk high?"}
+    B -->|yes| C{"Eval coverage reliable?"}
+    B -->|no| D{"Regression history exists?"}
+
+    C -->|yes| E["Hard gate"]
+    C -->|no| F["Human sign-off gate"]
+    D -->|yes| G["Soft gate"]
+    D -->|no| H["No gate / monitor only"]
+
+    E --> I["Block release on fail"]
+    F --> J["Require reviewer approval"]
+    G --> K["Warn and require explicit override"]
+    H --> L["Ship with observability"]
+
+    I --> M["Record failures as regression cases"]
+    J --> M
+    K --> M
+    L --> M
+```
+
+gate ที่เข้มขึ้นควรสัมพันธ์กับ risk และความน่าเชื่อถือของ eval เอง ถ้า eval ยังไม่ดีพอแต่ risk สูง ให้ใช้ human sign-off แทน hard gate ที่ให้ false confidence.
+
+---
+
 ## Context
 
 - ระบบนี้เสี่ยงแค่ไหน

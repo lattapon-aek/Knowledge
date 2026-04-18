@@ -22,6 +22,40 @@ Claude Code คือ **CLI tool** จาก Anthropic สำหรับ agenti
 
 ---
 
+## Claude Code Multi-Agent Workflow Map
+
+หมายเหตุ: diagram นี้เป็น `version-sensitive` เพราะผูกกับ behavior, settings, permissions, และ workflow ของ Claude Code ที่อาจเปลี่ยนตาม release
+
+```mermaid
+flowchart TD
+    A["Coding Goal"] --> B{"Scope and coupling"}
+    B -->|"small / local"| C["Single Session"]
+    B -->|"sequential specialist work"| D["Subagents"]
+    B -->|"parallel domains"| E["Agent Team / Worktrees"]
+
+    C --> F["Edit / run / verify"]
+    D --> G["Delegate bounded task"]
+    G --> H["Review result"]
+    H --> F
+    E --> I["Split ownership"]
+    I --> J["Parallel worktrees / agents"]
+    J --> K["Integrate changes"]
+    K --> F
+
+    L["Permissions / Settings"] --> C
+    L --> D
+    L --> E
+    M["Error Handling"] --> F
+    M --> H
+    M --> K
+    N["Cost / Context Control"] --> B
+    O["Canonical AI Systems Concepts"] --> B
+```
+
+ภาพนี้วาง Claude Code เป็น tooling layer สำหรับเลือกวิธีทำงาน ไม่ใช่ canonical theory ของ agents เอง ถ้าเป็น concept หลักให้กลับไป `AI Agent Fundamentals`, `Agent Frameworks`, `Guardrails`, หรือ `Evals` ก่อน แล้วใช้หน้านี้เป็น workflow/tool reference.
+
+---
+
 ## 🗂️ Notes ในชุดนี้
 
 ### พื้นฐาน

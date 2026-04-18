@@ -20,6 +20,28 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 
 ---
 
+## Worktree-Based Parallel Workflow
+
+> version-sensitive: `claude --worktree` และ cleanup behavior ผูกกับ Claude Code release/config
+
+```mermaid
+flowchart TD
+    A["Main repository"] --> B["Create worktree A"]
+    A --> C["Create worktree B"]
+    B --> D["Agent / session works on branch A"]
+    C --> E["Agent / session works on branch B"]
+    D --> F["Run checks in isolated tree"]
+    E --> G["Run checks in isolated tree"]
+    F --> H["Review diff"]
+    G --> H
+    H --> I["Merge / cherry-pick / discard"]
+    I --> J["Cleanup worktrees"]
+```
+
+workflow นี้ลดการชนกันของไฟล์เมื่อหลาย agent หรือหลาย session ทำงานพร้อมกัน แต่ยังต้องกำหนด ownership ของ branch/file และ review diff ก่อน merge เสมอ.
+
+---
+
 ## 3 วิธีใช้งานกับ Claude Code
 
 ### วิธีที่ 1: `claude --worktree` (CLI flag)

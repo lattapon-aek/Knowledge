@@ -36,6 +36,28 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 
 ---
 
+## Agent Evaluation Workflow
+
+```mermaid
+flowchart LR
+    A["Define success criteria"] --> B["Create task set"]
+    B --> C["Run agent with traces"]
+    C --> D["Score task completion"]
+    D --> E["Score tool correctness"]
+    E --> F["Score trajectory / policy adherence"]
+    F --> G["Compare baseline"]
+    G --> H{"Regression?"}
+    H -->|yes| I["Failure analysis + add cases"]
+    H -->|no| J["Release / monitor"]
+    I --> B
+    J --> K["Online feedback"]
+    K --> B
+```
+
+agent eval ต้องวัดทั้ง final outcome และ trajectory เพราะปัญหาอาจอยู่ที่ planning, tool choice, state, guardrails, หรือ recovery แม้ final answer จะดูใช้ได้.
+
+---
+
 ## Step 1: แยก objective ของ agent
 
 ก่อนทำ eval ต้องตอบให้ได้ว่า:

@@ -31,6 +31,36 @@ parent_note: "[[Home]]"
 
 ---
 
+## Memory System Architecture
+
+```mermaid
+flowchart TD
+    A["Session / User Event"] --> B["Working Memory<br/>current task state"]
+    B --> C["Agent Runtime"]
+    C --> D["Memory Read Policy"]
+    D --> E["Long-Term Memory Store"]
+    E --> F["Episodic Memory<br/>events / interactions"]
+    E --> G["Semantic Memory<br/>facts / preferences"]
+    E --> H["Procedural Memory<br/>procedures / skills"]
+    F --> I["Memory Retrieval"]
+    G --> I
+    H --> I
+    I --> J["Context Assembly"]
+    J --> C
+    C --> K["Memory Write Policy<br/>salience / consent / scope"]
+    K --> E
+
+    L["RAG / External Knowledge"] --> J
+    M["Guardrails / Privacy"] --> D
+    M --> K
+    N["Evals / Failure Analysis"] --> D
+    N --> K
+```
+
+ภาพนี้แยก memory ออกจาก RAG: memory คือ state และประสบการณ์ที่ระบบเลือกอ่าน/เขียนตาม policy ส่วน RAG คือ external knowledge retrieval ที่นำมา assemble ร่วมใน context ได้ จุดเสี่ยงหลักอยู่ที่ read/write policy, privacy boundary, stale memory, และ memory retrieval ที่ผิด scope.
+
+---
+
 ## Notes Map
 
 - [[02 AI Systems/Memory Systems/Core/01 - Working Memory vs Long-Term Memory|Working memory vs long-term memory]]

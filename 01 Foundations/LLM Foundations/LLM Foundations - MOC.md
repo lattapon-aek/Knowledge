@@ -31,6 +31,26 @@ parent_note: "[[Home]]"
 
 ---
 
+## Model Lifecycle Map
+
+```mermaid
+flowchart LR
+    A["Data"] --> B["Tokenization"]
+    B --> C["Pretraining"]
+    C --> D["Post-training<br/>instruction / preference"]
+    D --> E["Inference"]
+    E --> F["Serving<br/>latency / throughput / cache"]
+    F --> G["Application Layer<br/>RAG / tools / agents"]
+    G --> H["Evaluation"]
+    H --> C
+    H --> D
+    H --> G
+```
+
+แผนที่นี้ใช้เป็น lifecycle หลักของหมวด LLM Foundations: เริ่มจาก data/tokenization ไปสู่ training, post-training, inference, serving, application layer และ eval feedback ที่ย้อนกลับไปปรับ model หรือ system.
+
+---
+
 ## แผนที่ภาพรวม
 
 ```mermaid

@@ -34,6 +34,27 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 
 ---
 
+## Practical RAG Design Flow
+
+```mermaid
+flowchart TD
+    A["Define answer task"] --> B["Identify sources and trust levels"]
+    B --> C["Design ingestion<br/>parse / clean / chunk / metadata"]
+    C --> D["Choose retrieval strategy<br/>keyword / vector / hybrid / graph"]
+    D --> E["Add filtering and permissions"]
+    E --> F["Rerank if precision is weak"]
+    F --> G["Assemble context within budget"]
+    G --> H["Generate grounded answer"]
+    H --> I["Citations / fallback policy"]
+    I --> J["Eval retrieval + grounding + answer"]
+    J --> K["Refresh / delete / reindex"]
+    K --> C
+```
+
+flow นี้ทำให้ RAG design เริ่มจาก answer task และ source trust ก่อนเลือก vector DB หรือ retrieval backend เพราะ production RAG ต้องคุม ingestion, metadata, permissions, context assembly, citation, eval, และ lifecycle ด้วย.
+
+---
+
 ## Step 1: นิยาม retrieval problem ก่อน
 
 ตอบคำถามเหล่านี้ก่อน:

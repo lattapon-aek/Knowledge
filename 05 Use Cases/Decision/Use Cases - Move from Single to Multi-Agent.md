@@ -34,6 +34,21 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 
 ## เส้นตัดสินใจ
 
+```mermaid
+flowchart TD
+    A["Single Agent + Tools"] --> B{"Task too broad for one role?"}
+    B -->|no| C["Stay single-agent / workflow"]
+    B -->|yes| D{"Subtasks can be separated cleanly?"}
+    D -->|no| E["Improve prompt, tools, or workflow first"]
+    D -->|yes| F{"Need parallelism, handoffs, or shared state?"}
+    F -->|no| G["Use subagents or sequential specialists"]
+    F -->|yes| H["Design multi-agent infrastructure"]
+    H --> I["Role boundaries"]
+    I --> J["Orchestrator / router"]
+    J --> K["State / checkpoints"]
+    K --> L["Observability / evals / recovery"]
+```
+
 1. เริ่มจาก single agent + tools ก่อน
 2. ถามว่างานเป็นเส้นตรงและ deterministic หรือไม่
 3. ถ้าใช่ ให้คงไว้ที่ workflow หรือ single-agent design

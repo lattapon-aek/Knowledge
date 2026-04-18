@@ -26,6 +26,25 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 
 ---
 
+## Agent Tool Lifecycle
+
+> version-sensitive: ชื่อ tool, alias, และ behavior ของ subagent invocation อาจเปลี่ยนตาม Claude Code release
+
+```mermaid
+flowchart LR
+    A["Main session goal"] --> B["Identify delegateable task"]
+    B --> C["Select subagent"]
+    C --> D["Spawn via Agent Tool"]
+    D --> E["Subagent works in own context"]
+    E --> F["Subagent returns summary"]
+    F --> G["Main session reviews / integrates"]
+    G --> H["Continue or spawn next subagent"]
+```
+
+lifecycle นี้ย้ำว่า Agent Tool เป็น orchestration mechanism ภายใน session: งานที่ส่งไปควร bounded, มี output contract ชัด และ main session ต้องเป็นคน review/integrate ผลลัพธ์กลับเข้ากับงานหลัก.
+
+---
+
 ## Agent Tool vs Agent Teams
 
 | | Agent Tool (Subagent) | Agent Teams |

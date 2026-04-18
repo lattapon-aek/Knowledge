@@ -15,6 +15,25 @@ parent_note: "[[Home]]"
 
 ---
 
+## Tokenizer Learning Path
+
+```mermaid
+flowchart LR
+    A["Text"] --> B["Normalization"]
+    B --> C["Pre-tokenization"]
+    C --> D["Tokenization Model<br/>BPE / WordPiece / Unigram"]
+    D --> E["Token IDs"]
+    E --> F["Embeddings / Model Input"]
+    F --> G["Context Budget"]
+    G --> H["Cost / Latency / Chunking Impact"]
+    E --> I["Decoding"]
+    I --> A
+```
+
+แผนที่นี้วาง tokenizer เป็นสะพานจาก text ไปสู่ token IDs ที่กระทบ model input, context budget, cost, latency, และ chunking ใน RAG โดยตรง.
+
+---
+
 ## Notes ในหัวข้อนี้
 
 | # | Note | เนื้อหาหลัก |

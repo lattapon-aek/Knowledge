@@ -29,6 +29,32 @@ parent_note: "[[Home]]"
 
 ---
 
+## Evaluation Lifecycle
+
+```mermaid
+flowchart LR
+    A["Success Criteria"] --> B["Eval Dataset / Tasks"]
+    B --> C["Runner<br/>prompt / RAG / agent / app"]
+    C --> D["Outputs / Traces"]
+    D --> E["Scoring<br/>rules / judge / human review"]
+    E --> F["Report<br/>quality / cost / latency / failures"]
+    F --> G["Regression Gate"]
+    G --> H["Release / Deploy Decision"]
+    H --> I["Online Monitoring"]
+    I --> J["Feedback / Failure Cases"]
+    J --> B
+    J --> A
+
+    K["Guardrails"] --> C
+    K --> G
+    L["Observability"] --> D
+    L --> I
+```
+
+ภาพนี้วาง evals เป็น lifecycle ตั้งแต่ criteria, dataset, runner, scoring, regression gate ไปจนถึง monitoring และ feedback loop ไม่ใช่แค่ benchmark ครั้งเดียว จุดเชื่อมสำคัญคือ guardrails ใช้ evals เป็น measurement layer และ observability ทำให้ failure cases กลับมาเป็น regression tests ได้.
+
+---
+
 ## Notes Map
 
 - [[02 AI Systems/Evals/Core/01 - Success Criteria|Eval basics and success criteria]]

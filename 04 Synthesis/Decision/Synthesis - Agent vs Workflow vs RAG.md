@@ -28,6 +28,31 @@ parent_note: "[[04 Synthesis/Synthesis - MOC]]"
 - งานต้องดึงความรู้ภายนอกแบบแม่น → RAG
 - งานต้องวางแผน ปรับตัว หรือเลือกเครื่องมือเอง → agent
 
+## Decision Tree
+
+```mermaid
+flowchart TD
+    A["System Need"] --> B{"Need external knowledge grounding?"}
+    B -->|yes| C["Use RAG"]
+    B -->|no| D{"Steps fixed and deterministic?"}
+
+    C --> E{"Need to choose retrieval/tool steps dynamically?"}
+    E -->|yes| F["Agentic RAG / Agent + RAG"]
+    E -->|no| G["RAG in workflow or app"]
+
+    D -->|yes| H["Workflow / rules / automation"]
+    D -->|no| I{"Need planning or tool choice during execution?"}
+    I -->|yes| J["Agent"]
+    I -->|no| K["Prompted LLM / simple app flow"]
+
+    H --> L["Add guardrails and evals"]
+    F --> L
+    G --> L
+    J --> L
+```
+
+ใช้ tree นี้เพื่อเลือก architecture จากปัญหาจริง: RAG แก้ knowledge gap, workflow แก้ deterministic process, agent แก้ dynamic planning/tool choice และ hybrid ใช้เมื่อมีมากกว่าหนึ่งแรงขับพร้อมกัน.
+
 ## Use the Canonical Notes For
 
 - workflow-vs-agent detail → [[04 Synthesis/Decision/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]]

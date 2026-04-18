@@ -17,6 +17,30 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 **Context Window = โต๊ะทำงานของ AI** — ยิ่งข้อมูลเยอะ โต๊ะยิ่งแคบ งานยิ่งพัง
 ขนาด context window ของแต่ละ session ขึ้นกับ model และการตั้งค่าของ Claude Code
 
+## Workflow Comparison Map
+
+> version-sensitive: behavior, env flags, display modes, และ agent-team capabilities อาจเปลี่ยนตาม Claude Code release
+
+```mermaid
+flowchart TD
+    A["Coding task"] --> B{"Small and local?"}
+    B -->|yes| C["1 Session"]
+    B -->|no| D{"Can split into independent focused tasks?"}
+    D -->|yes| E["Subagents"]
+    D -->|no| F{"Need parallel collaboration?"}
+    F -->|yes| G["Agent Teams"]
+    F -->|no| H["Single session + careful planning"]
+
+    C --> I["One context window"]
+    E --> J["Main orchestrates; subagents return summaries"]
+    G --> K["Separate sessions + mailbox / task list"]
+    I --> L["Verify results"]
+    J --> L
+    K --> L
+```
+
+ใช้ map นี้เลือก workflow จากขนาดงานและ coupling ก่อน: งานเล็กใช้ session เดียว, งาน focused ที่แยกได้ใช้ subagents, งานใหญ่ที่ต้อง parallel และ collaborate ใช้ Agent Teams พร้อมยอมรับ cost/complexity ที่สูงขึ้น.
+
 ---
 
 ## 🔴 แบบที่ 1: 1 Session (ไม่มี Agent)

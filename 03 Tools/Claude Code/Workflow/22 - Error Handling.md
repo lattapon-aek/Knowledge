@@ -20,6 +20,25 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 
 Claude Code ใช้การสั่งงานแบบ prompt, hooks, และการตอบกลับจาก subagent/teammate เป็นหลัก ดังนั้น workflow ที่ robust ควรกำหนด fallback และ retry policy ไว้ล่วงหน้า
 
+```mermaid
+flowchart TD
+    A["Spawn agent / teammate"] --> B["Agent attempts task"]
+    B --> C{"Success?"}
+    C -->|yes| D["Return result"]
+    C -->|no| E["Report failure reason"]
+    E --> F{"Retryable?"}
+    F -->|yes| G["Retry with limit / adjusted prompt"]
+    G --> B
+    F -->|no| H{"Fallback available?"}
+    H -->|yes| I["Use fallback path"]
+    H -->|no| J["Escalate / interrupt / ask human"]
+    D --> K["Verify actual artifacts"]
+    I --> K
+    J --> K
+```
+
+flow นี้ทำให้ error handling อยู่ที่ orchestration layer: agent ต้องรายงาน failure, orchestrator ตัดสิน retry/fallback/escalation, และผลลัพธ์ต้อง verify จาก artifact จริง ไม่ใช่เชื่อข้อความสรุปอย่างเดียว.
+
 **Flow เมื่อ agent ล้มเหลว:**
 
 ```

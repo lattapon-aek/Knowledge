@@ -29,6 +29,35 @@ parent_note: "[[Home]]"
 
 ---
 
+## Guardrails Control Stack
+
+```mermaid
+flowchart TD
+    A["User Input / Event"] --> B["Input Controls<br/>classification / policy checks"]
+    B --> C["Prompt / Context Boundary"]
+    C --> D["Model / Agent Runtime"]
+    D --> E["Tool Safety<br/>tool choice / arguments / side effects"]
+    E --> F["Permission Model<br/>scope / role / consent"]
+    F --> G["Action or Retrieval"]
+    G --> H["Output Validation<br/>schema / policy / factual checks"]
+    H --> I{"Pass?"}
+    I -->|yes| J["Response / Action"]
+    I -->|no| K["Fallback / Retry / Human Review"]
+    K --> J
+
+    L["Monitoring / Incidents"] --> B
+    L --> D
+    L --> H
+    L --> K
+    M["Evals / Regression Tests"] --> B
+    M --> E
+    M --> H
+```
+
+ภาพนี้แสดง guardrails เป็น control layer หลายจุด ไม่ใช่ filter ตัวเดียวท้ายระบบ จุดสำคัญคือ permission, tool safety, validation, fallback, monitoring, และ evals ต้องเชื่อมกันเพื่อให้ production system คุมความเสี่ยงได้จริง.
+
+---
+
 ## Notes Map
 
 - [[02 AI Systems/Guardrails/Core/01 - Input and Output Controls|Input and output controls]]

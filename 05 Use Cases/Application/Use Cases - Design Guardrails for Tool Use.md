@@ -36,6 +36,31 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 
 ---
 
+## Tool Safety Control Flow
+
+```mermaid
+flowchart TD
+    A["Requested Tool Use"] --> B["Classify Tool Risk"]
+    B --> C{"Read-only?"}
+    C -->|yes| D["Validate parameters + log"]
+    C -->|no| E{"Data mutation or external side effect?"}
+    E -->|yes| F["Permission + confirmation gate"]
+    E -->|privileged| G["Explicit approval + audit trail"]
+    D --> H["Execute tool"]
+    F --> H
+    G --> H
+    H --> I["Validate tool output"]
+    I --> J{"Safe result?"}
+    J -->|yes| K["Return / continue workflow"]
+    J -->|no| L["Fallback / deny / escalate"]
+    K --> M["Monitoring"]
+    L --> M
+```
+
+control flow นี้ช่วยให้ tool guardrails ไม่หยุดแค่ allowlist แต่พิจารณา parameter, permission, side effect, output validation, fallback, และ audit trail ตามระดับความเสี่ยงของ tool.
+
+---
+
 ## Step 1: แยกประเภท tools ก่อน
 
 ถามให้ชัดว่า tools แต่ละตัวเป็น:

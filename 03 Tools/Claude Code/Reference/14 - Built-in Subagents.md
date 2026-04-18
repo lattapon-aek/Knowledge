@@ -15,6 +15,27 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 
 Claude Code มี built-in subagents และ helper agents ที่ใช้โดยอัตโนมัติเมื่อเหมาะสม
 
+## Subagent Selection Map
+
+> version-sensitive: รายชื่อ built-in/helper agents, model, และ tool access อาจเปลี่ยนตาม Claude Code release
+
+```mermaid
+flowchart TD
+    A["Task need"] --> B{"Read-only exploration?"}
+    B -->|yes| C["Explore"]
+    B -->|no| D{"Plan mode / planning only?"}
+    D -->|yes| E["Plan"]
+    D -->|no| F{"Complex general task?"}
+    F -->|yes| G["general-purpose"]
+    F -->|no| H{"Configure status line?"}
+    H -->|yes| I["statusline-setup"]
+    H -->|no| J{"Ask Claude Code feature question?"}
+    J -->|yes| K["Claude Code Guide"]
+    J -->|no| L["Custom subagent or main session"]
+```
+
+selection map นี้ช่วยแยก built-in subagents ตามงานที่เหมาะสม โดยเฉพาะความต่างระหว่าง read-only exploration, planning, general-purpose execution, helper setup, และคำถามเกี่ยวกับ Claude Code.
+
 | Agent | Model | Tools | ใช้เมื่อ |
 |---|---|---|---|
 | **Explore** | Haiku | Read-only tools | ต้องการค้นหาและวิเคราะห์ codebase โดยไม่แก้ไข |

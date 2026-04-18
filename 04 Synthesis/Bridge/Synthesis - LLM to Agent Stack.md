@@ -25,6 +25,29 @@ parent_note: "[[04 Synthesis/Synthesis - MOC]]"
 
 ---
 
+## LLM to Agent Progression
+
+```mermaid
+flowchart LR
+    A["LLM<br/>model + decoding"] --> B["Prompted LLM<br/>instructions + context"]
+    B --> C["Tool-Using LLM<br/>function/tool calls"]
+    C --> D["Workflow<br/>fixed steps + rules"]
+    D --> E["Agent<br/>plans / chooses steps / uses tools"]
+    E --> F["Multi-Agent System<br/>roles / handoffs / shared state"]
+
+    G["Context Windows"] --> B
+    H["MCP / Tools"] --> C
+    I["Guardrails"] --> C
+    I --> E
+    J["Memory / RAG"] --> E
+    K["Evals / Observability"] --> D
+    K --> F
+```
+
+ภาพนี้แสดง progression จาก model พื้นฐานไปสู่ agent system: ความซับซ้อนเพิ่มจากการใส่ context, tools, workflow, autonomy, handoffs, state, guardrails, และ evals ไม่ใช่แค่เปลี่ยนชื่อจาก LLM เป็น agent.
+
+---
+
 ## Layers
 
 1. Tokenization

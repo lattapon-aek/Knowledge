@@ -19,6 +19,32 @@ parent_note: "[[Home]]"
 
 ---
 
+## Implementation Layer Map
+
+```mermaid
+flowchart TD
+    A["Canonical Concepts<br/>01 Foundations / 02 AI Systems"] --> B["Architecture to Code"]
+    B --> C["Engineering Decisions"]
+    C --> D["Recipes"]
+    D --> E["Framework Notes"]
+    E --> F["Patterns"]
+    F --> G["Project Notes / Implementation Logs"]
+
+    B --> H["Contracts / Interfaces"]
+    D --> I["RAG / MCP / Memory / Guardrails / Evals"]
+    I --> J["Tests / Eval Harness / Regression Gates"]
+    J --> G
+
+    K["Use Cases"] --> C
+    L["Synthesis"] --> C
+    M["Operational Feedback"] --> J
+    M --> C
+```
+
+ภาพนี้วาง `06 Engineering` เป็นชั้นแปลง concept ให้เป็น implementation: เริ่มจาก architecture, ตัดสินใจ boundary, แตกเป็น recipe/framework/pattern, แล้วปิดด้วย tests, eval gates, และ project notes ที่ย้อนกลับไปปรับ decision ได้.
+
+---
+
 ## Maps
 
 - [[06 Engineering/Architecture to Code/Architecture to Code - MOC|Architecture to Code - MOC]]

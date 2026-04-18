@@ -28,6 +28,30 @@ parent_note: "[[04 Synthesis/Synthesis - MOC]]"
 - ต้องอิงเอกสาร/แหล่งข้อมูล → RAG
 - ต้องการทั้ง continuity และ grounding → ใช้ memory + RAG ร่วมกัน
 
+## Responsibility Map
+
+```mermaid
+flowchart TD
+    A["Information Need"] --> B{"Needed only now?"}
+    B -->|yes| C["Context<br/>current prompt / history / tool results"]
+    B -->|no| D{"User/session continuity?"}
+    D -->|yes| E["Memory<br/>read/write across turns"]
+    D -->|no| F{"External source of truth?"}
+    F -->|yes| G["RAG<br/>retrieve grounded documents"]
+    F -->|no| H["Do not store or retrieve yet"]
+
+    C --> I["Context Assembly"]
+    E --> I
+    G --> I
+    I --> J["Model Answer"]
+
+    K["Privacy / Scope Policy"] --> E
+    K --> G
+    L["Citation / Trust Policy"] --> G
+```
+
+แผนที่นี้ช่วยกันการปนหน้าที่: context คือสิ่งที่ใส่ให้ model ตอนนี้, memory คือสิ่งที่ระบบเลือกจำ, ส่วน RAG คือการดึง source of truth ภายนอกเพื่อ grounding และ citation.
+
 ## Canonical Notes To Read Instead
 
 | ต้องการ | ไปอ่าน |

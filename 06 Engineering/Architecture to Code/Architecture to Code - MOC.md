@@ -22,6 +22,30 @@ parent_note: "[[06 Engineering/Engineering - MOC]]"
 
 ---
 
+## Architecture to Implementation Flow
+
+```mermaid
+flowchart LR
+    A["Concept / Architecture Note"] --> B["Components"]
+    B --> C["Contracts<br/>interfaces / schemas / policies"]
+    C --> D["Runtime Boundaries<br/>services / jobs / tools"]
+    D --> E["Implementation Tasks"]
+    E --> F["Tests / Evals"]
+    F --> G["Runbook / Monitoring"]
+    G --> H["Project Notes"]
+    H --> I["Architecture Feedback"]
+    I --> A
+
+    J["Guardrails"] --> C
+    J --> F
+    K["MCP / Tooling"] --> D
+    L["RAG / Memory"] --> D
+```
+
+ภาพนี้ใช้เป็นสะพานจาก concept ไป code: เริ่มจาก component และ contract ก่อน runtime/task เพื่อให้ implementation ตรวจ boundary, policy, tests, evals, และ runbook ได้ ไม่ใช่แตกงานจากหัวข้อกว้าง ๆ โดยตรง.
+
+---
+
 ## แผนที่โน้ต
 
 - [[06 Engineering/Architecture to Code/Architecture - Tool Schemas and Runtime Integration|Tool Schemas and Runtime Integration]]

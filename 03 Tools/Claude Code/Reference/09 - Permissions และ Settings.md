@@ -16,6 +16,30 @@ parent_note: "[[Claude Code - Multi-Agent MOC]]"
 
 ---
 
+## Permission Boundary Map
+
+> version-sensitive: settings schema, permission pattern syntax, และ Agent Teams env/config อาจเปลี่ยนตาม Claude Code release
+
+```mermaid
+flowchart TD
+    A["Managed settings"] --> B["Command line overrides"]
+    B --> C["Local settings"]
+    C --> D["Project settings"]
+    D --> E["User settings"]
+    E --> F["Effective permissions"]
+
+    F --> G["Allow rules"]
+    F --> H["Deny rules"]
+    F --> I["Environment flags"]
+    G --> J["Claude / subagent / teammate tool use"]
+    H --> J
+    I --> J
+```
+
+map นี้แสดงว่า permission จริงเกิดจากหลาย scope ซ้อนกัน และ Agent Teams / subagents ใน workflow เดียวกันควรถูกมองผ่าน effective permissions ไม่ใช่ดูแค่ settings ไฟล์เดียว.
+
+---
+
 ## โครงสร้าง Settings
 
 | Scope | ที่เก็บ | ใช้กับใคร | Shared? |

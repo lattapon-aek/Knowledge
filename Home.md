@@ -19,6 +19,25 @@ Second brain สำหรับความรู้ด้าน AI systems, LLM
 - [[index]] — catalog กลางของฝั่ง wiki
 - [[Knowledge Topic Registry]] — แผนที่กลางของ topic canonical ownership
 
+```mermaid
+flowchart TD
+    A["00 Raw Sources<br/>source of truth"] --> B["01 Foundations<br/>stable primitives"]
+    B --> C["02 AI Systems<br/>runtime architecture"]
+    C --> D["03 Tools<br/>tool-specific volatile knowledge"]
+    B --> E["04 Synthesis<br/>cross-topic bridges"]
+    C --> E
+    E --> F["05 Use Cases<br/>practical decision paths"]
+    C --> G["06 Engineering<br/>implementation layer"]
+    F --> G
+    G --> H["Project / implementation notes"]
+    I["Home / index / Topic Registry"] --> B
+    I --> C
+    I --> E
+    I --> G
+```
+
+diagram นี้คือภาพรวมชั้นความรู้ของ vault: raw sources เป็นฐานหลัก, foundations และ systems เป็นแกนความรู้, synthesis/use cases ช่วยเลือกแนวทาง, และ engineering แปลงเป็น implementation
+
 ---
 
 ## Domains

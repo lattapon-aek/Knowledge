@@ -19,6 +19,26 @@ parent_note: "[[Home]]"
 - ถ้า topic เดียวมีหลาย note ให้เลือก canonical note จากตารางนี้ก่อน
 - ใช้ bridge notes เฉพาะตอนต้องเชื่อมข้ามหมวด
 
+## Topic Ownership Map
+
+```mermaid
+flowchart TD
+    A["01 Foundations<br/>stable primitives"] --> B["02 AI Systems<br/>canonical system topics"]
+    B --> C["04 Synthesis<br/>bridge / comparison / decision"]
+    C --> D["05 Use Cases<br/>practical entry points"]
+    B --> E["06 Engineering<br/>implementation layer"]
+    D --> E
+    F["03 Tools<br/>volatile tool reference"] --> C
+    F --> E
+
+    B --> B1["Agents / MCP / RAG / Memory / Guardrails / Evals"]
+    C --> C1["Cross-topic tradeoffs"]
+    D --> D1["When-to-use and application paths"]
+    E --> E1["Recipes / decisions / project notes"]
+```
+
+map นี้ใช้เช็ก ownership ก่อนสร้างหรือย้าย note: foundation เป็น primitive, AI Systems เป็น canonical owner ของ system concepts, Synthesis เป็น bridge, Use Cases เป็นทางเข้าใช้งานจริง, Engineering เป็น implementation, และ Tools เป็น reference ที่เปลี่ยนตาม release/config.
+
 ## Core Topics
 
 | Topic | Canonical Folder | Canonical Note | Bridge / Entry Notes |

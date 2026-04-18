@@ -22,6 +22,28 @@ parent_note: "[[04 Synthesis/Synthesis - MOC]]"
 
 ---
 
+## Failure Propagation Map
+
+```mermaid
+flowchart TD
+    A["Unclear Task / Goal"] --> B["Wrong Routing / Handoff"]
+    B --> C["Wrong Agent or Tool"]
+    C --> D["Bad State Update"]
+    D --> E["Stale or Conflicting Shared State"]
+    E --> F["Incorrect Output / Side Effect"]
+    F --> G["Hard-to-Debug Incident"]
+
+    H["Untrusted Tool Input"] --> I["Prompt Injection"]
+    I --> C
+    J["Missing Observability"] --> G
+    K["No Eval / Regression Gate"] --> G
+    L["Weak Recovery Policy"] --> G
+```
+
+failure ใน multi-agent system มักแพร่ผ่าน routing, handoff, shared state, tool use, และ observability gap ดังนั้นการแก้ต้องดู trajectory ทั้งเส้น ไม่ใช่ดู final answer อย่างเดียว.
+
+---
+
 ## 1. ความผิดพลาดด้าน Orchestration
 
 ### Handoff ที่ไม่มีเจ้าของชัด

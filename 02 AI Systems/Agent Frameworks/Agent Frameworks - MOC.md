@@ -30,6 +30,38 @@ parent_note: "[[Home]]"
 
 ---
 
+## Framework Selection Map
+
+```mermaid
+flowchart TD
+    A["Agent / Workflow Requirement"] --> B{"Need durable state?"}
+    B -->|yes| C["Graph / stateful runtime"]
+    B -->|no| D{"Need tool orchestration?"}
+    D -->|yes| E["Agent framework / tool runtime"]
+    D -->|no| F["Custom workflow / direct API"]
+
+    C --> G["State and Memory"]
+    C --> H["Checkpointing / Resumability"]
+    E --> I["Tool Orchestration"]
+    E --> J["Framework-specific patterns"]
+    F --> K["Small deterministic workflow"]
+
+    G --> L["Observability / Tracing"]
+    H --> L
+    I --> L
+    J --> L
+    L --> M["Evaluation and Regression"]
+
+    N["MCP / Tool Protocol"] --> I
+    O["Memory Systems"] --> G
+    P["06 Engineering"] --> J
+    P --> M
+```
+
+ภาพนี้ใช้เลือก framework จากความต้องการของระบบก่อน ไม่เริ่มจากชื่อ library ถ้าระบบต้องการ state, checkpoint, tool orchestration, observability, หรือ eval gates มากขึ้น น้ำหนักจะค่อย ๆ ขยับจาก custom workflow ไปสู่ framework/runtime ที่ชัดเจนกว่า.
+
+---
+
 ## แผนที่โน้ต
 
 - [[02 AI Systems/Agent Frameworks/Core/01 - Landscape|ภาพรวมของ landscape]]

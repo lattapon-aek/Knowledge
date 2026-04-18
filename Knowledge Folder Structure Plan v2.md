@@ -22,6 +22,27 @@ parent_note: "[[Knowledge Refactor - Task Board]]"
 
 ---
 
+## Folder Role Architecture
+
+```mermaid
+flowchart LR
+    A["Topic Root<br/>MOC"] --> B["Core<br/>canonical concepts"]
+    A --> C["Bridge<br/>cross-topic links"]
+    A --> D["Application<br/>use cases / decision paths"]
+    A --> E["Reference<br/>volatile or lookup notes"]
+    A --> F["Implementation<br/>recipes / runtime details"]
+
+    B --> G["Stable knowledge"]
+    C --> H["Synthesis / comparison"]
+    D --> I["Practical navigation"]
+    E --> J["Tool/config/release-sensitive"]
+    F --> K["Engineering execution"]
+```
+
+architecture นี้กำหนด role ของ folder ก่อนย้ายไฟล์จริง: MOC อยู่ที่ topic root, `Core` เป็นเจ้าของความรู้หลัก, `Bridge` เชื่อมข้ามหมวด, `Application` เป็นทางใช้งาน, `Reference` รองรับข้อมูล volatile, และ `Implementation` อยู่กับงานลงมือทำ.
+
+---
+
 ## Hard Rules: No Content Loss
 
 ทุก phase ของการปรับ folder architecture ต้องถือกติกานี้เป็นข้อบังคับ:

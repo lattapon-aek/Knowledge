@@ -91,6 +91,22 @@ Agent ทำได้ในคำสั่งเดียว:
 
 **ถ้าคำตอบเป็น "ใช่" ส่วนใหญ่ → นี่คือ agent-shaped problem**
 
+```mermaid
+flowchart TD
+    A["Start"] --> B{"Multiple dependent steps?"}
+    B -->|no| C{"Complex reasoning needed?"}
+    C -->|no| D["Use simple API / automation"]
+    C -->|yes| E{"External actions or tools?"}
+    E -->|no| F["Use LLM / RAG / workflow"]
+    E -->|yes| G["Use Agent"]
+    B -->|yes| H{"Needs adaptation during execution?"}
+    H -->|no| I["Use workflow automation"]
+    H -->|yes| J{"Tool choice or planning required?"}
+    J -->|yes| G
+    J -->|no| K["Workflow + RAG or rules"]
+    G --> L["Add guardrails, evals, observability"]
+```
+
 ```
 Start
   └─ Multiple steps?

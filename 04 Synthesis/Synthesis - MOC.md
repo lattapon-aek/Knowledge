@@ -18,6 +18,28 @@ parent_note: "[[Home]]"
 
 ---
 
+## Synthesis Layer Map
+
+```mermaid
+flowchart LR
+    A["Foundations<br/>LLM / prompt / context"] --> B["Bridge Notes"]
+    C["AI Systems<br/>agents / MCP / RAG / memory / guardrails / evals"] --> B
+    D["Engineering<br/>implementation layer"] --> B
+
+    B --> E["Comparison Notes<br/>what differs and why"]
+    B --> F["Decision Notes<br/>when to choose which path"]
+    E --> G["Use Cases"]
+    F --> G
+    G --> H["Engineering Recipes / Decisions"]
+
+    I["Canonical MOCs"] --> B
+    B --> I
+```
+
+ภาพนี้แยก synthesis ออกจาก canonical notes: หมวดนี้ไม่ควรเป็นที่เก็บทฤษฎีต้นทาง แต่เป็นชั้นกลางที่เชื่อมหลาย domain เพื่อให้เห็น tradeoff, boundary, และ decision path ก่อนลง use case หรือ implementation.
+
+---
+
 ## Notes Map
 
 - [[04 Synthesis/Bridge/Synthesis - Agent Runtime Layers|Synthesis - Agent Runtime Layers]]

@@ -115,6 +115,24 @@ flowchart TD
 
 ## สัญญาณเชิงปฏิบัติว่าควรย้าย
 
+```mermaid
+flowchart LR
+    A["Single Agent + Tools"] --> B["Role Boundaries"]
+    B --> C["Orchestrator / Router"]
+    C --> D["Shared State / Checkpoints"]
+    D --> E["Communication Channel"]
+    E --> F["Observability / Trace Evals"]
+    F --> G["Recovery / Human Approval"]
+    G --> H["Multi-Agent Runtime"]
+
+    I["Security / Permissions"] --> C
+    I --> E
+    I --> G
+    J["Deployment / Scaling"] --> H
+```
+
+migration path นี้เน้นว่าอย่าเริ่มจากการเพิ่ม agent ทันที ให้เริ่มจาก role boundary, orchestrator, state, communication, observability, recovery, และ security ก่อน แล้วค่อยถือว่าเป็น multi-agent runtime จริง.
+
 ควรเริ่มแยกจาก single-agent ไป multi-agent เมื่อ:
 - งานเริ่มมีหลาย subtask ที่ต่าง domain กันชัด
 - งานต้องทำ parallel กันจริง

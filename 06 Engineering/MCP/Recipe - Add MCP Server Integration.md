@@ -15,6 +15,34 @@ recipe สำหรับเพิ่ม MCP server ให้ application ใช
 
 ---
 
+## MCP Integration Sequence
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Host as MCP Host
+    participant Client as MCP Client
+    participant Server as MCP Server
+    participant Capability as Tool or Resource
+
+    User->>Host: Request task
+    Host->>Client: Discover server capabilities
+    Client->>Server: Initialize / negotiate
+    Server-->>Client: Tools, resources, prompts
+    Host->>User: Request consent if needed
+    Host->>Client: Invoke capability
+    Client->>Server: tool/resource call
+    Server->>Capability: Execute or read
+    Capability-->>Server: Result
+    Server-->>Client: Structured result / error
+    Client-->>Host: Result handling
+    Host-->>User: Response or fallback
+```
+
+ใช้ sequence นี้ตรวจ integration boundary: discovery, lifecycle, consent, invocation, result handling, error path, และ fallback ต้องชัดก่อนถือว่า MCP integration พร้อมใช้ในระบบจริง.
+
+---
+
 ## Steps
 
 1. ระบุ capability ที่ต้อง expose หรือ consume

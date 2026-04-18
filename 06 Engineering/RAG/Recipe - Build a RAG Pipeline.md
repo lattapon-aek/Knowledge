@@ -15,6 +15,29 @@ recipe สำหรับเริ่มจาก RAG concept แล้วค่
 
 ---
 
+## Implementation Pipeline
+
+```mermaid
+flowchart LR
+    A["Connector<br/>source systems"] --> B["Parser"]
+    B --> C["Cleaner / Normalizer"]
+    C --> D["Chunker"]
+    D --> E["Metadata Validator<br/>permissions / source / lifecycle"]
+    E --> F["Embedder"]
+    F --> G["Index Writer<br/>vector / keyword / hybrid"]
+    G --> H["Retrieval API"]
+    H --> I["Reranker / Filters"]
+    I --> J["Context Assembler"]
+    J --> K["Answer Service"]
+    K --> L["Citations / Logging / Evals"]
+    L --> M["Refresh / Delete / Reindex"]
+    M --> A
+```
+
+ใช้ pipeline นี้เป็น checklist สำหรับ implementation จริง: ingestion ต้อง preserve structure และ metadata ก่อน embed/index ส่วน runtime ต้องแยก retrieval, reranking, context assembly, answer generation, citation, logging, และ lifecycle maintenance ออกจากกันให้ตรวจได้.
+
+---
+
 ## Steps
 
 1. กำหนด retrieval goal ให้ชัด

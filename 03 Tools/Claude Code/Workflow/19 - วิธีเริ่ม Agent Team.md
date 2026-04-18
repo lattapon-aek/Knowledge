@@ -18,6 +18,26 @@ Agent Team ไม่มี command พิเศษ — แค่ **บอก Cla
 
 ---
 
+## Start Agent Team Flow
+
+> version-sensitive: Agent Teams เป็น experimental workflow และต้องอ้างอิง behavior ของ release ปัจจุบันเสมอ
+
+```mermaid
+flowchart TD
+    A["Define large task"] --> B["Split roles / hypotheses"]
+    B --> C["Specify teammates"]
+    C --> D["Set constraints<br/>files / tools / permissions"]
+    D --> E["Ask Claude to create team"]
+    E --> F["Teammates run in parallel"]
+    F --> G["Mailbox / shared task list coordination"]
+    G --> H["Lead integrates result"]
+    H --> I["Verify / test / summarize"]
+```
+
+flow นี้ช่วยให้ prompt เริ่มทีมมีองค์ประกอบครบ: role, ownership, constraints, coordination, integration และ verification ไม่ใช่แค่ขอให้มีหลาย agent.
+
+---
+
 ## ตัวอย่าง Prompts
 
 ```text

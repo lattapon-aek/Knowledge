@@ -128,4 +128,4 @@ Agent ไม่ได้มีแค่แบบเดียว — มีอย
 
 ## ตัวอย่าง Implementation จริง
 
-- [[03 Tools/Claude Code/01 - Claude Code คืออะไร|Claude Code คืออะไร]] — Claude Code คือ AI Agent สำหรับ coding ที่ implement แนวคิดนี้จริง (Brain = Claude LLM, Body = Read/Write/Edit/Bash tools)
+- [[03 Tools/Claude Code/Core/01 - Claude Code คืออะไร|Claude Code คืออะไร]] — Claude Code คือ AI Agent สำหรับ coding ที่ implement แนวคิดนี้จริง (Brain = Claude LLM, Body = Read/Write/Edit/Bash tools)

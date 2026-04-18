@@ -29,11 +29,11 @@ Official docs family:
 ## Used By
 
 - [[03 Tools/Claude Code/Claude Code - Multi-Agent MOC]]
-- [[03 Tools/Claude Code/01 - Claude Code คืออะไร]]
-- [[03 Tools/Claude Code/03 - Orchestrator Pattern]]
-- [[03 Tools/Claude Code/04 - 1 Session vs Subagents vs Agent Teams]]
-- [[03 Tools/Claude Code/10 - Session Management และ Commands]]
-- [[03 Tools/Claude Code/24 - Best Practices & Checklist]]
+- [[03 Tools/Claude Code/Core/01 - Claude Code คืออะไร]]
+- [[03 Tools/Claude Code/Core/03 - Orchestrator Pattern]]
+- [[03 Tools/Claude Code/Workflow/04 - 1 Session vs Subagents vs Agent Teams]]
+- [[03 Tools/Claude Code/Reference/10 - Session Management และ Commands]]
+- [[03 Tools/Claude Code/Workflow/24 - Best Practices & Checklist]]
 
 ---
 

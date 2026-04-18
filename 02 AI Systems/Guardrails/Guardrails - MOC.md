@@ -46,8 +46,8 @@ parent_note: "[[Home]]"
 
 - [[02 AI Systems/AI Agent Fundamentals/Reference/10 - Risks และ Best Practices]]
 - [[02 AI Systems/MCP/Security/05 - Security, Consent และ Authorization]]
-- [[03 Tools/Claude Code/22 - Error Handling]]
-- [[03 Tools/Claude Code/24 - Best Practices & Checklist]]
+- [[03 Tools/Claude Code/Workflow/22 - Error Handling]]
+- [[03 Tools/Claude Code/Workflow/24 - Best Practices & Checklist]]
 - [[01 Foundations/LLM Foundations/Core/05 - ข้อจำกัดและการประเมินผล LLM]]
 - [[01 Foundations/Context Windows/Core/02 - การบริหารและ Context Engineering]]
 - [[05 Use Cases/Use Cases - Design Guardrails for Tool Use]]

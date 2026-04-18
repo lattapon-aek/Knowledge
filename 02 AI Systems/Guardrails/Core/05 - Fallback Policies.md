@@ -250,7 +250,7 @@ fallback path ไม่ถูก monitor จนคุณภาพแย่กว
 
 ## Related Notes
 
-- [[03 Tools/Claude Code/22 - Error Handling]]
+- [[03 Tools/Claude Code/Workflow/22 - Error Handling]]
 - [[02 AI Systems/Evals/Core/05 - Regression Testing]]
 - [[Guardrails - MOC]]
 

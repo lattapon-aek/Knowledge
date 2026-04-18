@@ -127,5 +127,5 @@ Start
 
 ## ตัวอย่าง Implementation จริง
 
-- [[03 Tools/Claude Code/23 - ข้อจำกัด Agent Teams|ข้อจำกัด Agent Teams]] — Tradeoffs ของ Multi-Agent ใน Claude Code: latency, cost, context limit, experimental status
-- [[03 Tools/Claude Code/24 - Best Practices & Checklist|Best Practices & Checklist]] — Checklist ก่อน deploy และ decision guide ว่าควรใช้ 1 Session / Subagents / Agent Teams
+- [[03 Tools/Claude Code/Workflow/23 - ข้อจำกัด Agent Teams|ข้อจำกัด Agent Teams]] — Tradeoffs ของ Multi-Agent ใน Claude Code: latency, cost, context limit, experimental status
+- [[03 Tools/Claude Code/Workflow/24 - Best Practices & Checklist|Best Practices & Checklist]] — Checklist ก่อน deploy และ decision guide ว่าควรใช้ 1 Session / Subagents / Agent Teams

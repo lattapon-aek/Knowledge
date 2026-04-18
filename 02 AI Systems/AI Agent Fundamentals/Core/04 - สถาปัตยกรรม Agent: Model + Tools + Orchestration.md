@@ -118,8 +118,8 @@ flowchart TD
 
 ## ตัวอย่าง Implementation จริง
 
-- [[03 Tools/Claude Code/03 - Orchestrator Pattern|Orchestrator Pattern]] — Orchestration component ใน Claude Code: Main Agent (Orchestrator) สั่ง Subagents (Workers) ตาม architecture นี้
-- [[03 Tools/Claude Code/01 - Claude Code คืออะไร|Claude Code Tools]] — ตัวอย่าง Tools จริง: Read, Write, Edit, Bash, Grep, Glob
+- [[03 Tools/Claude Code/Core/03 - Orchestrator Pattern|Orchestrator Pattern]] — Orchestration component ใน Claude Code: Main Agent (Orchestrator) สั่ง Subagents (Workers) ตาม architecture นี้
+- [[03 Tools/Claude Code/Core/01 - Claude Code คืออะไร|Claude Code Tools]] — ตัวอย่าง Tools จริง: Read, Write, Edit, Bash, Grep, Glob
 - [[06 Engineering/Architecture to Code/Architecture - Tool Schemas and Runtime Integration]] — runtime contract และ execution boundary ของ tool layer
 
 ## Official References

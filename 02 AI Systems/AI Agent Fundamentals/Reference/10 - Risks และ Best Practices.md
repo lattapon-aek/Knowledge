@@ -233,4 +233,4 @@ Final Response
 
 ## ตัวอย่าง Implementation จริง
 
-- [[03 Tools/Claude Code/22 - Error Handling|Error Handling]] — Failure Handling ใน Claude Code จริง: Hallucination detection, fallback prompts, retry limits, permissions.deny สำหรับ irreversible actions
+- [[03 Tools/Claude Code/Workflow/22 - Error Handling|Error Handling]] — Failure Handling ใน Claude Code จริง: Hallucination detection, fallback prompts, retry limits, permissions.deny สำหรับ irreversible actions

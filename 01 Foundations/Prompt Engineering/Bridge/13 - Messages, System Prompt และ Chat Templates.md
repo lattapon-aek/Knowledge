@@ -158,4 +158,4 @@ rendered_prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_ge
 
 ## ตัวอย่าง Implementation จริง
 
-- [[03 Tools/Claude Code/12 - CLAUDE File|CLAUDE.md]] — CLAUDE.md คือ system-level memory ของ Claude Code ที่ inject บริบทโปรเจกต์, กฎ, และ context ให้ทุก agent อ่านอัตโนมัติ
+- [[03 Tools/Claude Code/Reference/12 - CLAUDE File|CLAUDE.md]] — CLAUDE.md คือ system-level memory ของ Claude Code ที่ inject บริบทโปรเจกต์, กฎ, และ context ให้ทุก agent อ่านอัตโนมัติ

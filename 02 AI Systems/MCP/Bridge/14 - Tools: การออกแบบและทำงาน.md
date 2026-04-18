@@ -183,8 +183,8 @@ flowchart LR
 - [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]] — ดู protocol layer สำหรับ tools, resources, prompts, และ consent
 - [[02 AI Systems/Agent Frameworks/Agent Frameworks - MOC|Agent Frameworks - MOC]] — ดูว่า framework ต่าง ๆ จัดการ tool orchestration และ state อย่างไร
 - [[06 Engineering/Architecture to Code/Architecture - Tool Schemas and Runtime Integration]] — runtime contract และ execution boundary ระดับ implementation
-- [[03 Tools/Claude Code/01 - Claude Code คืออะไร|Claude Code Tools]] — ตัวอย่าง production tools
-- [[03 Tools/Claude Code/17 - Agent Tool|Agent Tool]] — ตัวอย่าง tool ที่ output เป็น subagent
+- [[03 Tools/Claude Code/Core/01 - Claude Code คืออะไร|Claude Code Tools]] — ตัวอย่าง production tools
+- [[03 Tools/Claude Code/Workflow/17 - Agent Tool|Agent Tool]] — ตัวอย่าง tool ที่ output เป็น subagent
 
 ## Official References
 

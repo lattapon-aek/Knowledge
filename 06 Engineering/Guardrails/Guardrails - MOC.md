@@ -26,7 +26,7 @@ implementation layer สำหรับ validation, review gates, fallback behav
 
 - [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]]
 - [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]
-- [[03 Tools/Claude Code/22 - Error Handling|Claude Code Error Handling]]
+- [[03 Tools/Claude Code/Workflow/22 - Error Handling|Claude Code Error Handling]]
 - [[06 Engineering/README|Engineering - README]]
 
 ---

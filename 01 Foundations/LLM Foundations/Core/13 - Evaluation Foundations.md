@@ -232,7 +232,7 @@ trade-offs หลัก:
 ## ความสัมพันธ์กับโน้ตอื่น
 
 - [[05 - ข้อจำกัดและการประเมินผล LLM]]
-- [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools]]
+- [[04 Synthesis/Bridge/Synthesis - Weights, Context, Retrieval และ Tools]]
 - [[01 Foundations/Prompt Engineering/Core/05 - Evaluation และ Failure Modes|Prompt Engineering - Evaluation และ Failure Modes]]
 - [[01 Foundations/Prompt Engineering/Core/07 - Structured Generation และ Output Formats|Structured Generation และ Output Formats]]
 - [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]

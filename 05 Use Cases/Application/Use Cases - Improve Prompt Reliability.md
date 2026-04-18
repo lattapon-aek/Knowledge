@@ -44,5 +44,5 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 
 ## Cross Links
 
-- [[04 Synthesis/Synthesis - Prompting vs Fine-tuning vs RAG]]
+- [[04 Synthesis/Decision/Synthesis - Prompting vs Fine-tuning vs RAG]]
 - [[Home]]

@@ -44,10 +44,10 @@ parent_note: "[[Home]]"
 
 ## Related Notes
 
-- [[04 Synthesis/Synthesis - Memory in Agents]]
+- [[04 Synthesis/Bridge/Synthesis - Memory in Agents]]
 - [[02 AI Systems/Agent Frameworks/Core/03 - State and Memory]]
 - [[01 Foundations/Context Windows/Context Windows - MOC]]
-- [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools]]
+- [[04 Synthesis/Bridge/Synthesis - Weights, Context, Retrieval และ Tools]]
 - [[01 Foundations/LLM Foundations/Core/13 - Evaluation Foundations]]
 - [[02 AI Systems/RAG/RAG - MOC]]
 - [[02 AI Systems/Guardrails/Guardrails - MOC]]
@@ -64,8 +64,8 @@ parent_note: "[[Home]]"
 ### 1. Foundations Before Memory Systems
 
 1. [[01 Foundations/Context Windows/Core/01 - Context Window คืออะไร]]
-2. [[04 Synthesis/Synthesis - Memory in Agents]]
-3. [[04 Synthesis/Synthesis - Memory vs RAG vs Context]]
+2. [[04 Synthesis/Bridge/Synthesis - Memory in Agents]]
+3. [[04 Synthesis/Bridge/Synthesis - Memory vs RAG vs Context]]
 
 ### 2. Core Memory Concepts
 
@@ -85,8 +85,8 @@ parent_note: "[[Home]]"
 2. [[02 AI Systems/RAG/RAG - MOC]]
 3. [[02 AI Systems/Guardrails/Guardrails - MOC]]
 4. [[02 AI Systems/Evals/Evals - MOC]]
-5. [[05 Use Cases/Use Cases - Design Memory for an AI Agent]]
-6. [[04 Synthesis/Synthesis - Agent Runtime Layers]]
+5. [[05 Use Cases/Application/Use Cases - Design Memory for an AI Agent]]
+6. [[04 Synthesis/Bridge/Synthesis - Agent Runtime Layers]]
 
 ---
 

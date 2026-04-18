@@ -50,9 +50,9 @@ parent_note: "[[Home]]"
 - [[03 Tools/Claude Code/Workflow/24 - Best Practices & Checklist]]
 - [[01 Foundations/LLM Foundations/Core/05 - ข้อจำกัดและการประเมินผล LLM]]
 - [[01 Foundations/Context Windows/Core/02 - การบริหารและ Context Engineering]]
-- [[05 Use Cases/Use Cases - Design Guardrails for Tool Use]]
+- [[05 Use Cases/Application/Use Cases - Design Guardrails for Tool Use]]
 - [[02 AI Systems/Evals/Evals - MOC]]
-- [[04 Synthesis/Synthesis - Safety, Reliability, and Evals]]
+- [[04 Synthesis/Bridge/Synthesis - Safety, Reliability, and Evals]]
 
 ---
 
@@ -80,7 +80,7 @@ parent_note: "[[Home]]"
 
 1. [[02 AI Systems/Guardrails/Operations/06 - Monitoring and Incidents]]
 2. [[02 AI Systems/Guardrails/Core/07 - Safety vs Usability Tradeoffs]]
-3. [[05 Use Cases/Use Cases - Design Guardrails for Tool Use]]
+3. [[05 Use Cases/Application/Use Cases - Design Guardrails for Tool Use]]
 
 ---
 

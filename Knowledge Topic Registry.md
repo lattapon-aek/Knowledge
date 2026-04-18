@@ -28,15 +28,15 @@ parent_note: "[[Home]]"
 | Context engineering | `01 Foundations/Context Windows` | `Context Windows - MOC` | `01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates` |
 | Tokenization | `01 Foundations/Tokenizer in AI` | `Tokenizer in AI - MOC` | `LLM Foundations` links |
 | Weights / context / retrieval / tools | `04 Synthesis` | `Synthesis - Weights, Context, Retrieval และ Tools` | `01 Foundations/LLM Foundations/Core/04 - Inference, Context และ RAG`, `01 Foundations/Prompt Engineering/Core/07 - Structured Generation และ Output Formats`, `02 AI Systems/RAG/RAG - MOC`, `02 AI Systems/MCP/MCP - MOC` |
-| Agent runtime | `02 AI Systems/AI Agent Fundamentals` | `AI Agent Fundamentals - MOC` | `05 Use Cases/Use Cases - Build an AI Agent` |
+| Agent runtime | `02 AI Systems/AI Agent Fundamentals` | `AI Agent Fundamentals - MOC` | `05 Use Cases/Application/Use Cases - Build an AI Agent` |
 | Workflow vs AI Agent | `04 Synthesis` | `Synthesis - Workflow vs AI Agent` | `02 AI Systems/AI Agent Fundamentals` bridge |
-| When to use an agent | `05 Use Cases` | `Use Cases - When to Use an Agent` | `04 Synthesis/Synthesis - Workflow vs AI Agent` |
-| Framework selection | `02 AI Systems/Agent Frameworks` | `Agent Frameworks - MOC` | `06 Engineering/Frameworks/*`, `05 Use Cases/Use Cases - Choose an Agent Framework` |
+| When to use an agent | `05 Use Cases` | `Use Cases - When to Use an Agent` | `04 Synthesis/Decision/Synthesis - Workflow vs AI Agent` |
+| Framework selection | `02 AI Systems/Agent Frameworks` | `Agent Frameworks - MOC` | `06 Engineering/Frameworks/*`, `05 Use Cases/Decision/Use Cases - Choose an Agent Framework` |
 | MCP / protocol layer | `02 AI Systems/MCP` | `MCP - MOC` | `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน` |
-| Memory architecture | `02 AI Systems/Memory Systems` | `Memory Systems - MOC` | `04 Synthesis/Synthesis - Memory in Agents`, `05 Use Cases/Use Cases - Design Memory for an AI Agent` |
-| Retrieval / RAG | `02 AI Systems/RAG` | `RAG - MOC` | `04 Synthesis/Synthesis - Memory vs RAG vs Context`, `05 Use Cases/Use Cases - Design a RAG System` |
-| Guardrails / control | `02 AI Systems/Guardrails` | `Guardrails - MOC` | `05 Use Cases/Use Cases - Design Guardrails for Tool Use` |
-| Evaluation | `02 AI Systems/Evals` | `Evals - MOC` | `05 Use Cases/Use Cases - Evaluate an AI Agent` |
+| Memory architecture | `02 AI Systems/Memory Systems` | `Memory Systems - MOC` | `04 Synthesis/Bridge/Synthesis - Memory in Agents`, `05 Use Cases/Application/Use Cases - Design Memory for an AI Agent` |
+| Retrieval / RAG | `02 AI Systems/RAG` | `RAG - MOC` | `04 Synthesis/Bridge/Synthesis - Memory vs RAG vs Context`, `05 Use Cases/Application/Use Cases - Design a RAG System` |
+| Guardrails / control | `02 AI Systems/Guardrails` | `Guardrails - MOC` | `05 Use Cases/Application/Use Cases - Design Guardrails for Tool Use` |
+| Evaluation | `02 AI Systems/Evals` | `Evals - MOC` | `05 Use Cases/Application/Use Cases - Evaluate an AI Agent` |
 | Bridge / synthesis | `04 Synthesis` | `Synthesis - MOC` | comparison / decision bridge notes |
 | Use case decisions | `05 Use Cases` | `Use Cases - MOC` | application examples and decision paths |
 | Implementation | `06 Engineering` | `Engineering - MOC` | framework, recipe, decision, project notes |

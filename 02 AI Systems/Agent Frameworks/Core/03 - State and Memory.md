@@ -261,7 +261,7 @@ framework ใช้งานได้ใน demo แต่ต่อ long-term me
 
 ## โน้ตที่เกี่ยวข้อง
 
-- [[04 Synthesis/Synthesis - Memory in Agents]]
+- [[04 Synthesis/Bridge/Synthesis - Memory in Agents]]
 - [[02 AI Systems/Memory Systems/Memory Systems - MOC]]
 - [[07 - Checkpointing and Resumability]]
 - [[Agent Frameworks - MOC]]

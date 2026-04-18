@@ -273,13 +273,13 @@ Move batch 1 ที่ทำจริง:
 | Prompt design | `01 Foundations/Prompt Engineering` | `Prompt Engineering - MOC` | `01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates` | prompt theory |
 | Context engineering | `01 Foundations/Context Windows` | `Context Windows - MOC` | `01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates` | context budget / caching |
 | Tokenization | `01 Foundations/Tokenizer in AI` | `Tokenizer in AI - MOC` | `LLM Foundations` links | stable primitive |
-| Agent runtime | `02 AI Systems/AI Agent Fundamentals` | `AI Agent Fundamentals - MOC` | `05 Use Cases/Use Cases - Build an AI Agent` | runtime owner |
-| Framework selection | `02 AI Systems/Agent Frameworks` | `Agent Frameworks - MOC` | `06 Engineering/Frameworks/*`, `05 Use Cases/Use Cases - Choose an Agent Framework` | selection owner |
+| Agent runtime | `02 AI Systems/AI Agent Fundamentals` | `AI Agent Fundamentals - MOC` | `05 Use Cases/Application/Use Cases - Build an AI Agent` | runtime owner |
+| Framework selection | `02 AI Systems/Agent Frameworks` | `Agent Frameworks - MOC` | `06 Engineering/Frameworks/*`, `05 Use Cases/Decision/Use Cases - Choose an Agent Framework` | selection owner |
 | MCP / protocol layer | `02 AI Systems/MCP` | `MCP - MOC` | `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน` | protocol owner |
-| Memory architecture | `02 AI Systems/Memory Systems` | `Memory Systems - MOC` | `04 Synthesis/Synthesis - Memory in Agents`, `05 Use Cases/Use Cases - Design Memory for an AI Agent` | memory owner |
-| Retrieval / RAG | `02 AI Systems/RAG` | `RAG - MOC` | `04 Synthesis/Synthesis - Memory vs RAG vs Context`, `05 Use Cases/Use Cases - Design a RAG System` | retrieval owner |
-| Guardrails / control | `02 AI Systems/Guardrails` | `Guardrails - MOC` | `05 Use Cases/Use Cases - Design Guardrails for Tool Use` | control owner |
-| Evaluation | `02 AI Systems/Evals` | `Evals - MOC` | `05 Use Cases/Use Cases - Evaluate an AI Agent` | measurement owner |
+| Memory architecture | `02 AI Systems/Memory Systems` | `Memory Systems - MOC` | `04 Synthesis/Bridge/Synthesis - Memory in Agents`, `05 Use Cases/Application/Use Cases - Design Memory for an AI Agent` | memory owner |
+| Retrieval / RAG | `02 AI Systems/RAG` | `RAG - MOC` | `04 Synthesis/Bridge/Synthesis - Memory vs RAG vs Context`, `05 Use Cases/Application/Use Cases - Design a RAG System` | retrieval owner |
+| Guardrails / control | `02 AI Systems/Guardrails` | `Guardrails - MOC` | `05 Use Cases/Application/Use Cases - Design Guardrails for Tool Use` | control owner |
+| Evaluation | `02 AI Systems/Evals` | `Evals - MOC` | `05 Use Cases/Application/Use Cases - Evaluate an AI Agent` | measurement owner |
 | Bridge / synthesis | `04 Synthesis` | `Synthesis - MOC` | comparison / decision bridge notes | cross-topic layer |
 | Use case decisions | `05 Use Cases` | `Use Cases - MOC` | application examples and decision paths | decision layer |
 | Implementation | `06 Engineering` | `Engineering - MOC` | framework, recipe, decision, project notes | code / runtime implementation |
@@ -370,7 +370,7 @@ Move batch 1 ที่ทำจริง:
 | `09 - Serving Metrics และระบบ Production LLM` | production foundation | `01 Foundations/LLM Foundations` | stay |
 | `10 - Embeddings และ Semantic Similarity` | representation foundation | `01 Foundations/LLM Foundations` | stay; bridge to RAG |
 | `11 - Multimodal Foundations` | multimodal foundation | `01 Foundations/LLM Foundations` | stay |
-| `12 - Weights, Context, Retrieval และ Tools` | bridge note | `04 Synthesis/Synthesis - MOC` | moved to `04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools` |
+| `12 - Weights, Context, Retrieval และ Tools` | bridge note | `04 Synthesis/Synthesis - MOC` | moved to `04 Synthesis/Bridge/Synthesis - Weights, Context, Retrieval และ Tools` |
 | `13 - Evaluation Foundations` | eval primitive | `01 Foundations/LLM Foundations` | stay; bridge to Evals |
 | `14 - Vector Representations และ Similarity Search` | representation foundation | `01 Foundations/LLM Foundations` | stay; bridge to RAG |
 
@@ -388,8 +388,8 @@ Move batch 1 ที่ทำจริง:
 | `05 - วงจร Perceive-Think-Act-Check` | core runtime loop | `02 AI Systems/AI Agent Fundamentals` | stay |
 | `06 - วงจร Thought-Action-Observation (TAO)` | core runtime loop | `02 AI Systems/AI Agent Fundamentals` | stay |
 | `07 - รูปแบบ Agent Architectures` | architecture concept | `02 AI Systems/AI Agent Fundamentals` | stay |
-| `08 - Workflow vs AI Agent` | decision / comparison note | `04 Synthesis/Synthesis - MOC` | moved to `04 Synthesis/Synthesis - Workflow vs AI Agent` |
-| `09 - เมื่อไรควรและไม่ควรใช้ Agent` | decision note | `05 Use Cases/Use Cases - MOC` | moved to `05 Use Cases/Use Cases - When to Use an Agent` |
+| `08 - Workflow vs AI Agent` | decision / comparison note | `04 Synthesis/Synthesis - MOC` | moved to `04 Synthesis/Decision/Synthesis - Workflow vs AI Agent` |
+| `09 - เมื่อไรควรและไม่ควรใช้ Agent` | decision note | `05 Use Cases/Use Cases - MOC` | moved to `05 Use Cases/Decision/Use Cases - When to Use an Agent` |
 | `10 - Risks และ Best Practices` | runtime risk note | `02 AI Systems/AI Agent Fundamentals` | stay; bridge to Guardrails / Evals |
 | `11 - Key Takeaways และ Quick Reference` | summary / reference | `02 AI Systems/AI Agent Fundamentals` | stay |
 | `12 - LLM พื้นฐาน` | bridge note | `01 Foundations/LLM Foundations` | keep as bridge |

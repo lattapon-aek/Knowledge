@@ -164,8 +164,8 @@ CrewAI Flows และ Tasks/Processes มี primitives สำหรับ orch
 
 ## ลิงก์ที่เกี่ยวข้อง
 
-- [[04 Synthesis/Synthesis - Single to Multi-Agent Infrastructure]]
-- [[04 Synthesis/Synthesis - Multi-Agent Failure Modes]]
+- [[04 Synthesis/Bridge/Synthesis - Single to Multi-Agent Infrastructure]]
+- [[04 Synthesis/Bridge/Synthesis - Multi-Agent Failure Modes]]
 - [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Infrastructure]]
 - [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Security and Permissions]]
 - [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Deployment and Topology]]

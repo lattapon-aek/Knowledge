@@ -120,10 +120,10 @@ Start
 
 ## ดูต่อ
 
-- [[04 Synthesis/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]]
+- [[04 Synthesis/Decision/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]]
 - [[02 AI Systems/AI Agent Fundamentals/Reference/10 - Risks และ Best Practices]]
-- [[05 Use Cases/Use Cases - Build an AI Agent]]
-- [[05 Use Cases/Use Cases - Move from Single to Multi-Agent]]
+- [[05 Use Cases/Application/Use Cases - Build an AI Agent]]
+- [[05 Use Cases/Decision/Use Cases - Move from Single to Multi-Agent]]
 
 ## ตัวอย่าง Implementation จริง
 

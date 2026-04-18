@@ -56,7 +56,7 @@ Second brain สำหรับความรู้ด้าน AI systems, LLM
 
 1. [[01 Foundations/LLM Foundations/Core/10 - Embeddings และ Semantic Similarity]]
 2. [[01 Foundations/LLM Foundations/Core/14 - Vector Representations และ Similarity Search]]
-3. [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools]]
+3. [[04 Synthesis/Bridge/Synthesis - Weights, Context, Retrieval และ Tools]]
 4. [[01 Foundations/Prompt Engineering/Core/07 - Structured Generation และ Output Formats]]
 5. [[01 Foundations/LLM Foundations/Core/11 - Multimodal Foundations]]
 6. [[01 Foundations/LLM Foundations/Core/13 - Evaluation Foundations]]
@@ -93,15 +93,15 @@ Second brain สำหรับความรู้ด้าน AI systems, LLM
 ## Synthesis And Application
 
 - [[04 Synthesis/Synthesis - MOC|Synthesis - MOC]]
-- [[04 Synthesis/Synthesis - Agent Runtime Layers]]
-- [[04 Synthesis/Synthesis - Safety, Reliability, and Evals]]
-- [[04 Synthesis/Synthesis - Memory vs RAG vs Context]]
-- [[04 Synthesis/Synthesis - Agent vs Workflow vs RAG]]
+- [[04 Synthesis/Bridge/Synthesis - Agent Runtime Layers]]
+- [[04 Synthesis/Bridge/Synthesis - Safety, Reliability, and Evals]]
+- [[04 Synthesis/Bridge/Synthesis - Memory vs RAG vs Context]]
+- [[04 Synthesis/Decision/Synthesis - Agent vs Workflow vs RAG]]
 - [[05 Use Cases/Use Cases - MOC|Use Cases - MOC]]
-- [[05 Use Cases/Use Cases - Design a RAG System]]
-- [[05 Use Cases/Use Cases - Design Guardrails for Tool Use]]
-- [[05 Use Cases/Use Cases - Design Memory for an AI Agent]]
-- [[05 Use Cases/Use Cases - Evaluate an AI Agent]]
+- [[05 Use Cases/Application/Use Cases - Design a RAG System]]
+- [[05 Use Cases/Application/Use Cases - Design Guardrails for Tool Use]]
+- [[05 Use Cases/Application/Use Cases - Design Memory for an AI Agent]]
+- [[05 Use Cases/Application/Use Cases - Evaluate an AI Agent]]
 - [[06 Engineering/Engineering - MOC|Engineering - MOC]]
 
 > Detailed implementation subdomains live under [[index]] and [[06 Engineering/Engineering - MOC|Engineering - MOC]].

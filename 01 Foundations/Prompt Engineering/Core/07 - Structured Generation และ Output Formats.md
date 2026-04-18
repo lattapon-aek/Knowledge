@@ -249,7 +249,7 @@ trade-offs หลัก:
 - [[03 - Prompt Patterns พื้นฐาน]]
 - [[05 - Evaluation และ Failure Modes]]
 - [[06 - Template และ Common Problems]]
-- [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools|Weights, Context, Retrieval และ Tools]]
+- [[04 Synthesis/Bridge/Synthesis - Weights, Context, Retrieval และ Tools|Weights, Context, Retrieval และ Tools]]
 - [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]]
 - [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]
 - [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน|Tools: การออกแบบและทำงาน]]

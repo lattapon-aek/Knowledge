@@ -20,8 +20,8 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 ## Canonical Notes
 
 - [[02 AI Systems/RAG/RAG - MOC]]
-- [[04 Synthesis/Synthesis - Memory vs RAG vs Context]]
-- [[04 Synthesis/Synthesis - Prompting vs Fine-tuning vs RAG]]
+- [[04 Synthesis/Bridge/Synthesis - Memory vs RAG vs Context]]
+- [[04 Synthesis/Decision/Synthesis - Prompting vs Fine-tuning vs RAG]]
 
 ---
 
@@ -117,6 +117,6 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 ## Cross Links
 
 - [[02 AI Systems/RAG/RAG - MOC]]
-- [[04 Synthesis/Synthesis - Agent vs Workflow vs RAG]]
-- [[04 Synthesis/Synthesis - Memory vs RAG vs Context]]
+- [[04 Synthesis/Decision/Synthesis - Agent vs Workflow vs RAG]]
+- [[04 Synthesis/Bridge/Synthesis - Memory vs RAG vs Context]]
 - [[Home]]

@@ -159,7 +159,7 @@ OpenAI แนะนำ guardrails สำหรับ user input, tool approvals 
 
 ## ลิงก์ที่เกี่ยวข้อง
 
-- [[04 Synthesis/Synthesis - Multi-Agent Failure Modes]]
+- [[04 Synthesis/Bridge/Synthesis - Multi-Agent Failure Modes]]
 - [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Ownership and Handoffs]]
 - [[06 Engineering/Patterns/Pattern - Sync vs Async Agent Communication]]
 - [[02 AI Systems/Guardrails/Guardrails - MOC]]

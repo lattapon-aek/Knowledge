@@ -90,7 +90,7 @@ parent_note: "[[06 Engineering/Patterns/Patterns - MOC]]"
 
 ## ลิงก์ที่เกี่ยวข้อง
 
-- [[04 Synthesis/Synthesis - Single to Multi-Agent Infrastructure]]
+- [[04 Synthesis/Bridge/Synthesis - Single to Multi-Agent Infrastructure]]
 - [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Infrastructure]]
 - [[06 Engineering/Patterns/Pattern - Retry and Backoff]]
 - [[02 AI Systems/Agent Frameworks/Core/04 - Tool Orchestration]]

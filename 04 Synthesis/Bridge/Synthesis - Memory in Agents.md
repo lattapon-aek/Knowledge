@@ -35,5 +35,5 @@ memory ใน agent คือการจัดการข้อมูลข้
 - [[01 Foundations/Context Windows/Context Windows - MOC]]
 - [[02 AI Systems/Memory Systems/Memory Systems - MOC]]
 - [[02 AI Systems/RAG/RAG - MOC]]
-- [[04 Synthesis/Synthesis - Memory vs RAG vs Context]]
+- [[04 Synthesis/Bridge/Synthesis - Memory vs RAG vs Context]]
 - [[Home]]

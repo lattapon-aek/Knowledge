@@ -27,8 +27,8 @@ implementation layer สำหรับงาน retrieval pipeline, chunking, r
 - [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 - [[01 Foundations/LLM Foundations/LLM Foundations - MOC|LLM Foundations - MOC]]
 - [[01 Foundations/Context Windows/Context Windows - MOC|Context Windows - MOC]]
-- [[04 Synthesis/Synthesis - Agent vs Workflow vs RAG|Synthesis - Agent vs Workflow vs RAG]]
-- [[04 Synthesis/Synthesis - Prompting vs Fine-tuning vs RAG|Synthesis - Prompting vs Fine-tuning vs RAG]]
+- [[04 Synthesis/Decision/Synthesis - Agent vs Workflow vs RAG|Synthesis - Agent vs Workflow vs RAG]]
+- [[04 Synthesis/Decision/Synthesis - Prompting vs Fine-tuning vs RAG|Synthesis - Prompting vs Fine-tuning vs RAG]]
 - [[06 Engineering/README|Engineering - README]]
 
 ---

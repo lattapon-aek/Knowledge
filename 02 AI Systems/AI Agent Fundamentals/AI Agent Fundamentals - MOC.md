@@ -69,12 +69,12 @@ diagram นี้เป็น conceptual overview ของหมวดนี้
 - [[01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน|12 - LLM พื้นฐาน]] — bridge note: agent-facing LLM primer
 - [[01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]] — runtime message layer; bridge to Prompt Engineering / Context Windows
 - [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]] — tools, schemas, MCP connection; bridge to engineering runtime
-- [[04 Synthesis/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]] — comparison / bridge note สำหรับ workflow vs agent
-- [[05 Use Cases/Use Cases - When to Use an Agent|When to Use an Agent]] — decision-oriented bridge note
+- [[04 Synthesis/Decision/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]] — comparison / bridge note สำหรับ workflow vs agent
+- [[05 Use Cases/Decision/Use Cases - When to Use an Agent|When to Use an Agent]] — decision-oriented bridge note
 - [[06 Engineering/Architecture to Code/Architecture - Tool Schemas and Runtime Integration]] — runtime contract ของ tool schemas, validation, execution, และ tool results
-- [[05 Use Cases/Use Cases - Build an AI Agent]] — decision-oriented entry point สำหรับออกแบบ agent
-- [[05 Use Cases/Use Cases - Move from Single to Multi-Agent]] — decision-oriented entry point สำหรับขยายเป็น multi-agent
-- [[05 Use Cases/Use Cases - Evaluate an AI Agent]] — decision-oriented entry point สำหรับ evaluation
+- [[05 Use Cases/Application/Use Cases - Build an AI Agent]] — decision-oriented entry point สำหรับออกแบบ agent
+- [[05 Use Cases/Decision/Use Cases - Move from Single to Multi-Agent]] — decision-oriented entry point สำหรับขยายเป็น multi-agent
+- [[05 Use Cases/Application/Use Cases - Evaluate an AI Agent]] — decision-oriented entry point สำหรับ evaluation
 
 ---
 
@@ -114,8 +114,8 @@ flowchart TD
 ### 3. Architectures and Decisions
 
 1. [[07 - รูปแบบ Agent Architectures]]
-2. [[04 Synthesis/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]]
-3. [[05 Use Cases/Use Cases - When to Use an Agent|When to Use an Agent]]
+2. [[04 Synthesis/Decision/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]]
+3. [[05 Use Cases/Decision/Use Cases - When to Use an Agent|When to Use an Agent]]
 
 ### 4. Risks and Practical Runtime Layers
 
@@ -137,5 +137,5 @@ flowchart TD
 3. [[02 AI Systems/Guardrails/Guardrails - MOC]]
 4. [[02 AI Systems/Evals/Evals - MOC]]
 5. [[02 AI Systems/Agent Frameworks/Agent Frameworks - MOC]]
-6. [[04 Synthesis/Synthesis - Agent Runtime Layers]]
+6. [[04 Synthesis/Bridge/Synthesis - Agent Runtime Layers]]
 7. [[06 Engineering/README]]

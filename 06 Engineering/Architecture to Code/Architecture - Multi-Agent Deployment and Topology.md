@@ -205,8 +205,8 @@ async kickoff ของ CrewAI ทำให้ concurrency ชัด, durable ex
 
 ## ลิงก์ที่เกี่ยวข้อง
 
-- [[04 Synthesis/Synthesis - Single to Multi-Agent Infrastructure]]
-- [[04 Synthesis/Synthesis - Multi-Agent Failure Modes]]
+- [[04 Synthesis/Bridge/Synthesis - Single to Multi-Agent Infrastructure]]
+- [[04 Synthesis/Bridge/Synthesis - Multi-Agent Failure Modes]]
 - [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Infrastructure]]
 - [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Ownership and Handoffs]]
 - [[06 Engineering/Patterns/Pattern - Sync vs Async Agent Communication]]

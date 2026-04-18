@@ -121,5 +121,5 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 
 - [[02 AI Systems/Guardrails/Guardrails - MOC]]
 - [[02 AI Systems/MCP/Security/05 - Security, Consent และ Authorization]]
-- [[05 Use Cases/Use Cases - Evaluate an AI Agent]]
+- [[05 Use Cases/Application/Use Cases - Evaluate an AI Agent]]
 - [[Home]]

@@ -37,5 +37,5 @@ parent_note: "[[06 Engineering/Frameworks/Frameworks - MOC]]"
 ## โน้ตที่เกี่ยวข้อง
 
 - [[02 AI Systems/Agent Frameworks/Core/01 - Landscape|Framework landscape]]
-- [[04 Synthesis/Synthesis - LLM to Agent Stack|Synthesis - LLM to Agent Stack]]
+- [[04 Synthesis/Bridge/Synthesis - LLM to Agent Stack|Synthesis - LLM to Agent Stack]]
 - [[06 Engineering/Frameworks/Frameworks - MOC|Frameworks - MOC]]

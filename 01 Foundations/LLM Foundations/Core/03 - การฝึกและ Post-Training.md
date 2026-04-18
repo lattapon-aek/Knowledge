@@ -279,5 +279,5 @@ Preference alignment = ปรับพฤติกรรมให้ตอบแ
 - [[08 - Data, Pretraining และ Model Modes]] — ความต่างระหว่าง base model, instruction model, chat model
 - [[04 - Inference, Context และ RAG]] — หลังฝึกเสร็จแล้ว runtime ทำงานอย่างไร
 - [[05 - ข้อจำกัดและการประเมินผล LLM]]
-- [[04 Synthesis/Synthesis - Prompting vs Fine-tuning vs RAG]] — เปรียบเทียบว่าเมื่อไรควรแก้ที่ prompt, RAG, หรือ fine-tuning
+- [[04 Synthesis/Decision/Synthesis - Prompting vs Fine-tuning vs RAG]] — เปรียบเทียบว่าเมื่อไรควรแก้ที่ prompt, RAG, หรือ fine-tuning
 - [[LLM Foundations - MOC]]

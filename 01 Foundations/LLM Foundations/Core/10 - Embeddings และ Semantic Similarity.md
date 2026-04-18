@@ -321,7 +321,7 @@ dimensions สูง + corpus ใหญ่ = storage/indexing/search cost สู
 - [[01 - LLM คืออะไรและพื้นฐาน]]
 - [[06 - Attention และ Representations]]
 - [[08 - Data, Pretraining และ Model Modes]]
-- [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools]]
+- [[04 Synthesis/Bridge/Synthesis - Weights, Context, Retrieval และ Tools]]
 - [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 - [[02 AI Systems/RAG/Retrieval/03 - Embeddings and Vector Databases|RAG - Embeddings and Vector Databases]]
 - [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]

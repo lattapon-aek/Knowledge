@@ -42,7 +42,7 @@ parent_note: "[[04 Synthesis/Synthesis - MOC]]"
 
 - [[02 AI Systems/Memory Systems/Memory Systems - MOC]]
 - [[02 AI Systems/RAG/RAG - MOC]]
-- [[04 Synthesis/Synthesis - Agent vs Workflow vs RAG]]
+- [[04 Synthesis/Decision/Synthesis - Agent vs Workflow vs RAG]]
 - [[01 Foundations/Context Windows/Context Windows - MOC]]
 - [[Home]]
 

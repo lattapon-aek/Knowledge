@@ -161,7 +161,7 @@ flowchart LR
 - [[02 AI Systems/Evals/Application/08 - Agent Evals]]
 - [[02 AI Systems/Guardrails/Operations/06 - Monitoring and Incidents]]
 - [[02 AI Systems/Agent Frameworks/Core/04 - Tool Orchestration]]
-- [[04 Synthesis/Synthesis - Safety, Reliability, and Evals]]
+- [[04 Synthesis/Bridge/Synthesis - Safety, Reliability, and Evals]]
 - [[Home]]
 
 ---

@@ -20,17 +20,17 @@ parent_note: "[[Home]]"
 
 ## Notes Map
 
-- [[04 Synthesis/Synthesis - Agent Runtime Layers|Synthesis - Agent Runtime Layers]]
-- [[04 Synthesis/Synthesis - Weights, Context, Retrieval และ Tools|Synthesis - Weights, Context, Retrieval และ Tools]]
-- [[04 Synthesis/Synthesis - Workflow vs AI Agent|Synthesis - Workflow vs AI Agent]]
-- [[04 Synthesis/Synthesis - Agent vs Workflow vs RAG|Synthesis - Agent vs Workflow vs RAG]]
-- [[04 Synthesis/Synthesis - LLM to Agent Stack|Synthesis - LLM to Agent Stack]]
-- [[04 Synthesis/Synthesis - Memory in Agents|Synthesis - Memory in Agents]]
-- [[04 Synthesis/Synthesis - Memory vs RAG vs Context|Synthesis - Memory vs RAG vs Context]]
-- [[04 Synthesis/Synthesis - Prompting vs Fine-tuning vs RAG|Synthesis - Prompting vs Fine-tuning vs RAG]]
-- [[04 Synthesis/Synthesis - Safety, Reliability, and Evals|Synthesis - Safety, Reliability, and Evals]]
-- [[04 Synthesis/Synthesis - Single to Multi-Agent Infrastructure|Synthesis - Single to Multi-Agent Infrastructure]]
-- [[04 Synthesis/Synthesis - Multi-Agent Failure Modes|Synthesis - Multi-Agent Failure Modes]]
+- [[04 Synthesis/Bridge/Synthesis - Agent Runtime Layers|Synthesis - Agent Runtime Layers]]
+- [[04 Synthesis/Bridge/Synthesis - Weights, Context, Retrieval และ Tools|Synthesis - Weights, Context, Retrieval และ Tools]]
+- [[04 Synthesis/Decision/Synthesis - Workflow vs AI Agent|Synthesis - Workflow vs AI Agent]]
+- [[04 Synthesis/Decision/Synthesis - Agent vs Workflow vs RAG|Synthesis - Agent vs Workflow vs RAG]]
+- [[04 Synthesis/Bridge/Synthesis - LLM to Agent Stack|Synthesis - LLM to Agent Stack]]
+- [[04 Synthesis/Bridge/Synthesis - Memory in Agents|Synthesis - Memory in Agents]]
+- [[04 Synthesis/Bridge/Synthesis - Memory vs RAG vs Context|Synthesis - Memory vs RAG vs Context]]
+- [[04 Synthesis/Decision/Synthesis - Prompting vs Fine-tuning vs RAG|Synthesis - Prompting vs Fine-tuning vs RAG]]
+- [[04 Synthesis/Bridge/Synthesis - Safety, Reliability, and Evals|Synthesis - Safety, Reliability, and Evals]]
+- [[04 Synthesis/Bridge/Synthesis - Single to Multi-Agent Infrastructure|Synthesis - Single to Multi-Agent Infrastructure]]
+- [[04 Synthesis/Bridge/Synthesis - Multi-Agent Failure Modes|Synthesis - Multi-Agent Failure Modes]]
 
 ---
 

@@ -115,7 +115,7 @@ Agent ไม่ได้มีแค่แบบเดียว — มีอย
 | Customer Service Chatbots | ตอบคำถาม, troubleshoot, เปิด ticket, ทำ transaction |
 | AI NPC in Games | LLM-powered NPC ที่ respond contextually แทน rigid behavior tree |
 
-ถ้าต้องการเส้นทางใช้งานจริงต่อ ให้ดู [[05 Use Cases/Use Cases - Build an AI Agent]] และ [[05 Use Cases/Use Cases - Move from Single to Multi-Agent]]
+ถ้าต้องการเส้นทางใช้งานจริงต่อ ให้ดู [[05 Use Cases/Application/Use Cases - Build an AI Agent]] และ [[05 Use Cases/Decision/Use Cases - Move from Single to Multi-Agent]]
 
 ---
 

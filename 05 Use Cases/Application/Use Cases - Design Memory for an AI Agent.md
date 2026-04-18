@@ -20,8 +20,8 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 ## Canonical Notes
 
 - [[02 AI Systems/Memory Systems/Memory Systems - MOC]]
-- [[04 Synthesis/Synthesis - Memory vs RAG vs Context]]
-- [[04 Synthesis/Synthesis - Memory in Agents]]
+- [[04 Synthesis/Bridge/Synthesis - Memory vs RAG vs Context]]
+- [[04 Synthesis/Bridge/Synthesis - Memory in Agents]]
 
 ---
 
@@ -110,8 +110,8 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 3. [[02 AI Systems/Memory Systems/Core/03 - Memory Read and Write Policies]]
 4. [[02 AI Systems/Memory Systems/Application/04 - Agent Memory Patterns]]
 5. [[02 AI Systems/Memory Systems/Application/05 - Memory Failure Modes]]
-6. [[04 Synthesis/Synthesis - Memory vs RAG vs Context]]
-7. [[04 Synthesis/Synthesis - Memory in Agents]]
+6. [[04 Synthesis/Bridge/Synthesis - Memory vs RAG vs Context]]
+7. [[04 Synthesis/Bridge/Synthesis - Memory in Agents]]
 8. [[02 AI Systems/Agent Frameworks/Core/03 - State and Memory]]
 
 ---
@@ -120,5 +120,5 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 
 - [[02 AI Systems/Memory Systems/Memory Systems - MOC]]
 - [[02 AI Systems/RAG/RAG - MOC]]
-- [[05 Use Cases/Use Cases - Build an AI Agent]]
+- [[05 Use Cases/Application/Use Cases - Build an AI Agent]]
 - [[Home]]

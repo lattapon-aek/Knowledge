@@ -183,7 +183,7 @@ Run repeated tasks across multiple scenarios:
 
 - [[02 AI Systems/Evals/Application/08 - Agent Evals]]
 - [[02 AI Systems/Evals/Core/09 - Observability and Feedback Loops]]
-- [[04 Synthesis/Synthesis - Multi-Agent Failure Modes]]
+- [[04 Synthesis/Bridge/Synthesis - Multi-Agent Failure Modes]]
 - [[06 Engineering/Architecture to Code/Architecture - Multi-Agent Infrastructure]]
 - [[06 Engineering/Patterns/Pattern - Sync vs Async Agent Communication]]
 - [[06 Engineering/Patterns/Pattern - Retry and Backoff]]

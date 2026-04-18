@@ -119,5 +119,5 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 
 - [[02 AI Systems/Evals/Evals - MOC]]
 - [[02 AI Systems/AI Agent Fundamentals/AI Agent Fundamentals - MOC]]
-- [[04 Synthesis/Synthesis - LLM to Agent Stack]]
+- [[04 Synthesis/Bridge/Synthesis - LLM to Agent Stack]]
 - [[Home]]

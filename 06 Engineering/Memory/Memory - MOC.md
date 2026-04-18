@@ -26,7 +26,7 @@ implementation layer สำหรับ memory stores, retrieval policies, perso
 
 - [[02 AI Systems/Memory Systems/Memory Systems - MOC|Memory Systems - MOC]]
 - [[02 AI Systems/Agent Frameworks/Core/03 - State and Memory|Agent Frameworks - State and Memory]]
-- [[04 Synthesis/Synthesis - Memory in Agents|Synthesis - Memory in Agents]]
+- [[04 Synthesis/Bridge/Synthesis - Memory in Agents|Synthesis - Memory in Agents]]
 - [[06 Engineering/README|Engineering - README]]
 
 ---

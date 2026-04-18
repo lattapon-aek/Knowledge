@@ -273,7 +273,7 @@ OpenAI structured outputs และ function calling ก็ชี้ให้เ
 - [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 - [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]
 - [[02 AI Systems/AI Agent Fundamentals/AI Agent Fundamentals - MOC|AI Agent Fundamentals - MOC]]
-- [[04 Synthesis/Synthesis - Prompting vs Fine-tuning vs RAG]]
+- [[04 Synthesis/Decision/Synthesis - Prompting vs Fine-tuning vs RAG]]
 
 ---
 

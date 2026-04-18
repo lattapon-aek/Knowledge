@@ -25,8 +25,8 @@ implementation layer สำหรับ eval harness, regression checks, benchma
 ## Related Hubs
 
 - [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]
-- [[05 Use Cases/Use Cases - Evaluate an AI Agent|Use Cases - Evaluate an AI Agent]]
-- [[05 Use Cases/Use Cases - Improve Prompt Reliability|Use Cases - Improve Prompt Reliability]]
+- [[05 Use Cases/Application/Use Cases - Evaluate an AI Agent|Use Cases - Evaluate an AI Agent]]
+- [[05 Use Cases/Application/Use Cases - Improve Prompt Reliability|Use Cases - Improve Prompt Reliability]]
 - [[06 Engineering/README|Engineering - README]]
 
 ---

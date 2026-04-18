@@ -52,8 +52,8 @@ parent_note: "[[Home]]"
 - [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน]]
 - [[02 AI Systems/MCP/MCP - MOC]]
 - [[03 Tools/Claude Code/Claude Code - Multi-Agent MOC]]
-- [[04 Synthesis/Synthesis - LLM to Agent Stack]]
-- [[04 Synthesis/Synthesis - Memory in Agents]]
+- [[04 Synthesis/Bridge/Synthesis - LLM to Agent Stack]]
+- [[04 Synthesis/Bridge/Synthesis - Memory in Agents]]
 - [[06 Engineering/Decisions/Decision - Choose a Framework]]
 - [[06 Engineering/README]]
 
@@ -80,9 +80,9 @@ parent_note: "[[Home]]"
 ### 3. ลิงก์ข้ามระบบ
 
 1. [[02 AI Systems/MCP/MCP - MOC]]
-2. [[04 Synthesis/Synthesis - Memory in Agents]]
-3. [[05 Use Cases/Use Cases - Choose an Agent Framework]]
-4. [[04 Synthesis/Synthesis - LLM to Agent Stack]]
+2. [[04 Synthesis/Bridge/Synthesis - Memory in Agents]]
+3. [[05 Use Cases/Decision/Use Cases - Choose an Agent Framework]]
+4. [[04 Synthesis/Bridge/Synthesis - LLM to Agent Stack]]
 
 ### 4. โน้ตเชิง Implementation
 

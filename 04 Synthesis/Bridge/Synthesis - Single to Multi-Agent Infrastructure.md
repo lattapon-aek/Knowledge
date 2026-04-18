@@ -142,7 +142,7 @@ flowchart TD
 ## ลิงก์ที่เกี่ยวข้อง
 
 - [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
-- [[04 Synthesis/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]]
+- [[04 Synthesis/Decision/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]]
 - [[02 AI Systems/Agent Frameworks/Core/04 - Tool Orchestration]]
 - [[02 AI Systems/Agent Frameworks/Core/03 - State and Memory]]
 - [[02 AI Systems/Memory Systems/Core/03 - Memory Read and Write Policies]]

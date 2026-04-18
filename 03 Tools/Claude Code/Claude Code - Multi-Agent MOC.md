@@ -67,6 +67,10 @@ Claude Code คือ **CLI tool** จาก Anthropic สำหรับ agenti
 - [[04 Synthesis/Synthesis - MOC|Synthesis - MOC]]
 - [[05 Use Cases/Use Cases - MOC|Use Cases - MOC]]
 - [[02 AI Systems/AI Agent Fundamentals/AI Agent Fundamentals - MOC|AI Agent Fundamentals - MOC]]
+- [[02 AI Systems/Agent Frameworks/Agent Frameworks - MOC|Agent Frameworks - MOC]]
+- [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]]
+- [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]
+- [[06 Engineering/Engineering - MOC|Engineering - MOC]]
 - [[Knowledge Topic Registry]]
 
 ---

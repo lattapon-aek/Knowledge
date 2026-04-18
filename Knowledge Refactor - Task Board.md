@@ -60,6 +60,7 @@ parent_note: "[[Home]]"
 - ปรับ catalog ของ `Guardrails` และ `Evals` ให้ครบทุก canonical note และเรียงตาม learning path เดียวกับ MOC
 - ปรับ `Use Cases` ให้ parent note, catalog, และลิงก์สั้นใช้ MOC / path เต็มสอดคล้องกัน
 - ปรับ `04 Synthesis` ให้ parent note และ catalog ชี้เข้า MOC ครบทุก bridge note
+- ปรับ `03 Tools/Claude Code` ให้ MOC ชี้กลับ concept, control, eval, และ implementation hubs ชัดขึ้น
 
 ### Style cleanup
 

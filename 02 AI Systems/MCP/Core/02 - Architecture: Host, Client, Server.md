@@ -9,7 +9,7 @@ tags:
 type: note
 status: evergreen
 source: "MCP/MCP_Knowledge_Base.md"
-parent_note: "[[MCP - MOC]]"
+parent_note: "[[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]"
 ---
 
 # Architecture: Host, Client, Server
@@ -145,4 +145,4 @@ MCP ใช้ JSON-RPC 2.0 เป็น data layer — message 3 แบบ:
 
 - [[03 - Core Primitives: Tools, Resources, Prompts]] — ความสามารถฝั่ง server
 - [[04 - Client Features: Sampling, Roots, Elicitation]] — ความสามารถฝั่ง client
-- [[MCP - MOC]]
+- [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]

@@ -5,7 +5,7 @@ tags:
 type: note
 status: evergreen
 source: "OpenAI Evaluation Best Practices"
-parent_note: "[[Evals - MOC]]"
+parent_note: "[[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]"
 ---
 
 # Evals - Benchmark Design
@@ -136,7 +136,7 @@ optimize จนเก่งเฉพาะชุด benchmark
 - [[02 AI Systems/Evals/Application/06 - Prompt Evals]] — prompt benchmark
 - [[02 AI Systems/Evals/Application/07 - RAG Evals]] — retrieval/grounding benchmark
 - [[02 AI Systems/Evals/Application/08 - Agent Evals]] — task benchmarks สำหรับ agents
-- [[Evals - MOC]]
+- [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]
 
 ---
 

@@ -5,7 +5,7 @@ tags:
   - orchestration
   - infrastructure
   - version-sensitive
-type: note
+type: usecase
 status: evergreen
 source: "https://www.digitalocean.com/community/tutorials/single-to-multi-agent-infrastructure · https://platform.openai.com/docs/guides/trace-grading · https://docs.langchain.com/oss/javascript/langgraph/persistence · https://microsoft.github.io/autogen/stable/user-guide/core-user-guide/design-patterns/group-chat.html · https://docs.crewai.com/en/concepts/flows"
 parent_note: "[[05 Use Cases/Use Cases - MOC]]"

@@ -7,7 +7,7 @@ tags:
 type: note
 status: evergreen
 source: "OpenAI Docs, Anthropic Docs, MCP Official Docs"
-parent_note: "[[MCP - MOC]]"
+parent_note: "[[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]"
 ---
 
 # Tools: การออกแบบและทำงาน

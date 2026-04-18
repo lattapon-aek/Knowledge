@@ -5,7 +5,7 @@ tags:
 type: note
 status: evergreen
 source: "OpenAI Safety Best Practices · OpenAI Evals and Trace Grading Docs · Azure AI Content Safety Docs"
-parent_note: "[[Guardrails - MOC]]"
+parent_note: "[[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]]"
 ---
 
 # Guardrails - Fallback Policies
@@ -244,7 +244,7 @@ fallback path ไม่ถูก monitor จนคุณภาพแย่กว
 - [[02 AI Systems/Guardrails/Core/03 - Tool Safety]] — fallback เมื่อ tool path ไม่ปลอดภัย
 - [[02 AI Systems/Guardrails/Operations/06 - Monitoring and Incidents]] — fallback events ต้องถูก monitor
 - [[02 AI Systems/Evals/Core/05 - Regression Testing]] — ทดสอบ fallback paths
-- [[Guardrails - MOC]]
+- [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]]
 
 ---
 
@@ -252,7 +252,7 @@ fallback path ไม่ถูก monitor จนคุณภาพแย่กว
 
 - [[03 Tools/Claude Code/Workflow/22 - Error Handling]]
 - [[02 AI Systems/Evals/Core/05 - Regression Testing]]
-- [[Guardrails - MOC]]
+- [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]]
 
 ---
 

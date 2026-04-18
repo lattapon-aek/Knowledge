@@ -51,8 +51,8 @@ parent_note: "[[Home]]"
 | Agent loop / runtime basics | `02 AI Systems/AI Agent Fundamentals` | `AI Agent Fundamentals - MOC` |
 | Workflow / decision bridge | `04 Synthesis` | `Synthesis - Workflow vs AI Agent` |
 | Agent use decision | `05 Use Cases` | `Use Cases - When to Use an Agent` |
-| Runtime messages / system prompt / templates | `02 AI Systems/AI Agent Fundamentals` | `13 - Messages, System Prompt และ Chat Templates` |
-| Tool runtime contract | `02 AI Systems/AI Agent Fundamentals` + `06 Engineering` | `14 - Tools: การออกแบบและทำงาน` / `Architecture - Tool Schemas and Runtime Integration` |
+| Runtime messages / system prompt / templates | `01 Foundations/Prompt Engineering` | `01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates` |
+| Tool runtime contract | `02 AI Systems/MCP` + `06 Engineering` | `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน` / `06 Engineering/Architecture to Code/Architecture - Tool Schemas and Runtime Integration` |
 | State / memory / checkpointing | `02 AI Systems/Agent Frameworks` | `03 - State and Memory`, `07 - Checkpointing and Resumability` |
 | Tool orchestration | `02 AI Systems/Agent Frameworks` | `04 - Tool Orchestration` |
 | Evaluation / observability / trace grading | `02 AI Systems/Agent Frameworks` + `02 AI Systems/Evals` | `06 - Evaluation and Observability` / `Evals - MOC` |

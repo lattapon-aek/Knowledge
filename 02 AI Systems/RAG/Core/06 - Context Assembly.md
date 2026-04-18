@@ -6,7 +6,7 @@ tags:
 type: note
 status: evergreen
 source: "OpenAI Retrieval Docs · Microsoft Learn (Azure AI Search Semantic Ranking)"
-parent_note: "[[RAG - MOC]]"
+parent_note: "[[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]"
 ---
 
 # RAG - Context Assembly
@@ -199,14 +199,14 @@ evidence ถูก แต่ถูกวางลำดับไม่ดี
 - [[02 AI Systems/RAG/Core/RAG - Agentic RAG]] — agentic systems อาจมีหลาย assembly stages
 - [[02 AI Systems/RAG/Evaluation/08 - Evaluation]] — ต้องแยก assembly failures ออกจาก retrieval failures
 - [[01 Foundations/Context Windows/Core/02 - การบริหารและ Context Engineering]] — context budget และ layout
-- [[RAG - MOC]]
+- [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 
 ---
 
 ## Related Notes
 
 - [[01 Foundations/Context Windows/Context Windows - MOC]]
-- [[RAG - MOC]]
+- [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 
 ---
 

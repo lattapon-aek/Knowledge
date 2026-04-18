@@ -6,7 +6,7 @@ tags:
 type: note
 status: evergreen
 source: "OpenAI Retrieval Docs · Microsoft Learn Azure AI Search"
-parent_note: "[[RAG - MOC]]"
+parent_note: "[[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]"
 ---
 
 # RAG - Cost and Latency Tradeoffs
@@ -199,7 +199,7 @@ chunking + overlap + metadata ทำให้ vector footprint โตโดย�
 - [[02 AI Systems/RAG/Retrieval/05 - Reranking]] — precision vs latency trade-off
 - [[02 AI Systems/RAG/Core/RAG - Agentic RAG]] — agentic patterns เพิ่ม orchestration cost
 - [[02 AI Systems/RAG/Evaluation/08 - Evaluation]] — operational metrics ต้องอยู่ใน eval
-- [[RAG - MOC]]
+- [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 
 ---
 

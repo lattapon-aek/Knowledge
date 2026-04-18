@@ -6,7 +6,7 @@ tags:
 type: note
 status: evergreen
 source: "Google Cloud Grounding Docs · OpenAI Retrieval Docs"
-parent_note: "[[RAG - MOC]]"
+parent_note: "[[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]"
 ---
 
 # RAG - Grounding and Citation
@@ -147,7 +147,7 @@ pipeline ตัด metadata ทิ้งระหว่าง assembly หรื
 - [[02 AI Systems/RAG/Core/06 - Context Assembly]] — assembly ต้องรักษา source trace
 - [[02 AI Systems/RAG/Evaluation/08 - Evaluation]] — groundedness และ citation quality เป็นมิติ eval สำคัญ
 - [[02 AI Systems/RAG/Core/RAG - Agentic RAG]] — agentic systems ต้อง trace หลาย retrieval steps ได้
-- [[RAG - MOC]]
+- [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 
 ---
 

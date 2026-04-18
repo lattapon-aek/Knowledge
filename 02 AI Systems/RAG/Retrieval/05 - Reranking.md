@@ -5,7 +5,7 @@ tags:
 type: note
 status: evergreen
 source: "Microsoft Learn (Azure AI Search Semantic Ranking) · OpenAI Retrieval Docs"
-parent_note: "[[RAG - MOC]]"
+parent_note: "[[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]"
 ---
 
 # RAG - Reranking
@@ -173,14 +173,14 @@ reranking หนักเกินไปเมื่อ query volume สูง
 - [[02 AI Systems/RAG/Retrieval/RAG - Hybrid Retrieval]] — reranking มักมาหลัง fusion
 - [[02 AI Systems/RAG/Core/06 - Context Assembly]] — reranked results ถูกส่งต่อเข้า assembly
 - [[02 AI Systems/RAG/Evaluation/08 - Evaluation]] — ต้องวัด reranking แยกจาก retrieval
-- [[RAG - MOC]]
+- [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 
 ---
 
 ## Related Notes
 
 - [[02 AI Systems/RAG/Core/01 - Retrieval Basics]]
-- [[RAG - MOC]]
+- [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 
 ---
 

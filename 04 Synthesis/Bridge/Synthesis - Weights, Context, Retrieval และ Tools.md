@@ -5,7 +5,7 @@ tags:
   - retrieval
   - tools
   - synthesis
-type: note
+type: synthesis
 status: evergreen
 source: "OpenAI, Anthropic, Google Cloud Vertex AI, Microsoft Learn"
 parent_note: "[[04 Synthesis/Synthesis - MOC]]"
@@ -265,10 +265,10 @@ OpenAI structured outputs และ function calling ก็ชี้ให้เ
 
 ## ความสัมพันธ์กับโน้ตอื่น
 
-- [[03 - การฝึกและ Post-Training]]
-- [[04 - Inference, Context และ RAG]]
-- [[08 - Data, Pretraining และ Model Modes]]
-- [[10 - Embeddings และ Semantic Similarity]]
+- [[01 Foundations/LLM Foundations/Core/03 - การฝึกและ Post-Training]]
+- [[01 Foundations/LLM Foundations/Core/04 - Inference, Context และ RAG]]
+- [[01 Foundations/LLM Foundations/Core/08 - Data, Pretraining และ Model Modes]]
+- [[01 Foundations/LLM Foundations/Core/10 - Embeddings และ Semantic Similarity]]
 - [[01 Foundations/Context Windows/Context Windows - MOC|Context Windows]]
 - [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 - [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]

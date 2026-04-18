@@ -6,7 +6,7 @@ tags:
 type: note
 status: evergreen
 source: "OpenAI Evaluation Best Practices · OpenAI Trace Grading"
-parent_note: "[[Evals - MOC]]"
+parent_note: "[[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]"
 ---
 
 # Evals - Observability and Feedback Loops
@@ -154,7 +154,7 @@ OpenAI best practices แนะนำให้ eval set โตตามระบ
 - [[02 AI Systems/Evals/Core/02 - Benchmark Design]] — production failures ควรเพิ่มเข้า benchmark
 - [[02 AI Systems/Evals/Application/08 - Agent Evals]] — agent systems ได้ประโยชน์จาก trace observability มาก
 - [[02 AI Systems/Evals/Core/03 - LLM-as-Judge]] — judge outputs ควรถูก monitor และ calibrate
-- [[Evals - MOC]]
+- [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]
 
 ---
 

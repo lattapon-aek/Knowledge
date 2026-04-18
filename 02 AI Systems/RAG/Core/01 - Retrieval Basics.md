@@ -5,7 +5,7 @@ tags:
 type: note
 status: evergreen
 source: "OpenAI Retrieval & File Search Docs · Google Vertex AI RAG Engine Docs · Microsoft Learn (Azure AI Search)"
-parent_note: "[[RAG - MOC]]"
+parent_note: "[[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]"
 ---
 
 # RAG - Retrieval Basics
@@ -262,7 +262,7 @@ semantic search อย่างเดียวอาจพลาด exact matche
 - [[02 AI Systems/RAG/Retrieval/05 - Reranking]] — ranking layer หลัง retrieval
 - [[02 AI Systems/RAG/Core/06 - Context Assembly]] — การประกอบ evidence เข้าสู่ prompt
 - [[02 AI Systems/RAG/Evaluation/08 - Evaluation]] — วิธีแยก retrieval failures ออกจาก generation failures
-- [[RAG - MOC]]
+- [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 
 ---
 
@@ -271,7 +271,7 @@ semantic search อย่างเดียวอาจพลาด exact matche
 - [[01 Foundations/LLM Foundations/Core/04 - Inference, Context และ RAG]]
 - [[01 Foundations/LLM Foundations/Core/10 - Embeddings และ Semantic Similarity]]
 - [[04 Synthesis/Bridge/Synthesis - Weights, Context, Retrieval และ Tools]]
-- [[RAG - MOC]]
+- [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 
 ---
 

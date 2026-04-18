@@ -6,7 +6,7 @@ tags:
 type: note
 status: evergreen
 source: "Neo4j GraphRAG Docs · Neo4j GraphAcademy"
-parent_note: "[[RAG - MOC]]"
+parent_note: "[[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]"
 ---
 
 # RAG - Knowledge Graph RAG
@@ -170,7 +170,7 @@ documents อัปเดตแล้ว graph ไม่อัปเดตตา
 - [[02 AI Systems/RAG/Core/06 - Context Assembly]] — การประกอบ graph-derived evidence เข้าสู่ prompt
 - [[02 AI Systems/RAG/Evaluation/08 - Evaluation]] — ต้องวัด graph retrieval แยกจาก generation
 - [[02 AI Systems/Agent Frameworks/Core/03 - State and Memory]] — graph memory บางแบบเชื่อมกับ agents ได้
-- [[RAG - MOC]]
+- [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 
 ---
 

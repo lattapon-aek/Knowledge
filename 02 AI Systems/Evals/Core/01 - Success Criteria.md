@@ -5,7 +5,7 @@ tags:
 type: note
 status: evergreen
 source: "OpenAI Evals Guide · OpenAI Evaluation Best Practices · Google Cloud Evaluation Overview"
-parent_note: "[[Evals - MOC]]"
+parent_note: "[[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]"
 ---
 
 # Evals - Success Criteria
@@ -160,14 +160,14 @@ eval ที่ดีควรเชื่อมสองฝั่งนี้เ
 - [[02 AI Systems/Evals/Core/03 - LLM-as-Judge]] — grader ต้องยึด criteria ที่ชัด
 - [[02 AI Systems/Evals/Application/06 - Prompt Evals]] — prompt evals ต้องมี success criteria ก่อน
 - [[02 AI Systems/Evals/Application/08 - Agent Evals]] — agent evals ต้องมีทั้ง task และ operational criteria
-- [[Evals - MOC]]
+- [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]
 
 ---
 
 ## Related Notes
 
 - [[01 Foundations/Prompt Engineering/Core/05 - Evaluation และ Failure Modes]]
-- [[Evals - MOC]]
+- [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]
 
 ---
 

@@ -7,7 +7,7 @@ tags:
 type: note
 status: evergreen
 source: "MCP/MCP_Knowledge_Base.md"
-parent_note: "[[MCP - MOC]]"
+parent_note: "[[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]"
 ---
 
 # MCP คืออะไรและแก้ปัญหาอะไร
@@ -73,4 +73,4 @@ parent_note: "[[MCP - MOC]]"
 
 - [[02 - Architecture: Host, Client, Server]] — โครงสร้างและ layering
 - [[03 - Core Primitives: Tools, Resources, Prompts]] — capabilities ฝั่ง server
-- [[MCP - MOC]]
+- [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]

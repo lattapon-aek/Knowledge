@@ -33,7 +33,7 @@ parent_note: "[[Knowledge Topic Registry]]"
 | `06 Engineering` | stay | เป็น implementation / recipe / project layer |
 | `03 Tools/Claude Code` | stay | เป็น volatile tool layer |
 | Bridge notes | keep | ใช้เฉพาะจุดที่ต้องเชื่อมข้าม topic |
-| Move batch 1 | executed | bridge note 3 ไฟล์ย้ายไป owner ใหม่แล้ว |
+| Move batch 1 | executed | bridge note 3 ไฟล์จัดเข้า canonical owner ปัจจุบันแล้ว |
 | Move batch 2 | executed | workflow comparison + agent decision notes ย้ายไป owner ใหม่แล้ว |
 | Move batch 3 | executed | bridge note `Weights, Context, Retrieval และ Tools` ย้ายออกจาก Foundations แล้ว |
 
@@ -80,9 +80,9 @@ parent_note: "[[Knowledge Topic Registry]]"
 - ไม่มี move candidate เพิ่มเติมในรอบ execution นี้
 
 Move batch 1 ที่ทำจริง:
-- `01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน` -> `01 Foundations/LLM Foundations`
-- `01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates` -> `01 Foundations/Prompt Engineering`
-- `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน` -> `02 AI Systems/MCP`
+- `01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน` = keep as LLM bridge note
+- `01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates` = keep as prompt/runtime bridge note
+- `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน` = keep as MCP/tool contract bridge note
 
 ### Phase Status
 
@@ -101,7 +101,9 @@ Move batch 1 ที่ทำจริง:
 
 ### Bridge Notes ที่ควรคงไว้
 
-- `AI Agent Fundamentals/12, 13, 14`
+- `01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน`
+- `01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates`
+- `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน`
 - `Synthesis - Memory in Agents`
 - `Synthesis - Memory vs RAG vs Context`
 - `Synthesis - Agent vs Workflow vs RAG`
@@ -139,7 +141,7 @@ Move batch 1 ที่ทำจริง:
 - `RAG/Core/06 - Context Assembly` = stay; bridge to `Context Engineering`
 - `RAG/Core/07 - Grounding and Citation` = stay; bridge to `Evals`
 - `RAG/Evaluation/08 - Evaluation` = stay; bridge to `Evals`
-- `Guardrails/Core/03 - Tool Safety` = stay; bridge to `AI Agent Fundamentals/14` and `MCP`
+- `Guardrails/Core/03 - Tool Safety` = stay; bridge to `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน` and `MCP`
 - `Guardrails/Operations/04 - Permission Models` = stay; bridge to `MCP` / `06 Engineering`
 - `Guardrails/Operations/06 - Monitoring and Incidents` = stay; bridge to `Evals`
 

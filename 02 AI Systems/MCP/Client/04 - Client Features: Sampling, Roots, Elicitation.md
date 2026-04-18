@@ -8,7 +8,7 @@ tags:
 type: note
 status: evergreen
 source: "MCP/MCP_Knowledge_Base.md"
-parent_note: "[[MCP - MOC]]"
+parent_note: "[[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]"
 ---
 
 # Client Features: Sampling, Roots, Elicitation
@@ -79,4 +79,4 @@ Server ส่ง structured log messages กลับไปยัง client
 
 - [[03 - Core Primitives: Tools, Resources, Prompts]] — ความสามารถฝั่ง server
 - [[05 - Security, Consent และ Authorization]] — user consent สำหรับ sampling และ tools
-- [[MCP - MOC]]
+- [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]

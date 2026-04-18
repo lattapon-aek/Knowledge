@@ -3,7 +3,7 @@ tags:
   - agent
   - decision-framework
   - use-cases
-type: note
+type: usecase
 status: evergreen
 source: "Google Skills — Agent Fundamentals (Module 4)"
 parent_note: "[[05 Use Cases/Use Cases - MOC]]"

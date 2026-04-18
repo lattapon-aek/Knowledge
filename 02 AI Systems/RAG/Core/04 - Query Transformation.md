@@ -6,7 +6,7 @@ tags:
 type: note
 status: evergreen
 source: "OpenAI Retrieval Docs · Microsoft Learn Query Rewrite"
-parent_note: "[[RAG - MOC]]"
+parent_note: "[[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]"
 ---
 
 # RAG - Query Transformation
@@ -166,7 +166,7 @@ query ใกล้กันแต่ transform ออกมาต่างมา
 - [[02 AI Systems/RAG/Retrieval/RAG - Hybrid Retrieval]] — transformed queries อาจช่วยทั้ง keyword และ vector side
 - [[02 AI Systems/RAG/Core/RAG - Agentic RAG]] — decomposition เป็นสะพานไปสู่ agentic retrieval
 - [[02 AI Systems/RAG/Evaluation/08 - Evaluation]] — ต้อง eval impact ของ rewriting/decomposition
-- [[RAG - MOC]]
+- [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 
 ---
 

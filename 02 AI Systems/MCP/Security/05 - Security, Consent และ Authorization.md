@@ -8,7 +8,7 @@ tags:
 type: note
 status: evergreen
 source: "MCP/MCP_Knowledge_Base.md"
-parent_note: "[[MCP - MOC]]"
+parent_note: "[[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]"
 ---
 
 # Security, Consent และ Authorization
@@ -67,4 +67,4 @@ Official spec ระบุ authorization สำหรับ HTTP-based transport
 
 - [[03 - Core Primitives: Tools, Resources, Prompts]] — ความเสี่ยงของ tools
 - [[04 - Client Features: Sampling, Roots, Elicitation]] — Roots สำหรับจำกัดขอบเขต filesystem
-- [[MCP - MOC]]
+- [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]

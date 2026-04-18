@@ -5,7 +5,7 @@ tags:
 type: note
 status: evergreen
 source: "OpenAI Evaluation Best Practices · Google Cloud Evaluation Overview"
-parent_note: "[[Evals - MOC]]"
+parent_note: "[[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]"
 ---
 
 # Evals - Human Evaluation
@@ -101,7 +101,7 @@ pattern ที่พบบ่อย:
 
 - [[02 AI Systems/Evals/Core/01 - Success Criteria]] — human review ต้องยึด criteria เดียวกัน
 - [[02 AI Systems/Evals/Core/03 - LLM-as-Judge]] — ใช้ human review เพื่อตรวจความน่าเชื่อถือของ judge
-- [[Evals - MOC]]
+- [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]
 
 ---
 

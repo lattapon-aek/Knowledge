@@ -6,7 +6,7 @@ tags:
 type: note
 status: evergreen
 source: "OpenAI Structured Outputs Docs · OpenAI Safety Best Practices · Azure AI Content Safety Groundedness Docs"
-parent_note: "[[Guardrails - MOC]]"
+parent_note: "[[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]]"
 ---
 
 # Guardrails - Output Validation
@@ -245,7 +245,7 @@ output ปลอดภัยแต่ไม่ตอบโจทย์
 - [[02 AI Systems/RAG/Core/07 - Grounding and Citation]] — groundedness และ citations
 - [[02 AI Systems/Guardrails/Core/05 - Fallback Policies]] — เมื่อ validation ไม่ผ่านควรทำอะไรต่อ
 - [[02 AI Systems/Evals/Application/06 - Prompt Evals]] — ทดสอบ output validation paths
-- [[Guardrails - MOC]]
+- [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]]
 
 ---
 
@@ -253,7 +253,7 @@ output ปลอดภัยแต่ไม่ตอบโจทย์
 
 - [[01 Foundations/Prompt Engineering/Core/07 - Structured Generation และ Output Formats]]
 - [[02 AI Systems/RAG/Core/07 - Grounding and Citation]]
-- [[Guardrails - MOC]]
+- [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]]
 
 ---
 

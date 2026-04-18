@@ -6,7 +6,7 @@ tags:
 type: note
 status: evergreen
 source: "Microsoft Learn (Azure AI Search Hybrid Search) · OpenAI Retrieval Docs"
-parent_note: "[[RAG - MOC]]"
+parent_note: "[[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]"
 ---
 
 # RAG - Hybrid Retrieval
@@ -187,7 +187,7 @@ hybrid retrieval บน corpus ใหญ่โดยไม่จำกัด sco
 - [[02 AI Systems/RAG/Retrieval/05 - Reranking]] — ชั้น reranking หลัง fusion
 - [[02 AI Systems/RAG/Core/06 - Context Assembly]] — การเลือก context หลัง retrieval
 - [[02 AI Systems/RAG/Evaluation/08 - Evaluation]] — วิธีวัด hybrid retrieval
-- [[RAG - MOC]]
+- [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 
 ---
 

@@ -5,7 +5,7 @@ tags:
 type: note
 status: evergreen
 source: "OpenAI Evals Guide · OpenAI Evaluation Best Practices"
-parent_note: "[[Evals - MOC]]"
+parent_note: "[[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]"
 ---
 
 # Evals - LLM-as-Judge
@@ -153,14 +153,14 @@ criteria ไม่ชัด ทำให้คะแนนเหวี่ยง
 - [[02 AI Systems/Evals/Application/06 - Prompt Evals]] — prompt evals ใช้ judge ได้บ่อย
 - [[02 AI Systems/Evals/Application/08 - Agent Evals]] — agent evals มักใช้ judge คู่กับ trace grading
 - [[02 AI Systems/RAG/Evaluation/08 - Evaluation]] — groundedness grading ใช้ judge ได้
-- [[Evals - MOC]]
+- [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]
 
 ---
 
 ## Related Notes
 
 - [[02 AI Systems/Evals/Core/01 - Success Criteria]]
-- [[Evals - MOC]]
+- [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]
 
 ---
 

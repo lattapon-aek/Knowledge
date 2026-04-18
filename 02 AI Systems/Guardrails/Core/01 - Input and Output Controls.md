@@ -5,7 +5,7 @@ tags:
 type: note
 status: evergreen
 source: "OpenAI Structured Outputs and Moderation Docs · OpenAI Safety Best Practices · Azure AI Content Safety Docs"
-parent_note: "[[Guardrails - MOC]]"
+parent_note: "[[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]]"
 ---
 
 # Guardrails - Input and Output Controls
@@ -334,7 +334,7 @@ controls อ่อนเกินไปจน unsafe content หรือ malfor
 - [[02 AI Systems/Guardrails/Core/05 - Fallback Policies]] — เมื่อ controls ไม่ผ่านควรไปทางไหน
 - [[02 AI Systems/RAG/Core/07 - Grounding and Citation]] — groundedness และ evidence checks
 - [[02 AI Systems/Evals/Application/06 - Prompt Evals]] — ใช้ evals ทดสอบ controls
-- [[Guardrails - MOC]]
+- [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]]
 
 ---
 
@@ -343,7 +343,7 @@ controls อ่อนเกินไปจน unsafe content หรือ malfor
 - [[01 Foundations/Prompt Engineering/Core/07 - Structured Generation และ Output Formats]]
 - [[Guardrails - Prompt Injection and Content Attacks]]
 - [[02 AI Systems/RAG/Core/07 - Grounding and Citation]]
-- [[Guardrails - MOC]]
+- [[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]]
 
 ---
 

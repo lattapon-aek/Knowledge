@@ -10,7 +10,7 @@ tags:
 type: note
 status: evergreen
 source: "https://platform.openai.com/docs/guides/agent-evals · https://platform.openai.com/docs/guides/trace-grading · https://platform.openai.com/docs/guides/evals · https://platform.openai.com/docs/guides/evaluation-best-practices · https://docs.langchain.com/oss/javascript/langgraph/persistence · https://docs.crewai.com/en/concepts/flows"
-parent_note: "[[Evals - MOC]]"
+parent_note: "[[02 AI Systems/Evals/Evals - MOC|Evals - MOC]]"
 ---
 
 # Evals - Multi-Agent Evals

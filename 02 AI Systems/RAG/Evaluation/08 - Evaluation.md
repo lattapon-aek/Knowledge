@@ -6,7 +6,7 @@ tags:
 type: note
 status: evergreen
 source: "OpenAI Retrieval Docs · Google Vertex AI Grounding / Evaluation Docs · Microsoft Learn"
-parent_note: "[[RAG - MOC]]"
+parent_note: "[[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]"
 ---
 
 # RAG - Evaluation
@@ -241,14 +241,14 @@ answer ถูกบางส่วน แต่ cite ไม่ตรง
 - [[02 AI Systems/RAG/Retrieval/RAG - Hybrid Retrieval]] — hybrid retrieval ต้อง eval แยกเป็น slices
 - [[02 AI Systems/RAG/Core/RAG - Agentic RAG]] — agentic RAG ต้องวัด planning กับ retrieval เพิ่ม
 - [[02 AI Systems/RAG/Core/06 - Context Assembly]] — assembly quality มีผลต่อ answer quality
-- [[RAG - MOC]]
+- [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 
 ---
 
 ## Related Notes
 
 - [[02 AI Systems/Evals/Evals - MOC]]
-- [[RAG - MOC]]
+- [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]
 
 ---
 

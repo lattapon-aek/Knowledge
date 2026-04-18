@@ -36,7 +36,7 @@ parent_note: "[[Home]]"
 - ทำให้ `03 Tools/Claude Code` เป็น volatile layer
 - ทำให้ `01 Foundations` เป็น canonical home ของ LLM / prompt / context primitives
 - ทำให้ `MCP` เป็น canonical home ของ protocol layer สำหรับ tools, resources, prompts, client features, และ security/consent
-- ให้ `AI Agent Fundamentals/12, 13, 14` เป็น bridge notes สำหรับ agent-facing runtime เท่านั้น
+- ให้ bridge notes สำหรับ agent-facing runtime อยู่ใน canonical owner ปัจจุบัน: `01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน`, `01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates`, และ `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน`
 - ทำให้ `Agent Frameworks` เป็น canonical home ของ framework selection และ framework-level tradeoffs
 - ทำให้ `Memory Systems` เป็น canonical home ของ memory architecture และ memory policy
 - ทำให้ `RAG` เป็น canonical home ของ retrieval pipeline, grounding, และ RAG evaluation

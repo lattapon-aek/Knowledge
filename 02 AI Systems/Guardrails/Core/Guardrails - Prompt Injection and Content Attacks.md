@@ -7,7 +7,7 @@ tags:
 type: note
 status: evergreen
 source: "Microsoft Learn, Azure AI Content Safety, Microsoft Foundry"
-parent_note: "[[Guardrails - MOC]]"
+parent_note: "[[02 AI Systems/Guardrails/Guardrails - MOC|Guardrails - MOC]]"
 ---
 
 # Guardrails - Prompt Injection and Content Attacks

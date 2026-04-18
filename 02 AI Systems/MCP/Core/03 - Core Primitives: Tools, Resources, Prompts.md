@@ -8,7 +8,7 @@ tags:
 type: note
 status: evergreen
 source: "MCP/MCP_Knowledge_Base.md"
-parent_note: "[[MCP - MOC]]"
+parent_note: "[[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]"
 ---
 
 # Core Primitives: Tools, Resources, Prompts
@@ -118,4 +118,4 @@ Server features หลัก 3 อย่าง:
 
 - [[04 - Client Features: Sampling, Roots, Elicitation]] — ความสามารถฝั่ง client
 - [[05 - Security, Consent และ Authorization]] — หลักการ security สำหรับ tools
-- [[MCP - MOC]]
+- [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]

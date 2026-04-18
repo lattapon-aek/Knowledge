@@ -52,9 +52,10 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 ลำดับที่ควรถาม:
 1. chunk documents อย่างไร
 2. จะใช้ lexical, vector, หรือ hybrid retrieval
-3. ต้องมี query transformation หรือไม่
-4. ต้องมี reranking หรือไม่
-5. จะประกอบ context ก่อนส่งเข้า model อย่างไร
+3. ต้องมี query routing หรือ retrieval strategy หลายแบบหรือไม่
+4. ต้องมี query transformation หรือไม่
+5. ต้องมี reranking หรือไม่
+6. จะประกอบ context ก่อนส่งเข้า model อย่างไร
 
 ---
 
@@ -86,7 +87,8 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 | query หลากหลายและ lexical signal สำคัญ | hybrid retrieval |
 | query ซับซ้อนหลายเงื่อนไข | query transformation + reranking |
 | ข้อมูลเป็น entities และ relationships ชัด | knowledge graph RAG |
-| ต้องค้นหลายรอบหรือวางแผน query | agentic RAG |
+| ต้องเลือก retrieval path ตาม query | query routing |
+| ต้องค้นหลายรอบหรือวางแผน query | agentic RAG / agentic retrieval loop |
 
 ---
 
@@ -111,6 +113,8 @@ parent_note: "[[05 Use Cases/Use Cases - MOC]]"
 7. [[02 AI Systems/RAG/Core/07 - Grounding and Citation]]
 8. [[02 AI Systems/RAG/Evaluation/08 - Evaluation]]
 9. [[02 AI Systems/RAG/Core/09 - Cost and Latency Tradeoffs]]
+10. [[02 AI Systems/RAG/Retrieval/RAG - Query Routing and Retrieval Strategy]]
+11. [[02 AI Systems/RAG/Core/Agentic RAG - Planning and Retrieval Loop]]
 
 ---
 

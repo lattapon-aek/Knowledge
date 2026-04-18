@@ -18,6 +18,7 @@ parent_note: "[[Source Manifests - MOC]]"
 
 Official docs family:
 - `https://learn.microsoft.com/en-us/azure/search/vector-search-overview`
+- `https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview`
 - `https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview`
 - `https://learn.microsoft.com/en-us/azure/search/hybrid-search-how-to-query`
 - `https://learn.microsoft.com/en-us/azure/search/semantic-ranking`
@@ -26,6 +27,7 @@ Official docs family:
 - `https://learn.microsoft.com/en-us/azure/search/semantic-how-to-configure`
 - `https://learn.microsoft.com/en-us/azure/search/search-how-to-semantic-chunking`
 - `https://learn.microsoft.com/en-us/azure/search/search-agentic-retrieval-concept`
+- `https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-overview`
 - `https://learn.microsoft.com/en-us/azure/search/search-get-started-agentic-retrieval`
 - `https://learn.microsoft.com/en-us/azure/search/search-what-is-azure-search`
 - `https://learn.microsoft.com/en-us/azure/search/search-sku-manage-costs`
@@ -39,7 +41,9 @@ Official docs family:
 - [[02 AI Systems/RAG/Retrieval/05 - Reranking]]
 - [[02 AI Systems/RAG/Core/02 - Chunking Strategies]]
 - [[02 AI Systems/RAG/Core/04 - Query Transformation]]
+- [[02 AI Systems/RAG/Retrieval/RAG - Query Routing and Retrieval Strategy]]
 - [[02 AI Systems/RAG/Core/RAG - Agentic RAG]]
+- [[02 AI Systems/RAG/Core/Agentic RAG - Planning and Retrieval Loop]]
 - [[02 AI Systems/RAG/Core/09 - Cost and Latency Tradeoffs]]
 
 ---

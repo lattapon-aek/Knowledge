@@ -65,6 +65,8 @@ parent_note: "[[Home]]"
 | Tokenization / tokenizer behavior | `01 Foundations/Tokenizer in AI` | `Tokenizer in AI - MOC` |
 | LLM theory / inference / evaluation primitives | `01 Foundations/LLM Foundations` | `LLM Foundations - MOC` |
 | Retrieval / grounding / RAG eval | `02 AI Systems/RAG` | `RAG - MOC` |
+| Query routing / retrieval strategy | `02 AI Systems/RAG` | `RAG - Query Routing and Retrieval Strategy` |
+| Agentic retrieval loop | `02 AI Systems/RAG` | `Agentic RAG - Planning and Retrieval Loop` |
 | Memory policy / long-term recall | `02 AI Systems/Memory Systems` | `Memory Systems - MOC` |
 | Guardrails / safety controls | `02 AI Systems/Guardrails` | `Guardrails - MOC` |
 | Use-case decisions | `05 Use Cases` | `Use Cases - MOC` |

@@ -9,6 +9,8 @@ type: note
 status: evergreen
 source: "OpenAI, Hugging Face, Google Research, Google DeepMind"
 parent_note: "[[LLM Foundations - MOC]]"
+created: "2026-04-18"
+updated: ""
 ---
 
 # LLM คืออะไรและพื้นฐาน

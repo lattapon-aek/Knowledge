@@ -1,0 +1,127 @@
+---
+tags:
+  - memory
+  - moc
+  - agents
+type: moc
+status: evergreen
+source: ""
+parent_note: "[[Home]]"
+---
+
+# Memory Systems - MOC
+
+> โครงความรู้สำหรับ memory systems ใน LLM applications, RAG systems, และ agents
+
+---
+
+## Scope
+
+หมวดนี้ครอบ working memory, long-term memory, episodic memory, semantic memory, memory write/read policies, และ failure modes ของ memory systems
+
+หมวดนี้เป็น canonical home ของ memory architecture และ memory policy  
+การใช้ memory ร่วมกับ RAG ให้ดู `RAG - MOC` และ synthesis notes แทนการเล่าแบบรวมกัน
+ถ้าเป็นการตัดสินใจเชิงใช้งานว่า "ควรใช้ memory แบบไหน" ให้ดู `05 Use Cases` เป็น entry point แล้วกลับมาอ่าน note canonical ของหมวดนี้
+ถ้าเป็น pattern การใช้ memory ร่วมกับ session, checkpoint, หรือ tool runtime ให้ดู `Agent Frameworks` เป็นชั้น implementation ที่เกี่ยวข้อง
+ถ้าเป็น retrieval pipeline, chunking, reranking, grounding, หรือ RAG evaluation ให้ไป `RAG - MOC` แทน ไม่เล่าซ้ำในหมวด memory
+
+กติกาการอ่าน:
+- ไฟล์ที่มีเลข `01, 02, 03...` คือ core learning path
+- ไฟล์ที่ไม่มีเลขคือหัวข้อเสริมที่จะแตกต่อในอนาคต
+
+---
+
+## Memory System Architecture
+
+```mermaid
+flowchart TD
+    A["Session / User Event"] --> B["Working Memory<br/>current task state"]
+    B --> C["Agent Runtime"]
+    C --> D["Memory Read Policy"]
+    D --> E["Long-Term Memory Store"]
+    E --> F["Episodic Memory<br/>events / interactions"]
+    E --> G["Semantic Memory<br/>facts / preferences"]
+    E --> H["Procedural Memory<br/>procedures / skills"]
+    F --> I["Memory Retrieval"]
+    G --> I
+    H --> I
+    I --> J["Context Assembly"]
+    J --> C
+    C --> K["Memory Write Policy<br/>salience / consent / scope"]
+    K --> E
+
+    L["RAG / External Knowledge"] --> J
+    M["Guardrails / Privacy"] --> D
+    M --> K
+    N["Evals / Failure Analysis"] --> D
+    N --> K
+```
+
+ภาพนี้แยก memory ออกจาก RAG: memory คือ state และประสบการณ์ที่ระบบเลือกอ่าน/เขียนตาม policy ส่วน RAG คือ external knowledge retrieval ที่นำมา assemble ร่วมใน context ได้ จุดเสี่ยงหลักอยู่ที่ read/write policy, privacy boundary, stale memory, และ memory retrieval ที่ผิด scope.
+
+---
+
+## Notes Map
+
+- [[02 AI Systems/Memory Systems/Core/01 - Working Memory vs Long-Term Memory|Working memory vs long-term memory]]
+- [[02 AI Systems/Memory Systems/Core/02 - Episodic vs Semantic vs Procedural Memory|Episodic vs semantic vs procedural memory]]
+- [[02 AI Systems/Memory Systems/Core/03 - Memory Read and Write Policies|Memory read and write policies]]
+- [[02 AI Systems/Memory Systems/Core/06 - Memory Retrieval vs RAG|Memory retrieval vs RAG]]
+- [[02 AI Systems/Memory Systems/Application/04 - Agent Memory Patterns|Agent memory patterns]]
+- [[02 AI Systems/Memory Systems/Application/05 - Memory Failure Modes|Memory failure modes]]
+
+---
+
+## Related Notes
+
+- [[04 Synthesis/Bridge/Synthesis - Memory in Agents]]
+- [[02 AI Systems/Agent Frameworks/Core/03 - State and Memory]]
+- [[01 Foundations/Context Windows/Context Windows - MOC]]
+- [[04 Synthesis/Bridge/Synthesis - Weights, Context, Retrieval และ Tools]]
+- [[01 Foundations/LLM Foundations/Core/13 - Evaluation Foundations]]
+- [[02 AI Systems/RAG/RAG - MOC]]
+- [[02 AI Systems/Guardrails/Guardrails - MOC]]
+- [[02 AI Systems/Evals/Evals - MOC]]
+- [[02 AI Systems/AI Agent Fundamentals/Core/05 - วงจร Perceive-Think-Act-Check]]
+- [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน]]
+- [[06 Engineering/README]]
+- [[06 Engineering/Memory/Memory - MOC]]
+
+---
+
+## Learning Path
+
+### 1. Foundations Before Memory Systems
+
+1. [[01 Foundations/Context Windows/Core/01 - Context Window คืออะไร]]
+2. [[04 Synthesis/Bridge/Synthesis - Memory in Agents]]
+3. [[04 Synthesis/Bridge/Synthesis - Memory vs RAG vs Context]]
+
+### 2. Core Memory Concepts
+
+1. [[02 AI Systems/Memory Systems/Core/01 - Working Memory vs Long-Term Memory]]
+2. [[02 AI Systems/Memory Systems/Core/02 - Episodic vs Semantic vs Procedural Memory]]
+3. [[02 AI Systems/Memory Systems/Core/03 - Memory Read and Write Policies]]
+
+### 3. System Patterns and Risks
+
+1. [[02 AI Systems/Memory Systems/Core/06 - Memory Retrieval vs RAG]]
+2. [[02 AI Systems/Memory Systems/Application/04 - Agent Memory Patterns]]
+3. [[02 AI Systems/Memory Systems/Application/05 - Memory Failure Modes]]
+
+### 4. Cross-System Links
+
+1. [[02 AI Systems/Agent Frameworks/Core/03 - State and Memory]]
+2. [[02 AI Systems/RAG/RAG - MOC]]
+3. [[02 AI Systems/Guardrails/Guardrails - MOC]]
+4. [[02 AI Systems/Evals/Evals - MOC]]
+5. [[05 Use Cases/Application/Use Cases - Design Memory for an AI Agent]]
+6. [[04 Synthesis/Bridge/Synthesis - Agent Runtime Layers]]
+
+---
+
+## Next Notes To Create
+
+- Memory Systems - Personalization and User Profiles
+- Memory Systems - Memory Compression and Summarization
+- [[Knowledge Topic Registry]]

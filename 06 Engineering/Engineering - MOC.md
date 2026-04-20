@@ -1,0 +1,91 @@
+---
+tags:
+  - engineering
+  - moc
+  - implementation
+type: moc
+status: evergreen
+source: "vault-local engineering hub"
+parent_note: "[[Home]]"
+---
+
+# Engineering - MOC
+
+ชั้นสำหรับเรื่อง coding, framework, implementation, และ project-specific engineering notes
+
+หมวดนี้เป็น canonical home ของ implementation layer  
+ถ้าเป็น framework selection / framework-level tradeoffs ให้ดู `02 AI Systems/Agent Frameworks` ก่อน  
+ถ้าเป็น memory architecture / retrieval theory / guardrail theory / eval theory ให้ดูหมวด AI Systems ที่เป็น owner ของเรื่องนั้นก่อน แล้วค่อยใช้หมวดนี้เป็น implementation layer
+
+---
+
+## Implementation Layer Map
+
+```mermaid
+flowchart TD
+    A["Canonical Concepts<br/>01 Foundations / 02 AI Systems"] --> B["Architecture to Code"]
+    B --> C["Engineering Decisions"]
+    C --> D["Recipes"]
+    D --> E["Framework Notes"]
+    E --> F["Patterns"]
+    F --> G["Project Notes / Implementation Logs"]
+
+    B --> H["Contracts / Interfaces"]
+    D --> I["RAG / MCP / Memory / Guardrails / Evals"]
+    I --> J["Tests / Eval Harness / Regression Gates"]
+    J --> G
+
+    K["Use Cases"] --> C
+    L["Synthesis"] --> C
+    M["Operational Feedback"] --> J
+    M --> C
+```
+
+ภาพนี้วาง `06 Engineering` เป็นชั้นแปลง concept ให้เป็น implementation: เริ่มจาก architecture, ตัดสินใจ boundary, แตกเป็น recipe/framework/pattern, แล้วปิดด้วย tests, eval gates, และ project notes ที่ย้อนกลับไปปรับ decision ได้.
+
+---
+
+## Maps
+
+- [[06 Engineering/Architecture to Code/Architecture to Code - MOC|Architecture to Code - MOC]]
+- [[06 Engineering/Frameworks/Frameworks - MOC|Frameworks - MOC]]
+- [[06 Engineering/RAG/RAG - MOC|RAG - MOC]]
+- [[06 Engineering/Guardrails/Guardrails - MOC|Guardrails - MOC]]
+- [[06 Engineering/Evals/Evals - MOC|Evals - MOC]]
+- [[06 Engineering/MCP/MCP - MOC|MCP - MOC]]
+- [[06 Engineering/Memory/Memory - MOC|Memory - MOC]]
+- [[06 Engineering/Patterns/Patterns - MOC|Patterns - MOC]]
+- [[06 Engineering/Recipes/Recipes - MOC|Recipes - MOC]]
+- [[06 Engineering/Decisions/Decisions - MOC|Decisions - MOC]]
+- [[06 Engineering/Project Notes/Project Notes - MOC|Project Notes - MOC]]
+
+---
+
+## Starter Notes
+
+- [[06 Engineering/Patterns/Pattern - Retry and Backoff|Retry and Backoff]]
+- [[06 Engineering/Recipes/Recipe - Add a New Framework Note|Add a New Framework Note]]
+- [[06 Engineering/Decisions/Decision - Choose a Framework|Choose a Framework]]
+- [[06 Engineering/RAG/Recipe - Build a RAG Pipeline|Build a RAG Pipeline]]
+- [[06 Engineering/RAG/Decision - Choose a Retrieval Strategy|Choose a Retrieval Strategy]]
+- [[06 Engineering/Guardrails/Recipe - Add Output Validation|Add Output Validation]]
+- [[06 Engineering/Guardrails/Decision - Choose a Validation Boundary|Choose a Validation Boundary]]
+- [[06 Engineering/Evals/Recipe - Build an Eval Harness|Build an Eval Harness]]
+- [[06 Engineering/Evals/Decision - Choose an Evaluation Gate|Choose an Evaluation Gate]]
+- [[06 Engineering/MCP/Recipe - Add MCP Server Integration|Add MCP Server Integration]]
+- [[06 Engineering/MCP/Decision - Choose MCP Integration Boundary|Choose MCP Integration Boundary]]
+- [[06 Engineering/Memory/Recipe - Add a Memory Layer|Add a Memory Layer]]
+- [[06 Engineering/Memory/Decision - Choose a Memory Policy|Choose a Memory Policy]]
+- [[06 Engineering/Project Notes/Project Note - Example Implementation Log|Example Implementation Log]]
+
+---
+
+## Scope
+
+- architecture-to-code notes สำหรับแปลง concept ให้ลง implementation ได้
+- framework-specific notes สำหรับ library/framework ที่เปลี่ยนตาม ecosystem
+- patterns และ recipes สำหรับ reuse ในงาน coding
+- decisions สำหรับบันทึกเหตุผลการเลือกทาง engineering
+- project notes สำหรับ context ของระบบหรือ repo เฉพาะ
+
+- [[Knowledge Topic Registry]]

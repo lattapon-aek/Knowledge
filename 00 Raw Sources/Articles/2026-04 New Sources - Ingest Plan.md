@@ -189,13 +189,13 @@ vault มี framework landscape อยู่แล้ว — ต้องอ่
 - [x] 1.15 เพิ่ม Value Tensions + Empirical Signals ใน Open Design Directions
 
 ### Phase 2 — RAG-Anything
-- [ ] 2.1 Source Record
-- [ ] 2.2 สร้าง Multimodal RAG (note ใหม่)
-- [ ] 2.3 เสริม Knowledge Graph RAG (merge section)
-- [ ] 2.4 เสริม Agentic RAG (merge section)
-- [ ] 2.5 เสริม Hybrid Retrieval (merge section)
-- [ ] 2.6 อัปเดต RAG MOC
-- [ ] 2.7 อัปเดต cross-links
+- [x] 2.1 Source Record
+- [x] 2.2 สร้าง Multimodal RAG (note ใหม่)
+- [x] 2.3 เสริม Knowledge Graph RAG (merge: cross-modal KG section)
+- [x] 2.4 เสริม Agentic RAG (merge: VLM-Enhanced Retrieval pattern)
+- [x] 2.5 เสริม Hybrid Retrieval (merge: Vector-Graph Fusion section)
+- [x] 2.6 อัปเดต RAG MOC
+- [x] 2.7 อัปเดต cross-links
 
 ### Phase 3 — llm-engineer-toolkit (optional)
 - [ ] 3.1 Source Record

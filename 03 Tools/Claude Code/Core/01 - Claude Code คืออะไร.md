@@ -118,6 +118,14 @@ flowchart LR
 
 **Runtime Turn Flow (Fig 2)**
 
+แต่ละ turn ของ agent loop ทำงานดังนี้:
+1. user prompt เข้าสู่ context assembly (รวม settings, history, CLAUDE.md)
+2. model ถูกเรียก → อาจตอบเป็น text หรือ tool request
+3. ถ้าเป็น tool request → ผ่าน permission gate ก่อน
+4. ถ้า allow → execute tool แล้ว compact context ถ้าจำเป็น → วนรอบต่อ
+5. ถ้า deny → model ได้รับ deny feedback พร้อมเหตุผล แล้วปรับ approach ใน iteration ถัดไป
+6. เมื่อ model ตอบเป็น text โดยไม่มี tool request → turn จบ ส่ง response กลับผู้ใช้
+
 ```mermaid
 flowchart TD
     UP([User Prompt]) --> CA[Context Assembly]
@@ -153,6 +161,10 @@ flowchart TD
 | Safety/Action | Permission System + classifier, Hook Pipeline, Extensibility, Built-in Tools, MCP Tools, Shell Sandbox, Subagent Spawning |
 | State | Context Assembly, Runtime State, Session Persistence, CLAUDE.md + memory, Sidechain Transcripts |
 | Backend | Execution Backends, External Resources (local/cloud/remote) |
+
+State Layer เชื่อมกับทั้ง Core และ Safety/Action เพราะ:
+- **Core ← State**: agent loop ดึง context จาก context assembly และ session persistence ก่อนเรียก model ทุก turn
+- **Safety/Action ← State**: permission system อ่าน CLAUDE.md content (cached) สำหรับ auto-mode classifier, subagent spawning เขียน sidechain transcripts
 
 - **Permission System** — 7 permission modes ตั้งแต่ `plan` (ต้องอนุมัติทุกอย่าง) ถึง `bypassPermissions` + ML-based classifier สำหรับ auto-mode → ดูเพิ่มที่ [[03 Tools/Claude Code/Reference/09 - Permissions และ Settings|Permissions และ Settings]]
 - **Context Compaction** — 5 ชั้นจัดการ context window ก่อนเรียก model ทุกครั้ง (budget reduction → snip → microcompact → context collapse → auto-compact) → ดูเพิ่มที่ [[03 Tools/Claude Code/Core/25 - Context Compaction Pipeline|Context Compaction Pipeline]]

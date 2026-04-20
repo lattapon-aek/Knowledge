@@ -140,9 +140,9 @@ flowchart LR
 6. [[02 AI Systems/RAG/Retrieval/RAG - Knowledge Graph RAG]]
 7. [[02 AI Systems/RAG/Retrieval/RAG - Multimodal RAG]]
 8. [[02 AI Systems/RAG/Core/RAG - Security and Source Trust]]
-8. [[02 AI Systems/RAG/Core/RAG - Agentic RAG]]
-9. [[02 AI Systems/RAG/Core/Agentic RAG - Planning and Retrieval Loop]]
-10. [[02 AI Systems/RAG/Evaluation/Agentic RAG - Evaluation and Failure Modes]]
+9. [[02 AI Systems/RAG/Core/RAG - Agentic RAG]]
+10. [[02 AI Systems/RAG/Core/Agentic RAG - Planning and Retrieval Loop]]
+11. [[02 AI Systems/RAG/Evaluation/Agentic RAG - Evaluation and Failure Modes]]
 
 ### 5. Synthesis
 

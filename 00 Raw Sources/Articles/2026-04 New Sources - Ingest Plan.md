@@ -198,8 +198,8 @@ vault มี framework landscape อยู่แล้ว — ต้องอ่
 - [x] 2.7 อัปเดต cross-links
 
 ### Phase 3 — llm-engineer-toolkit (optional)
-- [ ] 3.1 Source Record
-- [ ] 3.2 เสริม Landscape (merge)
+- [x] 3.1 Source Record
+- [x] 3.2 เสริม Landscape (merge: Extended Landscape tables)
 
 ### Phase 4 — ai-engineering-from-scratch (skip)
 - [ ] 4.1 Source Record (optional)

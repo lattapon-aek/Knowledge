@@ -202,7 +202,7 @@ vault มี framework landscape อยู่แล้ว — ต้องอ่
 - [x] 3.2 เสริม Landscape (merge: Extended Landscape tables)
 
 ### Phase 4 — ai-engineering-from-scratch (skip)
-- [ ] 4.1 Source Record (optional)
+- [x] 4.1 Source Record (reference only)
 
 ---
 

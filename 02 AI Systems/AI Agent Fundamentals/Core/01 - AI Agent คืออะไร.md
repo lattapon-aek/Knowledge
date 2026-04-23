@@ -125,6 +125,7 @@ Agent ไม่ได้มีแค่แบบเดียว — มีอย
 - [[03 - คุณสมบัติ 5 อย่างของ Agent]]
 - [[11 - Key Takeaways และ Quick Reference]]
 - [[01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน|12 - LLM พื้นฐาน]]
+- [[02 AI Systems/AI Agent Fundamentals/Core/08 - Harness Engineering|08 - Harness Engineering]] — Agent = Model + Harness, ระบบรอบ ๆ model ที่ทำให้ agent ทำงานได้จริง
 
 ## ตัวอย่าง Implementation จริง
 

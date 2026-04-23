@@ -43,6 +43,14 @@ parent_note: "[[Home]]"
 
 framework หรือ runtime ที่ช่วยสร้างและ orchestration การทำงานของ agents, tools, state, และ workflows
 
+## Harness
+
+ทุกสิ่งที่ไม่ใช่ model ใน agent system — code, configuration, execution logic ที่ทำให้ raw model กลายเป็น agent ที่ทำงานได้จริง (Agent = Model + Harness)
+
+## Harness Engineering
+
+discipline ของการออกแบบระบบรอบ ๆ model เพื่อให้ agent ทำงานได้ reliable, steerable, และ long-running — ครอบคลุม context management, tool orchestration, feedback loops, safety controls, และ multi-agent coordination
+
 ## MCP
 
 protocol สำหรับเชื่อม LLM application เข้ากับ tools, resources, และ prompts แบบมาตรฐาน

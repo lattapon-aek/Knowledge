@@ -5,7 +5,7 @@ tags:
   - patterns
   - orchestration
 type: note
-status: draft
+status: evergreen
 source: "Anthropic Harness Design · OpenAI Harness Engineering · LangChain Anatomy of Agent Harness · MindStudio Harness Engineering"
 parent_note: "[[Agent Frameworks - MOC]]"
 created: "2026-04-23"

@@ -5,7 +5,7 @@ tags:
   - evaluation
   - taxonomy
 type: note
-status: draft
+status: evergreen
 source: "vault-local synthesis จาก RAG Evaluation, Guardrails, และ Evals notes · Google Cloud RAG Docs · OpenAI Retrieval Docs"
 parent_note: "[[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]"
 created: "2026-04-23"

@@ -4,7 +4,7 @@ tags:
   - tools
   - bridge
 type: note
-status: draft
+status: evergreen
 source: "MCP Official Docs · Anthropic Tool Use Overview · HuggingFace Agents Course"
 parent_note: "[[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]"
 created: "2026-04-23"

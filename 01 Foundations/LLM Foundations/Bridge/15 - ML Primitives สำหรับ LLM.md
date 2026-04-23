@@ -5,7 +5,7 @@ tags:
   - fundamentals
   - bridge
 type: note
-status: draft
+status: evergreen
 source: "Google ML Crash Course · Microsoft Learn ML Fundamentals · DeepLearning.AI ML Specialization · Stanford CS229 · IBM ML Hub"
 parent_note: "[[01 Foundations/LLM Foundations/LLM Foundations - MOC|LLM Foundations - MOC]]"
 created: "2026-04-23"

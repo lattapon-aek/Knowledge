@@ -6,7 +6,7 @@ tags:
   - context
   - agents
 type: note
-status: draft
+status: evergreen
 source: "vault-local synthesis จาก Memory Systems, Context Windows, และ LLM Foundations notes"
 parent_note: "[[02 AI Systems/Memory Systems/Memory Systems - MOC|Memory Systems - MOC]]"
 created: "2026-04-23"

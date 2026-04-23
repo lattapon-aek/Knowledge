@@ -6,7 +6,7 @@ tags:
   - prompts
   - primitives
 type: note
-status: draft
+status: evergreen
 source: "MCP Official Docs - modelcontextprotocol.io"
 parent_note: "[[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]"
 created: "2026-04-23"

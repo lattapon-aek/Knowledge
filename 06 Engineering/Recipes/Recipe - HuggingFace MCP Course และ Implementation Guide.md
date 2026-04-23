@@ -237,6 +237,6 @@ flowchart LR
 ## ดูต่อ
 
 - [[02 AI Systems/MCP/Core/01 - MCP คืออะไรและแก้ปัญหาอะไร]]
-- [[02 AI Systems/MCP/Core/02 - Architecture: Host, Client, Server]]
-- [[02 AI Systems/MCP/Core/03 - Core Primitives: Tools, Resources, Prompts]]
+- [[02 AI Systems/MCP/Core/02 - Architecture_ Host, Client, Server]]
+- [[02 AI Systems/MCP/Core/03 - Core Primitives_ Tools, Resources, Prompts]]
 - [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]

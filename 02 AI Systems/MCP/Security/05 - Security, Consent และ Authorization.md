@@ -65,6 +65,6 @@ Official spec ระบุ authorization สำหรับ HTTP-based transport
 
 ## ดูต่อ
 
-- [[03 - Core Primitives: Tools, Resources, Prompts]] — ความเสี่ยงของ tools
-- [[04 - Client Features: Sampling, Roots, Elicitation]] — Roots สำหรับจำกัดขอบเขต filesystem
+- [[03 - Core Primitives_ Tools, Resources, Prompts]] — ความเสี่ยงของ tools
+- [[04 - Client Features_ Sampling, Roots, Elicitation]] — Roots สำหรับจำกัดขอบเขต filesystem
 - [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]

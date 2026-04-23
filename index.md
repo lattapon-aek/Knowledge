@@ -73,6 +73,8 @@ flowchart LR
 - [[04 Synthesis/Bridge/Synthesis - Weights, Context, Retrieval และ Tools]] — แยกความต่างของ 4 แหล่งความสามารถในระบบ LLM
 - [[01 Foundations/LLM Foundations/Core/13 - Evaluation Foundations]] — พื้นฐาน evaluation ก่อนลงหมวด Evals
 - [[01 Foundations/LLM Foundations/Core/14 - Vector Representations และ Similarity Search]] — vector layer, dense/sparse vectors, และ similarity search
+- [[01 Foundations/LLM Foundations/Bridge/15 - ML Primitives สำหรับ LLM]] — ML fundamentals ที่จำเป็นต่อการเข้าใจ LLM (bridge note)
+- [[01 Foundations/LLM Foundations/Core/16 - Model Compression และ Inference Optimization]] — quantization, distillation, pruning, KV cache optimization
 
 ### Prompt Engineering
 
@@ -125,15 +127,15 @@ flowchart LR
 - [[02 AI Systems/AI Agent Fundamentals/Reference/11 - Key Takeaways และ Quick Reference]] — สรุปและ quick reference
 - [[01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน]] — พื้นฐาน LLM ที่จำเป็นต่อการเข้าใจ agent
 - [[01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates]] — runtime message structure และ templates
-- [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน]] — tool design และ tool execution
+- [[02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน]] — tool design และ tool execution
 
 ### MCP
 
 - [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]] — หน้าแม่ของ Model Context Protocol
 - [[02 AI Systems/MCP/Core/01 - MCP คืออะไรและแก้ปัญหาอะไร]] — นิยาม MCP และปัญหา M×N
-- [[02 AI Systems/MCP/Core/02 - Architecture: Host, Client, Server]] — architecture ของ host/client/server
-- [[02 AI Systems/MCP/Core/03 - Core Primitives: Tools, Resources, Prompts]] — primitives หลักของ MCP
-- [[02 AI Systems/MCP/Client/04 - Client Features: Sampling, Roots, Elicitation]] — capabilities ฝั่ง client
+- [[02 AI Systems/MCP/Core/02 - Architecture_ Host, Client, Server]] — architecture ของ host/client/server
+- [[02 AI Systems/MCP/Core/03 - Core Primitives_ Tools, Resources, Prompts]] — primitives หลักของ MCP
+- [[02 AI Systems/MCP/Client/04 - Client Features_ Sampling, Roots, Elicitation]] — capabilities ฝั่ง client
 - [[02 AI Systems/MCP/Security/05 - Security, Consent และ Authorization]] — security และ consent model
 - [[06 Engineering/Recipes/Recipe - HuggingFace MCP Course และ Implementation Guide]] — implementation-oriented guide
 

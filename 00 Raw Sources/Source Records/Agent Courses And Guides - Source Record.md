@@ -50,7 +50,7 @@ variants ที่ถูกอ้าง:
 - [[02 AI Systems/AI Agent Fundamentals/Core/07 - รูปแบบ Agent Architectures]]
 - [[01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน]]
 - [[01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates]]
-- [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน]]
+- [[02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน]]
 
 ---
 

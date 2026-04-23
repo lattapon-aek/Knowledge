@@ -92,7 +92,7 @@ diagram นี้คือภาพรวมชั้นความรู้ข
 1. [[02 AI Systems/AI Agent Fundamentals/Core/01 - AI Agent คืออะไร]]
 2. [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
 3. [[02 AI Systems/AI Agent Fundamentals/Core/05 - วงจร Perceive-Think-Act-Check]]
-4. [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน]]
+4. [[02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน]]
 5. [[02 AI Systems/MCP/Core/01 - MCP คืออะไรและแก้ปัญหาอะไร]]
 
 ---

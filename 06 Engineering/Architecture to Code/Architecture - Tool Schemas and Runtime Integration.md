@@ -133,7 +133,7 @@ MCP เพิ่ม abstraction อีกชั้นโดยนิยาม pr
 
 ## โน้ตที่เกี่ยวข้อง
 
-- [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]]
+- [[02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]]
 - [[01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]]
 - [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]
 - [[02 AI Systems/Guardrails/Core/03 - Tool Safety|Guardrails - Tool Safety]]

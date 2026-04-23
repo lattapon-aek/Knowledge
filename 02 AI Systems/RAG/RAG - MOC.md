@@ -97,7 +97,7 @@ flowchart LR
 - [[04 Synthesis/Bridge/Synthesis - Memory vs RAG vs Context]]
 - [[02 AI Systems/AI Agent Fundamentals/Core/07 - รูปแบบ Agent Architectures]]
 - [[02 AI Systems/Agent Frameworks/Agent Frameworks - MOC]]
-- [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน]]
+- [[02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน]]
 - [[02 AI Systems/Evals/Evals - MOC]]
 - [[04 Synthesis/Decision/Synthesis - Agent vs Workflow vs RAG]]
 - [[04 Synthesis/Decision/Synthesis - Prompting vs Fine-tuning vs RAG]]

@@ -82,7 +82,7 @@ parent_note: "[[Knowledge Topic Registry]]"
 Move batch 1 ที่ทำจริง:
 - `01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน` = keep as LLM bridge note
 - `01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates` = keep as prompt/runtime bridge note
-- `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน` = keep as MCP/tool contract bridge note
+- `02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน` = keep as MCP/tool contract bridge note
 
 ### Phase Status
 
@@ -103,7 +103,7 @@ Move batch 1 ที่ทำจริง:
 
 - `01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน`
 - `01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates`
-- `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน`
+- `02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน`
 - `Synthesis - Memory in Agents`
 - `Synthesis - Memory vs RAG vs Context`
 - `Synthesis - Agent vs Workflow vs RAG`
@@ -141,7 +141,7 @@ Move batch 1 ที่ทำจริง:
 - `RAG/Core/06 - Context Assembly` = stay; bridge to `Context Engineering`
 - `RAG/Core/07 - Grounding and Citation` = stay; bridge to `Evals`
 - `RAG/Evaluation/08 - Evaluation` = stay; bridge to `Evals`
-- `Guardrails/Core/03 - Tool Safety` = stay; bridge to `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน` and `MCP`
+- `Guardrails/Core/03 - Tool Safety` = stay; bridge to `02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน` and `MCP`
 - `Guardrails/Operations/04 - Permission Models` = stay; bridge to `MCP` / `06 Engineering`
 - `Guardrails/Operations/06 - Monitoring and Incidents` = stay; bridge to `Evals`
 
@@ -199,13 +199,13 @@ Move batch 1 ที่ทำจริง:
 
 - `MCP - MOC` = stay; canonical home ของ protocol layer
 - `MCP/01 - MCP คืออะไรและแก้ปัญหาอะไร` = stay
-- `MCP/02 - Architecture: Host, Client, Server` = stay
-- `MCP/03 - Core Primitives: Tools, Resources, Prompts` = stay
-- `MCP/04 - Client Features: Sampling, Roots, Elicitation` = stay
+- `MCP/02 - Architecture_ Host, Client, Server` = stay
+- `MCP/03 - Core Primitives_ Tools, Resources, Prompts` = stay
+- `MCP/04 - Client Features_ Sampling, Roots, Elicitation` = stay
 - `MCP/05 - Security, Consent และ Authorization` = stay
 - `MCP/06 Engineering/Recipes/Recipe - HuggingFace MCP Course และ Implementation Guide` = stay; bridge to `06 Engineering`
 - `06 Engineering/MCP/MCP - MOC` = stay; implementation bridge
-- `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน` = stay; bridge to `MCP`
+- `02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน` = stay; bridge to `MCP`
 
 ผลสรุป:
 - ยังไม่มี move candidate สำหรับ phase 10
@@ -277,7 +277,7 @@ Move batch 1 ที่ทำจริง:
 | Tokenization | `01 Foundations/Tokenizer in AI` | `Tokenizer in AI - MOC` | `LLM Foundations` links | stable primitive |
 | Agent runtime | `02 AI Systems/AI Agent Fundamentals` | `AI Agent Fundamentals - MOC` | `05 Use Cases/Application/Use Cases - Build an AI Agent` | runtime owner |
 | Framework selection | `02 AI Systems/Agent Frameworks` | `Agent Frameworks - MOC` | `06 Engineering/Frameworks/*`, `05 Use Cases/Decision/Use Cases - Choose an Agent Framework` | selection owner |
-| MCP / protocol layer | `02 AI Systems/MCP` | `MCP - MOC` | `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน` | protocol owner |
+| MCP / protocol layer | `02 AI Systems/MCP` | `MCP - MOC` | `02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน` | protocol owner |
 | Memory architecture | `02 AI Systems/Memory Systems` | `Memory Systems - MOC` | `04 Synthesis/Bridge/Synthesis - Memory in Agents`, `05 Use Cases/Application/Use Cases - Design Memory for an AI Agent` | memory owner |
 | Retrieval / RAG | `02 AI Systems/RAG` | `RAG - MOC` | `04 Synthesis/Bridge/Synthesis - Memory vs RAG vs Context`, `05 Use Cases/Application/Use Cases - Design a RAG System` | retrieval owner |
 | Guardrails / control | `02 AI Systems/Guardrails` | `Guardrails - MOC` | `05 Use Cases/Application/Use Cases - Design Guardrails for Tool Use` | control owner |
@@ -396,7 +396,7 @@ Move batch 1 ที่ทำจริง:
 | `11 - Key Takeaways และ Quick Reference` | summary / reference | `02 AI Systems/AI Agent Fundamentals` | stay |
 | `12 - LLM พื้นฐาน` | bridge note | `01 Foundations/LLM Foundations` | keep as bridge |
 | `13 - Messages, System Prompt และ Chat Templates` | bridge note | `01 Foundations/Prompt Engineering` + `01 Foundations/Context Windows` | keep as bridge |
-| `14 - Tools: การออกแบบและทำงาน` | bridge note | `02 AI Systems/MCP` + `06 Engineering` | keep as bridge |
+| `14 - Tools_ การออกแบบและทำงาน` | bridge note | `02 AI Systems/MCP` + `06 Engineering` | keep as bridge |
 
 ---
 
@@ -492,9 +492,9 @@ Move batch 1 ที่ทำจริง:
 |---|---|---|---|
 | `MCP - MOC` | canonical owner | `02 AI Systems/MCP` | stay |
 | `Core/01 - MCP คืออะไรและแก้ปัญหาอะไร` | protocol concept | `02 AI Systems/MCP` | stay |
-| `Core/02 - Architecture: Host, Client, Server` | protocol architecture | `02 AI Systems/MCP` | stay |
-| `Core/03 - Core Primitives: Tools, Resources, Prompts` | protocol primitives | `02 AI Systems/MCP` | stay |
-| `Client/04 - Client Features: Sampling, Roots, Elicitation` | client capability note | `02 AI Systems/MCP` | stay |
+| `Core/02 - Architecture_ Host, Client, Server` | protocol architecture | `02 AI Systems/MCP` | stay |
+| `Core/03 - Core Primitives_ Tools, Resources, Prompts` | protocol primitives | `02 AI Systems/MCP` | stay |
+| `Client/04 - Client Features_ Sampling, Roots, Elicitation` | client capability note | `02 AI Systems/MCP` | stay |
 | `Security/05 - Security, Consent และ Authorization` | protocol security note | `02 AI Systems/MCP` | stay |
 
 ---
@@ -644,7 +644,7 @@ Move batch 1 ที่ทำจริง:
 
 - `01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน` = keep as bridge
 - `01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates` = keep as bridge
-- `02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน` = keep as bridge
+- `02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน` = keep as bridge
 
 ผลสรุป:
 - bridge notes เหล่านี้ยังไม่ใช่ move candidates

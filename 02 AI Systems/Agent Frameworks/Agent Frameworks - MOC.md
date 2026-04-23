@@ -82,7 +82,7 @@ flowchart TD
 
 - [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
 - [[02 AI Systems/AI Agent Fundamentals/Core/07 - รูปแบบ Agent Architectures]]
-- [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน]]
+- [[02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน]]
 - [[02 AI Systems/MCP/MCP - MOC]]
 - [[03 Tools/Claude Code/Claude Code - Multi-Agent MOC]]
 - [[04 Synthesis/Bridge/Synthesis - LLM to Agent Stack]]
@@ -98,7 +98,7 @@ flowchart TD
 
 1. [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
 2. [[02 AI Systems/AI Agent Fundamentals/Core/07 - รูปแบบ Agent Architectures]]
-3. [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน]]
+3. [[02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน]]
 
 ### 2. แนวคิดหลักของ Framework
 

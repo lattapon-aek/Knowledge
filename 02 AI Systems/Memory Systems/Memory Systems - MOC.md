@@ -69,6 +69,7 @@ flowchart TD
 - [[02 AI Systems/Memory Systems/Core/06 - Memory Retrieval vs RAG|Memory retrieval vs RAG]]
 - [[02 AI Systems/Memory Systems/Application/04 - Agent Memory Patterns|Agent memory patterns]]
 - [[02 AI Systems/Memory Systems/Application/05 - Memory Failure Modes|Memory failure modes]]
+- [[02 AI Systems/Memory Systems/Core/07 - Memory Compression and Summarization|Memory compression and summarization]]
 
 ---
 
@@ -123,5 +124,4 @@ flowchart TD
 ## Next Notes To Create
 
 - Memory Systems - Personalization and User Profiles
-- Memory Systems - Memory Compression and Summarization
 - [[Knowledge Topic Registry]]

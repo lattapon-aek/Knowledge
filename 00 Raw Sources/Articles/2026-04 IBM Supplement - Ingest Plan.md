@@ -9,7 +9,7 @@ tags:
   - prompting
   - gap-closure
 type: guide
-status: draft
+status: evergreen
 source: ""
 parent_note: "[[00 Raw Sources/Raw Sources - MOC]]"
 created: "2026-04-23"
@@ -134,15 +134,15 @@ updated: "2026-04-23"
 - [x] D.3 Scaling Laws & Emergence (merge)
 
 ### Phase N — Nice-to-Have
-- [ ] N.1 Advanced Prompting (merge)
-- [ ] N.2 Memory Compression (note ใหม่)
-- [ ] N.3 RAG Failure Modes (note ใหม่)
+- [x] N.1 Advanced Prompting (merge)
+- [x] N.2 Memory Compression (note ใหม่)
+- [x] N.3 RAG Failure Modes (note ใหม่)
 
 ### Registration
-- [ ] R.1 Source Record
-- [ ] R.2 Update MOCs
-- [ ] R.3 Update index, Home, Topic Registry
-- [ ] R.4 Cross-links audit
+- [x] R.1 Source Record
+- [x] R.2 Update MOCs
+- [x] R.3 Update index, Home, Topic Registry
+- [x] R.4 Cross-links audit
 
 ---
 

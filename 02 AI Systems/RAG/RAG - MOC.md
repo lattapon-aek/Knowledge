@@ -81,6 +81,7 @@ flowchart LR
 - [[02 AI Systems/RAG/Core/RAG - Agentic RAG|Agentic RAG]]
 - [[02 AI Systems/RAG/Core/Agentic RAG - Planning and Retrieval Loop|Agentic RAG planning and retrieval loop]]
 - [[02 AI Systems/RAG/Evaluation/Agentic RAG - Evaluation and Failure Modes|Agentic RAG evaluation and failure modes]]
+- [[02 AI Systems/RAG/Evaluation/RAG - Failure Modes Taxonomy|RAG failure modes taxonomy]]
 
 ---
 

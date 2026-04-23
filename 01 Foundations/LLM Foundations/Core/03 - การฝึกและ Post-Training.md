@@ -5,9 +5,13 @@ tags:
   - rlhf
   - alignment
   - pretraining
+  - fine-tuning
+  - lora
+  - dpo
+  - peft
 type: note
 status: evergreen
-source: "OpenAI, Google Research, Google DeepMind, Anthropic"
+source: "OpenAI, Google Research, Google DeepMind, Anthropic, Hugging Face, Rafailov et al. (DPO), Hu et al. (LoRA), Dettmers et al. (QLoRA)"
 parent_note: "[[LLM Foundations - MOC]]"
 ---
 
@@ -202,6 +206,8 @@ DeepMind แสดงว่า ภายใต้ compute budget เดียว
 - จำนวน training tokens ต้องขยายตามอย่างเหมาะสม
 - บางกรณีโมเดลที่เล็กลง แต่ฝึกบนข้อมูลมากขึ้น จะดีกว่าโมเดลที่ใหญ่กว่าแต่ข้อมูลน้อยกว่า
 
+> ดู scaling laws เชิงลึก (Kaplan vs Chinchilla, emergence, capability prediction) ที่ [[08 - Data, Pretraining และ Model Modes]]
+
 ```mermaid
 flowchart TD
     A["Compute budget"] --> B["Model size"]
@@ -215,6 +221,109 @@ flowchart TD
 Mental model:
 - อย่าดูแค่ `parameters`
 - ต้องมอง `parameters + data + compute` เป็นชุดเดียว
+
+---
+
+## Fine-tuning Deep Dive: เทคนิคและการตัดสินใจ
+
+### เมื่อไรควร Fine-tune
+
+Fine-tuning เหมาะเมื่อ:
+- ต้องการเปลี่ยน **behavior pattern** ของโมเดลอย่างเป็นระบบ เช่น output format, tone, domain-specific reasoning
+- prompting อย่างเดียวไม่เพียงพอ เพราะ task ซับซ้อนเกินกว่า in-context examples จะครอบคลุม
+- ต้องการลด latency โดยไม่ต้องใส่ few-shot examples ยาว ๆ ทุก request
+- มี labeled data คุณภาพดีเพียงพอสำหรับ domain เป้าหมาย
+
+Fine-tuning ไม่เหมาะเมื่อ:
+- ต้องการเพิ่ม **factual knowledge** ใหม่ → ใช้ RAG แทน
+- data น้อยเกินไปหรือคุณภาพต่ำ → อาจทำให้โมเดลเรียน noise
+- ต้องการแค่เปลี่ยน format → ลอง prompt engineering ก่อน
+
+> ดูเปรียบเทียบเชิงตัดสินใจเพิ่มเติมที่ [[04 Synthesis/Decision/Synthesis - Prompting vs Fine-tuning vs RAG]]
+
+### Full Fine-tuning vs Parameter-Efficient Fine-tuning (PEFT)
+
+| แนวทาง | อัปเดตอะไร | Compute / Memory | เหมาะกับ |
+|---|---|---|---|
+| **Full fine-tuning** | ทุก parameter | สูงมาก | มี compute เหลือเฟือ, ต้องการ maximum adaptation |
+| **LoRA** | low-rank matrices ที่ inject เข้า attention layers | ต่ำกว่ามาก | ใช้งานทั่วไป, single GPU ได้ |
+| **QLoRA** | LoRA + quantized base weights (4-bit) | ต่ำสุด | resource-constrained, prototyping |
+| **Adapter layers** | small modules แทรกระหว่าง layers | ปานกลาง | multi-task adaptation |
+
+### LoRA (Low-Rank Adaptation)
+
+แนวคิดหลักของ LoRA:
+- **freeze** weights เดิมของ pretrained model ทั้งหมด
+- **inject** trainable low-rank decomposition matrices (A × B) เข้าไปใน target layers (มักเป็น attention projection)
+- ตอน inference รวม LoRA weights กลับเข้า base weights ได้ → ไม่มี latency overhead
+
+```mermaid
+flowchart LR
+    A["Input x"] --> B["Frozen pretrained weight W"]
+    A --> C["LoRA: A × B<br/>(low-rank, trainable)"]
+    B --> D["W·x + (A·B)·x"]
+    C --> D
+    D --> E["Output"]
+```
+
+ข้อดี:
+- ลด trainable parameters ได้ 99%+ เทียบกับ full fine-tuning
+- สามารถสลับ LoRA adapters หลายชุดบน base model เดียวกัน
+- merge กลับเข้า weights ได้ → ไม่เพิ่ม inference cost
+
+QLoRA ต่อยอดโดย quantize base model เป็น 4-bit ก่อน แล้วฝึก LoRA adapters บน quantized model ทำให้ fine-tune โมเดลขนาดใหญ่บน GPU เดียวได้
+
+### DPO (Direct Preference Optimization)
+
+DPO เป็นทางเลือกของ RLHF ที่ตัด reward model ออก:
+- แทนที่จะฝึก reward model แยก แล้วใช้ RL optimize policy
+- DPO optimize policy โดยตรงจาก preference pairs (chosen vs rejected)
+- ใช้ implicit reward ที่ derive จาก policy เอง
+
+```mermaid
+flowchart LR
+    A["Preference data<br/>(chosen, rejected)"] --> B["DPO loss function"]
+    B --> C["Direct policy update"]
+    C --> D["Aligned model"]
+```
+
+เปรียบเทียบ RLHF กับ DPO:
+
+| ประเด็น | RLHF (PPO) | DPO |
+|---|---|---|
+| ต้องฝึก reward model แยก | ใช่ | ไม่ |
+| Training stability | ซับซ้อนกว่า, ต้อง tune hyperparams มาก | เสถียรกว่า, คล้าย supervised learning |
+| Performance ceiling | สูงกว่าในบาง benchmark (เช่น code) | ใกล้เคียง, บางกรณีต่ำกว่าเล็กน้อย |
+| Compute cost | สูงกว่า (reward model + RL loop) | ต่ำกว่า |
+| Distribution shift risk | จัดการได้ผ่าน online sampling | มี เพราะใช้ offline data |
+
+ในทางปฏิบัติ DPO ได้รับความนิยมมากขึ้นเพราะง่ายกว่า แต่ RLHF (PPO) ยังมีข้อได้เปรียบในงานที่ต้องการ exploration เช่น code generation
+
+### Preference Optimization Landscape
+
+นอกจาก RLHF และ DPO ยังมีเทคนิคอื่น ๆ ที่พัฒนาต่อ:
+- **IPO (Identity Preference Optimization)** — แก้ปัญหา overfitting ของ DPO
+- **KTO (Kahneman-Tversky Optimization)** — ใช้ได้กับ unpaired preference data
+- **SimPO (Simple Preference Optimization)** — ลดความซับซ้อนลงอีก
+
+แนวโน้มคือ preference optimization กำลังกลายเป็น spectrum ที่กว้างขึ้น ไม่ใช่แค่ RLHF vs DPO อีกต่อไป
+
+### สรุป Fine-tuning Decision Tree
+
+```mermaid
+flowchart TD
+    A["ต้องการปรับ LLM"] --> B{"ต้องการเพิ่ม knowledge?"}
+    B -->|ใช่| C["RAG หรือ context injection"]
+    B -->|ไม่| D{"Prompt engineering พอไหม?"}
+    D -->|พอ| E["ใช้ prompting"]
+    D -->|ไม่พอ| F{"มี compute มากพอ?"}
+    F -->|มาก| G["Full fine-tuning"]
+    F -->|จำกัด| H["LoRA / QLoRA"]
+    G --> I{"ต้องการ alignment?"}
+    H --> I
+    I -->|ใช่| J["DPO หรือ RLHF"]
+    I -->|ไม่| K["SFT เพียงพอ"]
+```
 
 ---
 
@@ -271,12 +380,23 @@ Preference alignment = ปรับพฤติกรรมให้ตอบแ
   https://deepmind.google/en/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/
 - Anthropic, Constitutional AI  
   https://www.anthropic.com/news/constitutional-ai-harmlessness-from-ai-feedback
+- Hu et al., LoRA: Low-Rank Adaptation of Large Language Models  
+  https://arxiv.org/abs/2106.05615
+- Dettmers et al., QLoRA: Efficient Finetuning of Quantized Language Models  
+  https://arxiv.org/abs/2305.14314
+- Rafailov et al., Direct Preference Optimization: Your Language Model is Secretly a Reward Model  
+  https://arxiv.org/abs/2305.18290
+- Hugging Face, PEFT documentation  
+  https://huggingface.co/docs/peft
+- OpenAI, Fine-tuning documentation  
+  https://platform.openai.com/docs/guides/fine-tuning
 
 ---
 
 ## ดูต่อ
 
 - [[08 - Data, Pretraining และ Model Modes]] — ความต่างระหว่าง base model, instruction model, chat model
+- [[16 - Model Compression และ Inference Optimization]] — quantization, distillation, pruning, KV cache optimization
 - [[04 - Inference, Context และ RAG]] — หลังฝึกเสร็จแล้ว runtime ทำงานอย่างไร
 - [[05 - ข้อจำกัดและการประเมินผล LLM]]
 - [[04 Synthesis/Decision/Synthesis - Prompting vs Fine-tuning vs RAG]] — เปรียบเทียบว่าเมื่อไรควรแก้ที่ prompt, RAG, หรือ fine-tuning

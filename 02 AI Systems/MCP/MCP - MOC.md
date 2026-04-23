@@ -56,9 +56,9 @@ flowchart LR
 ## Notes Map
 
 - [[01 - MCP คืออะไรและแก้ปัญหาอะไร]] — นิยาม, M×N problem, ขอบเขต protocol
-- [[02 - Architecture: Host, Client, Server]] — participants, layering, transport (stdio/HTTP), lifecycle, JSON-RPC
-- [[03 - Core Primitives: Tools, Resources, Prompts]] — ความสามารถฝั่ง server, ฟีเจอร์เสริม, capability matrix
-- [[04 - Client Features: Sampling, Roots, Elicitation]] — ความสามารถฝั่ง client, logging
+- [[02 - Architecture_ Host, Client, Server]] — participants, layering, transport (stdio/HTTP), lifecycle, JSON-RPC
+- [[03 - Core Primitives_ Tools, Resources, Prompts]] — ความสามารถฝั่ง server, ฟีเจอร์เสริม, capability matrix
+- [[04 - Client Features_ Sampling, Roots, Elicitation]] — ความสามารถฝั่ง client, logging
 - [[05 - Security, Consent และ Authorization]] — consent, authorization, security checklist
 - [[06 Engineering/Recipes/Recipe - HuggingFace MCP Course และ Implementation Guide]] — Course Units 0–3.1, Gradio MCP, Implementation Blueprint, When to use/not use MCP
 
@@ -77,15 +77,15 @@ flowchart LR
 
 ### 1. Foundations Before MCP
 
-1. [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน]]
+1. [[02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน]]
 2. [[04 Synthesis/Bridge/Synthesis - Weights, Context, Retrieval และ Tools]]
 
 ### 2. Core MCP Concepts
 
 1. [[01 - MCP คืออะไรและแก้ปัญหาอะไร]]
-2. [[02 - Architecture: Host, Client, Server]]
-3. [[03 - Core Primitives: Tools, Resources, Prompts]]
-4. [[04 - Client Features: Sampling, Roots, Elicitation]]
+2. [[02 - Architecture_ Host, Client, Server]]
+3. [[03 - Core Primitives_ Tools, Resources, Prompts]]
+4. [[04 - Client Features_ Sampling, Roots, Elicitation]]
 5. [[05 - Security, Consent และ Authorization]]
 
 ### 3. Practical Orientation

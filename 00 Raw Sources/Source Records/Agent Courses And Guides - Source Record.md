@@ -29,7 +29,7 @@ variants ที่ถูกอ้าง:
 - [[02 AI Systems/AI Agent Fundamentals/Core/01 - AI Agent คืออะไร]]
 - [[02 AI Systems/AI Agent Fundamentals/Core/02 - วิวัฒนาการ LLM สู่ Agent]]
 - [[02 AI Systems/AI Agent Fundamentals/Core/03 - คุณสมบัติ 5 อย่างของ Agent]]
-- [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
+- [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent_ Model + Tools + Orchestration]]
 - [[02 AI Systems/AI Agent Fundamentals/Core/05 - วงจร Perceive-Think-Act-Check]]
 - [[05 Use Cases/Decision/Use Cases - When to Use an Agent|When to Use an Agent]]
 - [[02 AI Systems/AI Agent Fundamentals/Reference/11 - Key Takeaways และ Quick Reference]]
@@ -50,7 +50,7 @@ variants ที่ถูกอ้าง:
 - [[02 AI Systems/AI Agent Fundamentals/Core/07 - รูปแบบ Agent Architectures]]
 - [[01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน]]
 - [[01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates]]
-- [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน]]
+- [[02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน]]
 
 ---
 

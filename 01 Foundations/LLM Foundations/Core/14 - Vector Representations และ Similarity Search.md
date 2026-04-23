@@ -146,8 +146,8 @@ Google Vertex AI Vector Search แยกคำสำคัญไว้ชัด:
 ```mermaid
 flowchart LR
     A[Raw text or content] --> B{Representation type}
-    B --> C[Dense vector\nsemantic meaning]
-    B --> D[Sparse vector\nlexical / syntax signals]
+    B --> C["Dense vector<br/>semantic meaning"]
+    B --> D["Sparse vector<br/>lexical / syntax signals"]
     C --> E[Vector retrieval]
     D --> F[Keyword-like retrieval]
     E --> G[Hybrid merge / ranking]

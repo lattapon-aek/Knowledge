@@ -91,6 +91,44 @@ AWS และ OpenAI เน้น prompt template สำหรับ reuse:
 
 ---
 
+## Agentic Prompting
+
+> เพิ่มจาก IBM Prompt Engineering Hub + Anthropic "Building Effective Agents"
+
+เมื่อ prompt ถูกใช้ใน agent systems ไม่ใช่แค่ single model call อีกต่อไป — prompt ต้อง guide agent ให้ plan, use tools, self-reflect, และ delegate:
+
+### Agentic Prompt Patterns
+
+| Pattern | หน้าที่ | ตัวอย่าง |
+|---|---|---|
+| **Planning prompt** | ให้ agent แตกงานเป็น steps ก่อนทำ | "Break this task into steps. For each step, identify what tools you need." |
+| **Tool-use prompt** | guide agent ให้เลือกและใช้ tools ถูกต้อง | "Use the search tool to find relevant documents before answering." |
+| **Self-evaluation prompt** | ให้ agent ตรวจงานตัวเอง | "Review your work against the original requirements. What's missing?" |
+| **Delegation prompt** | ให้ agent มอบหมายงานย่อย | "Delegate the security review to the security subagent." |
+| **Continuation prompt** | บังคับให้ agent ทำต่อเมื่อพยายามหยุด | "You haven't completed all requirements. Continue working." |
+
+### Anthropic Workflow Patterns
+
+Anthropic ระบุ 5 composable workflow patterns สำหรับ agentic systems:
+
+1. **Prompt Chaining** — output ของ step หนึ่งเป็น input ของ step ถัดไป
+2. **Routing** — classify input แล้ว route ไป specialized prompt/model
+3. **Parallelization** — รัน multiple prompts พร้อมกัน แล้วรวมผล
+4. **Orchestrator-Workers** — orchestrator แตกงาน, workers ทำ, orchestrator รวมผล
+5. **Evaluator-Optimizer** — generator สร้าง output, evaluator ให้ feedback, loop จนผ่าน
+
+### จาก Prompt → Context → Harness
+
+agentic prompting เป็นจุดเชื่อมระหว่าง 3 layers ของ AI engineering:
+- **Prompt** กำหนดว่า agent คิดอย่างไรใน 1 turn
+- **Context** กำหนดว่า agent เห็นอะไรใน 1 session
+- **Harness** กำหนดว่า agent ทำงานอย่างไรข้าม sessions
+
+→ ดูเพิ่มที่ [[02 AI Systems/AI Agent Fundamentals/Core/08 - Harness Engineering|Harness Engineering]] สำหรับ 3 layers
+→ ดูเพิ่มที่ [[02 AI Systems/Agent Frameworks/Core/08 - Harness Patterns|Harness Patterns]] สำหรับ patterns เชิง harness
+
+---
+
 ## ดูต่อ
 
 - [[04 - หลักการจากหลายบริษัท]] — best practices เชิงหลักการ

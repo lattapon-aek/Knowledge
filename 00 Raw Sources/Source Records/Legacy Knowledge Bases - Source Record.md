@@ -101,8 +101,8 @@ record นี้รวบรวมแหล่งอ้างอิงแบบ 
 
 ถูกใช้ใน:
 - [[02 AI Systems/MCP/Core/01 - MCP คืออะไรและแก้ปัญหาอะไร]]
-- [[02 AI Systems/MCP/Core/02 - Architecture: Host, Client, Server]]
-- [[02 AI Systems/MCP/Core/03 - Core Primitives: Tools, Resources, Prompts]]
-- [[02 AI Systems/MCP/Client/04 - Client Features: Sampling, Roots, Elicitation]]
+- [[02 AI Systems/MCP/Core/02 - Architecture_ Host, Client, Server]]
+- [[02 AI Systems/MCP/Core/03 - Core Primitives_ Tools, Resources, Prompts]]
+- [[02 AI Systems/MCP/Client/04 - Client Features_ Sampling, Roots, Elicitation]]
 - [[02 AI Systems/MCP/Security/05 - Security, Consent และ Authorization]]
 - [[06 Engineering/Recipes/Recipe - HuggingFace MCP Course และ Implementation Guide]]

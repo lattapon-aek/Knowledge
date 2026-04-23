@@ -101,5 +101,5 @@ Use case: "Should I wear a jacket today?"
 
 ## ดูต่อ
 
-- [[04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
+- [[04 - สถาปัตยกรรม Agent_ Model + Tools + Orchestration]]
 - [[05 - วงจร Perceive-Think-Act-Check]]

@@ -235,6 +235,7 @@ Cost depends on token volume, cache reuse, and hardware efficiency
 ## ดูต่อ
 
 - [[04 - Inference, Context และ RAG]] — runtime concepts ระดับ request
+- [[16 - Model Compression และ Inference Optimization]] — quantization, pruning, KV cache optimization ที่เป็น model-level counterpart ของ serving
 - [[05 - ข้อจำกัดและการประเมินผล LLM]]
 - [[02 AI Systems/RAG/RAG - MOC|RAG - MOC]] — ดูฝั่ง retrieval, context assembly, และ RAG evaluation ในระดับระบบ
 - [[02 AI Systems/Evals/Evals - MOC|Evals - MOC]] — เชื่อม serving metrics กับ quality metrics และ regression tracking

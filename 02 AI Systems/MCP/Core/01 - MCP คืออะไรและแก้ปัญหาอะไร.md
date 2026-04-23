@@ -71,6 +71,6 @@ parent_note: "[[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]"
 
 ## ดูต่อ
 
-- [[02 - Architecture: Host, Client, Server]] — โครงสร้างและ layering
-- [[03 - Core Primitives: Tools, Resources, Prompts]] — capabilities ฝั่ง server
+- [[02 - Architecture_ Host, Client, Server]] — โครงสร้างและ layering
+- [[03 - Core Primitives_ Tools, Resources, Prompts]] — capabilities ฝั่ง server
 - [[02 AI Systems/MCP/MCP - MOC|MCP - MOC]]

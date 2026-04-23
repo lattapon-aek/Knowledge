@@ -38,7 +38,8 @@ flowchart LR
     A["Data"] --> B["Tokenization"]
     B --> C["Pretraining"]
     C --> D["Post-training<br/>instruction / preference"]
-    D --> E["Inference"]
+    D --> CO["Compression<br/>quantization / distillation / pruning"]
+    CO --> E["Inference"]
     E --> F["Serving<br/>latency / throughput / cache"]
     F --> G["Application Layer<br/>RAG / tools / agents"]
     G --> H["Evaluation"]
@@ -47,7 +48,7 @@ flowchart LR
     H --> G
 ```
 
-แผนที่นี้ใช้เป็น lifecycle หลักของหมวด LLM Foundations: เริ่มจาก data/tokenization ไปสู่ training, post-training, inference, serving, application layer และ eval feedback ที่ย้อนกลับไปปรับ model หรือ system.
+แผนที่นี้ใช้เป็น lifecycle หลักของหมวด LLM Foundations: เริ่มจาก data/tokenization ไปสู่ training, post-training, compression/optimization, inference, serving, application layer และ eval feedback ที่ย้อนกลับไปปรับ model หรือ system.
 
 ---
 
@@ -90,8 +91,8 @@ flowchart TD
 
 ## 2. Training
 
-- [[03 - การฝึกและ Post-Training]] — training lifecycle, pretraining, instruction tuning, RLHF, RLAIF, Constitutional AI, Chinchilla
-- [[08 - Data, Pretraining และ Model Modes]] — data mixture, base model vs instruction model, in-context learning, weights vs context vs external memory
+- [[03 - การฝึกและ Post-Training]] — training lifecycle, pretraining, instruction tuning, RLHF, RLAIF, Constitutional AI, Chinchilla, fine-tuning deep dive (LoRA, QLoRA, DPO)
+- [[08 - Data, Pretraining และ Model Modes]] — data mixture, base model vs instruction model, in-context learning, weights vs context vs external memory, scaling laws, emergence
 
 ---
 
@@ -103,6 +104,7 @@ flowchart TD
 
 ## 4. Production Systems
 
+- [[16 - Model Compression และ Inference Optimization]] — quantization, distillation, pruning, KV cache optimization
 - [[09 - Serving Metrics และระบบ Production LLM]] — TTFT, latency vs throughput, cache strategies, prompt caching, serving pipeline, production metrics
 
 ---
@@ -120,7 +122,9 @@ flowchart TD
 - **อยากเข้าใจกลไกภายในโมเดล**: `02 -> 06 -> 07`
 - **อยากเข้าใจว่าทำไม assistant model ตอบต่างจาก base model**: `03 -> 08`
 - **อยากเข้าใจ runtime และ RAG**: `04`
-- **อยากเข้าใจ production trade-offs**: `04 -> 09`
+- **อยากเข้าใจ production trade-offs**: `04 -> 16 -> 09`
+- **อยากเข้าใจ fine-tuning เชิงลึก**: `03 -> 16`
+- **อยากเข้าใจ scaling laws และ emergence**: `08`
 - **อยากเข้าใจความเสี่ยงและการประเมิน**: `05`
 - **อยากปูพื้นฐาน evals ก่อนเข้า systems**: `05 -> 13 -> Evals`
 - **อยากเข้าใจ retrieval foundations**: `10 -> 04 -> RAG`
@@ -136,6 +140,9 @@ flowchart TD
 - **Weights vs Context vs Retrieval vs Tools** -> อ่าน [[04 Synthesis/Bridge/Synthesis - Weights, Context, Retrieval และ Tools|Weights, Context, Retrieval และ Tools]]
 - **Attention vs KV Cache** -> อ่าน [[06 - Attention และ Representations]] แล้วต่อ [[04 - Inference, Context และ RAG]]
 - **Pretraining vs Instruction Tuning vs RLHF** -> อ่าน [[03 - การฝึกและ Post-Training]]
+- **LoRA vs Full Fine-tuning vs DPO** -> อ่าน [[03 - การฝึกและ Post-Training]] ส่วน Fine-tuning Deep Dive
+- **Quantization vs Distillation vs Pruning** -> อ่าน [[16 - Model Compression และ Inference Optimization]]
+- **Scaling Laws vs Emergence** -> อ่าน [[08 - Data, Pretraining และ Model Modes]] ส่วน Scaling Laws และ Emergence
 - **Inference vs Serving** -> อ่าน [[04 - Inference, Context และ RAG]] แล้วต่อ [[09 - Serving Metrics และระบบ Production LLM]]
 
 ---

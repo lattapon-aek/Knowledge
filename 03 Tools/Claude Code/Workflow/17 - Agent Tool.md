@@ -57,5 +57,5 @@ lifecycle นี้ย้ำว่า Agent Tool เป็น orchestration mech
 
 ## พื้นฐานทฤษฎีที่เกี่ยวข้อง
 
-- [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน|Tools: การออกแบบและทำงาน]] — Agent Tool คือ Tool ชนิดพิเศษ: แทนที่จะ return data กลับมา มัน spawn agent อีกตัวเป็น output
-- [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration|Orchestration Component]] — การ spawn subagent ผ่าน Agent Tool คือ Orchestration ที่ทำงานจริง
+- [[02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน|Tools: การออกแบบและทำงาน]] — Agent Tool คือ Tool ชนิดพิเศษ: แทนที่จะ return data กลับมา มัน spawn agent อีกตัวเป็น output
+- [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent_ Model + Tools + Orchestration|Orchestration Component]] — การ spawn subagent ผ่าน Agent Tool คือ Orchestration ที่ทำงานจริง

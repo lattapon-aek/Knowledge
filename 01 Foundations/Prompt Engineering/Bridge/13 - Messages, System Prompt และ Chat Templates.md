@@ -48,7 +48,7 @@ system_message = {
 - ระบุ instructions สำคัญ เช่น tools ที่ใช้ได้ และรูปแบบ output
 - กำหนด guardrails และ persona ของระบบ
 
-> รายละเอียดเชิง runtime layer และ tool contract ดูที่ [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]]
+> รายละเอียดเชิง runtime layer และ tool contract ดูที่ [[02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]]
 
 ### 2. User Messages
 
@@ -151,7 +151,7 @@ rendered_prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_ge
 ## ดูต่อ
 
 - [[01 Foundations/LLM Foundations/Bridge/12 - LLM พื้นฐาน|12 - LLM พื้นฐาน]]
-- [[02 AI Systems/MCP/Bridge/14 - Tools: การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]]
+- [[02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]]
 - [[06 - วงจร Thought-Action-Observation (TAO)]]
 - [[01 Foundations/Prompt Engineering/Prompt Engineering - MOC|Prompt Engineering - MOC]]
 - [[01 Foundations/Context Windows/Context Windows - MOC|Context Windows - MOC]]

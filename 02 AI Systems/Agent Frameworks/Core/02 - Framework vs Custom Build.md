@@ -236,6 +236,31 @@ architecture อาจผูกกับ abstractions ของ framework มา
 
 ---
 
+## Harness Perspective
+
+> เพิ่มจาก harness engineering sources (Anthropic, OpenAI, LangChain, Philipp Schmid)
+
+framework vs custom build สามารถมองผ่านเลนส์ harness ได้:
+
+- **Framework** = pre-built harness ที่มี opinions เรื่อง orchestration, state, tools มาให้
+- **Custom build** = custom harness ที่ออกแบบเฉพาะ use case
+
+| | Framework as Harness | Custom Harness |
+|---|---|---|
+| ตัวอย่าง | LangGraph, CrewAI | Claude Code harness, OpenAI Codex harness |
+| ระดับ | building blocks + some opinions | full opinionated system |
+| เปรียบเทียบ | library/SDK | operating system |
+
+Philipp Schmid เปรียบเทียบว่า framework ให้ building blocks เหมือน library ส่วน harness เป็น OS ที่ประกอบ blocks เข้าด้วยกันเป็นระบบครบวงจร
+
+**Build-to-Delete principle**: harness assumptions go stale เมื่อ model ดีขึ้น — Anthropic พบว่า context resets ที่จำเป็นสำหรับ Sonnet 4.5 กลายเป็น dead weight บน Opus 4.5 ดังนั้น harness ต้องออกแบบให้ถอด component ออกได้ง่าย
+
+> "Every component in a harness encodes an assumption about what the model can't do on its own, and those assumptions are worth stress testing." — Anthropic
+
+→ ดูเพิ่มที่ [[02 AI Systems/AI Agent Fundamentals/Core/08 - Harness Engineering|Harness Engineering]]
+
+---
+
 ## ความสัมพันธ์กับโน้ตอื่น
 
 - [[02 AI Systems/Agent Frameworks/Core/01 - Landscape]] — ภาพรวมของ framework families

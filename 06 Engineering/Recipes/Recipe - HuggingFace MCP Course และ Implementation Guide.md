@@ -58,11 +58,11 @@ Stack: Python, FastAPI, Hugging Face Hub API, webhook-driven workflow
 
 ```mermaid
 flowchart TD
-    U0["Unit 0\nOnboarding"] --> U1["Unit 1\nFundamentals, Architecture, Capabilities"]
-    U1 --> U2["Unit 2\nEnd-to-End MCP App"]
-    U2 --> U3["Unit 3\nCustom Workflow Servers"]
-    U3 --> U31["Unit 3.1\nPR Agent on Hugging Face Hub"]
-    U31 --> U4["Bonus Units\nPartner libraries/services"]
+    U0["Unit 0<br/>Onboarding"] --> U1["Unit 1<br/>Fundamentals, Architecture, Capabilities"]
+    U1 --> U2["Unit 2<br/>End-to-End MCP App"]
+    U2 --> U3["Unit 3<br/>Custom Workflow Servers"]
+    U3 --> U31["Unit 3.1<br/>PR Agent on Hugging Face Hub"]
+    U31 --> U4["Bonus Units<br/>Partner libraries/services"]
 ```
 
 ---

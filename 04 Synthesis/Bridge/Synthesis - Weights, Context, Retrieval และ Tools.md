@@ -33,9 +33,9 @@ parent_note: "[[04 Synthesis/Synthesis - MOC]]"
 ```mermaid
 flowchart TD
     A["User request"] --> B["Model runtime"]
-    W["Weights\ntrained parameters"] --> B
-    C["Context\ninstructions + conversation + retrieved text"] --> B
-    B --> D{"Need external knowledge\nor external action?"}
+    W["Weights<br/>trained parameters"] --> B
+    C["Context<br/>instructions + conversation + retrieved text"] --> B
+    B --> D{"Need external knowledge<br/>or external action?"}
     D -->|No| E["Generate response"]
     D -->|Need knowledge| R["Retrieval system"]
     D -->|Need action| T["Tools / function calling"]
@@ -214,7 +214,7 @@ OpenAI structured/tool workflows ก็ออกแบบมาเพื่อ�
 ```mermaid
 flowchart TD
     A["Need better system behavior"] --> B{"Problem type?"}
-    B -->|General capability gap| C["Consider model change\nor fine-tuning"]
+    B -->|General capability gap| C["Consider model change<br/>or fine-tuning"]
     B -->|Need temporary instructions| D["Improve context / prompt"]
     B -->|Need current or private knowledge| E["Use retrieval"]
     B -->|Need exact action or computation| F["Use tools"]

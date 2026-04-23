@@ -65,7 +65,7 @@ flowchart LR
     A["Input"] --> B["Model"]
     B --> C["Output"]
 
-    D["Input"] --> E["System\nprompt + retrieval + tools + orchestration + model"]
+    D["Input"] --> E["System<br/>prompt + retrieval + tools + orchestration + model"]
     E --> F["Output"]
 ```
 

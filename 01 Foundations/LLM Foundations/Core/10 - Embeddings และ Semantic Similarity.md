@@ -60,17 +60,17 @@ Cohere แยกการใช้งานตาม task ชัด เช่น
 
 ```mermaid
 flowchart LR
-    A["Raw content\n(text / image / metadata)"] --> B["Preprocessing\ncleaning / chunking / normalization"]
+    A["Raw content<br/>(text / image / metadata)"] --> B["Preprocessing<br/>cleaning / chunking / normalization"]
     B --> C["Embedding model"]
     C --> D["Dense vectors"]
     D --> E["Vector index / vector database"]
     Q["User query"] --> Q1["Query preprocessing"]
-    Q1 --> Q2["Same embedding model\nor compatible model"]
+    Q1 --> Q2["Same embedding model<br/>or compatible model"]
     Q2 --> Q3["Query vector"]
     Q3 --> E
     E --> F["Nearest-neighbor retrieval"]
     F --> G["Optional filters / hybrid search / reranking"]
-    G --> H["Application layer\nRAG / search / recommendation / classification"]
+    G --> H["Application layer<br/>RAG / search / recommendation / classification"]
 ```
 
 ในทางปฏิบัติ embedding system มักมี 2 phase:
@@ -218,8 +218,8 @@ Microsoft อธิบาย vector search algorithm ที่สำคัญ 2 
 ```mermaid
 flowchart LR
     A["Query vector"] --> B{"Search strategy"}
-    B --> C["Exhaustive KNN\nexact, slower"]
-    B --> D["HNSW / ANN\napproximate, lower latency"]
+    B --> C["Exhaustive KNN<br/>exact, slower"]
+    B --> D["HNSW / ANN<br/>approximate, lower latency"]
     C --> E["Top-k neighbors"]
     D --> E
     E --> F["Optional hybrid merge / rerank"]

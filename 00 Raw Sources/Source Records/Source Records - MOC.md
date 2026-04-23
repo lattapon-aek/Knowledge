@@ -31,6 +31,7 @@ parent_note: "[[Raw Sources - MOC]]"
 - [[00 Raw Sources/Source Records/RAG-Anything - Source Record|RAG-Anything]] — arxiv 2510.12323, multimodal RAG framework
 - [[00 Raw Sources/Source Records/LLM Engineer Toolkit - Source Record|LLM Engineer Toolkit]] — curated list ของ 120+ LLM libraries
 - [[00 Raw Sources/Source Records/AI Engineering From Scratch - Source Record|AI Engineering From Scratch]] — curriculum/course (reference only)
+- [[00 Raw Sources/Source Records/Harness Engineering Sources - Source Record|Harness Engineering Sources]] — 9 sources เรื่อง harness engineering (Anthropic, OpenAI, Martin Fowler, LangChain ฯลฯ)
 
 ---
 

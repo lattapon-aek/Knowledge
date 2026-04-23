@@ -117,6 +117,7 @@ diagram นี้คือภาพรวมชั้นความรู้ข
 - [[04 Synthesis/Bridge/Synthesis - Memory vs RAG vs Context]]
 - [[04 Synthesis/Decision/Synthesis - Agent vs Workflow vs RAG]]
 - [[04 Synthesis/Bridge/Synthesis - Open Design Directions for Agent Systems]]
+- [[04 Synthesis/Bridge/Synthesis - Harness Co-Evolution and Lifecycle]]
 - [[05 Use Cases/Use Cases - MOC|Use Cases - MOC]]
 - [[05 Use Cases/Application/Use Cases - Design a RAG System]]
 - [[05 Use Cases/Application/Use Cases - Design Guardrails for Tool Use]]

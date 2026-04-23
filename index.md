@@ -117,6 +117,8 @@ flowchart LR
 - [[02 AI Systems/AI Agent Fundamentals/Core/05 - วงจร Perceive-Think-Act-Check]] — loop ระดับสูงของ agent
 - [[02 AI Systems/AI Agent Fundamentals/Core/06 - วงจร Thought-Action-Observation (TAO)]] — TAO / ReAct-style loop
 - [[02 AI Systems/AI Agent Fundamentals/Core/07 - รูปแบบ Agent Architectures]] — patterns ของ agent architectures
+- [[02 AI Systems/AI Agent Fundamentals/Core/08 - Harness Engineering]] — Agent = Model + Harness, harness components, OS analogy
+- [[02 AI Systems/AI Agent Fundamentals/Core/09 - Guides vs Sensors]] — harness control taxonomy (feedforward/feedback)
 - [[04 Synthesis/Decision/Synthesis - Workflow vs AI Agent]] — เปรียบเทียบ workflow กับ agent
 - [[05 Use Cases/Decision/Use Cases - When to Use an Agent]] — decision framework สำหรับเลือกใช้ agent
 - [[02 AI Systems/AI Agent Fundamentals/Reference/10 - Risks และ Best Practices]] — risks, guardrails, best practices
@@ -172,6 +174,7 @@ flowchart LR
 - [[02 AI Systems/Agent Frameworks/Core/04 - Tool Orchestration]] — orchestration ของ tools ใน agent runtimes
 - [[06 Engineering/Frameworks/Framework - OpenAI Agents and Responses Patterns]] — มอง OpenAI agent stack ในฐานะ runtime pattern
 - [[02 AI Systems/Agent Frameworks/Core/06 - Evaluation and Observability]] — การวัดและสังเกตพฤติกรรมของ agent runtimes
+- [[02 AI Systems/Agent Frameworks/Core/08 - Harness Patterns]] — Generator-Evaluator, Ralph Loop, Sprint Contracts ฯลฯ
 - [[06 Engineering/Frameworks/Framework - LangGraph]] — LangGraph
 - [[06 Engineering/Frameworks/Framework - LangChain Agents]] — LangChain agents
 - [[06 Engineering/Frameworks/Framework - AutoGen vs CrewAI]] — เปรียบเทียบ AutoGen กับ CrewAI
@@ -217,6 +220,7 @@ flowchart LR
 - [[04 Synthesis/Bridge/Synthesis - Single to Multi-Agent Infrastructure]] — infrastructure bridge จาก single-agent ไป multi-agent
 - [[04 Synthesis/Bridge/Synthesis - Multi-Agent Failure Modes]] — failure modes ของ multi-agent systems
 - [[04 Synthesis/Bridge/Synthesis - Open Design Directions for Agent Systems]] — 6 open design directions สำหรับ future agent systems
+- [[04 Synthesis/Bridge/Synthesis - Harness Co-Evolution and Lifecycle]] — harness ที่เปลี่ยนตาม model capabilities
 
 ### Use Cases
 

@@ -127,25 +127,25 @@ updated: ""
 ## Checklist รวม
 
 ### Phase H1 — Core Concept
-- [ ] H1.1 Source Record
-- [ ] H1.2 Harness Engineering คืออะไร (note ใหม่)
-- [ ] H1.3 Guides vs Sensors (note ใหม่)
+- [x] H1.1 Source Record
+- [x] H1.2 Harness Engineering คืออะไร (note ใหม่)
+- [x] H1.3 Guides vs Sensors (note ใหม่)
 
 ### Phase H2 — Patterns
-- [ ] H2.1 Harness Patterns (note ใหม่)
-- [ ] H2.2 เสริม Agent Architectures (merge)
-- [ ] H2.3 เสริม Framework vs Custom Build (merge)
+- [x] H2.1 Harness Patterns (note ใหม่)
+- [x] H2.2 เสริม Agent Architectures (merge)
+- [x] H2.3 เสริม Framework vs Custom Build (merge)
 
 ### Phase H3 — Evolution + Synthesis
-- [ ] H3.1 Harness Co-Evolution (note ใหม่)
-- [ ] H3.2 เสริม Open Design Directions (merge)
-- [ ] H3.3 เสริม Agent Runtime Layers (merge)
+- [x] H3.1 Harness Co-Evolution (note ใหม่)
+- [x] H3.2 เสริม Open Design Directions (merge)
+- [x] H3.3 เสริม Agent Runtime Layers (merge)
 
 ### Phase H4 — Registration
-- [ ] H4.1 Update AI Agent Fundamentals MOC
-- [ ] H4.2 Update Agent Frameworks MOC
-- [ ] H4.3 Update index, Home, Topic Registry
-- [ ] H4.4 Cross-links audit
+- [x] H4.1 Update AI Agent Fundamentals MOC
+- [x] H4.2 Update Agent Frameworks MOC
+- [x] H4.3 Update index, Home, Topic Registry, Source Records MOC, Synthesis MOC
+- [x] H4.4 Cross-links audit
 
 ---
 

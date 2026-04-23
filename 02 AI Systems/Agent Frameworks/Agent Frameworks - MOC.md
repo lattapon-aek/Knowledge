@@ -71,6 +71,7 @@ flowchart TD
 - [[06 Engineering/Frameworks/Framework - OpenAI Agents and Responses Patterns|รูปแบบ OpenAI agents และ Responses]]
 - [[02 AI Systems/Agent Frameworks/Core/06 - Evaluation and Observability|การประเมินผลและ observability]]
 - [[02 AI Systems/Agent Frameworks/Core/07 - Checkpointing and Resumability|Checkpointing และ resumability]]
+- [[02 AI Systems/Agent Frameworks/Core/08 - Harness Patterns|Harness Patterns]]
 - [[06 Engineering/Frameworks/Framework - LangGraph|LangGraph]]
 - [[06 Engineering/Frameworks/Framework - LangChain Agents|LangChain agents]]
 - [[06 Engineering/Frameworks/Framework - AutoGen vs CrewAI|AutoGen / CrewAI]]
@@ -108,6 +109,7 @@ flowchart TD
 5. [[06 Engineering/Frameworks/Framework - OpenAI Agents and Responses Patterns]]
 6. [[02 AI Systems/Agent Frameworks/Core/06 - Evaluation and Observability]]
 7. [[02 AI Systems/Agent Frameworks/Core/07 - Checkpointing and Resumability]]
+8. [[02 AI Systems/Agent Frameworks/Core/08 - Harness Patterns]]
 
 ### 3. ลิงก์ข้ามระบบ
 

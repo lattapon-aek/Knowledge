@@ -88,6 +88,8 @@ flowchart TD
 - [[05 - วงจร Perceive-Think-Act-Check]] — Agent loop ระดับสูง
 - [[06 - วงจร Thought-Action-Observation (TAO)]] — TAO / ReAct style loop
 - [[07 - รูปแบบ Agent Architectures]] — architecture patterns
+- [[08 - Harness Engineering]] — Agent = Model + Harness, harness components, OS analogy
+- [[09 - Guides vs Sensors]] — harness control taxonomy (feedforward/feedback, computational/inferential)
 - [[10 - Risks และ Best Practices]] — risks, tradeoffs, mitigations
 - [[11 - Key Takeaways และ Quick Reference]] — summary และ quick reference
 

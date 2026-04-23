@@ -54,6 +54,7 @@ flowchart LR
 - [[04 Synthesis/Bridge/Synthesis - Single to Multi-Agent Infrastructure|Synthesis - Single to Multi-Agent Infrastructure]]
 - [[04 Synthesis/Bridge/Synthesis - Multi-Agent Failure Modes|Synthesis - Multi-Agent Failure Modes]]
 - [[04 Synthesis/Bridge/Synthesis - Open Design Directions for Agent Systems|Synthesis - Open Design Directions for Agent Systems]]
+- [[04 Synthesis/Bridge/Synthesis - Harness Co-Evolution and Lifecycle|Synthesis - Harness Co-Evolution and Lifecycle]]
 
 ---
 

@@ -43,7 +43,7 @@ prompt engineering ที่ใช้ใน production ควรเป็น loo
 
 - [[01 - Prompt Engineering คืออะไร]] — นิยาม, คำศัพท์พื้นฐาน, Workflow, ขอบเขต
 - [[02 - องค์ประกอบของ Prompt]] — Anatomy เต็ม, Role/System, Output Design
-- [[03 - Prompt Patterns พื้นฐาน]] — Zero-shot, Few-shot, Role, Structured, Chained, Grounded, Template, Agentic Prompting
+- [[03 - Prompt Patterns พื้นฐาน]] — Zero-shot, Few-shot, Role, Structured, Chained, Grounded, Template, Advanced (CoT, ToT, GoT, Self-Consistency), Agentic Prompting
 - [[04 - หลักการจากหลายบริษัท]] — Best practices จาก OpenAI, Anthropic, Google, Microsoft
 - [[05 - Evaluation และ Failure Modes]] — Success Criteria, Eval Design, Failure Mode taxonomy
 - [[06 - Template และ Common Problems]] — AWS Bedrock, Template สังเคราะห์, Zero/Few-shot/Chaining เลือกอย่างไร, แก้ปัญหาพบบ่อย, Pre-deployment checklist

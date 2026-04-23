@@ -157,6 +157,7 @@ flowchart LR
 - [[02 AI Systems/RAG/Retrieval/RAG - Multimodal RAG]] — RAG สำหรับ documents ที่มี text, images, tables, equations
 - [[02 AI Systems/RAG/Core/RAG - Agentic RAG]] — retrieval แบบมี planning, decomposition, และ orchestration
 - [[02 AI Systems/RAG/Core/Agentic RAG - Planning and Retrieval Loop]] — loop ของ query planning, subqueries, parallel retrieval, reranking, และ activity trace
+- [[02 AI Systems/RAG/Evaluation/RAG - Failure Modes Taxonomy]] — taxonomy ของ failure modes แยกตามชั้น RAG pipeline
 
 ### Memory Systems
 
@@ -166,6 +167,7 @@ flowchart LR
 - [[02 AI Systems/Memory Systems/Core/03 - Memory Read and Write Policies]] — กติกาการอ่านและเขียน memory
 - [[02 AI Systems/Memory Systems/Application/04 - Agent Memory Patterns]] — รูปแบบ memory ที่ใช้ใน agents
 - [[02 AI Systems/Memory Systems/Application/05 - Memory Failure Modes]] — failure modes ของ memory systems
+- [[02 AI Systems/Memory Systems/Core/07 - Memory Compression and Summarization]] — compression, summarization, eviction สำหรับ memory
 
 ### Agent Frameworks
 

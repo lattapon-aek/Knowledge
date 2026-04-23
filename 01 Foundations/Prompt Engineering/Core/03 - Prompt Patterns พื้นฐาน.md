@@ -91,6 +91,74 @@ AWS และ OpenAI เน้น prompt template สำหรับ reuse:
 
 ---
 
+## Advanced Prompting Techniques
+
+> เพิ่มจาก research literature + official docs
+
+เทคนิคเหล่านี้ต่อยอดจาก patterns พื้นฐาน โดยเน้นให้ model ทำ reasoning ที่ซับซ้อนขึ้น:
+
+### Chain-of-Thought (CoT)
+
+ให้ model แสดงขั้นตอนการคิดก่อนตอบ:
+- **Zero-shot CoT** — เพิ่ม "Let's think step by step" ท้าย prompt
+- **Few-shot CoT** — ให้ตัวอย่างที่มี reasoning steps ประกอบ
+- ช่วยมากใน math, logic, multi-step reasoning
+- ไม่ช่วยมากใน tasks ที่ไม่ต้องการ reasoning (เช่น simple classification)
+
+```text
+Q: Roger has 5 tennis balls. He buys 2 cans of 3. How many does he have?
+A: Roger started with 5 balls. 2 cans of 3 = 6 balls. 5 + 6 = 11. The answer is 11.
+```
+
+### Tree-of-Thoughts (ToT)
+
+ขยาย CoT ให้ model สำรวจหลาย reasoning paths พร้อมกัน:
+- แต่ละ step สร้างหลาย candidates (branches)
+- ประเมินแต่ละ branch ด้วย heuristic หรือ self-evaluation
+- เลือก branch ที่ดีที่สุดหรือ backtrack ถ้าติดตัน
+- เหมาะกับ planning, puzzle solving, creative tasks ที่ต้อง exploration
+
+```mermaid
+flowchart TD
+    A["Problem"] --> B1["Thought A"]
+    A --> B2["Thought B"]
+    A --> B3["Thought C"]
+    B1 --> C1["Evaluate: promising"]
+    B2 --> C2["Evaluate: dead end"]
+    B3 --> C3["Evaluate: promising"]
+    C1 --> D["Expand A further"]
+    C3 --> E["Expand C further"]
+    D --> F["Solution"]
+```
+
+### Graph-of-Thoughts (GoT)
+
+ขยาย ToT อีกขั้น — ให้ thoughts เชื่อมกันเป็น graph ไม่ใช่แค่ tree:
+- thoughts สามารถ merge, refine, หรือ combine ข้าม branches ได้
+- เหมาะกับงานที่ต้อง aggregate ข้อมูลจากหลาย perspectives
+- ซับซ้อนกว่า ToT มาก — มักใช้ใน research มากกว่า production
+
+### Self-Consistency
+
+ใช้ sampling หลายครั้งแล้วเลือกคำตอบที่ consistent ที่สุด:
+- สร้าง CoT reasoning หลายชุดจาก prompt เดียวกัน (ใช้ temperature > 0)
+- เลือกคำตอบสุดท้ายที่ปรากฏบ่อยที่สุด (majority vote)
+- ช่วยลด variance ของ CoT ที่บางครั้งให้ reasoning ผิด
+- trade-off: ใช้ tokens/cost มากขึ้นตามจำนวน samples
+
+### เปรียบเทียบ Advanced Techniques
+
+| เทคนิค | แนวคิด | จุดแข็ง | จุดอ่อน | เหมาะกับ |
+|---|---|---|---|---|
+| **CoT** | คิดทีละ step | ง่าย, ใช้ได้ทันที | single path อาจผิด | math, logic, multi-step |
+| **ToT** | สำรวจหลาย paths | exploration, backtracking | ช้า, ใช้ tokens มาก | planning, puzzles |
+| **GoT** | thoughts เชื่อมเป็น graph | aggregate, refine | ซับซ้อนมาก | research, complex synthesis |
+| **Self-Consistency** | majority vote จากหลาย samples | ลด variance | cost สูงขึ้น | tasks ที่ต้องการ reliability |
+
+> CoT เป็นเทคนิคที่ใช้ได้จริงใน production มากที่สุด ส่วน ToT/GoT/Self-Consistency มักใช้ใน research หรือ high-stakes tasks ที่ยอมจ่าย cost เพิ่ม
+
+---
+
 ## Agentic Prompting
 
 > เพิ่มจาก IBM Prompt Engineering Hub + Anthropic "Building Effective Agents"

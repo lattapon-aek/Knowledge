@@ -7,15 +7,16 @@ tags:
   - governance
   - multi-agent
   - prompting
+  - gap-closure
 type: guide
 status: draft
 source: ""
 parent_note: "[[00 Raw Sources/Raw Sources - MOC]]"
 created: "2026-04-23"
-updated: ""
+updated: "2026-04-23"
 ---
 
-# 2026-04 IBM Supplement - Ingest Plan
+# 2026-04 IBM Supplement + Vault Gap Closure - Ingest Plan
 
 ---
 
@@ -38,7 +39,7 @@ updated: ""
 | 5 | IBM Prompt Engineering Hub | https://www.ibm.com/think/prompt-engineering |
 | 6 | IBM Machine Learning Hub | https://www.ibm.com/think/machine-learning |
 
-### ML Primitives — เสริมจาก Official Sources
+### ML Primitives — Official Sources
 
 | # | ชื่อ | องค์กร | URL |
 |---|---|---|---|
@@ -47,80 +48,60 @@ updated: ""
 | 9 | ML Specialization | DeepLearning.AI / Stanford | https://www.deeplearning.ai/courses/machine-learning-specialization/ |
 | 10 | CS229 Machine Learning | Stanford | https://cs229.stanford.edu/ |
 
----
+### MCP Restore — Official Source
 
-## 4 Tasks
-
-### Task I.1: Multi-Agent Topology (Vertical / Horizontal / Hybrid)
-
-**Gap**: vault มี `Synthesis - Single to Multi-Agent Infrastructure` ที่อธิบาย orchestration, messaging, state, observability แต่ยังไม่มี topology taxonomy
-
-**Source**: IBM Agentic Architecture
-
-**วิธี**: merge section ใน `04 Synthesis/Bridge/Synthesis - Single to Multi-Agent Infrastructure`
-
-**เนื้อหา**:
-- Vertical: leader agent ดูแล subtasks, centralized control, clear accountability, bottleneck risk
-- Horizontal: peer collaboration, decentralized decisions, parallel processing, coordination challenges
-- Hybrid: dynamic leadership shifts ตาม task phase, versatile, complex
-- ตารางเปรียบเทียบ strengths/weaknesses/best use cases
-
----
-
-### Task I.2: Agent-Level Governance
-
-**Gap**: vault มี Guardrails ครบเรื่อง input/output/tool/permission/fallback แต่ยังไม่มี agent-specific governance
-
-**Source**: IBM AI Agent Governance
-
-**วิธี**: merge section ใน `02 AI Systems/Guardrails/Operations/06 - Monitoring and Incidents` + เสริม `Open Design Directions` (governance section)
-
-**เนื้อหา**:
-- Governance agents — agents ที่ monitor/evaluate agents อื่น
-- Agent-to-agent monitoring — ตรวจ interactions, conflict resolution rules
-- Behavioral drift detection — agent ที่ adapt จาก interactions อาจ drift
-- AI sandboxing — simulated environments สำหรับ test ethical dilemmas ก่อน deploy
-- Emergency shutdown mechanisms
-
----
-
-### Task I.3: Agentic Prompting
-
-**Gap**: vault มี Prompt Engineering 7 notes แต่ยังไม่มี agentic prompting เป็น concept เฉพาะ
-
-**Source**: IBM Prompt Engineering Hub + Anthropic "Building Effective Agents"
-
-**วิธี**: merge section ใน `01 Foundations/Prompt Engineering/Core/03 - Prompt Patterns พื้นฐาน`
-
-**เนื้อหา**:
-- Agentic prompting คืออะไร — prompts ที่ guide agents ให้ plan, use tools, self-reflect, delegate
-- Patterns: ReAct prompting, tool-use prompting, planning prompts, self-evaluation prompts
-- Context engineering → harness engineering connection (3 layers)
-- Anthropic workflow patterns: prompt chaining, routing, parallelization, orchestrator-workers, evaluator-optimizer
-
----
-
-### Task I.4: ML Primitives for LLM
-
-**Gap**: vault มี LLM Foundations 14 notes แต่ขาด ML primitives ที่เป็นรากฐาน
-
-**Source**: Google ML Crash Course, Microsoft Learn, DeepLearning.AI/Stanford, IBM ML Hub
-
-**วิธี**: สร้าง bridge note ใหม่ ใน `01 Foundations/LLM Foundations/Bridge/`
-
-**เนื้อหา**:
-
-| ML Primitive | เชื่อมกับ LLM note | ทำไมสำคัญ |
+| # | ชื่อ | URL |
 |---|---|---|
-| Supervised vs Unsupervised vs RL | `03 - การฝึกและ Post-Training` | pretraining = unsupervised, fine-tuning = supervised |
-| Loss Functions (cross-entropy) | `03`, `07 - Logits, Decoding` | cross-entropy เป็นหัวใจของ LLM training |
-| Gradient Descent / Optimization | `03` | optimizer ทำให้ model เรียนรู้ |
-| Overfitting / Regularization | `05 - ข้อจำกัด`, `08 - Data` | data mixture, model size เกี่ยวกับ overfitting |
-| Bias-Variance Tradeoff | `05`, `08` | model ใหญ่ขึ้นไม่ได้ดีขึ้นเสมอ |
-| Evaluation Metrics | `05`, `13 - Evaluation Foundations` | precision, recall, F1, perplexity |
-| Neural Network Basics | `02 - สถาปัตยกรรม Transformer` | Transformer เป็น NN architecture เฉพาะทาง |
-| Classification vs Regression | `13` | next-token prediction เป็น classification |
-| Feature Engineering → Embeddings | `10 - Embeddings`, `14 - Vector` | embeddings คือ learned features |
+| 11 | MCP Official Docs | https://modelcontextprotocol.io/ |
+
+### LLM Training / Optimization — Official Sources
+
+| # | ชื่อ | องค์กร |
+|---|---|---|
+| 12 | OpenAI Fine-tuning Docs | OpenAI |
+| 13 | Anthropic Fine-tuning / Constitutional AI | Anthropic |
+| 14 | Google Vertex AI Model Tuning | Google |
+| 15 | Hugging Face PEFT / Quantization Docs | Hugging Face |
+
+---
+
+## Phase C: CRITICAL — ต้องทำก่อน
+
+| # | งาน | ปัญหา | ปลายทาง | วิธี |
+|---|---|---|---|---|
+| C.1 | MCP Core Notes restore | notes 02, 03, 04 หายเพราะ colon ในชื่อไฟล์บน Windows | `02 AI Systems/MCP/Core/` + `Client/` + `Bridge/` | recreate จาก MCP official docs (เปลี่ยนชื่อไฟล์ไม่ใช้ colon) |
+| C.2 | ตรวจ Prompt Injection note | ตรวจว่า `Guardrails - Prompt Injection and Content Attacks` มี depth พอไหม | `02 AI Systems/Guardrails/Core/` | ตรวจ + เสริมถ้าจำเป็น |
+
+---
+
+## Phase I: IMPORTANT — IBM Supplement
+
+| # | งาน | ที่มา | ปลายทาง | วิธี |
+|---|---|---|---|---|
+| I.1 | Multi-Agent Topology (Vertical/Horizontal/Hybrid) | IBM Agentic Architecture | `04 Synthesis/Bridge/Synthesis - Single to Multi-Agent Infrastructure` | merge section |
+| I.2 | Agent-Level Governance (governance agents, drift, sandboxing) | IBM AI Agent Governance | `02 AI Systems/Guardrails/Operations/06 - Monitoring and Incidents` + `Open Design Directions` | merge sections |
+| I.3 | Agentic Prompting (plan/tool-use/reflect/delegate) | IBM Prompt Hub + Anthropic | `01 Foundations/Prompt Engineering/Core/03 - Prompt Patterns พื้นฐาน` | merge section |
+| I.4 | ML Primitives for LLM | Google/Microsoft/Stanford/IBM | `01 Foundations/LLM Foundations/Bridge/` | bridge note ใหม่ |
+
+---
+
+## Phase D: IMPORTANT — Vault Depth Gaps
+
+| # | งาน | Gap จาก | ปลายทาง | วิธี |
+|---|---|---|---|---|
+| D.1 | Fine-tuning Deep Dive (RLHF, DPO, LoRA, when to fine-tune) | Gap Analysis — `03 - การฝึก` มีแต่ shallow | `01 Foundations/LLM Foundations/Core/03` | merge section เสริม depth |
+| D.2 | Model Compression & Inference Optimization (quantization, distillation, pruning, KV cache optimization) | Gap Analysis — ไม่มีเลย | `01 Foundations/LLM Foundations/Core/` | note ใหม่ |
+| D.3 | Scaling Laws & Emergence (Chinchilla, emergence thresholds, capability prediction) | Gap Analysis — shallow ใน `08 - Data` | `01 Foundations/LLM Foundations/Core/08` | merge section |
+
+---
+
+## Phase N: NICE-TO-HAVE — ถ้ามีเวลา
+
+| # | งาน | ปลายทาง | วิธี |
+|---|---|---|---|
+| N.1 | Advanced Prompting (CoT, ToT, GoT, self-consistency) | `Prompt Patterns พื้นฐาน` | merge section |
+| N.2 | Memory Compression & Summarization | `Memory Systems/Core/` | note ใหม่ |
+| N.3 | RAG Failure Modes taxonomy | `RAG/Evaluation/` | note ใหม่ |
 
 ---
 
@@ -128,23 +109,40 @@ updated: ""
 
 | # | งาน |
 |---|---|
-| I.5 | Source Record |
-| I.6 | อัปเดต LLM Foundations MOC (เพิ่ม ML Primitives bridge note) |
-| I.7 | อัปเดต index, Home, Topic Registry |
-| I.8 | Cross-links audit |
+| R.1 | Source Record (IBM + ML sources) |
+| R.2 | อัปเดต MOCs ที่เกี่ยวข้อง (LLM Foundations, Prompt Engineering, Guardrails, MCP, Synthesis) |
+| R.3 | อัปเดต index, Home, Topic Registry |
+| R.4 | Cross-links audit |
 
 ---
 
 ## Checklist รวม
 
+### Phase C — Critical
+- [ ] C.1 MCP Core Notes restore (02, 03, 04)
+- [ ] C.2 ตรวจ Prompt Injection note
+
+### Phase I — IBM Supplement
 - [ ] I.1 Multi-Agent Topology (merge)
 - [ ] I.2 Agent-Level Governance (merge)
 - [ ] I.3 Agentic Prompting (merge)
 - [ ] I.4 ML Primitives for LLM (bridge note ใหม่)
-- [ ] I.5 Source Record
-- [ ] I.6 Update LLM Foundations MOC
-- [ ] I.7 Update index, Home, Topic Registry
-- [ ] I.8 Cross-links audit
+
+### Phase D — Depth Gaps
+- [ ] D.1 Fine-tuning Deep Dive (merge)
+- [ ] D.2 Model Compression & Optimization (note ใหม่)
+- [ ] D.3 Scaling Laws & Emergence (merge)
+
+### Phase N — Nice-to-Have
+- [ ] N.1 Advanced Prompting (merge)
+- [ ] N.2 Memory Compression (note ใหม่)
+- [ ] N.3 RAG Failure Modes (note ใหม่)
+
+### Registration
+- [ ] R.1 Source Record
+- [ ] R.2 Update MOCs
+- [ ] R.3 Update index, Home, Topic Registry
+- [ ] R.4 Cross-links audit
 
 ---
 
@@ -154,5 +152,6 @@ updated: ""
 - [[01 Foundations/LLM Foundations/LLM Foundations - MOC]]
 - [[01 Foundations/Prompt Engineering/Prompt Engineering - MOC]]
 - [[02 AI Systems/Guardrails/Guardrails - MOC]]
+- [[02 AI Systems/MCP/MCP - MOC]]
 - [[04 Synthesis/Bridge/Synthesis - Single to Multi-Agent Infrastructure]]
 - [[04 Synthesis/Bridge/Synthesis - Open Design Directions for Agent Systems]]

@@ -54,6 +54,7 @@ harness ไม่หดลงเมื่อ model ดีขึ้น แต่ 
 
 - คำถามเปิด: harness architecture เดียวสามารถ span ทั้ง 4 แกนได้ หรือจะ fragment เป็น specialized stacks?
 - เชื่อมกับ: [[02 AI Systems/AI Agent Fundamentals/Core/07 - รูปแบบ Agent Architectures|Agent Architectures]], [[02 AI Systems/Agent Frameworks/Agent Frameworks - MOC|Agent Frameworks]]
+- หลักฐานเพิ่มเติม: Anthropic Managed Agents virtualize harness components (session, harness, sandbox) เป็น interfaces ที่ swap ได้ → ตอบ "Where" axis ด้วย decoupled architecture; LangChain พบว่า harness co-evolves กับ model training สร้าง feedback loop ที่ทำให้ harness ไม่หายไปแต่เลื่อน → ดูเพิ่มที่ [[04 Synthesis/Bridge/Synthesis - Harness Co-Evolution and Lifecycle|Harness Co-Evolution]]
 
 ### 4. Horizon Scaling: จาก Session ไป Scientific Program
 

@@ -115,7 +115,7 @@ flowchart LR
 
 ### ตัวอย่างในทางปฏิบัติ
 
-- **Alpaca** — ใช้ GPT-4 สร้าง instruction data แล้วฝึก LLaMA 7B
+- **Alpaca** — ใช้ text-davinci-003 (GPT-3.5 class) สร้าง instruction data แล้วฝึก LLaMA 7B
 - **Orca** — ใช้ reasoning traces จาก GPT-4 เป็น training signal
 - **Phi series (Microsoft)** — ใช้ curated synthetic data จาก larger models
 - **Gemma / Gemini Nano** — Google ใช้ distillation จาก larger Gemini models

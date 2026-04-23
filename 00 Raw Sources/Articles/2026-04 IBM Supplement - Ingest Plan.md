@@ -129,9 +129,9 @@ updated: "2026-04-23"
 - [ ] I.4 ML Primitives for LLM (bridge note ใหม่)
 
 ### Phase D — Depth Gaps
-- [ ] D.1 Fine-tuning Deep Dive (merge)
-- [ ] D.2 Model Compression & Optimization (note ใหม่)
-- [ ] D.3 Scaling Laws & Emergence (merge)
+- [x] D.1 Fine-tuning Deep Dive (merge)
+- [x] D.2 Model Compression & Optimization (note ใหม่)
+- [x] D.3 Scaling Laws & Emergence (merge)
 
 ### Phase N — Nice-to-Have
 - [ ] N.1 Advanced Prompting (merge)

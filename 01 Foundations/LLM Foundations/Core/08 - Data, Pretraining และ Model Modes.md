@@ -6,9 +6,12 @@ tags:
   - instructiontuning
   - scaling
   - finetuning
+  - emergence
+  - chinchilla
+  - scaling-laws
 type: note
 status: evergreen
-source: "OpenAI, Google Research, Google DeepMind"
+source: "OpenAI, Google Research, Google DeepMind, Meta AI, Schaeffer et al."
 parent_note: "[[LLM Foundations - MOC]]"
 ---
 
@@ -176,18 +179,104 @@ flowchart TD
 
 ## Scaling Laws และ Chinchilla
 
-OpenAI scaling laws ชี้ว่า loss มีความสัมพันธ์แบบ power law กับ:
-- model size
-- dataset size
-- training compute
+### Kaplan Scaling Laws (OpenAI, 2020)
 
-DeepMind Chinchilla เพิ่มมุมมองว่า:
+OpenAI scaling laws ชี้ว่า loss มีความสัมพันธ์แบบ power law กับ:
+- model size (N — จำนวน parameters)
+- dataset size (D — จำนวน training tokens)
+- training compute (C)
+
+ข้อค้นพบสำคัญ:
+- loss ลดลงอย่าง **smooth และ predictable** เมื่อเพิ่ม N, D, หรือ C
+- ความสัมพันธ์เป็น power law: `L(x) ≈ a · x^(-α) + L∞`
+- ภายใต้ compute budget คงที่ Kaplan แนะนำให้เพิ่ม model size มากกว่า data size
+
+### Chinchilla Scaling Laws (DeepMind, 2022)
+
+DeepMind Chinchilla เพิ่มมุมมองที่ท้าทาย Kaplan:
 - การเพิ่ม parameters อย่างเดียวไม่พอ
 - training tokens ต้องสมดุลกับ model size ภายใต้ compute budget
+- อัตราส่วนที่เหมาะสมอยู่ที่ประมาณ **20 tokens ต่อ 1 parameter**
+- โมเดลยุคก่อน Chinchilla ส่วนใหญ่ **undertrained** — parameters เยอะแต่ data น้อยเกินไป
+
+```mermaid
+flowchart TD
+    A["Compute budget C"] --> B["Model size N"]
+    A --> C["Training tokens D"]
+    B --> D["Kaplan: เน้นเพิ่ม N"]
+    C --> E["Chinchilla: N และ D ต้องสมดุล<br/>D ≈ 20 × N"]
+    D --> F["Final loss"]
+    E --> F
+```
 
 ดังนั้นเวลาพูดว่าโมเดล "ใหญ่กว่า":
 - ไม่ได้แปลว่า "ดีกว่า" โดยอัตโนมัติ
 - ต้องถามต่อว่าใช้ข้อมูลเท่าไร และฝึกนานแค่ไหน
+
+### หลัง Chinchilla: แนวโน้มปัจจุบัน
+
+ในทางปฏิบัติหลังปี 2023 หลายทีมเลือก **overtrain** โมเดลเล็กเกินอัตราส่วน Chinchilla:
+- **Llama 2 7B** ฝึกบน 2T tokens (สูงกว่า Chinchilla optimal มาก)
+- **Mistral 7B** ฝึกบน data มากกว่า Chinchilla ratio เช่นกัน
+- เหตุผล: inference cost สำคัญกว่า training cost ในระยะยาว — โมเดลเล็กที่ฝึกนานกว่าจะถูกกว่าตอน deploy
+
+สรุป: Chinchilla optimal คือ **training-compute optimal** แต่ไม่ใช่ **inference-compute optimal** เสมอไป
+
+---
+
+## Emergence และ Capability Thresholds
+
+### Emergent Capabilities คืออะไร
+
+Emergent capabilities หมายถึงความสามารถที่ **ไม่ปรากฏในโมเดลขนาดเล็ก แต่โผล่ขึ้นมาอย่างกะทันหันเมื่อโมเดลถึงขนาดหนึ่ง**
+
+ตัวอย่างที่มักถูกอ้าง:
+- **Chain-of-thought reasoning** — โมเดลเล็กไม่ได้ประโยชน์จาก CoT prompting แต่โมเดลใหญ่ได้
+- **Multi-step arithmetic** — accuracy กระโดดขึ้นที่ scale หนึ่ง
+- **Code generation** — ความสามารถเพิ่มขึ้นแบบไม่เป็นเส้นตรงกับ scale
+
+```mermaid
+flowchart LR
+    A["Model scale"] --> B["Loss ลดลง smooth<br/>(power law)"]
+    A --> C["บาง capabilities<br/>โผล่แบบ step function"]
+    B --> D["Predictable"]
+    C --> E["Harder to predict"]
+```
+
+### ข้อถกเถียงเรื่อง Emergence
+
+งานวิจัยหลังปี 2023 ตั้งคำถามว่า emergence เป็น **ปรากฏการณ์จริง** หรือเป็น **artifact ของ metric ที่ใช้วัด**:
+
+| มุมมอง | อธิบาย |
+|---|---|
+| **Emergence เป็นจริง** | บาง capabilities ต้องการ minimum scale จริง ๆ เพราะ task ซับซ้อนเกินกว่า small model จะ represent ได้ |
+| **Emergence เป็น metric artifact** | ถ้าเปลี่ยนจาก discrete metric (exact match) เป็น continuous metric (token-level accuracy) การกระโดดจะหายไป — performance จริง ๆ อาจ smooth ตลอด |
+| **มุมมองประนีประนอม** | loss ลดลง smooth แต่ downstream task performance อาจมี threshold เพราะ task ต้องการ minimum capability level |
+
+### Capability Prediction
+
+ผลกระทบเชิงปฏิบัติ:
+- **scaling laws ทำนาย loss ได้ดี** — loss เป็น smooth power law
+- **scaling laws ทำนาย specific capabilities ได้ยาก** — ไม่รู้ว่า capability X จะโผล่ที่ scale ไหน
+- ทำให้การตัดสินใจว่า "ต้องโมเดลใหญ่แค่ไหนถึงจะทำ task นี้ได้" ยังเป็นเรื่องที่ต้อง empirical testing
+
+### Signal-to-Noise Ratio (SNR) Framework
+
+งานวิจัยล่าสุดเสนอ framework ที่ใช้ SNR อธิบาย emergence:
+- เมื่อ SNR ของ capability signal ผ่าน threshold หนึ่ง capability จะ "โผล่" ขึ้นมา
+- ก่อนถึง threshold โมเดลอาจมี signal อยู่แล้วแต่ถูก noise กลบ
+- framework นี้ช่วยอธิบายว่าทำไม emergence ดูเหมือน step function ทั้งที่ underlying learning อาจ smooth
+
+---
+
+## Scaling Laws กับการตัดสินใจเชิงปฏิบัติ
+
+| คำถาม | Scaling laws ช่วยได้ไหม |
+|---|---|
+| โมเดลใหญ่ขึ้นจะ loss ลดลงเท่าไร? | ได้ดี (power law prediction) |
+| โมเดลใหญ่ขึ้นจะทำ task X ได้ไหม? | ไม่แน่นอน (emergence unpredictable) |
+| ควรเพิ่ม data หรือ parameters? | Chinchilla ให้ guideline แต่ต้องพิจารณา inference cost ด้วย |
+| ถึง ceiling แล้วหรือยัง? | ยังไม่ถึง absolute ceiling แต่ diminishing returns ชัดขึ้น |
 
 ---
 
@@ -214,11 +303,20 @@ Prompting activates behavior at runtime without changing weights
   https://research.google/blog/introducing-flan-more-generalizable-language-models-with-instruction-fine-tuning/
 - Google DeepMind, An empirical analysis of compute-optimal large language model training  
   https://deepmind.google/en/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/
+- Kaplan et al., Scaling Laws for Neural Language Models  
+  https://arxiv.org/abs/2001.08361
+- Hoffmann et al., Training Compute-Optimal Large Language Models (Chinchilla)  
+  https://arxiv.org/abs/2203.15556
+- Wei et al., Emergent Abilities of Large Language Models  
+  https://arxiv.org/abs/2206.07682
+- Schaeffer et al., Are Emergent Abilities of Large Language Models a Mirage?  
+  https://arxiv.org/abs/2304.15004
 
 ---
 
 ## ดูต่อ
 
 - [[03 - การฝึกและ Post-Training]] — training lifecycle และ preference alignment
+- [[16 - Model Compression และ Inference Optimization]] — quantization, distillation, pruning ที่เกี่ยวข้องกับ model size decisions
 - [[04 - Inference, Context และ RAG]] — runtime behavior ของ request
 - [[LLM Foundations - MOC]]

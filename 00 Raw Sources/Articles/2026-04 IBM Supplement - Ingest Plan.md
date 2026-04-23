@@ -119,14 +119,14 @@ updated: "2026-04-23"
 ## Checklist รวม
 
 ### Phase C — Critical
-- [ ] C.1 MCP Core Notes restore (02, 03, 04)
-- [ ] C.2 ตรวจ Prompt Injection note
+- [x] C.1 MCP Core Notes restore (02, 03, 04, 14 Bridge)
+- [x] C.2 ตรวจ Prompt Injection note — depth พอแล้ว ไม่ต้องแก้
 
 ### Phase I — IBM Supplement
-- [ ] I.1 Multi-Agent Topology (merge)
-- [ ] I.2 Agent-Level Governance (merge)
-- [ ] I.3 Agentic Prompting (merge)
-- [ ] I.4 ML Primitives for LLM (bridge note ใหม่)
+- [x] I.1 Multi-Agent Topology (merge)
+- [x] I.2 Agent-Level Governance (merge)
+- [x] I.3 Agentic Prompting (merge)
+- [x] I.4 ML Primitives for LLM (bridge note ใหม่)
 
 ### Phase D — Depth Gaps
 - [x] D.1 Fine-tuning Deep Dive (merge)

@@ -5,7 +5,7 @@ tags:
   - evolution
   - agents
 type: synthesis
-status: draft
+status: evergreen
 source: "Anthropic Managed Agents · LangChain Anatomy of Agent Harness · Philipp Schmid Agent Harness 2026"
 parent_note: "[[04 Synthesis/Synthesis - MOC]]"
 created: "2026-04-23"

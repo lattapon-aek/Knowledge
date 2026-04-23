@@ -5,7 +5,7 @@ tags:
   - architecture
   - engineering
 type: note
-status: draft
+status: evergreen
 source: "Anthropic Harness Design · OpenAI Harness Engineering · Martin Fowler Harness Engineering · LangChain Anatomy of Agent Harness · Philipp Schmid Agent Harness 2026"
 parent_note: "[[AI Agent Fundamentals - MOC]]"
 created: "2026-04-23"

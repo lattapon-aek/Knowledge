@@ -6,7 +6,7 @@ tags:
   - feedforward
   - feedback
 type: note
-status: draft
+status: evergreen
 source: "Martin Fowler - Harness engineering for coding agent users"
 parent_note: "[[AI Agent Fundamentals - MOC]]"
 created: "2026-04-23"

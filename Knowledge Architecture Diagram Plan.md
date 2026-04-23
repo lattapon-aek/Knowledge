@@ -5,7 +5,7 @@ tags:
   - architecture
   - vault-health
 type: plan
-status: draft
+status: evergreen
 source: "vault-local diagram audit"
 parent_note: "[[Knowledge Refactor - Task Board]]"
 created: "2026-04-19"

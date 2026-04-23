@@ -5,7 +5,7 @@ tags:
   - future-directions
   - design-space
 type: synthesis
-status: draft
+status: evergreen
 source: "arxiv 2604.14228"
 parent_note: "[[04 Synthesis/Synthesis - MOC]]"
 created: "2026-04-20"

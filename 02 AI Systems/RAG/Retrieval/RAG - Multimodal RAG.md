@@ -5,7 +5,7 @@ tags:
   - retrieval
   - knowledgegraph
 type: note
-status: draft
+status: evergreen
 source: "RAG-Anything GitHub + arxiv 2510.12323"
 parent_note: "[[02 AI Systems/RAG/RAG - MOC|RAG - MOC]]"
 created: "2026-04-20"

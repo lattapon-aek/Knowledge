@@ -4,7 +4,7 @@ tags:
   - plan
   - harness-engineering
 type: guide
-status: draft
+status: evergreen
 source: ""
 parent_note: "[[00 Raw Sources/Raw Sources - MOC]]"
 created: "2026-04-23"

@@ -80,7 +80,7 @@ flowchart TD
 
 ## โน้ตที่เกี่ยวข้อง
 
-- [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
+- [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent_ Model + Tools + Orchestration]]
 - [[02 AI Systems/AI Agent Fundamentals/Core/07 - รูปแบบ Agent Architectures]]
 - [[02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน]]
 - [[02 AI Systems/MCP/MCP - MOC]]
@@ -96,7 +96,7 @@ flowchart TD
 
 ### 1. พื้นฐานก่อน Frameworks
 
-1. [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
+1. [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent_ Model + Tools + Orchestration]]
 2. [[02 AI Systems/AI Agent Fundamentals/Core/07 - รูปแบบ Agent Architectures]]
 3. [[02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน]]
 

@@ -386,7 +386,7 @@ Move batch 1 ที่ทำจริง:
 | `01 - AI Agent คืออะไร` | core runtime concept | `02 AI Systems/AI Agent Fundamentals` | stay |
 | `02 - วิวัฒนาการ LLM สู่ Agent` | core runtime concept | `02 AI Systems/AI Agent Fundamentals` | stay |
 | `03 - คุณสมบัติ 5 อย่างของ Agent` | core runtime concept | `02 AI Systems/AI Agent Fundamentals` | stay |
-| `04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration` | core runtime concept | `02 AI Systems/AI Agent Fundamentals` | stay |
+| `04 - สถาปัตยกรรม Agent_ Model + Tools + Orchestration` | core runtime concept | `02 AI Systems/AI Agent Fundamentals` | stay |
 | `05 - วงจร Perceive-Think-Act-Check` | core runtime loop | `02 AI Systems/AI Agent Fundamentals` | stay |
 | `06 - วงจร Thought-Action-Observation (TAO)` | core runtime loop | `02 AI Systems/AI Agent Fundamentals` | stay |
 | `07 - รูปแบบ Agent Architectures` | architecture concept | `02 AI Systems/AI Agent Fundamentals` | stay |

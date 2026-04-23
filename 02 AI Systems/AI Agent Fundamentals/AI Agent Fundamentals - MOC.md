@@ -84,7 +84,7 @@ flowchart TD
 - [[01 - AI Agent คืออะไร]] — นิยาม ช่องว่างระหว่าง LLM กับ Agent
 - [[02 - วิวัฒนาการ LLM สู่ Agent]] — 3 ระยะ: LLM → Function Calling → Agent
 - [[03 - คุณสมบัติ 5 อย่างของ Agent]] — Goal-directed · Autonomous · Proactive · Environmental awareness · Tool use
-- [[04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]] — 3 องค์ประกอบแกนกลาง
+- [[04 - สถาปัตยกรรม Agent_ Model + Tools + Orchestration]] — 3 องค์ประกอบแกนกลาง
 - [[05 - วงจร Perceive-Think-Act-Check]] — Agent loop ระดับสูง
 - [[06 - วงจร Thought-Action-Observation (TAO)]] — TAO / ReAct style loop
 - [[07 - รูปแบบ Agent Architectures]] — architecture patterns
@@ -133,7 +133,7 @@ flowchart TD
 1. [[01 - AI Agent คืออะไร]]
 2. [[02 - วิวัฒนาการ LLM สู่ Agent]]
 3. [[03 - คุณสมบัติ 5 อย่างของ Agent]]
-4. [[04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
+4. [[04 - สถาปัตยกรรม Agent_ Model + Tools + Orchestration]]
 
 ### 2. Agent Runtime Loops
 

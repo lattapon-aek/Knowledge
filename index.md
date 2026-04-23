@@ -115,7 +115,7 @@ flowchart LR
 - [[02 AI Systems/AI Agent Fundamentals/Core/01 - AI Agent คืออะไร]] — นิยาม agent
 - [[02 AI Systems/AI Agent Fundamentals/Core/02 - วิวัฒนาการ LLM สู่ Agent]] — การเปลี่ยนจาก LLM application ไปสู่ agent
 - [[02 AI Systems/AI Agent Fundamentals/Core/03 - คุณสมบัติ 5 อย่างของ Agent]] — properties หลักของ agent
-- [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]] — architecture หลักของ agent
+- [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent_ Model + Tools + Orchestration]] — architecture หลักของ agent
 - [[02 AI Systems/AI Agent Fundamentals/Core/05 - วงจร Perceive-Think-Act-Check]] — loop ระดับสูงของ agent
 - [[02 AI Systems/AI Agent Fundamentals/Core/06 - วงจร Thought-Action-Observation (TAO)]] — TAO / ReAct-style loop
 - [[02 AI Systems/AI Agent Fundamentals/Core/07 - รูปแบบ Agent Architectures]] — patterns ของ agent architectures

@@ -188,7 +188,7 @@ flowchart LR
 
 ## ลิงก์ที่เกี่ยวข้อง
 
-- [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
+- [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent_ Model + Tools + Orchestration]]
 - [[04 Synthesis/Decision/Synthesis - Workflow vs AI Agent|Workflow vs AI Agent]]
 - [[02 AI Systems/Agent Frameworks/Core/04 - Tool Orchestration]]
 - [[02 AI Systems/Agent Frameworks/Core/03 - State and Memory]]

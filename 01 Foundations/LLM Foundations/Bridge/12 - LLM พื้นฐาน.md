@@ -46,4 +46,4 @@ LLM คือ core model ที่ agent ใช้เพื่อ:
 - [[01 Foundations/LLM Foundations/LLM Foundations - MOC|LLM Foundations - MOC]]
 - [[01 Foundations/Prompt Engineering/Bridge/13 - Messages, System Prompt และ Chat Templates|13 - Messages, System Prompt และ Chat Templates]]
 - [[02 AI Systems/MCP/Bridge/14 - Tools_ การออกแบบและทำงาน|14 - Tools: การออกแบบและทำงาน]]
-- [[04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
+- [[04 - สถาปัตยกรรม Agent_ Model + Tools + Orchestration]]

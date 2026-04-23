@@ -40,7 +40,7 @@ flowchart LR
 ## Reading Order
 
 1. [[02 AI Systems/AI Agent Fundamentals/Core/01 - AI Agent คืออะไร]]
-2. [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent: Model + Tools + Orchestration]]
+2. [[02 AI Systems/AI Agent Fundamentals/Core/04 - สถาปัตยกรรม Agent_ Model + Tools + Orchestration]]
 3. [[02 AI Systems/AI Agent Fundamentals/Core/05 - วงจร Perceive-Think-Act-Check]]
 4. [[02 AI Systems/AI Agent Fundamentals/Core/07 - รูปแบบ Agent Architectures]]
 5. [[02 AI Systems/AI Agent Fundamentals/Core/08 - Harness Engineering]]

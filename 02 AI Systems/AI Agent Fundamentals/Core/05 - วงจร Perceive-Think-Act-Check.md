@@ -25,9 +25,9 @@ Perceive → Think → Act → Check → (ยังไม่เสร็จ → 
 
 ```mermaid
 flowchart TD
-    A["Perceive\nรับ goal / state / tool results"] --> B["Think\nเลือก next best action"]
-    B --> C["Act\ncall tool / ask user / trigger workflow"]
-    C --> D["Check\nประเมินว่า goal สำเร็จหรือยัง"]
+    A["Perceive<br/>รับ goal / state / tool results"] --> B["Think<br/>เลือก next best action"]
+    B --> C["Act<br/>call tool / ask user / trigger workflow"]
+    C --> D["Check<br/>ประเมินว่า goal สำเร็จหรือยัง"]
     D -->|No| A
     D -->|Yes| E["Result"]
 ```
